@@ -15,14 +15,14 @@
     const m = window.location.hash.match(/s=(ES1.[A-Za-z0-9_-]+)/);
     if (!m) {
       estado = 'erro';
-      detalhe = 'Aucun code dans ce lien. Demandez-en un nouveau.';
+      detalhe = 'No hay ningún código en este enlace. Pide que te generen uno nuevo.';
       return;
     }
     codigo = m[1];
     const data = decodeSync(codigo);
     if (!data) {
       estado = 'erro';
-      detalhe = 'Code invalide — demandez-leur d’en générer un nouveau.';
+      detalhe = 'Código no válido — pídele que genere uno nuevo.';
       return;
     }
     const standalone =
@@ -42,10 +42,10 @@
     const r = importSync(codigo);
     if (r) {
       estado = 'ok';
-      detalhe = `Fusionné +${r.ale} et +${r.dea}. 🎉`;
+      detalhe = `Combinado: +${r.ale} y +${r.dea}. 🎉`;
     } else {
       estado = 'erro';
-      detalhe = 'Code invalide.';
+      detalhe = 'Código no válido.';
     }
   }
 
@@ -61,30 +61,30 @@
 
 <div class="mt-10 text-center">
   {#if estado === 'lendo'}
-    <p>Lecture du code…</p>
+    <p>Leyendo el código…</p>
   {:else if estado === 'preview'}
-    <h1 class="text-2xl font-extrabold">Synchroniser ? 🔄</h1>
+    <h1 class="text-2xl font-extrabold">¿Sincronizar? 🔄</h1>
     <p class="mt-2 text-carvao/70">
-      Ce code contient {previa?.ale ?? 0} + {previa?.dea ?? 0} parties terminées. L’importation fusionne
-      tout et ne supprime rien.
+      Este código contiene {previa?.ale ?? 0} + {previa?.dea ?? 0} partes completadas. Al importar se
+      combina todo y no se borra nada.
     </p>
-    <button class="btn-primary mt-4" onclick={confirmar}>Importer maintenant</button>
+    <button class="btn-primary mt-4" onclick={confirmar}>Importar ahora</button>
   {:else if estado === 'ok'}
-    <h1 class="text-2xl font-extrabold text-salvia">Terminé ✅</h1>
+    <h1 class="text-2xl font-extrabold text-salvia">Listo ✅</h1>
     <p role="status" class="mt-2 text-carvao/70">{detalhe}</p>
   {:else if estado === 'fora'}
-    <h1 class="text-2xl font-extrabold">Presque 📲</h1>
+    <h1 class="text-2xl font-extrabold">Casi 📲</h1>
     <p class="mx-auto mt-2 max-w-sm text-carvao/70">
-      Ce lien s’est ouvert dans votre <b>navigateur</b> — mais votre progression se trouve dans l’<b>appli Cheers!</b> sur
-      votre écran d’accueil. Copiez le code et collez-le là-bas :
+      Este enlace se abrió en tu <b>navegador</b> — pero tu progreso está en la <b>app Cheers!</b> de tu
+      pantalla de inicio. Copia el código y pégalo allí:
     </p>
     <ol class="mx-auto mt-3 max-w-sm space-y-1 text-left text-sm text-carvao/70">
-      <li>1. Touchez <b>Copier le code</b> ci-dessous</li>
-      <li>2. Ouvrez l’appli <b>Cheers!</b> sur votre écran d’accueil (sur ordinateur : l’accueil du cours)</li>
-      <li>3. Sous <b>Sync</b>, collez-le et importez</li>
+      <li>1. Toca <b>Copiar código</b> aquí abajo</li>
+      <li>2. Abre la app <b>Cheers!</b> en tu pantalla de inicio (en el ordenador: la portada del curso)</li>
+      <li>3. En <b>Sync</b>, pégalo e impórtalo</li>
     </ol>
     <button class="btn-primary mt-4" onclick={copiar}>
-      {copiado ? '✅ Copié' : '📋 Copier le code'}
+      {copiado ? '✅ Copiado' : '📋 Copiar código'}
     </button>
     <textarea
       class="mx-auto mt-3 block w-full max-w-sm rounded-xl border border-black/10 bg-white p-2 text-[10px] text-carvao/60"
@@ -96,5 +96,5 @@
     <h1 class="text-2xl font-extrabold text-terracota">Hmm… 🤔</h1>
     <p role="status" class="mt-2 text-carvao/70">{detalhe}</p>
   {/if}
-  <a href="{base}/" class="btn-primary mt-6 inline-block">Aller au cours</a>
+  <a href="{base}/" class="btn-primary mt-6 inline-block">Ir al curso</a>
 </div>

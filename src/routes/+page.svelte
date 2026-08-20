@@ -31,8 +31,8 @@
     const r = importSync(cola);
     msgOk = !!r;
     msg = r
-      ? `Importé : +${r.ale} pour vous, +${r.dea} pour l’autre. 🎉`
-      : 'Code invalide — vérifiez que vous l’avez copié en entier (il commence par ES1.).';
+      ? `Importado: +${r.ale} para ti, +${r.dea} para el otro. 🎉`
+      : 'Código no válido — comprueba que lo has copiado entero (empieza por ES1.).';
   }
 
   const dotBg: Record<string, string> = {
@@ -282,16 +282,16 @@
 <!-- Sincronizar com o casal -->
 <section class="mt-8">
   <div class="card p-4">
-    <h2 class="mb-1 font-bold">👯 Se synchroniser avec votre compagnon de voyage</h2>
+    <h2 class="mb-1 font-bold">👯 Sincronizar con tu compañero de viaje</h2>
     <p class="mb-3 text-sm text-carvao/60">
-      Générez un code et envoyez-le pour fusionner ce que vous avez fait tous les deux — sans compte, sans
-      serveur.
+      Genera un código y envíaselo para combinar lo que habéis hecho los dos — sin cuenta, sin
+      servidor.
     </p>
     <div class="flex flex-wrap gap-2">
-      <button type="button" class="btn-primary" onclick={gerar}>Obtenir mon code</button>
+      <button type="button" class="btn-primary" onclick={gerar}>Obtener mi código</button>
       {#if codigo}
         <a class="btn bg-salvia text-white" href={whatsappUrl(codigo)} target="_blank" rel="noopener">
-          Envoyer sur WhatsApp
+          Enviar por WhatsApp
         </a>
       {/if}
     </div>
@@ -304,14 +304,14 @@
     {/if}
 
     <div class="mt-4 border-t border-black/5 pt-3">
-      <p class="mb-2 text-sm text-carvao/60">Vous avez un code ? Collez-le ici :</p>
+      <p class="mb-2 text-sm text-carvao/60">¿Tienes un código? Pégalo aquí:</p>
       <textarea
         bind:value={cola}
         placeholder="ES1...."
         class="w-full rounded-xl border border-black/10 p-2 text-xs"
         rows="2"
       ></textarea>
-      <button type="button" class="btn-primary mt-2" onclick={importar}>Importer</button>
+      <button type="button" class="btn-primary mt-2" onclick={importar}>Importar</button>
       {#if msg}
         <p role="status" class="mt-2 text-sm {msgOk ? 'text-salvia' : 'text-terracota'}">
           {msgOk ? '✅' : '⚠️'}
