@@ -1,0 +1,108 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — Tres respuestas, y te paras",
+  "subtitulo": "Motivo, duración y alojamiento en el mostrador de control fronterizo",
+  "introAudioKey": "gb-b05-q-i",
+  "introPt": "El agente de control tiene el pasaporte en la mano y hace tres preguntas, una por una. Escucha el intercambio y localiza dónde se detiene cada respuesta.",
+  "cenario": "En el mostrador de control fronterizo, justo después de aterrizar.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b05-q01",
+      "voz": "target_en_gb_m",
+      "es": "What's the purpose of your visit?",
+      "tts": "What's the purpose of your visit?",
+      "pinyin": "ouats the PEU-peuss of yor VI-zitt",
+      "pt": "¿Cuál es el motivo de su visita?"
+    },
+    {
+      "audioKey": "gb-b05-q02",
+      "voz": "target_en_gb_f",
+      "es": "I'm here on holiday.",
+      "tts": "I'm here on holiday.",
+      "pinyin": "aïm hiir onn HO-li-dèï",
+      "pt": "Estoy aquí de vacaciones."
+    },
+    {
+      "audioKey": "gb-b05-q03",
+      "voz": "target_en_gb_m",
+      "es": "How many days will you be staying? And where?",
+      "tts": "How many days will you be staying? And where?",
+      "pinyin": "haou MÈ-ni dèïz ouil you bi STÈÏ-inng? eund ouèr",
+      "pt": "¿Cuántos días se va a quedar? ¿Y dónde?"
+    },
+    {
+      "audioKey": "gb-b05-q04",
+      "voz": "target_en_gb_f",
+      "es": "Ten days. I'm staying at this hotel.",
+      "tts": "Ten days. I'm staying at this hotel.",
+      "pinyin": "ten dèïz. aïm STÈÏ-inng at this ho-TEL",
+      "pt": "Diez días. Me alojo en este hotel."
+    },
+    {
+      "audioKey": "gb-b05-q05",
+      "voz": "target_en_gb_m",
+      "es": "Thank you. Welcome to the UK.",
+      "tts": "Thank you. Welcome to the UK.",
+      "pinyin": "thènk you. OUEL-com tou the you-kèï",
+      "pt": "Gracias. Bienvenido al Reino Unido."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Cuál es la mejor respuesta a «What's the purpose of your visit?»?",
+      "opcoes": [
+        "Un relato largo de todo el itinerario previsto",
+        "Una frase corta y verdadera, y luego pararse",
+        "Una pregunta de vuelta al agente",
+        "Ninguna respuesta, solo mostrar el pasaporte"
+      ],
+      "correta": 1,
+      "explica": "Una respuesta corta y verdadera no tiene nada de sospechoso aquí; alargarla con detalles no pedidos es lo que ralentiza el mostrador."
+    },
+    {
+      "pergunta": "¿Qué hace el agente cuando compara tu respuesta sobre la duración con tu reserva?",
+      "opcoes": [
+        "Nada en particular",
+        "Decide, en ese mismo momento, la duración de estancia que te autoriza",
+        "Comprueba tus antecedentes penales",
+        "Calcula una tasa turística"
+      ],
+      "correta": 1,
+      "explica": "El agente decide en el momento, en la entrada, hasta cuándo puedes quedarte — la reserva respalda tu respuesta."
+    },
+    {
+      "pergunta": "Cuando el agente pide la prueba de reserva, ¿cuál es la reacción correcta?",
+      "opcoes": [
+        "Contar cómo elegiste ese hotel",
+        "Enseñar la confirmación registrada sin explicación adicional",
+        "Decir que no la llevas encima",
+        "Proponer otra dirección"
+      ],
+      "correta": 1,
+      "explica": "«Yes. Here it is» traslada el intercambio de la memoria a la prueba — es todo lo necesario."
+    },
+    {
+      "pergunta": "Después de pasar el control, ¿qué cambio práctico empieza de inmediato?",
+      "opcoes": [
+        "Nada, el euro se sigue usando un rato",
+        "Estás en libras esterlinas, fuera de la zona euro, y la tarjeta paga casi todo",
+        "Hay que cambiar todo el dinero en el mostrador del aeropuerto",
+        "Los precios se duplican automáticamente"
+      ],
+      "correta": 1,
+      "explica": "El Reino Unido no está en la zona euro; el comercio no acepta euros, y como el país es muy mayoritariamente cashless, la tarjeta resuelve la cuestión en la práctica."
+    },
+    {
+      "pergunta": "Si no has entendido bien una pregunta del agente, ¿qué haces?",
+      "opcoes": [
+        "Respondes al azar para no perder tiempo",
+        "Pides educadamente que la repita",
+        "Cambias de cola",
+        "Ignoras la pregunta"
+      ],
+      "correta": 1,
+      "explica": "Pedir que la repita, con claridad y sin disculparte de más, hace avanzar el intercambio más rápido que una respuesta al azar."
+    }
+  ]
+}

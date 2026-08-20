@@ -1,0 +1,256 @@
+{
+  "id": "i01",
+  "slot": "I01",
+  "nivel": "intermediario",
+  "numero": 1,
+  "parte": "I01",
+  "titulo": "El reloj del país, no el de tu teléfono",
+  "subtitulo": "La cocina cierra antes de lo que crees, y llegar a cenar a las ocho y media como en casa puede dejarte sin mesa",
+  "cena": "Son las nueve y cuarto, la camarera ya está poniendo las sillas sobre las mesas vacías, y el cartel junto a la puerta dice «Kitchen closes at 9pm» — no lo habías visto al entrar.",
+  "decisao": "a qué hora te sientas a cenar — llegar a las nueve como en España puede dejarte delante de una cocina ya cerrada y un pub que solo sirve cerveza",
+  "emJogo": "ambos",
+  "moldura": "ganha",
+  "frasePiso": "Vas a preguntar la hora de cierre antes de que te pase alguna vez, y eso ya te pone por delante de la mitad de los turistas plantados ante una puerta cerrada.",
+  "fichasCulturais": [
+    {
+      "sinal": "Llegas a un pub-restaurante a las ocho y media y la camarera te dice, apenada, que la cocina acaba de cerrar.",
+      "suaLeitura": "Un sitio que deja de servir a las nueve debe de ser un mal restaurante, o estar casi vacío de clientes.",
+      "oQueEAli": "En el Reino Unido, la cena se concentra entre las seis y las ocho de la tarde; muchas cocinas, incluso en las grandes ciudades, dejan de tomar comandas entre las nueve y las diez — la barra, en cambio, sigue abierta y sigue sirviendo bebidas.",
+      "oQueVoceFaz": "Preguntas la hora de cierre de la cocina al llegar, o llamas antes: «What time does the kitchen close?»",
+      "oQueMelhora": "Nunca te quedas plantado ante una cocina cerrada, y planificas tu cena con el reloj de allí, no con el tuyo.",
+      "ondeNaoVale": "No vale en las grandes ciudades turísticas ni en los barrios de vida nocturna intensa, donde algunas cocinas sirven hasta tarde; y tampoco vale para la propia barra, que sigue abierta mucho después de la cocina.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-i01-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i01-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte uno de Apreciación. El puño en la palabra que pesa: WHAT time, nunca what TIME."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i01-p01",
+      "promptPt": "Ayer en el hotel preguntaste la hora del check-out con esa misma fórmula. Vuelve a preguntarla, esta vez para la cocina. Habla ahora.",
+      "bloco": "callback",
+      "molde": "WHAT-TIME",
+      "encaixe": "is check-out",
+      "audioKey": "gb-i01-t01",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "OUATT taïm iz TCHÈK-aoutt",
+      "pt": "¿A qué hora es el check-out?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i01-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Nueve y cuarto, la camarera pone las sillas, y el cartel de la puerta dice algo que no habías visto."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i01-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Aquí la cena no se alarga hasta tarde. El pico está entre las seis y las ocho, y la cocina cierra antes de lo que crees."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i01-r01",
+      "es": "Sorry, we stopped serving at nine.",
+      "tts": "Sorry, we stopped serving at nine.",
+      "pinyin": "SOR-ri, oui stoppt SEUR-vigne att naïn",
+      "pt": "Lo siento, dejamos de servir a las nueve."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i01-p02",
+      "promptPt": "Antes de que te lo digan, adelántate: pregunta hasta qué hora sirve la cocina. Habla ahora.",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the kitchen close",
+      "audioKey": "gb-i01-t02",
+      "es": "What time does the kitchen close?",
+      "tts": "What time does the kitchen close?",
+      "pinyin": "OUATT taïm deuz de KIT-tchenn clôz",
+      "pt": "¿A qué hora cierra la cocina?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i01-r02",
+      "es": "Nine on weekdays, half nine on Sundays.",
+      "tts": "Nine on weekdays, half nine on Sundays.",
+      "pinyin": "naïn onn OUIIK-dèïz, haaf naïn onn SANN-dèïz",
+      "pt": "Nueve entre semana, nueve y media los domingos."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i01-p03",
+      "promptPt": "Al día siguiente llegas temprano y quieres desayunar bien. Pregunta desde qué hora abren. Habla ahora.",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you open for breakfast",
+      "audioKey": "gb-i01-t03",
+      "es": "What time do you open for breakfast?",
+      "tts": "What time do you open for breakfast?",
+      "pinyin": "OUATT taïm dou you ÔP-enn for BREK-feust",
+      "pt": "¿A qué hora abren para desayunar?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i01-r03",
+      "es": "Seven, but it gets busy by eight.",
+      "tts": "Seven, but it gets busy by eight.",
+      "pinyin": "SÈ-venn, batt itt guètts BI-zi baï èïtt",
+      "pt": "A las siete, pero se llena hacia las ocho."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i01-n04",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Y hay una franja aparte: el Sunday roast, la comida del domingo, con su propio horario — y se acaba rápido."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i01-p04",
+      "promptPt": "Has visto el cartel «Sunday roast» en la barra. Pregunta a qué hora empieza. Habla ahora.",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the Sunday roast start",
+      "audioKey": "gb-i01-t04",
+      "es": "What time does the Sunday roast start?",
+      "tts": "What time does the Sunday roast start?",
+      "pinyin": "OUATT taïm deuz de SANN-dèï rôst startt",
+      "pt": "¿A qué hora empieza el Sunday roast?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i01-r04",
+      "es": "Midday, but it sells out early.",
+      "tts": "Midday, but it sells out early.",
+      "pinyin": "MID-dèï, batt itt sèlz aoutt EEUR-li",
+      "pt": "Al mediodía, pero se termina pronto."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i01-p04b",
+      "promptPt": "Quieres reservar mesa para asegurarte una ración. Pregunta a qué hora deberías llegar. Habla ahora.",
+      "molde": "WHAT-TIME",
+      "encaixe": "should I get there",
+      "audioKey": "gb-i01-t04b",
+      "es": "What time should I get there?",
+      "tts": "What time should I get there?",
+      "pinyin": "OUATT taïm choudd aï guètt dhèr",
+      "pt": "¿A qué hora debería llegar?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i01-p05",
+      "promptPt": "Un vecino te invita a comer el sábado y no sabes si los horarios son los mismos. Pregunta si cierran más tarde el fin de semana. Habla ahora.",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you close on weekends",
+      "audioKey": "gb-i01-t05",
+      "es": "What time do you close on weekends?",
+      "tts": "What time do you close on weekends?",
+      "pinyin": "OUATT taïm dou you clôz onn OUIIK-èndz",
+      "pt": "¿A qué hora cierran el fin de semana?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i01-p06",
+      "promptPt": "Confirma con una respuesta corta que has entendido el horario. Habla ahora.",
+      "audioKey": "gb-i01-t06",
+      "es": "Got it, thanks.",
+      "tts": "Got it, thanks.",
+      "pinyin": "gott itt, thennks",
+      "pt": "Entendido, gracias."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i01-n05",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas memorizar cada horario del país. Una sola pregunta, ajustada al sitio, resuelve cualquier problema de reloj."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i01-p07",
+      "promptPt": "Un sitio nuevo, un cierre distinto cada noche. Pregunta si cierran más tarde esta noche. Habla ahora.",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you close tonight",
+      "audioKey": "gb-i01-t07",
+      "es": "What time do you close tonight?",
+      "tts": "What time do you close tonight?",
+      "pinyin": "OUATT taïm dou you clôz tou-NAÏTT",
+      "pt": "¿A qué hora cierran esta noche?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "WHAT-TIME",
+      "audioKey": "gb-i01-s01",
+      "es": "What time does the kitchen close? What time do you open for breakfast?",
+      "tts": "What time does the kitchen close? What time do you open for breakfast?",
+      "pinyin": "OUATT taïm deuz de KIT-tchenn clôz? OUATT taïm dou you ÔP-enn for BREK-feust?",
+      "pt": "Repite la misma fórmula con dos horarios distintos."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i01-n06",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I01 cerrada. What time más el verbo resuelve cocina, desayuno y Sunday roast — la misma fórmula de B18, con otra cosa dentro."
+    }
+  ],
+  "permissao": "No necesitas adivinar el horario de nadie. What time más el verbo ya es una pregunta completa para la cocina, el desayuno o el Sunday roast — la cambias, no la reinventas.",
+  "permissaoAudioKey": "gb-i01-n05",
+  "espelho": "Cualquiera que haya llegado demasiado tarde a un restaurante de su propia ciudad y se haya encontrado la cocina cerrada conoce ya exactamente esa sensación; lo único nuevo aquí es que la hora de cierre llega antes de lo previsto.",
+  "aprofundar": {
+    "titulo": "La misma fórmula, puesta sobre el reloj",
+    "secoes": [
+      {
+        "titulo": "What time, ya la conocías",
+        "corpo": "Esta fórmula nació en B18, para preguntar la hora del check-out. Aquí no hay nada nuevo en la estructura: solo cambias lo que preguntas — kitchen, breakfast, Sunday roast."
+      },
+      {
+        "titulo": "La cena es más temprano aquí",
+        "corpo": "El pico de la cena en el Reino Unido se sitúa entre las seis y las ocho de la tarde, y muchas cocinas dejan de tomar comandas entre las nueve y las diez, incluso en las grandes ciudades — la barra, en cambio, sigue sirviendo bebidas."
+      },
+      {
+        "titulo": "El Sunday roast tiene un horario fijo",
+        "corpo": "Es la comida tradicional del domingo, servida en una franja limitada, a menudo del mediodía a las cuatro. Preguntar la hora exacta evita llegar cuando ya no queda."
+      }
+    ]
+  }
+}

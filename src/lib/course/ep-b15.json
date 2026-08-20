@@ -1,0 +1,330 @@
+{
+  "id": "b15",
+  "slot": "B15",
+  "nivel": "basico",
+  "numero": 15,
+  "parte": "15A",
+  "titulo": "El precio nunca está en la talla que crees",
+  "subtitulo": "«How much is ___?», probártelo, cambiar de talla, y por qué la cifra es en libras, no en euros",
+  "cena": "El jersey que has cogido no tiene etiqueta de talla visible, la del precio se ha despegado de la mesa de rebajas, y la dependienta ordena ropa a dos metros de ti.",
+  "moldura": "ganha",
+  "frasePiso": "Vas a comprar ropa en una tienda británica sin adivinar ni el precio ni la talla, haciendo las dos preguntas con una sola fórmula.",
+  "moldes": [
+    "HOW-MUCH"
+  ],
+  "clique": {
+    "contagem": [
+      "la mesa de rebajas",
+      "el probador",
+      "la caja",
+      "el mostrador de regalos"
+    ],
+    "desconto": "Nadie te ha dado una frase para el precio del jersey y otra para el precio de la bolsa completa. Has montado las dos con «How much is» y lo que preguntabas.",
+    "piso": "La próxima vez que cojas algo sin precio visible, no lo vas a dejar por vergüenza: vas a preguntar la cifra con una frase que ya sabes decir."
+  },
+  "permissao": "No necesitas conocer tu talla en el sistema británico antes de entrar. Puedes probarte varias sin comprar nada; nadie espera que aciertes a la primera.",
+  "permissaoAudioKey": "gb-b15-n10",
+  "espelho": "En tu país también preguntas el precio antes de decidirte y te pruebas varias tallas sin comprometerte a comprar; lo que cambia aquí es el sistema de tallas — y que la cifra final es en libras, no en euros.",
+  "fichasCulturais": [
+    {
+      "sinal": "La prenda lleva una etiqueta «UK 10», y no es ni tu talla española habitual ni una cifra que te diga nada a simple vista.",
+      "suaLeitura": "Está cerca de mi talla española, puedo calcularlo directamente.",
+      "oQueEAli": "El sistema de tallas británico se desplaza unos dos números respecto al español (un UK 10 equivale aproximadamente a un 38 español), y varía además de una marca a otra.",
+      "oQueVoceFaz": "Te la pruebas en vez de calcular — «Can I try this on?» resuelve la cuestión más rápido que una conversión mental.",
+      "oQueMelhora": "Sales con la talla correcta a la primera, sin el mal momento de la prenda demasiado ajustada en el hotel.",
+      "ondeNaoVale": "No vale igual para el número de zapato, que sigue un sistema numérico todavía distinto — ahí también es mejor probarse que adivinar.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b15-n04"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "livre-pas-euro",
+      "afirmacao": "The United Kingdom does not use the euro. Shops do not accept euros, and where they do, the exchange rate is poor. As the country is heavily card-based, this rarely becomes a real obstacle.",
+      "fonte": "Fait monétaire de base (hors zone euro)",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "FATO",
+      "risco": "baixo"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b15-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte quince. El puño en los números: FOR-ti, SIX-ti, ÉI-ti. La sílaba fuerte va primero."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b15-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "El jersey no tiene talla visible, la etiqueta de precio se ha despegado de la mesa de rebajas. La dependienta está a dos metros."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b15-p01",
+      "promptPt": "Como con la cuenta de la parte anterior, pide volver a verla. Habla ahora.",
+      "bloco": "callback",
+      "molde": "CAN-I",
+      "audioKey": "gb-b15-t01",
+      "es": "Can I see that again?",
+      "tts": "Can I see that again?",
+      "pinyin": "kann aï sii dhat e-GUÈNNe",
+      "pt": "¿Me la puede volver a enseñar?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b15-n03",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "La fórmula de hoy: «How much is» más la cosa. Sirve tanto para un jersey solo como para toda la cesta junta."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b15-t02",
+      "es": "How much is this?",
+      "tts": "How much is this?",
+      "pinyin": "haou match iz dhiss",
+      "pt": "¿Cuánto cuesta esto?"
+    },
+    {
+      "consulta": [
+        "compras/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HOW-MUCH",
+      "encaixe": "this",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b15-p02",
+      "promptPt": "La etiqueta de precio ha desaparecido. Pregúntale a la dependienta cuánto cuesta el jersey. Habla ahora.",
+      "audioKey": "gb-b15-t02",
+      "es": "How much is this?",
+      "tts": "How much is this?",
+      "pinyin": "haou match iz dhiss",
+      "pt": "¿Cuánto cuesta esto?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b15-r01",
+      "es": "That one's eighteen pounds.",
+      "tts": "That one's eighteen pounds.",
+      "pinyin": "dhat OUanne iz ÈÏ-tiine paoundz",
+      "pt": "Este cuesta dieciocho libras."
+    },
+    {
+      "consulta": [
+        "compras/talla"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "this in a medium",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b15-p03",
+      "promptPt": "Te gusta pero no ves tu talla en la mesa. Pregunta si tienen el jersey en talla mediana. Habla ahora.",
+      "audioKey": "gb-b15-t03",
+      "es": "Do you have this in a medium?",
+      "tts": "Do you have this in a medium?",
+      "pinyin": "dou you hav dhiss inn e MI-di-eumm",
+      "pt": "¿Tienen esto en talla mediana?"
+    },
+    {
+      "consulta": [
+        "compras/probador"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "CAN-I",
+      "encaixe": "try this on",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b15-p04",
+      "promptPt": "Ya tienes la talla correcta en la mano. Pide probártelo antes de decidir. Habla ahora.",
+      "audioKey": "gb-b15-t04",
+      "es": "Can I try this on?",
+      "tts": "Can I try this on?",
+      "pinyin": "kann aï traï dhiss onn",
+      "pt": "¿Me lo puedo probar?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b15-n04",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Small, medium, large no coincide con tu talla española — un UK 10 se aproxima a un 38. Probártelo resuelve mejor la cuestión que calcular."
+    },
+    {
+      "consulta": [
+        "compras/probador"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "LOOKING",
+      "encaixe": "a bigger size",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b15-p05",
+      "promptPt": "Te lo has probado y te quedaba pequeño. Dile a la dependienta qué buscas ahora. Habla ahora.",
+      "audioKey": "gb-b15-t05",
+      "es": "I'm looking for a bigger size.",
+      "tts": "I'm looking for a bigger size.",
+      "pinyin": "aïm LOU-kinng for e BI-gueu saïz",
+      "pt": "Busco una talla más grande."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b15-r02",
+      "es": "Let me check out the back.",
+      "tts": "Let me check out the back.",
+      "pinyin": "lète mi tchèk aoutte dhe bak",
+      "pt": "Déjeme comprobar en el almacén."
+    },
+    {
+      "consulta": [
+        "compras/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HOW-MUCH",
+      "encaixe": "it all together",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b15-p06",
+      "promptPt": "Has elegido el jersey y un par de calcetines. Pregunta cuánto es en total. Habla ahora.",
+      "audioKey": "gb-b15-t06",
+      "es": "How much is it all together?",
+      "tts": "How much is it all together?",
+      "pinyin": "haou match iz itte ol tou-GUE-dheu",
+      "pt": "¿Cuánto es en total?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b15-n05",
+      "pt": "Esta cifra sí es la final: el IVA ya está en el precio, como se vio en B14. Sin sorpresas en caja."
+    },
+    {
+      "consulta": [
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "GET",
+      "encaixe": "a receipt",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b15-p07",
+      "promptPt": "Acabas de pagar. Pide el recibo, por si quisieras cambiar algo más adelante. Habla ahora.",
+      "audioKey": "gb-b15-t07",
+      "es": "Could I have a receipt?",
+      "tts": "Could I have a receipt?",
+      "pinyin": "koudd aï hav e ri-SIITe",
+      "pt": "¿Puedo tener un recibo?"
+    },
+    {
+      "consulta": [
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "GET",
+      "encaixe": "a bag",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b15-p08",
+      "promptPt": "En Inglaterra, las bolsas de plástico casi nunca son gratis. Pide una si la necesitas. Habla ahora.",
+      "audioKey": "gb-b15-x1",
+      "es": "Could I have a bag?",
+      "tts": "Could I have a bag?",
+      "pinyin": "koudd aï hav e bag",
+      "pt": "¿Puedo tener una bolsa?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b15-n06",
+      "pt": "Recuerda: la libra no es el euro. El comercio no acepta euros, y donde los acepta, el cambio es malo — la tarjeta lo resuelve todo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b15-n07",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Guarda el recibo. Muchas tiendas aceptan devoluciones varias semanas después de la compra, con o sin etiqueta."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b15-n08",
+      "tom": "ganha",
+      "pt": "No es una tienda excepcionalmente flexible: es la política estándar aquí. El recibo es casi siempre lo único que piden."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b15-n09",
+      "bloco": "clique",
+      "tom": "ganha",
+      "pt": "Precio del jersey, precio del total. Nadie te ha dado dos frases: las has montado con una fórmula."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b15-n10",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas conocer tu talla británica antes de entrar. Puedes probarte varias sin comprar nada."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "HOW-MUCH",
+      "audioKey": "gb-b15-s01",
+      "es": "How much is this? How much is it all together?",
+      "tts": "How much is this? How much is it all together?",
+      "pinyin": "haou match iz dhiss ? haou match iz itte ol tou-GUE-dheu ?",
+      "pt": "Repite la misma fórmula con dos preguntas."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b15-n11",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "Parte quince cerrada. Precio, talla, probador, recibo: una fórmula, una cifra siempre en libras."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Comprar sin adivinar la cifra",
+    "secoes": [
+      {
+        "titulo": "La fórmula abierta",
+        "corpo": "«How much is» más cualquier cosa sirve para un artículo solo o para toda la cesta junta. No cambia de forma; solo cambia lo que se pregunta."
+      },
+      {
+        "titulo": "Small, medium, large no es tu talla española",
+        "corpo": "El sistema británico se desplaza unos dos números respecto al sistema español, y varía además según la marca. Probarte la prenda resuelve la cuestión más rápido que intentar una conversión."
+      },
+      {
+        "titulo": "El precio mostrado ya es el precio final",
+        "corpo": "Como se vio en B14, el IVA británico ya está en el precio mostrado. La cifra que ves en la tienda es la que pagas, sin sorpresas en caja."
+      },
+      {
+        "titulo": "La libra, no el euro",
+        "corpo": "El Reino Unido está fuera de la zona euro. El comercio no acepta euros, y donde los acepta, el cambio es malo. Como el país es muy mayoritariamente cashless, la tarjeta resuelve casi todo en la práctica."
+      }
+    ]
+  }
+}

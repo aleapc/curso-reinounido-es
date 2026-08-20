@@ -1,0 +1,92 @@
+{
+  "id": "q-i10",
+  "nivel": "intermediario",
+  "titulo": "Quiz — El dinero sin drama",
+  "subtitulo": "Service charge en el restaurante, nada en la barra del pub",
+  "introAudioKey": "gb-i10-q-i",
+  "introPt": "La cuenta llega con una línea de service charge ya añadida. Escucha cómo el viajero confirma el total y pide que lo quiten.",
+  "cenario": "Un restaurante en el Reino Unido, al momento de la cuenta.",
+  "dialogo": [
+    {
+      "audioKey": "gb-i10-q01",
+      "voz": "target_en_gb_m",
+      "es": "Here's your bill whenever you're ready.",
+      "tts": "Here's your bill whenever you're ready.",
+      "pinyin": "hieurz your bill ouè-NÈ-veur your RÈ-di",
+      "pt": "Aquí tiene la cuenta, cuando quiera."
+    },
+    {
+      "audioKey": "gb-i10-q02",
+      "voz": "target_en_gb_f",
+      "es": "Could I have the bill without the service charge, please?",
+      "tts": "Could I have the bill without the service charge, please?",
+      "pinyin": "coudd aï hav dhe bill ouizz-AOUTT dhe SEUR-viss tchaardj, pliiz",
+      "pt": "¿Podría tener la cuenta sin el service charge, por favor?"
+    },
+    {
+      "audioKey": "gb-i10-q03",
+      "voz": "target_en_gb_m",
+      "es": "Of course, no problem at all.",
+      "tts": "Of course, no problem at all.",
+      "pinyin": "off kors, nôou PROB-leumm att ol",
+      "pt": "Claro, sin ningún problema."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "El service charge de alrededor del 12,5% añadido en el restaurante es...",
+      "opcoes": [
+        "Un impuesto obligatorio del gobierno",
+        "Una práctica discrecional, que se puede pedir quitar",
+        "Algo prohibido por ley",
+        "Siempre del 20%"
+      ],
+      "correta": 1,
+      "explica": "Es una práctica del sector, no una ley — quitarlo sin justificarse es legítimo."
+    },
+    {
+      "pergunta": "En la barra del pub, ¿qué haces con la propina?",
+      "opcoes": [
+        "Siempre dejas un 10%",
+        "No dejas nada — el gesto equivalente es invitar a una copa al camarero",
+        "Le preguntas al camarero cuánto dejar",
+        "Siempre redondeas a la libra superior"
+      ],
+      "correta": 1,
+      "explica": "«And one for yourself» sustituye a la propina en la barra del pub."
+    },
+    {
+      "pergunta": "¿Qué significa el precio mostrado en una etiqueta en el Reino Unido?",
+      "opcoes": [
+        "Hay que añadir un impuesto en caja",
+        "El IVA ya está incluido, como en España",
+        "El precio cambia según la hora",
+        "Hay que negociar"
+      ],
+      "correta": 1,
+      "explica": "A diferencia del sales tax americano, el IVA británico ya está en el precio mostrado."
+    },
+    {
+      "pergunta": "¿Qué frase pide quitar el service charge de la cuenta?",
+      "opcoes": [
+        "How much is it all together?",
+        "Could I have the bill without the service charge, please?",
+        "Is the tip included?",
+        "Do you prefer the mug or the print?"
+      ],
+      "correta": 1,
+      "explica": "Es un encaje de Could I have más without, no una fórmula nueva."
+    },
+    {
+      "pergunta": "Para una mesa de seis personas o más, ¿qué suele pasar?",
+      "opcoes": [
+        "Nada especial",
+        "Se añade automáticamente un service charge, y la cuenta lo indica",
+        "La comida es gratis",
+        "Siempre se paga a plazos"
+      ],
+      "correta": 1,
+      "explica": "Mejor leer la cuenta antes de calcular nada por encima."
+    }
+  ]
+}

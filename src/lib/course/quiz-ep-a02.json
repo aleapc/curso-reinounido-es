@@ -1,0 +1,89 @@
+{
+  "id": "q-a02",
+  "nivel": "avancado",
+  "titulo": "Quiz — De qué se ríen",
+  "subtitulo": "Reconocer la litote y saber qué evitar con desconocidos",
+  "introAudioKey": "gb-a02-q-i",
+  "introPt": "Alguien carboniza el pollo en la parrilla y dice, muy en serio, que está perfecto. Escucha el intercambio y responde.",
+  "cenario": "Una barbacoa en un jardín.",
+  "dialogo": [
+    {
+      "audioKey": "gb-a02-q01",
+      "voz": "target_en_gb_m",
+      "es": "Yeah, exactly how I planned it. Beautifully charred.",
+      "tts": "Yeah, exactly how I planned it. Beautifully charred.",
+      "pt": "Sí, exactamente como lo tenía planeado. Bien tostadito."
+    },
+    {
+      "audioKey": "gb-a02-q02",
+      "voz": "target_en_gb_f",
+      "es": "Wait, was that a joke?",
+      "tts": "Wait, was that a joke?",
+      "pt": "Espera, ¿eso era broma?"
+    },
+    {
+      "audioKey": "gb-a02-q03",
+      "voz": "target_en_gb_m",
+      "es": "Yeah, sorry, it's a bit more than beautifully charred.",
+      "tts": "Yeah, sorry, it's a bit more than beautifully charred.",
+      "pt": "Sí, perdona, está un poco más que «bien tostadito»."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué es la litote (understatement) en el humor británico informal?",
+      "opcoes": [
+        "Decir mucho menos de lo que se piensa, con tono neutro o serio",
+        "Una broma que siempre se anuncia antes de contarla",
+        "Un insulto directo",
+        "Una expresión reservada para la televisión"
+      ],
+      "correta": 0,
+      "explica": "La litote dice mucho menos de lo que se piensa de verdad, con tono plano o serio."
+    },
+    {
+      "pergunta": "No has entendido una broma. ¿Qué puedes hacer?",
+      "opcoes": [
+        "Quedarte callado para no estropearla",
+        "Preguntar con ligereza si era broma",
+        "Cambiar de tema inmediatamente",
+        "Reír fuerte sin entender"
+      ],
+      "correta": 1,
+      "explica": "Preguntar «was that a joke?» casi siempre prolonga la broma en lugar de estropearla."
+    },
+    {
+      "pergunta": "¿Qué tipo de broma funciona casi siempre, con cualquiera?",
+      "opcoes": [
+        "Burlarse de la política",
+        "Burlarse de la familia de otra persona",
+        "Burlarse de uno mismo",
+        "Burlarse de la religión"
+      ],
+      "correta": 2,
+      "explica": "El humor autocrítico es el registro más seguro: no exige ningún contexto compartido y no ofende a nadie más."
+    },
+    {
+      "pergunta": "¿Qué significa «he's just taking the piss» sobre un amigo que se burla de ti con cariño?",
+      "opcoes": [
+        "Está realmente enfadado contigo",
+        "Es una burla cariñosa, señal de cercanía",
+        "Quiere dejar de hablarte",
+        "Es un insulto grave"
+      ],
+      "correta": 1,
+      "explica": "«Taking the piss» entre amigos británicos es una burla amistosa, no un ataque — un cumplido disfrazado."
+    },
+    {
+      "pergunta": "Dos personas empiezan a hablar de política en la mesa. ¿Cuál es una buena salida?",
+      "opcoes": [
+        "Dar tu opinión tajante",
+        "«I'll leave you two to it»",
+        "Levantarte de la mesa",
+        "Cambiar de tema bruscamente"
+      ],
+      "correta": 1,
+      "explica": "Salir del tema con ligereza, sin dar tu opinión, te mantiene bien con los dos lados."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "q-b10",
+  "nivel": "basico",
+  "titulo": "Quiz — Leer el pasillo antes de preguntar",
+  "subtitulo": "WAY OUT, la fórmula «I'm looking for», y la palabra que no es el metro",
+  "introAudioKey": "gb-b10-q-i",
+  "introPt": "Tres puertas, las manos llenas, y una sola información útil: la placa pequeña encima de cada una. Encuentra la correcta, y qué decir cuando no hay ninguna placa.",
+  "cenario": "En el pasillo del aeropuerto, entre las puertas de embarque y la salida.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b10-q01",
+      "voz": "target_en_gb_f",
+      "es": "I'm looking for my gate.",
+      "tts": "I'm looking for my gate.",
+      "pinyin": "aïm LOU-kinng for maï guèït",
+      "pt": "Busco mi puerta de embarque."
+    },
+    {
+      "audioKey": "gb-b10-q02",
+      "voz": "target_en_gb_m",
+      "es": "It's down that way, past the shops.",
+      "tts": "It's down that way, past the shops.",
+      "pinyin": "its daoune dhat OUèï, past dhe chops",
+      "pt": "Es por ahí, después de las tiendas."
+    },
+    {
+      "audioKey": "gb-b10-q03",
+      "voz": "target_en_gb_f",
+      "es": "Can I go through here?",
+      "tts": "Can I go through here?",
+      "pinyin": "kann aï gô throu Hieu",
+      "pt": "¿Puedo pasar por aquí?"
+    },
+    {
+      "audioKey": "gb-b10-q04",
+      "voz": "target_en_gb_m",
+      "es": "Sorry, staff only — round the other side.",
+      "tts": "Sorry, staff only — round the other side.",
+      "pinyin": "SO-ri, staf ôlnli — raounnd dhi Odheu saïd",
+      "pt": "Perdone, solo personal — por el otro lado."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "En el cartel de salida, ¿qué está escrito en el Reino Unido?",
+      "opcoes": [
+        "EXIT, como en todas partes",
+        "WAY OUT, casi siempre",
+        "SUBWAY",
+        "OUT"
+      ],
+      "correta": 1,
+      "explica": "En el Reino Unido, el cartel de salida es casi siempre WAY OUT, sobre todo en el metro y las estaciones. EXIT existe en otros sitios, pero WAY OUT es el uso británico por defecto."
+    },
+    {
+      "pergunta": "No conoces la palabra exacta para lo que buscas. ¿Qué dices?",
+      "opcoes": [
+        "What's it called?",
+        "I'm looking for ___",
+        "Where is the word for ___?",
+        "Give me ___"
+      ],
+      "correta": 1,
+      "explica": "«I'm looking for» más lo que buscas basta: la otra persona completa, tú solo señalas la intención."
+    },
+    {
+      "pergunta": "En una puerta manual, ¿qué significa PULL?",
+      "opcoes": [
+        "Empujar hacia fuera",
+        "Tirar hacia ti",
+        "Fuera de servicio",
+        "Salida de emergencia"
+      ],
+      "correta": 1,
+      "explica": "Pull tira hacia ti, push empuja hacia fuera. Lee el cartel antes de que tu mano toque el pomo."
+    },
+    {
+      "pergunta": "En el Reino Unido, ¿a qué se refiere la palabra subway?",
+      "opcoes": [
+        "Al metro",
+        "A un paso subterráneo para peatones",
+        "A un bocadillo",
+        "A un autobús nocturno"
+      ],
+      "correta": 1,
+      "explica": "Subway es un paso subterráneo bajo la calle. El metro es the Underground o the Tube. Excepción honesta: en Glasgow, el metro sí se llama the Subway."
+    },
+    {
+      "pergunta": "Delante de un mostrador sin cartel QUEUE HERE ni cordón, ¿qué haces?",
+      "opcoes": [
+        "Pasas directamente, no hay una cola de verdad",
+        "Te colocas detrás de la última persona de pie",
+        "Esperas a que te llamen por tu nombre",
+        "Pides un número"
+      ],
+      "correta": 1,
+      "explica": "La cola existe incluso sin cartel: la última persona de pie es el final. Colarse se nota exactamente igual que si hubiera un cordón."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "q-a04",
+  "nivel": "avancado",
+  "titulo": "Quiz — La vieja disputa",
+  "subtitulo": "No tomar partido en la rivalidad regional de otro país",
+  "introAudioKey": "gb-a04-q-i",
+  "introPt": "Alguien dice «it's grim up North» con un tono particular en la barra. Escucha el intercambio y responde.",
+  "cenario": "Un bar con un grupo venido de distintas regiones.",
+  "dialogo": [
+    {
+      "audioKey": "gb-a04-q01",
+      "voz": "target_en_gb_m",
+      "es": "Ah, must be nice up there in the frozen North.",
+      "tts": "Ah, must be nice up there in the frozen North.",
+      "pt": "Ah, debe de estar bien allá arriba, en el gran norte helado."
+    },
+    {
+      "audioKey": "gb-a04-q02",
+      "voz": "target_en_gb_f",
+      "es": "So, where are you from, originally?",
+      "tts": "So, where are you from, originally?",
+      "pt": "¿Y tú de dónde eres, originalmente?"
+    },
+    {
+      "audioKey": "gb-a04-q03",
+      "voz": "target_en_gb_m",
+      "es": "Sheffield. Born and raised.",
+      "tts": "Sheffield. Born and raised.",
+      "pt": "Sheffield. Nacido y criado allí."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué significa «it's grim up North»?",
+      "opcoes": [
+        "Un pronóstico meteorológico oficial",
+        "Una expresión sobre el norte del país, a veces dicha con pinchazo",
+        "El nombre oficial de una región",
+        "El título de una canción"
+      ],
+      "correta": 1,
+      "explica": "Para algunos en el sur es broma; para quien vive en el norte, puede sonar a insulto disfrazado."
+    },
+    {
+      "pergunta": "¿Cuál es la pregunta más segura cuando oyes una broma regional con pinchazo?",
+      "opcoes": [
+        "Reutilizar inmediatamente la misma palabra",
+        "Preguntar de dónde es la persona, sin etiqueta",
+        "Reír fuerte para encajar",
+        "Defender la región mencionada"
+      ],
+      "correta": 1,
+      "explica": "Preguntar «where are you from» de forma neutra deja que la persona se nombre a sí misma."
+    },
+    {
+      "pergunta": "Alguien te invita a burlarte de otra región del Reino Unido. ¿Qué haces?",
+      "opcoes": [
+        "Te sumas a la broma para caer bien",
+        "Declinas con ligereza, sin tomar partido",
+        "Defiendes esa región con firmeza",
+        "Cambias de mesa"
+      ],
+      "correta": 1,
+      "explica": "«I'll stay out of that one» te mantiene bien con todos, sin comprar una postura que no es tuya."
+    },
+    {
+      "pergunta": "¿Cuándo es seguro usar una palabra como «Northerner» o «Yorkshireman» sobre alguien?",
+      "opcoes": [
+        "Siempre, en cuanto sepas de dónde viene",
+        "Solo después de que la persona la haya usado sobre sí misma",
+        "Nunca, bajo ninguna circunstancia",
+        "Solo con una persona famosa"
+      ],
+      "correta": 1,
+      "explica": "Cuando alguien se nombra a sí mismo con una palabra, esa palabra se vuelve segura para repetir."
+    },
+    {
+      "pergunta": "¿Qué dice esta parte sobre la brecha Norte-Sur en el Reino Unido?",
+      "opcoes": [
+        "No existe realmente, es solo una broma",
+        "Es una brecha real de renta y vivienda, de la que también se bromea constantemente",
+        "El norte siempre es más rico que el sur",
+        "Solo afecta a Londres"
+      ],
+      "correta": 1,
+      "explica": "La brecha se cita en serio en los debates públicos y a la vez es tema de broma cariñosa entre vecinos."
+    }
+  ]
+}

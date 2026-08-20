@@ -1,0 +1,256 @@
+{
+  "id": "i04",
+  "slot": "I04",
+  "nivel": "intermediario",
+  "numero": 4,
+  "parte": "I04",
+  "titulo": "La última ronda",
+  "subtitulo": "Last orders llega antes de lo que crees, y la ronda entre amigos es una regla social, no una opción",
+  "cena": "Alguien en el pub grita «last orders!», suena una campana, y todavía tienes media pinta en la mano sin saber si tienes que darte prisa o no.",
+  "decisao": "cuánto tiempo te quedas y cómo cierras la noche — pagar una ronda para todos por turnos no es opcional, y last orders marca la cuenta atrás real",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "frasePiso": "Vas a pedir tu última pinta en cuanto oigas last orders, y a pagar tu ronda sin que nadie tenga que recordártelo.",
+  "fichasCulturais": [
+    {
+      "sinal": "Suena una campana en la barra, alguien grita «last orders!», y veinte minutos después las luces se encienden de golpe y una voz dice «time, please!».",
+      "suaLeitura": "Cierra ya, ahora mismo, hay que irse enseguida.",
+      "oQueEAli": "«Last orders» es la señal de que no habrá más comandas nuevas — no de que el pub cierra ese segundo. Normalmente quedan entre quince y veinte minutos para terminar la bebida, hasta que se anuncia «time» y las luces se encienden.",
+      "oQueVoceFaz": "Si quieres una última bebida, pídela en cuanto oigas «last orders»; si no, empieza a terminar tu copa con tranquilidad.",
+      "oQueMelhora": "Terminas la noche sin prisas ni sorpresas, en vez de que te pillen todavía bebiendo cuando se encienden las luces.",
+      "ondeNaoVale": "No vale a la misma hora en todas partes: el horario de cierre depende de la licencia de cada local, no de una regla nacional — algunos pubs cierran antes, otros mucho más tarde.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-i04-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i04-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Hoy el flick, el toque final: last CALL, nunca last cal. La consonante final se pronuncia de verdad."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i04-p01",
+      "promptPt": "Ayer preguntaste desde qué hora servían el desayuno. Hoy, la misma fórmula para el pub. Pregunta a qué hora cierra. Habla ahora.",
+      "bloco": "callback",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the pub close",
+      "audioKey": "gb-i04-t01",
+      "es": "What time does the pub close?",
+      "tts": "What time does the pub close?",
+      "pinyin": "OUATT taïm deuz de peub clôz",
+      "pt": "¿A qué hora cierra el pub?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i04-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Suena una campana, alguien grita «last orders!», y todavía tienes media pinta, sin saber si darte prisa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i04-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Antes de eso, una regla social que hay que conocer: la ronda. Cada uno paga por turnos, para todo el grupo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i04-r01",
+      "es": "Same again for everyone?",
+      "tts": "Same again for everyone?",
+      "pinyin": "sèïm e-GUÈNN for ÈV-ri-ouann",
+      "pt": "¿La misma ronda para todos?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i04-p02",
+      "promptPt": "Es tu turno de pagar la ronda. Confírmalo. Habla ahora.",
+      "audioKey": "gb-i04-t02",
+      "es": "Yes, this one's on me.",
+      "tts": "Yes, this one's on me.",
+      "pinyin": "yèss, dhiss ouannz onn mi",
+      "pt": "Sí, esta es mi ronda."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i04-p03",
+      "promptPt": "Vas de un pub a otro y quieres saber si te queda tiempo antes de la última ronda. Pregunta a qué hora es last orders. Habla ahora.",
+      "molde": "WHAT-TIME",
+      "encaixe": "are last orders",
+      "audioKey": "gb-i04-t03",
+      "es": "What time are last orders?",
+      "tts": "What time are last orders?",
+      "pinyin": "OUATT taïm aar laast OR-deuz",
+      "pt": "¿A qué hora es la última comanda?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i04-r02",
+      "es": "Quarter to eleven. We close at eleven.",
+      "tts": "Quarter to eleven. We close at eleven.",
+      "pinyin": "KOUOR-teur tou i-LÈ-venn. oui clôz att i-LÈ-venn",
+      "pt": "Once menos cuarto. Cerramos a las once."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i04-n04",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Cuando gritan last orders, te quedan minutos, no segundos. Es tu señal para pedir la última."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i04-p04",
+      "promptPt": "Ya escuchaste last orders y quieres una última ronda. Pídela, y ofrécele una al camarero también. Habla ahora.",
+      "audioKey": "gb-i04-t04",
+      "es": "One more round, please — and one for yourself.",
+      "tts": "One more round, please — and one for yourself.",
+      "pinyin": "ouann mor raound, pliiz — annd ouann for your-SÈLF",
+      "pt": "Una última ronda, por favor — y una para usted también."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i04-r03",
+      "es": "Cheers, that's very kind.",
+      "tts": "Cheers, that's very kind.",
+      "pinyin": "TCHIEUZ, dhatts VÈ-ri kaïnd",
+      "pt": "Gracias, muy amable."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i04-n05",
+      "pt": "«And one for yourself» sustituye a la propina en la barra: no se deja, se invita a una copa al camarero."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i04-p05",
+      "promptPt": "Un amigo te invita a otro pub mañana. Pregunta a qué hora abren, para no llegar demasiado pronto. Habla ahora.",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you open",
+      "audioKey": "gb-i04-t05",
+      "es": "What time do you open?",
+      "tts": "What time do you open?",
+      "pinyin": "OUATT taïm dou you ÔP-enn",
+      "pt": "¿A qué hora abren?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i04-r04",
+      "es": "Time, please! Come on, finish up.",
+      "tts": "Time, please! Come on, finish up.",
+      "pinyin": "taïm, pliiz! kamm onn, FI-nich app",
+      "pt": "¡Hora de cerrar! Vamos, terminen sus copas."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i04-p05b",
+      "promptPt": "Te queda un sorbo. Di que has terminado, sin prisa. Habla ahora.",
+      "audioKey": "gb-i04-t05b",
+      "es": "All done, thanks.",
+      "tts": "All done, thanks.",
+      "pinyin": "ol dann, thennks",
+      "pt": "Ya está, gracias."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i04-p06",
+      "promptPt": "Despídete del camarero antes de salir. Habla ahora.",
+      "audioKey": "gb-i04-t06",
+      "es": "Cheers, night then!",
+      "tts": "Cheers, night then!",
+      "pinyin": "TCHIEUZ, naïtt dhènn",
+      "pt": "Gracias, ¡buenas noches entonces!"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i04-p07",
+      "promptPt": "Un amigo te invita a un pub distinto antes de este. Pregunta a qué hora abre. Habla ahora.",
+      "molde": "WHAT-TIME",
+      "encaixe": "does that place open",
+      "audioKey": "gb-i04-t07",
+      "es": "What time does that place open?",
+      "tts": "What time does that place open?",
+      "pinyin": "OUATT taïm deuz dhatt plèïss ÔP-enn",
+      "pt": "¿A qué hora abre este sitio?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i04-n06",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas correr en cuanto oyes last orders. Te quedan unos minutos para terminar tu bebida con calma."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "WHAT-TIME",
+      "audioKey": "gb-i04-s01",
+      "es": "What time are last orders? One more round, please.",
+      "tts": "What time are last orders? One more round, please.",
+      "pinyin": "OUATT taïm aar laast OR-deuz? ouann mor raound, pliiz",
+      "pt": "Repite preguntar la hora y pedir la última ronda."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i04-n07",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I04 cerrada. La ronda es una regla social, last orders te avisa, y time, please cierra la noche — el reloj de B18, otra vez."
+    }
+  ],
+  "permissao": "No necesitas correr en cuanto oyes last orders. Normalmente te quedan unos quince minutos para pedir tu última bebida o terminar tu copa con calma — no es una alarma de incendios.",
+  "permissaoAudioKey": "gb-i04-n06",
+  "espelho": "Cualquiera que haya pagado una ronda para sus amigos en su propio país ya conoce este sistema; lo nuevo aquí es que negarte a pagar tu turno se ve como una falta real, no como una opción personal.",
+  "aprofundar": {
+    "titulo": "La ronda y el reloj del pub",
+    "secoes": [
+      {
+        "titulo": "La ronda no es opcional",
+        "corpo": "En un grupo en el pub, cada uno paga por turnos para todos. «Olvidar» tu ronda es una falta social real — mucho más grave que no beber al mismo ritmo que los demás."
+      },
+      {
+        "titulo": "Last orders no es el cierre inmediato",
+        "corpo": "Es la última llamada para pedir; normalmente quedan entre quince y veinte minutos antes de que el pub cierre de verdad y las luces se enciendan."
+      },
+      {
+        "titulo": "And one for yourself sustituye a la propina",
+        "corpo": "No se deja propina en la barra del pub — el gesto equivalente es invitar a una bebida al camarero diciendo «and one for yourself»."
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "q-a07",
+  "nivel": "avancado",
+  "titulo": "Quiz — Señales: bienvenida, incomodidad, y la hora de irse",
+  "subtitulo": "La pantalla de propina, el descontento silencioso y el «sometime» que no siempre llega",
+  "introAudioKey": "gb-a07-q-i",
+  "introPt": "La pantalla de la caja te propone un doce coma cinco por ciento de propina por un café para llevar. Escucha el intercambio y responde.",
+  "cenario": "La barra de una cafetería.",
+  "dialogo": [
+    {
+      "audioKey": "gb-a07-q01",
+      "voz": "target_en_gb_m",
+      "es": "Whenever you're ready.",
+      "tts": "Whenever you're ready.",
+      "pt": "Cuando estés listo."
+    },
+    {
+      "audioKey": "gb-a07-q02",
+      "voz": "target_en_gb_f",
+      "es": "I'll just skip that, thanks.",
+      "tts": "I'll just skip that, thanks.",
+      "pt": "Voy a pasar de eso, gracias."
+    },
+    {
+      "audioKey": "gb-a07-q03",
+      "voz": "target_en_gb_m",
+      "es": "No worries at all.",
+      "tts": "No worries at all.",
+      "pt": "Sin problema."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "La pantalla de la barra sugiere un doce coma cinco por ciento de propina en un pedido para llevar. ¿Es obligatorio?",
+      "opcoes": [
+        "Sí, siempre",
+        "No, es un ajuste del sistema, no una regla social",
+        "Solo en restaurantes elegantes",
+        "Depende de la ciudad"
+      ],
+      "correta": 1,
+      "explica": "En un sitio sin servicio de mesa, elegir un importe menor o «sin propina» es una opción legítima."
+    },
+    {
+      "pergunta": "¿Qué suele hacer un británico descontento, en lugar de quejarse directamente?",
+      "opcoes": [
+        "Alza la voz inmediatamente",
+        "Un pequeño chasquido de lengua, un suspiro, un silencio demasiado paciente",
+        "Se va del sitio sin decir nada",
+        "Llama al encargado"
+      ],
+      "correta": 1,
+      "explica": "El descontento británico pasa muy a menudo por señales indirectas en lugar de por una queja verbal directa."
+    },
+    {
+      "pergunta": "Alguien te dice «we must do this again sometime!». ¿Cuál suele ser la función de esa frase?",
+      "opcoes": [
+        "Es una promesa firme con fecha implícita",
+        "Suele ser un cierre cálido de la conversación, sin compromiso fijo",
+        "Es una forma de decir que no le has caído bien",
+        "Solo se usa en familia"
+      ],
+      "correta": 1,
+      "explica": "«Sometime», sin fecha, funciona como un cierre amistoso, no necesariamente como un plan real."
+    },
+    {
+      "pergunta": "Si de verdad quieres que el plan se concrete, ¿qué puedes hacer?",
+      "opcoes": [
+        "Nada, hay que esperar a que la otra persona lo proponga",
+        "Preguntar algo concreto, como si está libre esta semana",
+        "Insistir varias veces el mismo día",
+        "Suponer que ya está confirmado"
+      ],
+      "correta": 1,
+      "explica": "Preguntar por un día concreto distingue un cierre cálido de una invitación real, sin resultar insistente."
+    },
+    {
+      "pergunta": "Nadie se ha quejado en voz alta de una larga espera en la caja, pero oyes un «tut» detrás de ti. ¿Qué significa?",
+      "opcoes": [
+        "Nada en absoluto, ignóralo",
+        "Una señal real de descontento, expresada indirectamente",
+        "Que la persona está enfadada contigo personalmente",
+        "Un saludo informal"
+      ],
+      "correta": 1,
+      "explica": "El silencio paciente y el «tut» son un mensaje social real en el Reino Unido, no una ausencia de reacción."
+    }
+  ]
+}

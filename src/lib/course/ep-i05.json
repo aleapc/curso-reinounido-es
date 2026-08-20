@@ -1,0 +1,275 @@
+{
+  "id": "i05",
+  "slot": "I05",
+  "nivel": "intermediario",
+  "numero": 5,
+  "parte": "I05",
+  "titulo": "Las mismas preguntas, siempre",
+  "subtitulo": "You alright? no espera una respuesta larga, y de dónde vienes, cuánto tiempo te quedas vuelven casi en todas partes",
+  "cena": "Un taxista, una dependienta y alguien en la barra del pub te hacen, casi en el mismo orden, las mismas preguntas — y tener la respuesta lista es lo que hace que la conversación fluya en vez de atascarse.",
+  "decisao": "quedarte en la conversación o salir de ella — tener tus respuestas listas para las cuatro o cinco preguntas habituales te deja elegir, en vez de improvisar cada vez",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "moldes": [
+    "PREFERENCIA"
+  ],
+  "clique": {
+    "contagem": [
+      "el taxi",
+      "la tienda de recuerdos",
+      "la barra del pub"
+    ],
+    "desconto": "Nadie te ha dado una frase para decir lo que prefieres en comida, otra para el tiempo y otra para la ciudad. Has montado las tres con la misma fórmula, cambiando solo las dos cosas entre las que decides."
+  },
+  "frasePiso": "Vas a responder a las mismas cinco preguntas tres veces en el día, con las mismas frases, y va a sonar tan natural la tercera vez como la primera.",
+  "fichasCulturais": [
+    {
+      "sinal": "Alguien que no conoces — un taxista, un vecino de barra — te pregunta «You alright?» en cuanto te sientas, y espera una respuesta igual de corta.",
+      "suaLeitura": "Me pregunta si estoy bien, tengo que responder con detalle.",
+      "oQueEAli": "«You alright?» o «You all right?» es un saludo estándar, el equivalente británico de «¿qué tal?» — no es una pregunta real sobre tu estado, es un hola, y la respuesta esperada es igual de breve.",
+      "oQueVoceFaz": "Respondes corto y tranquilo — con «Yeah, you alright?» basta — y la conversación sigue sola desde ahí.",
+      "oQueMelhora": "Consigues una interacción más cálida en vez de un intercambio puramente transaccional, y a veces buenos consejos sobre la zona.",
+      "ondeNaoVale": "No es una señal para compartir información sensible como tu hotel exacto o tu itinerario completo; la conversación ligera no pide ese nivel de detalle.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-i05-n01"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i05-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "El flick en do you PRE-fer: la consonante final de prefer se oye bien."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i05-p01",
+      "promptPt": "Anoche pagaste tu ronda sin que te lo recordaran. Hoy pides así, directamente, un café. Habla ahora.",
+      "bloco": "callback",
+      "audioKey": "gb-i05-t01",
+      "es": "Could I have a coffee, please?",
+      "tts": "Could I have a coffee, please?",
+      "pinyin": "coudd aï hav e KO-fi, pliiz",
+      "pt": "¿Podría tener un café, por favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i05-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "El taxista te suelta «you alright?» antes incluso de arrancar — la primera de las mismas preguntas, casi siempre."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i05-r01",
+      "es": "You alright? Where are you from, then?",
+      "tts": "You alright? Where are you from, then?",
+      "pinyin": "you OL-raïtt? OUEUR aar you from, dhènn",
+      "pt": "¿Todo bien? ¿De dónde es, entonces?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i05-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "You alright no espera una respuesta real y detallada — es un saludo. Responde corto, y enlaza con la pregunta real."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i05-p02",
+      "promptPt": "Responde corto, y luego di de dónde vienes. Habla ahora.",
+      "audioKey": "gb-i05-t02",
+      "es": "Yeah, good thanks. I'm from France.",
+      "tts": "Yeah, good thanks. I'm from France.",
+      "pinyin": "yèa, goudd thennks. aïm from Fraanss",
+      "pt": "Sí, bien, gracias. Soy de España."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i05-r02",
+      "es": "Nice! How long are you staying?",
+      "tts": "Nice! How long are you staying?",
+      "pinyin": "naïss! HAOU longue aar you STÈÏ-igne",
+      "pt": "¡Qué bien! ¿Cuánto tiempo se queda?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i05-p03",
+      "promptPt": "Da un número real y corto, sin todo tu itinerario. Habla ahora.",
+      "audioKey": "gb-i05-t03",
+      "es": "About ten days.",
+      "tts": "About ten days.",
+      "pinyin": "e-BAOUTT tènn dèïz",
+      "pt": "Unos diez días."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i05-n04",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Aquí está la fórmula de hoy: preguntar una preferencia entre dos cosas. Do you prefer, más las dos."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i05-r03",
+      "es": "Do you prefer the coast or the countryside?",
+      "tts": "Do you prefer the coast or the countryside?",
+      "pinyin": "dou you pri-FEUR dhe côst or dhe KANN-tri-saïd",
+      "pt": "¿Prefiere la costa o el campo?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "PREFERENCIA",
+      "encaixe": "the coast or the countryside",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i05-p04",
+      "promptPt": "Responde con la misma fórmula: dilo tú también. Habla ahora.",
+      "audioKey": "gb-i05-t04",
+      "es": "I prefer the coast.",
+      "tts": "I prefer the coast.",
+      "pinyin": "aï pri-FEUR dhe côst",
+      "pt": "Prefiero la costa."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i05-p05",
+      "promptPt": "Ahora eres tú quien pregunta, en una tienda, sobre dos colores del mismo producto. Habla ahora.",
+      "molde": "PREFERENCIA",
+      "encaixe": "the red one or the green one",
+      "audioKey": "gb-i05-t05",
+      "es": "Do you prefer the red one or the green one?",
+      "tts": "Do you prefer the red one or the green one?",
+      "pinyin": "dou you pri-FEUR dhe rèdd ouann or dhe grinn ouann",
+      "pt": "¿Prefiere el rojo o el verde?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i05-p06",
+      "promptPt": "En la barra del pub, alguien te pregunta tu gusto entre dos cervezas locales. Habla ahora.",
+      "molde": "PREFERENCIA",
+      "encaixe": "the ale or the lager",
+      "audioKey": "gb-i05-t06",
+      "es": "Do you prefer the ale or the lager?",
+      "tts": "Do you prefer the ale or the lager?",
+      "pinyin": "dou you pri-FEUR dhi èïl or dhe LAA-gueur",
+      "pt": "¿Prefiere la cerveza tostada o la rubia?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i05-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Y una pregunta más, cálida, nunca transaccional: qué te ha gustado. Responde con algo concreto, no solo «todo»."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i05-r04",
+      "es": "What have you liked most so far?",
+      "tts": "What have you liked most so far?",
+      "pinyin": "OUATT hav you laïktt môst so far",
+      "pt": "¿Qué es lo que más le ha gustado hasta ahora?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i05-p07",
+      "promptPt": "Menciona algo concreto que de verdad te ha gustado. Habla ahora.",
+      "audioKey": "gb-i05-t07",
+      "es": "I really liked the food, especially the pies.",
+      "tts": "I really liked the food, especially the pies.",
+      "pinyin": "aï RI-li laïktt dhe foudd, es-PÈ-cha-li dhe païz",
+      "pt": "Me ha encantado la comida, sobre todo las tartas saladas."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i05-p08",
+      "promptPt": "Necesitas salir de la conversación con calma. Despídete con una frase corta. Habla ahora.",
+      "audioKey": "gb-i05-t08",
+      "es": "Well, it was nice talking to you. Take care.",
+      "tts": "Well, it was nice talking to you. Take care.",
+      "pinyin": "ouèll, itt ouoz naïss TO-kigne tou you. tèïk kèur",
+      "pt": "Bueno, ha sido un placer charlar. Cuídese."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i05-n06",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "Puedes usar las mismas tres respuestas todo el viaje. Nadie te va a juzgar por repetirlas — son verdad."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i05-n07",
+      "bloco": "clique",
+      "tom": "ganha",
+      "pt": "Has preguntado costa o campo, rojo o verde, ale o lager. Nadie te ha dado esas frases: las has montado con una fórmula."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "PREFERENCIA",
+      "audioKey": "gb-i05-s01",
+      "es": "I'm from France. About ten days. I prefer the coast.",
+      "tts": "I'm from France. About ten days. I prefer the coast.",
+      "pinyin": "aïm from Fraanss. e-BAOUTT tènn dèïz. aï pri-FEUR dhe côst",
+      "pt": "Repite las tres respuestas más habituales, seguidas."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i05-n08",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I05 cerrada. Origen, duración, qué te ha gustado — respuestas listas — y do you prefer para elegir entre dos, la tuya o la de otros."
+    }
+  ],
+  "permissao": "No necesitas respuestas distintas cada vez que te hacen las mismas preguntas. Se repiten precisamente porque son las preguntas educadas de apertura, no un examen que exija originalidad.",
+  "permissaoAudioKey": "gb-i05-n06",
+  "espelho": "La conversación ligera con un desconocido, en cualquier país, gira en torno al mismo pequeño grupo de preguntas — de dónde vienes, cuánto tiempo te quedas, qué te ha gustado — y tener dos o tres respuestas preparadas no es un truco extranjero, es el mismo atajo social que ya usas en casa.",
+  "aprofundar": {
+    "titulo": "Listas, no recitadas",
+    "secoes": [
+      {
+        "titulo": "You alright no espera una respuesta larga",
+        "corpo": "Es el equivalente británico de «¿qué tal?» — un saludo disfrazado de pregunta, nunca una investigación real sobre tu estado. Basta una respuesta de una palabra, antes de devolver la pregunta."
+      },
+      {
+        "titulo": "La fórmula PREFERENCIA",
+        "corpo": "Do you prefer, más dos cosas concretas separadas por «or», sirve para la costa o el campo, los colores, las cervezas — cualquier par real que tengas delante, el tuyo o el del otro."
+      },
+      {
+        "titulo": "Lo concreto vale más que lo genérico",
+        "corpo": "«I liked everything» es una respuesta segura pero plana. Nombrar algo preciso — un plato, un lugar — le da al otro con qué seguir la conversación."
+      }
+    ]
+  }
+}

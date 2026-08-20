@@ -1,0 +1,343 @@
+{
+  "id": "b17",
+  "slot": "B17",
+  "nivel": "basico",
+  "numero": 17,
+  "parte": "17A",
+  "titulo": "El dolor que decide entre la farmacia y el hospital",
+  "subtitulo": "Pedir algo para el dolor, avisar de lo que has perdido, y el número que marcar según la gravedad",
+  "cena": "Te duele el estómago desde anoche, no sabes si se pasa con un medicamento de farmacia o hace falta ver a un médico, y el reloj sigue corriendo.",
+  "moldura": "protege",
+  "frasePiso": "Vas a distinguir una molestia de farmacia de una urgencia real, y a saber exactamente qué número marcar según la gravedad.",
+  "permissao": "No tienes que autodiagnosticarte. Pedir algo en la farmacia es un primer paso válido; si no mejora, pedir ver a un médico no es exagerar, es lo que se espera de ti.",
+  "permissaoAudioKey": "gb-b17-n10",
+  "espelho": "En tu país también eliges entre la farmacia y el hospital según la gravedad; lo que cambia aquí es que el A&E — urgencias — es gratuito para todo el mundo, mientras que en España estás acostumbrado a otro sistema de copagos.",
+  "fichasCulturais": [
+    {
+      "sinal": "En la farmacia ves un mostrador separado, con una ventanilla pequeña y gente esperando en silencio, aparte de la caja general.",
+      "suaLeitura": "Es otra cola de la misma farmacia, para lo mismo.",
+      "oQueEAli": "Este mostrador es el del farmacéutico (pharmacist counter), distinto de la caja de artículos corrientes. Ahí se entregan los medicamentos con receta, no los de venta libre.",
+      "oQueVoceFaz": "Si buscas algo simple — dolor de cabeza, dolor de estómago, alergia leve — lo encuentras tú mismo en las estanterías o preguntas en la caja general, no en esa ventanilla.",
+      "oQueMelhora": "Resuelves lo simple en unos minutos, sin hacer cola para algo que no necesita receta.",
+      "ondeNaoVale": "No vale si el medicamento que buscas necesita receta en el Reino Unido, aunque sea de venta libre en España; ahí sí necesitas ese mostrador, y probablemente un médico.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b17-n05"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "numeros-urgencia-999-112-111",
+      "afirmacao": "For a real emergency, dial 999. The European 112 also works, on the same line. For something urgent but not life-threatening, call 111 (NHS, free, 24/7) — it is what keeps you out of A&E when you do not need it.",
+      "fonte": "NHS / GOV.UK",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "gb-b17-n07",
+        "gb-b17-n08"
+      ]
+    },
+    {
+      "id": "ehic-ceam-correcao",
+      "afirmacao": "The GHIC is the card for UK residents travelling to the EU. As a French tourist, you use your own French EHIC / carte européenne d'assurance maladie. With a valid EHIC, A&E treatment and a GP visit are free for everyone, regardless of nationality. Without cover, the NHS can charge 150% of the standard tariff. The EHIC does not replace travel insurance.",
+      "fonte": "GOV.UK — « Healthcare for EU and EFTA citizens visiting the UK »",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "gb-b17-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b17-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte diecisiete. Ritmo regular, sin prisa: ai nid SAM-zing for de pein. Cada palabra con su propio peso."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b17-n02",
+      "bloco": "cena",
+      "tom": "protege",
+      "pt": "Dolor de estómago desde anoche. No sabes si es la farmacia o el médico, y el reloj sigue corriendo."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b17-p01",
+      "promptPt": "Como en la parte anterior, pregunta dónde está algo que necesitas cerca del hotel. Habla ahora.",
+      "bloco": "callback",
+      "molde": "WHERE",
+      "audioKey": "gb-b17-t01",
+      "es": "Where's the ice machine?",
+      "tts": "Where's the ice machine?",
+      "pinyin": "OUè-euz dhi aïsse me-CHIINE",
+      "pt": "¿Dónde está la máquina de hielo?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b17-n03",
+      "bloco": "corpo",
+      "tom": "protege",
+      "pt": "Primer reflejo, casi siempre: la farmacia. Misma fórmula que el primer día, con el síntoma en vez del objeto."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b17-t02",
+      "es": "Do you have something for a stomachache?",
+      "tts": "Do you have something for a stomachache?",
+      "pinyin": "dou you hav SAM-thinng for e STO-mak-èïke",
+      "pt": "¿Tienen algo para el dolor de estómago?"
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "something for a stomachache",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b17-p02",
+      "promptPt": "Llegas a la farmacia. Pregunta si tienen algo para el dolor de estómago. Habla ahora.",
+      "audioKey": "gb-b17-t02",
+      "es": "Do you have something for a stomachache?",
+      "tts": "Do you have something for a stomachache?",
+      "pinyin": "dou you hav SAM-thinng for e STO-mak-èïke",
+      "pt": "¿Tienen algo para el dolor de estómago?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b17-r01",
+      "es": "This should help. Take it with food.",
+      "tts": "This should help. Take it with food.",
+      "pinyin": "dhiss choudde hèlpe. tèïk itte ouidh foudde",
+      "pt": "Esto debería ayudar. Tómelo con una comida."
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "something for a fever",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b17-p05",
+      "promptPt": "De vuelta al hotel, además del estómago, empieza la fiebre. Pregunta en la farmacia si tienen algo para eso también. Habla ahora.",
+      "audioKey": "gb-b17-t05",
+      "es": "Do you have something for a fever?",
+      "tts": "Do you have something for a fever?",
+      "pinyin": "dou you hav SAM-thinng for e FII-veu",
+      "pt": "¿Tienen algo para la fiebre?"
+    },
+    {
+      "consulta": [
+        "saude/guardia"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "WHERE",
+      "encaixe": "the nearest 24-hour chemist",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b17-p06",
+      "promptPt": "Ya es de noche y la farmacia del hotel está cerrada. Pregunta dónde está la farmacia de guardia más cercana. Habla ahora.",
+      "audioKey": "gb-b17-t06",
+      "es": "Where's the nearest 24-hour chemist?",
+      "tts": "Where's the nearest 24-hour chemist?",
+      "pinyin": "OUè-euz dhe NI-eu-rest tou-EUN-ti-fao-eu KE-mist",
+      "pt": "¿Dónde está la farmacia de guardia más cercana?"
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WENT-WRONG",
+      "encaixe": "my medicine isn't working",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b17-p07",
+      "promptPt": "Han pasado unas horas desde el medicamento y el dolor sigue ahí. Dile a alguien de la farmacia que no funciona. Habla ahora.",
+      "audioKey": "gb-b17-t07",
+      "es": "My medicine isn't working.",
+      "tts": "My medicine isn't working.",
+      "pinyin": "maï MÈ-di-sinne IZ-eunnte OUEUR-kinng",
+      "pt": "Mi medicamento no hace efecto."
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "CAN-I",
+      "encaixe": "see a doctor",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b17-p03",
+      "promptPt": "El medicamento no ha ayudado y el dolor sigue igual horas después. Pregunta si puedes ver a un médico. Habla ahora.",
+      "audioKey": "gb-b17-t03",
+      "es": "Can I see a doctor?",
+      "tts": "Can I see a doctor?",
+      "pinyin": "kann aï sii e DOK-teu",
+      "pt": "¿Puedo ver a un médico?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b17-n04",
+      "pt": "Dos caminos se separan aquí: tu farmacia, un GP — médico de cabecera — o urgencias, el A&E."
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "EXCUSE",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b17-p08",
+      "promptPt": "El farmacéutico está atendiendo a otra persona en la ventanilla, y tu caso ya no puede esperar. Llama su atención con la palabra de siempre. Habla ahora.",
+      "audioKey": "gb-b17-t08",
+      "es": "Excuse me.",
+      "tts": "Excuse me.",
+      "pinyin": "iks-KIOUZ mi",
+      "pt": "Disculpe."
+    },
+    {
+      "consulta": [
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "WHERE",
+      "encaixe": "the nearest GP surgery",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b17-p09",
+      "promptPt": "El farmacéutico te aconseja ver a un médico de cabecera en vez de esperar. Pregunta dónde está el centro médico más cercano. Habla ahora.",
+      "audioKey": "gb-b17-x1",
+      "es": "Where's the nearest GP surgery?",
+      "tts": "Where's the nearest GP surgery?",
+      "pinyin": "OUè-euz dhe NI-eu-rest djii-pii SEUR-djeu-ri",
+      "pt": "¿Dónde está el centro médico más cercano?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b17-n05",
+      "bloco": "capsula",
+      "tom": "protege",
+      "pt": "Para lo que no pone tu vida en peligro — tos fuerte, tobillo torcido — un GP o el 111 te orientan más rápido que el A&E."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b17-n06",
+      "tom": "ganha",
+      "pt": "Buena noticia, frente a Estados Unidos: aquí, el A&E y la consulta con un GP son GRATUITOS, para todo el mundo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b17-n06b",
+      "tom": "protege",
+      "pt": "Confusión habitual: el GHIC es la tarjeta del residente británico en la UE. Tú usas tu propia Tarjeta Sanitaria Europea española."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b17-n06c",
+      "tom": "protege",
+      "pt": "Con la Tarjeta Sanitaria Europea válida, el tratamiento necesario está cubierto. Sin cobertura, el NHS factura el 150% de la tarifa — y la TSE no sustituye al seguro de viaje."
+    },
+    {
+      "consulta": [
+        "saude/112"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WENT-WRONG",
+      "encaixe": "my passport",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b17-p04",
+      "promptPt": "En medio de todo esto, también te das cuenta de que no encuentras tu pasaporte. Avísalo con la fórmula de la habitación. Habla ahora.",
+      "audioKey": "gb-b17-t04",
+      "es": "I've lost my passport.",
+      "tts": "I've lost my passport.",
+      "pinyin": "aïve lost maï PASS-porte",
+      "pt": "He perdido mi pasaporte."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b17-n07",
+      "tom": "protege",
+      "pt": "Si es realmente grave — dolor en el pecho, dificultad para respirar — el número es el 999, en todas partes."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b17-n08",
+      "tom": "ganha",
+      "pt": "El 112 europeo también funciona, misma línea. Para lo urgente pero no vital, recuerda el 111, gratuito, día y noche."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b17-n09",
+      "tom": "ganha",
+      "pt": "Tres números, tres usos: 999 o 112 para la urgencia vital, 111 para lo que apremia sin peligro vital."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b17-n10",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No tienes que autodiagnosticarte. Empezar por la farmacia es válido; si no mejora, ver a un médico no es exagerar."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b17-n11",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "Parte diecisiete cerrada. Farmacia primero, 111 para lo urgente, 999 o 112 para lo grave — y la Tarjeta Sanitaria Europea, no el GHIC."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Farmacia, GP o urgencias: cómo decidir",
+    "secoes": [
+      {
+        "titulo": "La escala de decisión",
+        "corpo": "Farmacia para una molestia leve → 111 o un GP para algo que no puede esperar pero no pone la vida en peligro → A&E solo para lo realmente grave. Cada escalón lleva más tiempo que el anterior."
+      },
+      {
+        "titulo": "Gratuito para todo el mundo, un contraste real",
+        "corpo": "A diferencia del sistema americano, donde una visita a urgencias sin seguro puede costar miles de dólares, el A&E británico y la consulta con un GP son gratuitos para todo el mundo, residente o turista."
+      },
+      {
+        "titulo": "GHIC no es para ti",
+        "corpo": "El GHIC es la tarjeta del residente británico que viaja por la Unión Europea. Tú, como turista español, usas tu propia Tarjeta Sanitaria Europea (TSE). Cubre el tratamiento necesario; sin ella, el NHS puede facturar el 150% de la tarifa estándar. Nunca sustituye a un seguro de viaje."
+      },
+      {
+        "titulo": "999, 112, 111: tres números, tres usos",
+        "corpo": "999 es el número nacional de emergencias; el 112 europeo funciona en la misma línea. El 111 (NHS, gratuito, 24 horas) sirve para lo que apremia sin ser vital — es el número que evita el A&E cuando no lo necesitas."
+      }
+    ]
+  }
+}

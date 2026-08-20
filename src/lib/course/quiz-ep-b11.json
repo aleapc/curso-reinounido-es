@@ -1,0 +1,92 @@
+{
+  "id": "q-b11",
+  "nivel": "basico",
+  "titulo": "Quiz — Pedir en la barra del pub",
+  "subtitulo": "«Could I have ___?», el final de la noche, y por qué nadie viene a tu mesa",
+  "introAudioKey": "gb-b11-q-i",
+  "introPt": "La barra tiene tres filas de profundidad, y nadie vendrá nunca a tu mesa. Escucha cómo funciona la barra, desde la primera copa hasta la cuenta.",
+  "cenario": "En un pub, en la barra, al final de la noche.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b11-q01",
+      "voz": "target_en_gb_f",
+      "es": "Could I have a pint of lager?",
+      "tts": "Could I have a pint of lager?",
+      "pinyin": "koudd aï hav e païnnte ov LA-gueu",
+      "pt": "¿Una pinta de rubia, por favor?"
+    },
+    {
+      "audioKey": "gb-b11-q02",
+      "voz": "target_en_gb_m",
+      "es": "Anything else?",
+      "tts": "Anything else?",
+      "pinyin": "É-ni-thinng èlss",
+      "pt": "¿Algo más?"
+    },
+    {
+      "audioKey": "gb-b11-q03",
+      "voz": "target_en_gb_f",
+      "es": "Could I have the bill, please?",
+      "tts": "Could I have the bill, please?",
+      "pinyin": "koudd aï hav dhe bill, pliize",
+      "pt": "¿La cuenta, por favor?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Estás sentado en un pub tradicional. ¿Cómo consigues tu bebida?",
+      "opcoes": [
+        "Un camarero viene a tomarte nota",
+        "Vas tú mismo a pedirla en la barra",
+        "Usas una app obligatoria",
+        "Esperas a que te traigan la carta"
+      ],
+      "correta": 1,
+      "explica": "En el pub tradicional no hay servicio de mesa: se pide y se paga en la barra. Es el choque frontal con el bar español."
+    },
+    {
+      "pergunta": "¿Qué fórmula usas en la barra?",
+      "opcoes": [
+        "Can I get ___?",
+        "Could I have ___?",
+        "Give me ___",
+        "I need ___"
+      ],
+      "correta": 1,
+      "explica": "«Could I have» es neutro del pub al museo. «Can I get» también funciona pero marca acento americano."
+    },
+    {
+      "pergunta": "¿Cómo se llama la cuenta de un restaurante británico?",
+      "opcoes": [
+        "The check",
+        "The bill",
+        "The ticket",
+        "The total"
+      ],
+      "correta": 1,
+      "explica": "Siempre es «the bill». «The check» es americano y se detecta al instante como tal."
+    },
+    {
+      "pergunta": "En la barra del pub, ¿qué haces al pagar?",
+      "opcoes": [
+        "Dejas un 18-20% de propina",
+        "No dejas ninguna propina",
+        "Pides que añadan el servicio",
+        "Solo pagas en efectivo"
+      ],
+      "correta": 1,
+      "explica": "En la barra no se deja propina. El gesto equivalente es invitar a una copa al camarero: «and one for yourself»."
+    },
+    {
+      "pergunta": "El camarero grita «last orders». ¿Qué significa?",
+      "opcoes": [
+        "El pub acaba de abrir",
+        "Es la última comanda posible antes del cierre",
+        "Ya no queda cerveza",
+        "Hay que pagar ahora mismo"
+      ],
+      "correta": 1,
+      "explica": "«Last orders» precede al cierre en unos veinte minutos. Después viene «time», y el pub cierra."
+    }
+  ]
+}

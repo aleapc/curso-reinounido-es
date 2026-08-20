@@ -1,0 +1,92 @@
+{
+  "id": "q-i03",
+  "nivel": "intermediario",
+  "titulo": "Quiz — El plato que no ibas a pedir",
+  "subtitulo": "Elegir entre dos, no adivinar entre veinte",
+  "introAudioKey": "gb-i03-q-i",
+  "introPt": "Una pizarra de especialidades sin traducción. Escucha cómo el viajero le devuelve la elección al camarero.",
+  "cenario": "Un pub-restaurante en el Reino Unido, con una pizarra de especialidades del día.",
+  "dialogo": [
+    {
+      "audioKey": "gb-i03-q01",
+      "voz": "target_en_gb_m",
+      "es": "Today we've got the fish pie or the pie of the day.",
+      "tts": "Today we've got the fish pie or the pie of the day.",
+      "pinyin": "tou-DÈÏ oui gott dhe fich paï or dhe paï off dhe dèï",
+      "pt": "Hoy tenemos fish pie o la tarta salada del día."
+    },
+    {
+      "audioKey": "gb-i03-q02",
+      "voz": "target_en_gb_f",
+      "es": "Which do you recommend: the fish pie or the pie of the day?",
+      "tts": "Which do you recommend: the fish pie or the pie of the day?",
+      "pinyin": "OUITCH dou you re-co-MÈND: dhe fich paï or dhe paï off dhe dèï",
+      "pt": "¿Qué recomienda: el fish pie o la tarta salada del día?"
+    },
+    {
+      "audioKey": "gb-i03-q03",
+      "voz": "target_en_gb_m",
+      "es": "Honestly, the pie of the day. It's the one everyone's having tonight.",
+      "tts": "Honestly, the pie of the day. It's the one everyone's having tonight.",
+      "pinyin": "ONN-est-li, dhe paï off dhe dèï. itts dhe ouann ÈV-ri-ouann HAA-vigne tou-NAÏTT",
+      "pt": "Sinceramente, la tarta salada. Es la que todo el mundo pide esta noche."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué se mantiene fijo en la fórmula ELECCIÓN?",
+      "opcoes": [
+        "Las dos opciones exactas",
+        "«Which do you recommend»",
+        "El nombre del plato",
+        "El precio"
+      ],
+      "correta": 1,
+      "explica": "«Which do you recommend» abre la fórmula; lo que cambia son las dos cosas entre las que eliges."
+    },
+    {
+      "pergunta": "¿Por qué preguntar qué recomiendan no te delata como turista?",
+      "opcoes": [
+        "Porque siempre se pide lo mismo",
+        "Porque la pizarra de especialidades cambia cada día, ni los habituales la conocen de antemano",
+        "Porque nadie escucha",
+        "Porque es una pregunta rara"
+      ],
+      "correta": 1,
+      "explica": "Las especialidades dependen de lo que tenga fresco la cocina ese día."
+    },
+    {
+      "pergunta": "En una tienda, ves dos jerséis del mismo modelo en colores distintos. ¿Qué dices?",
+      "opcoes": [
+        "Do you have a soup of the day?",
+        "Which do you recommend: the blue one or the black one?",
+        "Where's the specials board?",
+        "What time do you close?"
+      ],
+      "correta": 1,
+      "explica": "La misma fórmula ELECCIÓN funciona fuera del restaurante, con cualquier par de opciones."
+    },
+    {
+      "pergunta": "Has elegido la tarta salada del día pero no quieres cebolla. ¿Qué dices?",
+      "opcoes": [
+        "No onions on that, please",
+        "Where's the onions?",
+        "How much are onions?",
+        "I've lost my onions"
+      ],
+      "correta": 0,
+      "explica": "Es la fórmula WITHOUT de B12, reutilizada con un nuevo encaje."
+    },
+    {
+      "pergunta": "¿Qué NO cambia entre la fórmula de esta parte y el resto del curso?",
+      "opcoes": [
+        "Do you have y Where's siguen funcionando igual",
+        "Hay que aprender una nueva gramática",
+        "ELECCIÓN sustituye a Do you have",
+        "Ya no se usa please"
+      ],
+      "correta": 0,
+      "explica": "ELECCIÓN se combina con las fórmulas ya conocidas, no las sustituye."
+    }
+  ]
+}

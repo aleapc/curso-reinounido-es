@@ -1,0 +1,268 @@
+{
+  "id": "i07",
+  "slot": "I07",
+  "nivel": "intermediario",
+  "numero": 7,
+  "parte": "I07",
+  "titulo": "I really like this — y el cocinero lo sabe",
+  "subtitulo": "Un cumplido concreto que llega de verdad a la cocina, y la línea tranquila y precisa que hace cambiar un plato frío",
+  "cena": "El plato está vacío, el cocinero se ve por la ventanilla de la cocina, y una sola frase honesta está a punto de cambiar el resto de la comida.",
+  "decisao": "decir en voz alta lo que va bien y lo que no, en vez de guardarte las dos cosas — el cumplido concreto y la queja tranquila deciden si la comida mejora o se queda como llegó",
+  "emJogo": "dinheiro",
+  "moldura": "ganha",
+  "moldes": [
+    "APRECIACAO"
+  ],
+  "clique": {
+    "contagem": [
+      "la ventanilla de la cocina",
+      "la barra del hotel",
+      "el mercado artesanal"
+    ],
+    "desconto": "Nadie te ha dado una frase para el pie, otra para el cóctel y otra para el jersey. Has montado las tres con la misma fórmula, cambiando solo la cosa que te ha gustado."
+  },
+  "frasePiso": "Vas a decir en voz alta, con una sola fórmula, lo que de verdad te ha gustado — y vas a resolver un plato mal servido sin que el tono suba ni una vez.",
+  "fichasCulturais": [
+    {
+      "sinal": "El camarero pregunta «is everything alright with the food?» y se queda de pie, esperando algo más que un «sí» automático.",
+      "suaLeitura": "Ya he respondido lo que tocaba responder, no hace falta decir más.",
+      "oQueEAli": "En el Reino Unido, preguntar cómo va la comida en plena cena es normal, y un cumplido preciso — nombrando el plato — puede de verdad llegar hasta la cocina, algo que se agradece sinceramente, no solo educación vacía.",
+      "oQueVoceFaz": "Nombra el plato y di que de verdad te ha gustado: «I really like this, it's brilliant.»",
+      "oQueMelhora": "El cumplido concreto llega hasta quien cocinó, y a veces te consigue una atención más cálida el resto de la noche.",
+      "ondeNaoVale": "No vale en una gran cadena de comida rápida, donde el camarero no tiene forma de transmitir el mensaje a nadie en concreto.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-i07-n02"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i07-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "El puño en la palabra que lleva el cumplido: I really LIKE, nunca i really like."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i07-p01",
+      "promptPt": "Ayer contaste que habías perdido el móvil y luego lo recuperaste. Hoy, alguien te pregunta cómo va el viaje en general. Responde que te ha encantado. Habla ahora.",
+      "bloco": "callback",
+      "audioKey": "gb-i07-t01",
+      "es": "I loved it.",
+      "tts": "I loved it.",
+      "pinyin": "aï lavd itt",
+      "pt": "Me encantó."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i07-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "El plato está vacío, el cocinero se ve por la ventanilla de la cocina, y una sola frase está a punto de cambiar el resto de la noche."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i07-r01",
+      "es": "Is everything alright with the food?",
+      "tts": "Is everything alright with the food?",
+      "pinyin": "iz ÈV-ri-thigne OL-raïtt ouizz dhe foudd",
+      "pt": "¿Todo bien con la comida?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i07-n03",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Aquí está la fórmula: I really like the, más la cosa. Nombrar el plato hace que el cumplido llegue más lejos."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "APRECIACAO",
+      "encaixe": "the pie",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i07-p02",
+      "promptPt": "La comida estaba realmente buena. Dilo, nombrando el plato. Habla ahora.",
+      "audioKey": "gb-i07-t02",
+      "es": "I really like the pie, it's brilliant.",
+      "tts": "I really like the pie, it's brilliant.",
+      "pinyin": "aï RI-li laïk dhe paï, itts BRI-lyènt",
+      "pt": "Me gusta mucho esta tarta salada, está excelente."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i07-r02",
+      "es": "Thank you, I'll let the kitchen know.",
+      "tts": "Thank you, I'll let the kitchen know.",
+      "pinyin": "thennk you, aïll lètt dhe KI-tchenn nôou",
+      "pt": "Gracias, se lo diré a la cocina."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i07-p03",
+      "promptPt": "Al día siguiente, en la barra del hotel, el cóctel te ha sorprendido. Usa la misma fórmula. Habla ahora.",
+      "molde": "APRECIACAO",
+      "encaixe": "this cocktail",
+      "audioKey": "gb-i07-t03",
+      "es": "I really like this cocktail.",
+      "tts": "I really like this cocktail.",
+      "pinyin": "aï RI-li laïk dhiss kok-TÈÏL",
+      "pt": "Me gusta mucho este cóctel."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i07-p04",
+      "promptPt": "En el mercado artesanal, un jersey te ha enamorado. Díselo directamente a quien lo vende. Habla ahora.",
+      "molde": "APRECIACAO",
+      "encaixe": "this jumper",
+      "audioKey": "gb-i07-t04",
+      "es": "I really like this jumper.",
+      "tts": "I really like this jumper.",
+      "pinyin": "aï RI-li laïk dhiss DJAM-peur",
+      "pt": "Me gusta mucho este jersey."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i07-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Ahora el otro gesto: algo no va bien. Nombra el objeto y el problema, con calma — es la misma fórmula de B16."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i07-p05",
+      "promptPt": "La sopa ha llegado fría. Nómbralo, con calma, sin discurso. Habla ahora.",
+      "molde": "WENT-WRONG",
+      "encaixe": "the soup isn't",
+      "audioKey": "gb-i07-t05",
+      "es": "Excuse me, the soup isn't hot.",
+      "tts": "Excuse me, the soup isn't hot.",
+      "pinyin": "eks-KIOUZ mi, dhe soup IZ-eunt hott",
+      "pt": "Disculpe, la sopa no está caliente."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i07-r03",
+      "es": "I'm so sorry, I'll bring you a new one right away.",
+      "tts": "I'm so sorry, I'll bring you a new one right away.",
+      "pinyin": "aïm sô SOR-ri, aïll bring you e niou ouann raïtt e-OUÈÏ",
+      "pt": "Mis disculpas, le traigo otra enseguida."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i07-p06",
+      "promptPt": "Da las gracias por la rapidez al resolverlo. Habla ahora.",
+      "audioKey": "gb-i07-t06",
+      "es": "Thanks for sorting that so fast.",
+      "tts": "Thanks for sorting that so fast.",
+      "pinyin": "thennks for SOR-tigne dhatt sô faast",
+      "pt": "Gracias por resolverlo tan rápido."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i07-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Excuse me abre el comentario sin acusar a nadie — nombrar el objeto y el problema exacto es lo que de verdad lo resuelve rápido."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i07-p07",
+      "promptPt": "La nueva sopa llega caliente. Cierra el momento con una reacción sincera y corta. Habla ahora.",
+      "audioKey": "gb-i07-t07",
+      "es": "Now it's perfect.",
+      "tts": "Now it's perfect.",
+      "pinyin": "naou itts PEUR-fèktt",
+      "pt": "Ahora sí, está perfecta."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i07-p08",
+      "promptPt": "Pide la cuenta antes de irte. Habla ahora.",
+      "audioKey": "gb-i07-t08",
+      "es": "Could I have the bill, please?",
+      "tts": "Could I have the bill, please?",
+      "pinyin": "coudd aï hav dhe bill, pliiz",
+      "pt": "¿Podría tener la cuenta, por favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i07-n06",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas un largo discurso antes de decir que algo no va bien. Excuse me más el problema exacto lo resuelve rápido."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i07-n07",
+      "bloco": "clique",
+      "tom": "ganha",
+      "pt": "Has elogiado la tarta salada, el cóctel y el jersey. Nadie te ha dado esas tres frases: las has montado con una sola fórmula."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "APRECIACAO",
+      "audioKey": "gb-i07-s01",
+      "es": "I really like the pie, it's brilliant. Excuse me, the soup isn't hot.",
+      "tts": "I really like the pie, it's brilliant. Excuse me, the soup isn't hot.",
+      "pinyin": "aï RI-li laïk dhe paï, itts BRI-lyènt. eks-KIOUZ mi, dhe soup IZ-eunt hott",
+      "pt": "Repite el cumplido y el comentario, uno tras otro."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i07-n08",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I07 cerrada. I really like nombra lo que va bien, excuse me más el problema exacto resuelve lo que no va bien — preciso, no ruidoso."
+    }
+  ],
+  "permissao": "No necesitas una larga disculpa antes de decir que algo no va bien. Excuse me más el problema exacto no es una confrontación — es la forma más rápida y tranquila de que lo arreglen.",
+  "permissaoAudioKey": "gb-i07-n06",
+  "espelho": "Devolver con calma un plato en un restaurante de tu propia ciudad — una palabra tranquila al camarero, no una escena — es exactamente el mismo reflejo que enseña este episodio, solo que con otras palabras.",
+  "aprofundar": {
+    "titulo": "Precisión, no volumen",
+    "secoes": [
+      {
+        "titulo": "Nombrar la cosa vale más que «delicious»",
+        "corpo": "It's good funciona, pero I really like the pie muestra que de verdad te has fijado en lo que comiste — y en una cocina pequeña, ese cumplido a veces llega literalmente hasta quien cocinó."
+      },
+      {
+        "titulo": "Excuse me abre sin acusar",
+        "corpo": "Decir excuse me y seguir directamente con el problema exacto — the soup isn't hot — mantiene la conversación centrada en resolver, no en buscar un culpable."
+      },
+      {
+        "titulo": "Agradecer cierra el ciclo",
+        "corpo": "Un thanks corto una vez resuelto el problema mantiene todo el intercambio cálido — el cumplido y la queja no son opuestos, son las dos caras de la misma honestidad."
+      }
+    ]
+  }
+}

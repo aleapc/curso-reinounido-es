@@ -1,0 +1,275 @@
+{
+  "id": "a02",
+  "slot": "A02",
+  "nivel": "avancado",
+  "numero": 30,
+  "parte": "A02",
+  "titulo": "De qué se ríen",
+  "subtitulo": "Un jardín, una barbacoa fallida, y una frase dicha muy en serio que en realidad era una broma",
+  "cena": "Alguien acaba de decir, con cara totalmente seria, que su pollo está «perfect» mientras se está carbonizando en la parrilla, y toda la mesa se ríe menos tú.",
+  "moldura": "ganha",
+  "frasePiso": "No necesitas cazar la broma al vuelo. Reír en el momento justo o preguntar qué se ha dicho ya es ser buena compañía.",
+  "fatosDatados": [
+    {
+      "id": "gb-humor-litote",
+      "afirmacao": "British everyday humour leans heavily on dry understatement and deadpan delivery — saying far less than what is meant, or the opposite of it, with a flat or serious tone. It is widely reported as the joke form most often missed by non-native English speakers, who take the literal words at face value.",
+      "fonte": "Consenso de fontes culturais e linguísticas sobre o humor britânico (BBC Culture; British Council)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a02-n03"
+      ]
+    },
+    {
+      "id": "gb-temas-evitar",
+      "afirmacao": "British small-talk etiquette generally treats politics, religion and personal salary as topics to avoid with people you have just met, unless the other person opens the subject first — the same caution that applies almost everywhere in Europe.",
+      "fonte": "Consenso de fontes de etiqueta social britânica",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "gb-a02-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a02-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Hoy va de reír en el momento justo. Uno de los movimientos es puramente receptivo: lo disfrutas, no lo produces."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a02-n02",
+      "bloco": "callback",
+      "pt": "Antes de eso, repaso de ayer. Te preguntan si quieres tomar un café. Responde con la forma relajada."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a02-p01",
+      "promptPt": "Estás delante del puesto de café del mercado y quieres probar la especialidad del día. Dilo en la forma corta, como ayer. Habla ahora.",
+      "bloco": "callback",
+      "audioKey": "gb-a02-t01",
+      "es": "I'm gonna try the flat white.",
+      "tts": "I'm gonna try the flat white.",
+      "pinyin": "aïm GO-na traï the FLAT OUAÏTE",
+      "pt": "Voy a probar el flat white."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a02-n03",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Barbacoa en un jardín. Alguien carboniza el pollo y dice, muy en serio, que está perfecto. La mesa se ríe."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a02-o01",
+      "receptivo": true,
+      "es": "Yeah, exactly how I planned it. Beautifully charred.",
+      "tts": "Yeah, exactly how I planned it. Beautifully charred.",
+      "pinyin": "iea, èk-ZAK-tli aou aï PLA-nedd itte. BIOU-ti-fou-li tcharde",
+      "pt": "👂 Nada que descifrar: dice lo contrario de lo que piensa, con la cara impasible. Ese desfase entre el tono y la frase es la broma."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a02-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Es litote british: decir mucho menos de lo que se piensa, con tono neutro. Es la broma más habitual aquí, y la que más se escapa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a02-n05",
+      "pt": "No hace falta pillarla al vuelo. La señal honesta es reír un poco tarde, o preguntar."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a02-p02",
+      "promptPt": "Todo el mundo se ha reído y no has entendido por qué. Dilo con ligereza. Habla ahora.",
+      "audioKey": "gb-a02-t02",
+      "es": "Wait, was that a joke?",
+      "tts": "Wait, was that a joke?",
+      "pinyin": "ouèïte, ouoz that e djôke",
+      "pt": "Espera, ¿eso era broma?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a02-o02",
+      "es": "Yeah, sorry, it's a bit more than beautifully charred.",
+      "tts": "Yeah, sorry, it's a bit more than beautifully charred.",
+      "pinyin": "iea, SO-ri, its e bitte mor thanne BIOU-ti-fou-li tcharde",
+      "pt": "Sí, perdona, está un poco más que «bien tostadito»."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a02-n06",
+      "pt": "Preguntar te ha metido dentro de la broma, no la ha estropeado. Ahora, la otra mitad: la que puedes producir tú mismo."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a02-p03",
+      "promptPt": "Acabas de derramarte la cerveza en la camisa, delante de todos. Ríete de ti mismo antes de que lo noten. Habla ahora.",
+      "audioKey": "gb-a02-t03",
+      "es": "Classic me.",
+      "tts": "Classic me.",
+      "pinyin": "KLA-sique mi",
+      "pt": "Muy típico de mí."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a02-o03",
+      "es": "Ha, at least you're consistent.",
+      "tts": "Ha, at least you're consistent.",
+      "pinyin": "ha, atte liste ior konn-SIS-tente",
+      "pt": "Ja, al menos eres constante."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a02-n07",
+      "bloco": "capsula",
+      "tom": "protege",
+      "pt": "Reírse de uno mismo siempre funciona. La política, la religión o el sueldo de alguien, con gente que acabas de conocer, no."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a02-p04",
+      "promptPt": "Dos personas empiezan a discutir de política en la mesa. Sal del tema con ligereza, sin dar tu opinión. Habla ahora.",
+      "audioKey": "gb-a02-t04",
+      "es": "I'll leave you two to it.",
+      "tts": "I'll leave you two to it.",
+      "pinyin": "aïl liive you tou tou itte",
+      "pt": "Os dejo que lo arregléis vosotros dos."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a02-p05",
+      "promptPt": "Alguien ha hecho una broma muy buena y la has pillado. Dilo. Habla ahora.",
+      "audioKey": "gb-a02-t05",
+      "es": "Okay, that one got me.",
+      "tts": "Okay, that one got me.",
+      "pinyin": "ô-KÈÏ, that ouonne gott mi",
+      "pt": "Bueno, esa sí que me ha pillado."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a02-n08",
+      "tom": "ganha",
+      "pt": "Otra cosa aquí: «taking the piss», burlarse cariñosamente de un amigo en su cara, es señal de afecto, no de agresividad."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a02-o04",
+      "es": "Oh, don't mind him, he's just taking the piss.",
+      "tts": "Oh, don't mind him, he's just taking the piss.",
+      "pinyin": "ô, dônte maïnde imm, iiz djeust TÈÏ-kigne the piss",
+      "pt": "👂 «No le hagas caso, solo se está riendo de él con cariño, nada más.» No se produce, se escucha y se recibe como un cumplido disfrazado."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a02-p06",
+      "promptPt": "Quieres poder reutilizar la expresión que acaban de usar. Pregunta qué significa. Habla ahora.",
+      "audioKey": "gb-a02-t06",
+      "es": "What does that mean, exactly?",
+      "tts": "What does that mean, exactly?",
+      "pinyin": "ouotte doz thate miine, èk-ZAK-tli",
+      "pt": "¿Qué significa eso, exactamente?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a02-s01",
+      "es": "Wait, was that a joke? Classic me. I'll leave you two to it.",
+      "tts": "Wait, was that a joke? Classic me. I'll leave you two to it.",
+      "pinyin": "ouèïte, ouoz that e djôke. KLA-sique mi. aïl liive you tou tou itte",
+      "pt": "Repite los tres movimientos seguros: preguntar, reírte de ti mismo, salir del tema con ligereza."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a02-n09",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A02 cerrada. La litote se reconoce, no se traduce. Reírse de uno mismo siempre funciona; de política, mejor no."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "La litote no es una mentira, es un tono",
+    "secoes": [
+      {
+        "titulo": "Decir mucho menos, con tono neutro",
+        "corpo": "El humor británico cotidiano se apoya en la litote (understatement): decir mucho menos de lo que se piensa, con un tono plano o incluso serio. Es exactamente el tipo de broma que se le escapa a un hablante no nativo, porque las palabras dicen una cosa y el tono dice otra."
+      },
+      {
+        "titulo": "La broma sobre uno mismo siempre cae bien",
+        "corpo": "Reírse del propio acento, del propio error o de la propia torpeza es el registro cómico más seguro que existe: no exige ningún contexto compartido y nunca ofende a nadie más que a ti mismo."
+      },
+      {
+        "titulo": "«Taking the piss»: la burla que es cariño",
+        "corpo": "Entre amigos británicos, burlarse cariñosamente de alguien en su cara — su equipo de fútbol, su coche, su acento — es una muestra de cercanía, no un ataque. Lo reconoces y lo aceptas sonriendo; no hace falta que lo produzcas tú mismo pronto."
+      },
+      {
+        "titulo": "Tres temas que se evitan con desconocidos",
+        "corpo": "Política, religión y cuánto gana alguien. No es que estén prohibidos para siempre — es que no se abren con gente que acabas de conocer, salvo que ellos mismos los abran primero."
+      }
+    ]
+  },
+  "permissao": "Tienes derecho a no pillar la broma. Preguntar «¿eso era broma?» no mata el ambiente — casi siempre lo prolonga, porque entonces alguien tiene que explicarla con torpeza, y eso también hace gracia.",
+  "permissaoAudioKey": "gb-a02-n05",
+  "espelho": "Todo idioma tiene un registro que solo maneja bien la gente de allí — la broma que hacen tus propios amigos sobre tu ciudad y que un visitante nunca debería intentar. El humor británico no es especialmente cerrado; esta vez eres tú quien escucha, un lugar que tú mismo has ofrecido a otros toda la vida.",
+  "fichasCulturais": [
+    {
+      "sinal": "Alguien dice, con cara totalmente seria, que algo ha salido «perfecto» justo cuando visiblemente ha salido mal.",
+      "suaLeitura": "Habla en serio; no entiendo por qué nadie lo corrige.",
+      "oQueEAli": "Es litote: el tono neutro y la seriedad forman parte de la broma, no es un despiste. Decirlo en serio es precisamente lo que la hace graciosa.",
+      "oQueVoceFaz": "Sonríe, o ríe un poco tarde, o pregunta directamente si era broma — las dos respuestas se aceptan.",
+      "oQueMelhora": "Te quedas dentro de la broma en lugar de responder algo literal que corta la conversación en seco.",
+      "ondeNaoVale": "No cuando la persona está visiblemente molesta o el tono es cortante — ahí no es litote, es una queja real, y la señal es que nadie más se ríe.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a02-n04"
+      ]
+    },
+    {
+      "sinal": "Un desconocido en la fiesta menciona la política de pasada, y sientes que deberías dar tu opinión para parecer implicado.",
+      "suaLeitura": "Quedarme callado da la impresión de que no me interesa la conversación.",
+      "oQueEAli": "Con gente que acabas de conocer, política, religión y sueldo suelen quedar fuera de la conversación ligera por convención social, no porque sean temas prohibidos para siempre.",
+      "oQueVoceFaz": "Sal del tema con una frase corta y neutra, y vuelve a algo más ligero.",
+      "oQueMelhora": "Sigues cayendo bien a todos en la mesa, piense cada uno lo que piense por su lado.",
+      "ondeNaoVale": "No si la persona te pregunta directamente tu opinión, con interés sincero — ahí quedarte completamente callado sí puede parecer evasivo.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a02-n07"
+      ]
+    }
+  ]
+}

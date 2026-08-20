@@ -1,0 +1,332 @@
+{
+  "id": "b14",
+  "slot": "B14",
+  "nivel": "basico",
+  "numero": 14,
+  "parte": "14A",
+  "titulo": "La cuenta no tiene sorpresas escondidas, salvo una",
+  "subtitulo": "El precio que ves ya es el precio que pagas — salvo la línea de servicio, que se puede pedir quitar",
+  "cena": "La cuenta llega a 57,50 libras cuando tu cálculo mental decía 50, y el camarero se queda de pie esperando tu reacción.",
+  "moldura": "ganha",
+  "frasePiso": "Vas a leer una cuenta británica y saber exactamente por qué ha cambiado el número, sin sentir que te cobran más de lo previsto.",
+  "permissao": "No necesitas calcular el porcentaje exacto en la mesa. Saber que existe la línea de servicio y que se puede pedir quitar ya es suficiente; nadie espera un cálculo mental perfecto.",
+  "permissaoAudioKey": "gb-b14-n09",
+  "espelho": "En España el IVA ya viene incluido en el precio de la carta, pero el servicio no siempre; aquí es parecido — el precio incluye ya el impuesto, pero no el servicio, que aparece aparte en la cuenta y hay que saber identificarlo.",
+  "fichasCulturais": [
+    {
+      "sinal": "La cuenta muestra una línea «Service charge (12.5%)» ya añadida al total, antes incluso de que hayas pensado en una propina.",
+      "suaLeitura": "Es un extra que me imponen sin preguntar, casi una trampa.",
+      "oQueEAli": "En muchos restaurantes británicos, un service charge discrecional de alrededor del 12,5% se añade automáticamente a la cuenta — es una práctica del sector, no una ley, y suele variar entre el 10 y el 15%.",
+      "oQueVoceFaz": "Lees la cuenta entera antes de añadir nada más. Si el servicio te parece injustificado, puedes pedir que lo quiten, sin tener que justificarte.",
+      "oQueMelhora": "Pagas exactamente lo que debes, sin añadir nunca una propina encima de un servicio ya incluido, y mantienes el control si el servicio ha sido realmente malo.",
+      "ondeNaoVale": "No vale en la barra del pub, donde nunca se paga servicio ni propina — ver B11.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b14-n05"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "service-charge-discricionario",
+      "afirmacao": "In most restaurants, a discretionary service charge of around 12.5% is added to the bill. You can ask for it to be removed, without giving a reason — it typically ranges from 10 to 15%, with 12.5% most common in London.",
+      "valor": "~12,5%",
+      "fonte": "Praxe du secteur, largement documentée",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "CONSENSO",
+      "risco": "alto",
+      "audioKeys": [
+        "gb-b14-n05",
+        "gb-b14-n06"
+      ]
+    },
+    {
+      "id": "vat-deja-inclus",
+      "afirmacao": "The price on the menu already includes VAT. What is written is what you pay — unlike the American system, where sales tax is added at the till.",
+      "fonte": "Hecho fiscal básico (IVA/VAT británico incluido en el precio mostrado al consumidor)",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-b14-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b14-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte catorce. Ritmo regular para los números: FIF-ty-SÉ-venn, FIF-ty-SIX. Cada sílaba con el mismo peso."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b14-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "La cuenta llega a cincuenta y siete libras cincuenta cuando contabas con cincuenta. El camarero se queda de pie, esperando."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b14-p01",
+      "promptPt": "Antes de que llegue el plato, avisa de tu alergia una vez más, como en la parte anterior. Habla ahora.",
+      "bloco": "callback",
+      "molde": "WITHOUT",
+      "audioKey": "gb-b14-t01",
+      "es": "No onions, please.",
+      "tts": "No onions, please.",
+      "pinyin": "nô O-nionns, pliize",
+      "pt": "Sin cebolla, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b14-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Buena noticia: el precio de la carta ya incluye el impuesto. Lo que está escrito es lo que pagas — como el IVA incluido."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b14-t02",
+      "es": "That price already includes everything.",
+      "tts": "That price already includes everything.",
+      "pinyin": "dhat praïsse ol-RE-di inn-KLOUDZ È-vri-thinng",
+      "pt": "Este precio ya lo incluye todo."
+    },
+    {
+      "consulta": [
+        "pagar/dividir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "split the bill",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b14-p02",
+      "promptPt": "Sois cuatro y cada uno quiere pagar su parte. Pregúntale al camarero si podéis dividir la cuenta. Habla ahora.",
+      "audioKey": "gb-b14-t03",
+      "es": "Can I split the bill?",
+      "tts": "Can I split the bill?",
+      "pinyin": "kann aï split dhe bill",
+      "pt": "¿Puedo dividir la cuenta?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b14-r01",
+      "es": "Sure, four ways?",
+      "tts": "Sure, four ways?",
+      "pinyin": "chouEU, for OUèïz",
+      "pt": "Claro, ¿entre cuatro?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b14-n04",
+      "pt": "Mejor pedirlo antes de que imprimen la cuenta. Una vez impresa en un solo ticket, dividirla lleva más tiempo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b14-n05",
+      "bloco": "capsula",
+      "tom": "protege",
+      "pt": "Aquí está la sorpresa real: un service charge discrecional de alrededor de doce coma cinco por ciento suele añadirse al final de la cuenta."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b14-n06",
+      "tom": "ganha",
+      "pt": "Discrecional significa que se puede pedir quitar, sin justificarse. Es una práctica del sector, nunca una ley."
+    },
+    {
+      "consulta": [
+        "pagar/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "GET",
+      "encaixe": "the bill without the service charge",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b14-p03",
+      "promptPt": "El servicio ha sido realmente malo esta noche, y no quieres pagar el doce coma cinco por ciento. Pide la cuenta sin el servicio. Habla ahora.",
+      "audioKey": "gb-b14-t04",
+      "es": "Could I have the bill without the service charge, please?",
+      "tts": "Could I have the bill without the service charge, please?",
+      "pinyin": "koudd aï hav dhe bill ouidh-AOUTe dhe SEUR-viss tcharje, pliize",
+      "pt": "¿Me puede dar la cuenta sin el servicio, por favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b14-n07",
+      "pt": "No es una fórmula nueva: es «Could I have» más «without», las dos que ya conoces, pegadas juntas."
+    },
+    {
+      "consulta": [
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "see that again",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b14-p04",
+      "promptPt": "No estás seguro de si el servicio ya está incluido. Pide volver a ver la cuenta con calma. Habla ahora.",
+      "audioKey": "gb-b14-t05",
+      "es": "Can I see that again?",
+      "tts": "Can I see that again?",
+      "pinyin": "kann aï sii dhat e-GUÈNNe",
+      "pt": "¿Me la puede volver a enseñar?"
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "CAN-I",
+      "encaixe": "pay by card",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b14-p05",
+      "promptPt": "Solo llevas euros encima. Pregunta si puedes pagar con tarjeta. Habla ahora.",
+      "audioKey": "gb-b14-t06",
+      "es": "Can I pay by card?",
+      "tts": "Can I pay by card?",
+      "pinyin": "kann aï pèï baï kard",
+      "pt": "¿Puedo pagar con tarjeta?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b14-r02",
+      "es": "Of course — we're card only, actually.",
+      "tts": "Of course — we're card only, actually.",
+      "pinyin": "ov korse — ouIeu kard ONNli, AK-tchou-eu-li",
+      "pt": "Claro — de hecho, solo aceptamos tarjeta."
+    },
+    {
+      "consulta": [
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "GET",
+      "encaixe": "a receipt",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b14-p06",
+      "promptPt": "Acabas de pagar, y quieres guardar constancia para tu presupuesto de viaje. Pide el recibo antes de levantarte. Habla ahora.",
+      "audioKey": "gb-b14-t07",
+      "es": "Could I have a receipt?",
+      "tts": "Could I have a receipt?",
+      "pinyin": "koudd aï hav e ri-SIITe",
+      "pt": "¿Puedo tener un recibo?"
+    },
+    {
+      "consulta": [
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "HAVE",
+      "encaixe": "a pen",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b14-p07",
+      "promptPt": "Vas a firmar el doble papel del recibo y no tienes con qué escribir. Pregunta si tienen uno a mano. Habla ahora.",
+      "audioKey": "gb-b14-x1",
+      "es": "Do you have a pen?",
+      "tts": "Do you have a pen?",
+      "pinyin": "dou you hav e pènne",
+      "pt": "¿Tiene un bolígrafo?"
+    },
+    {
+      "consulta": [
+        "mesa/conta"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "EXCUSE",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b14-p08",
+      "promptPt": "El camarero ya se vuelve hacia otra mesa, datáfono en mano, antes de que termines de leer la cuenta. Llámalo. Habla ahora.",
+      "audioKey": "gb-b14-x2",
+      "es": "Excuse me.",
+      "tts": "Excuse me.",
+      "pinyin": "iks-KIOUZ mi",
+      "pt": "Disculpe."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "CAN-I",
+      "encaixe": "pay in cash instead",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b14-p09",
+      "promptPt": "El datáfono no lee tu tarjeta después de dos intentos. Pregunta si puedes pagar en efectivo en su lugar. Habla ahora.",
+      "audioKey": "gb-b14-x3",
+      "es": "Can I pay in cash instead?",
+      "tts": "Can I pay in cash instead?",
+      "pinyin": "kann aï pèï inne kach inn-STÈDE",
+      "pt": "¿Puedo pagar en efectivo en su lugar?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b14-n08",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Y si pides en la barra del pub — no en la mesa — recuerda B11: ahí no se deja ningún servicio, ni propina."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b14-n09",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No hace falta calcular el porcentaje exacto en la mesa. Saber que la línea existe y que se puede quitar ya basta."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b14-n10",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "Parte catorce cerrada. El precio ya incluye el impuesto, pero no siempre el servicio — y eso sí lo puedes quitar."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "El único número que no está en el precio",
+    "secoes": [
+      {
+        "titulo": "El precio que ves es el precio que pagas",
+        "corpo": "A diferencia del sales tax americano, el IVA británico (VAT) siempre está incluido en el precio que ves — tanto en el restaurante como en la tienda. Ningún cálculo que hacer en caja."
+      },
+      {
+        "titulo": "Service charge, no una ley",
+        "corpo": "El service charge del 10 al 15% (12,5% típico en Londres) es una práctica del sector, nunca una obligación legal. Se puede pedir quitar sin justificarse — no está prohibido, ni mal visto."
+      },
+      {
+        "titulo": "El contraste con la propina española",
+        "corpo": "En España la propina es opcional y no suele venir incluida en la cuenta. Aquí es al revés: el servicio aparece añadido, y el trabajo del viajero español no es añadir nada más — es saber restarlo si lo prefiere."
+      },
+      {
+        "titulo": "En la barra del pub, ningún servicio",
+        "corpo": "Esta regla solo se aplica al servicio de mesa. En la barra de un pub nunca se deja propina; el gesto equivalente, visto en B11, es invitar a una copa al camarero."
+      }
+    ]
+  }
+}

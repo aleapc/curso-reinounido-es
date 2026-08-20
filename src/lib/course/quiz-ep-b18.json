@@ -1,0 +1,81 @@
+{
+  "id": "q-b18",
+  "nivel": "basico",
+  "titulo": "Quiz — La maleta está lista, solo falta la hora",
+  "subtitulo": "«What time ___?», y una despedida breve que no es fría",
+  "introAudioKey": "gb-b18-q-i",
+  "introPt": "La maleta está cerrada, el avión sale esta tarde. Encuentra la fórmula que resuelve todos los horarios del último día, y cómo despedirte.",
+  "cenario": "En la recepción del hotel, último día de la estancia.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b18-q01",
+      "voz": "target_en_gb_f",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "ouate taïme iz tchèk-aoutte",
+      "pt": "¿A qué hora es el check-out?"
+    },
+    {
+      "audioKey": "gb-b18-q02",
+      "voz": "target_en_gb_m",
+      "es": "It's at eleven, but you can leave your bags with us.",
+      "tts": "It's at eleven, but you can leave your bags with us.",
+      "pinyin": "its atte i-LÈ-veune, batte you kann liive yor bagz ouidh as",
+      "pt": "Es a las once, pero pueden dejarnos el equipaje."
+    },
+    {
+      "audioKey": "gb-b18-q03",
+      "voz": "target_en_gb_f",
+      "es": "Have a safe flight!",
+      "tts": "Have a safe flight!",
+      "pinyin": "hav e sèïfe flaïte",
+      "pt": "¡Buen vuelo!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué fórmula sirve para cualquier horario del último día?",
+      "opcoes": [
+        "When is ___?",
+        "What time ___?",
+        "How late ___?",
+        "Is it time for ___?"
+      ],
+      "correta": 1,
+      "explica": "«What time» más lo que quieres saber cubre check-out, lanzadera, hora de apertura — la casca no cambia."
+    },
+    {
+      "pergunta": "Tu vuelo sale por la tarde, después del check-out. ¿Qué haces con la maleta?",
+      "opcoes": [
+        "Tienes que cargarla todo el día",
+        "Pides dejarla en recepción",
+        "Pagas obligatoriamente una noche más",
+        "La dejas en el pasillo"
+      ],
+      "correta": 1,
+      "explica": "Casi todos los hoteles aceptan guardar tu equipaje después del check-out sin coste adicional. «Can I leave my bag here?» evita cargar con ella todo el día."
+    },
+    {
+      "pergunta": "La recepcionista te dice «Cheers, take care!» y ya se vuelve hacia el siguiente cliente. ¿Qué piensas?",
+      "opcoes": [
+        "Es una despedida fría, tiene prisa",
+        "Es la despedida de servicio estándar aquí, breve por naturaleza",
+        "No le ha gustado tu estancia",
+        "Es maleducada"
+      ],
+      "correta": 1,
+      "explica": "El registro de despedida de servicio en el Reino Unido es corto por naturaleza. La brevedad es la norma, no una falta de calidez."
+    },
+    {
+      "pergunta": "¿Qué palabra cierra el círculo del curso, desde el primer mostrador hasta la despedida?",
+      "opcoes": [
+        "Bye",
+        "Cheers",
+        "Goodbye",
+        "See you"
+      ],
+      "correta": 1,
+      "explica": "«Cheers» significa gracias, adiós y salud según el momento — la misma sílaba oída en todas partes desde B06."
+    }
+  ]
+}

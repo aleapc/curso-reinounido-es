@@ -1,0 +1,100 @@
+{
+  "id": "q-b09",
+  "nivel": "basico",
+  "titulo": "Quiz — La misma tarjeta, a la entrada y a la salida",
+  "subtitulo": "El lector amarillo, el destino confirmado, y la regla que no perdona",
+  "introAudioKey": "gb-b09-q-i",
+  "introPt": "Delante del torno del metro, nadie hace cola por un billete. Escucha el intercambio y localiza la única regla que decide si funciona el límite del día.",
+  "cenario": "Delante de los tornos de una estación de metro, y luego en el andén.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b09-q01",
+      "voz": "target_en_gb_f",
+      "es": "Does this train go to Oxford Circus?",
+      "tts": "Does this train go to Oxford Circus?",
+      "pinyin": "dez this trèïn gôou tou OKS-feud SEU-keuss",
+      "pt": "¿Este tren va a Oxford Circus?"
+    },
+    {
+      "audioKey": "gb-b09-q02",
+      "voz": "target_en_gb_m",
+      "es": "Yes, but you'll need to change once.",
+      "tts": "Yes, but you'll need to change once.",
+      "pinyin": "yèss, but youl niid tou tchèïndj ouonns",
+      "pt": "Sí, pero tendrás que hacer un transbordo."
+    },
+    {
+      "audioKey": "gb-b09-q03",
+      "voz": "target_en_gb_f",
+      "es": "Same card, in and out — every time?",
+      "tts": "Same card, in and out — every time?",
+      "pinyin": "sèïm caad, inn eund aout — EV-ri taïm",
+      "pt": "¿La misma tarjeta, a la entrada y a la salida, siempre?"
+    },
+    {
+      "audioKey": "gb-b09-q04",
+      "voz": "target_en_gb_m",
+      "es": "Exactly. Otherwise the cap won't work.",
+      "tts": "Exactly. Otherwise the cap won't work.",
+      "pinyin": "ig-ZAKT-li. O-theu-ouaïz the cap ouôount ouork",
+      "pt": "Exacto. Si no, el límite no funciona."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Delante del torno del metro de Londres, ¿qué hace la mayoría de la gente?",
+      "opcoes": [
+        "Compran un billete de papel en la ventanilla",
+        "Ponen una tarjeta sin contacto o un teléfono en el lector amarillo",
+        "Cambian euros a libras primero",
+        "Muestran su pasaporte"
+      ],
+      "correta": 1,
+      "explica": "Ya no hay billete de papel desde enero de 2023: el lector calcula todo a partir de la tarjeta o el teléfono que se apoya en él."
+    },
+    {
+      "pergunta": "¿Cuál es la regla que no perdona, en el transporte de Londres?",
+      "opcoes": [
+        "Viajar siempre en grupo",
+        "Usar la misma tarjeta o el mismo teléfono a la entrada Y a la salida",
+        "Comprar un billete el día antes",
+        "Evitar las horas punta"
+      ],
+      "correta": 1,
+      "explica": "Cambiar de soporte en el camino rompe el límite del día y de la semana, en silencio."
+    },
+    {
+      "pergunta": "¿Funciona tu tarjeta bancaria española directamente en estos tornos?",
+      "opcoes": [
+        "No, hace falta una tarjeta local",
+        "Sí, a diferencia de lo que le espera a un viajero en los Países Bajos — pero comprueba las comisiones por transacción",
+        "Solo si se activa con antelación",
+        "Solo en efectivo"
+      ],
+      "correta": 1,
+      "explica": "La tarjeta Visa o Mastercard española se acepta directamente; lo que hay que comprobar son posibles comisiones bancarias por transacción."
+    },
+    {
+      "pergunta": "¿Por qué este curso nunca cita el importe del límite diario?",
+      "opcoes": [
+        "Porque no es importante",
+        "Porque cambia cada enero y depende de las zonas recorridas",
+        "Porque el límite ya no existe",
+        "Porque es secreto"
+      ],
+      "correta": 1,
+      "explica": "El importe varía demasiado a menudo para ser fiable en un curso; solo la app o la web de TfL tienen la versión actualizada."
+    },
+    {
+      "pergunta": "Antes de subir al tren, ¿cuál es la última comprobación útil?",
+      "opcoes": [
+        "Nada, el número de línea siempre basta",
+        "Confirmar una última vez el destino, aunque el número ya esté indicado",
+        "Preguntar el precio del trayecto",
+        "Comprobar la hora exacta de llegada"
+      ],
+      "correta": 1,
+      "explica": "Confirmar el destino una última vez, en la puerta, evita fiarse solo de un número leído antes."
+    }
+  ]
+}

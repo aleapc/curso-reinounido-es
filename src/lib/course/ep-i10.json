@@ -1,0 +1,281 @@
+{
+  "id": "i10",
+  "slot": "I10",
+  "nivel": "intermediario",
+  "numero": 10,
+  "parte": "I10",
+  "titulo": "El dinero sin drama",
+  "subtitulo": "El service charge no es obligatorio, en la barra del pub no se deja nada, y en grupo a veces ya está contado",
+  "cena": "La cuenta llega con una línea «Service charge (12.5%)» ya añadida al total, y no sabes si todavía tienes que dejar algo en la mesa al salir.",
+  "decisao": "cuánto dejar y dónde — en el restaurante el service charge es discrecional, se puede pedir que lo quiten sin justificarse; en la barra del pub no se deja nada en absoluto",
+  "emJogo": "dinheiro",
+  "moldura": "protege",
+  "frasePiso": "Vas a leer la cuenta antes de calcular nada, y vas a saber, sin dudar, cuándo una línea es discrecional y cuándo no lo es.",
+  "fatosDatados": [
+    {
+      "id": "gb-service-charge",
+      "afirmacao": "En el restaurante, alrededor de un 12,5% de service charge suele venir ya añadido a la cuenta. Es discrecional: puedes pedir que lo quiten, sin justificarte.",
+      "fonte": "Práctica del sector, ampliamente documentada; tasa típica del 10 al 15%, alrededor del 12,5% en Londres",
+      "ano": 2026,
+      "revisarAte": "2028-01-01",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "gb-i10-n02"
+      ]
+    },
+    {
+      "id": "gb-pub-no-tip",
+      "afirmacao": "En la barra del pub, no se deja propina. El gesto equivalente es invitar a una bebida al camarero: «and one for yourself.»",
+      "fonte": "Práctica del sector de los pubs británicos, ampliamente documentada",
+      "ano": 2026,
+      "revisarAte": "2028-01-01",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-i10-n04"
+      ]
+    },
+    {
+      "id": "gb-vat-etiquette",
+      "afirmacao": "El precio mostrado en la etiqueta ya incluye el IVA (VAT) — lo que está escrito es lo que se paga, exactamente como en España.",
+      "fonte": "Hecho fiscal básico (IVA incluido en el precio mostrado en el Reino Unido)",
+      "ano": 2026,
+      "revisarAte": "2028-01-01",
+      "evidencia": "FATO",
+      "risco": "baixo"
+    }
+  ],
+  "fichasCulturais": [
+    {
+      "sinal": "La cuenta de tu cena para dos ya muestra una línea «Service charge (12.5%)» añadida al total, y estás a punto de calcular una propina extra.",
+      "suaLeitura": "Esa línea rara debe de ser un impuesto, o un error del restaurante.",
+      "oQueEAli": "Muchos restaurantes añaden automáticamente un service charge de alrededor del 12,5% — es discrecional, no una ley, y puedes pedir que lo quiten sin justificarte. En la barra del pub, en cambio, nunca se deja propina.",
+      "oQueVoceFaz": "Lees la cuenta entera antes de calcular nada, buscando una línea «service charge».",
+      "oQueMelhora": "Nunca pagas dos veces por lo mismo, y entiendes exactamente qué pagas en vez de simplemente confiar en el total.",
+      "ondeNaoVale": "No vale en la barra del pub, donde nunca hay service charge ni propina esperada — solo el gesto de invitar a una copa al camarero.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-i10-n02"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i10-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "El flick en how much: la consonante final de much se pronuncia de verdad."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i10-p01",
+      "promptPt": "Ayer preguntaste si podías probar algo en el mercado. Hoy usas otra fórmula que ya conoces, para preguntar un precio en una tienda. Habla ahora.",
+      "bloco": "callback",
+      "molde": "HOW-MUCH",
+      "encaixe": "is this",
+      "audioKey": "gb-i10-t01",
+      "es": "How much is this?",
+      "tts": "How much is this?",
+      "pinyin": "haou match iz dhiss",
+      "pt": "¿Cuánto cuesta?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i10-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "La cuenta llega con una línea «service charge (12.5%)» ya añadida — y nadie te ha preguntado si estabas de acuerdo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i10-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "No es una ley, es una práctica: discrecional, y puedes pedir que la quiten sin justificarte."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i10-r01",
+      "es": "Here's your bill whenever you're ready.",
+      "tts": "Here's your bill whenever you're ready.",
+      "pinyin": "hieurz your bill ouè-NÈ-veur your RÈ-di",
+      "pt": "Aquí tiene la cuenta, cuando quiera."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i10-p02",
+      "promptPt": "Quieres confirmar el total antes de decidir nada. Pregunta cuánto es, todo incluido. Habla ahora.",
+      "molde": "HOW-MUCH",
+      "encaixe": "is it all together",
+      "audioKey": "gb-i10-t02",
+      "es": "How much is it all together?",
+      "tts": "How much is it all together?",
+      "pinyin": "haou match iz itt ol tou-GUÈ-dheur",
+      "pt": "¿Cuánto es en total, todo incluido?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i10-n04",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "En la barra del pub es distinto: no se deja nada. El gesto equivalente es invitar a una bebida al camarero."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i10-p03",
+      "promptPt": "Quieres saber si esta línea añadida es discrecional aquí. Pregunta si la pueden quitar. Habla ahora.",
+      "audioKey": "gb-i10-t03",
+      "es": "Could I have the bill without the service charge, please?",
+      "tts": "Could I have the bill without the service charge, please?",
+      "pinyin": "coudd aï hav dhe bill ouizz-AOUTT dhe SEUR-viss tchaardj, pliiz",
+      "pt": "¿Podría tener la cuenta sin el service charge, por favor?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i10-r02",
+      "es": "Of course, no problem at all.",
+      "tts": "Of course, no problem at all.",
+      "pinyin": "off kors, nôou PROB-leumm att ol",
+      "pt": "Claro, sin ningún problema."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i10-n05",
+      "pt": "En la etiqueta de la tienda, el precio mostrado ya incluye el IVA — lo que está escrito es lo que se paga, exactamente como en casa."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i10-p04",
+      "promptPt": "Al día siguiente, en una tienda, quieres saber el precio antes de decidir. Habla ahora.",
+      "molde": "HOW-MUCH",
+      "encaixe": "is the small one",
+      "audioKey": "gb-i10-t04",
+      "es": "How much is the small one?",
+      "tts": "How much is the small one?",
+      "pinyin": "haou match iz dhe smol ouann",
+      "pt": "¿Cuánto cuesta el pequeño?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i10-p05",
+      "promptPt": "Esta vez mantienes esa línea añadida, pero quieres confirmar que solo se cuenta una vez. Habla ahora.",
+      "audioKey": "gb-i10-t05",
+      "es": "Is the service charge already included?",
+      "tts": "Is the service charge already included?",
+      "pinyin": "iz dhe SEUR-viss tchaardj ol-RÈ-di inn-KLOU-did",
+      "pt": "¿El service charge ya está incluido?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i10-r03",
+      "es": "Yes, for tables of six or more we add twelve and a half percent automatically.",
+      "tts": "Yes, for tables of six or more we add twelve and a half percent automatically.",
+      "pinyin": "yèss, for TÈÏ-boulz off siks or mor oui add touèlv annd e haaf peur-SÈNT o-teu-MA-ti-keu-li",
+      "pt": "Sí, para mesas de seis personas o más, se añade automáticamente un doce y medio por ciento."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i10-p06",
+      "promptPt": "Ya sabes que está incluido. Da las gracias por la aclaración. Habla ahora.",
+      "audioKey": "gb-i10-t06",
+      "es": "Got it, thank you for checking.",
+      "tts": "Got it, thank you for checking.",
+      "pinyin": "gott itt, thennk you for TCHÈ-kigne",
+      "pt": "Entendido, gracias por comprobarlo."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i10-p07",
+      "promptPt": "En la barra del pub, pagas tu pinta sin dejar ni un céntimo más. Confírmalo simplemente. Habla ahora.",
+      "audioKey": "gb-i10-t07",
+      "es": "That's everything, thanks.",
+      "tts": "That's everything, thanks.",
+      "pinyin": "dhatts ÈV-ri-thigne, thennks",
+      "pt": "Eso es todo, gracias."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i10-p08",
+      "promptPt": "Dos recuerdos del mismo puesto: una taza y un grabado. Pregunta el gusto del vendedor entre los dos. Habla ahora.",
+      "molde": "PREFERENCIA",
+      "encaixe": "the mug or the print",
+      "audioKey": "gb-i10-t08",
+      "es": "Do you prefer the mug or the print?",
+      "tts": "Do you prefer the mug or the print?",
+      "pinyin": "dou you pri-FEUR dhe magg or dhe printt",
+      "pt": "¿Prefiere la taza o el grabado?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i10-n06",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No tienes que sentirte mal por quitar el service charge. Y en la barra del pub, no dejar nada no es ser tacaño — es la norma."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-i10-s01",
+      "es": "How much is it all together? Is the service charge already included?",
+      "tts": "How much is it all together? Is the service charge already included?",
+      "pinyin": "haou match iz itt ol tou-GUÈ-dheur? iz dhe SEUR-viss tchaardj ol-RÈ-di inn-KLOU-did",
+      "pt": "Repite preguntar el total y confirmar si el service charge ya está contado."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i10-n07",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I10 cerrada. En el restaurante, el service charge es discrecional; en el pub, no se deja nada; en la etiqueta, el IVA ya está incluido."
+    }
+  ],
+  "permissao": "No necesitas justificarte para pedir que quiten el service charge de una cuenta. Es discrecional por definición — nadie te va a juzgar por eso, ni por no dejar nada en la barra del pub.",
+  "permissaoAudioKey": "gb-i10-n06",
+  "espelho": "Leer bien la cuenta antes de decidir qué pagar es algo que también harías en tu país; lo nuevo aquí es que en el restaurante se puede quitar una línea entera sin justificarse, mientras que en la barra del pub nunca hay nada que añadir.",
+  "aprofundar": {
+    "titulo": "Tres reglas, tres sitios distintos",
+    "secoes": [
+      {
+        "titulo": "En el restaurante, es discrecional",
+        "corpo": "El service charge de alrededor del 12,5% añadido a la cuenta es una práctica del sector, no una ley. Puedes pedir que lo quiten sin justificarte — la frase a usar es un encaje de Could I have más without: «Could I have the bill without the service charge, please?»"
+      },
+      {
+        "titulo": "En la barra del pub, no se deja nada",
+        "corpo": "No hay propina en la barra. El gesto equivalente, si te ha gustado el servicio, es invitar a una bebida al camarero diciendo «and one for yourself»."
+      },
+      {
+        "titulo": "En la etiqueta, ya está incluido",
+        "corpo": "El precio mostrado en la tienda ya incluye el IVA — lo que está escrito es lo que se paga en caja, exactamente como en España, a diferencia del sales tax americano que se añade en caja."
+      }
+    ]
+  }
+}

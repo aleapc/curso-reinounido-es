@@ -1,0 +1,257 @@
+{
+  "id": "a04",
+  "slot": "A04",
+  "nivel": "avancado",
+  "numero": 32,
+  "parte": "A04",
+  "titulo": "La vieja disputa",
+  "subtitulo": "Todo país tiene una línea de la que bromea entre sí y que un visitante haría bien en no cruzar — aquí pasa entre el Norte y el Sur",
+  "cena": "Alguien en la barra acaba de decir «it's grim up North» con un tono muy particular, la mitad de la mesa se ha reído, y una persona no.",
+  "moldura": "ganha",
+  "frasePiso": "El movimiento seguro en la vieja disputa de otro país es siempre el mismo: preguntar de dónde vienen y dejar que ellos mismos nombren el lugar.",
+  "fatosDatados": [
+    {
+      "id": "gb-grim-up-north",
+      "afirmacao": "'It's grim up North' is a stock phrase used, often jokingly and sometimes with real condescension, by people in the South of England about the North — and worn right back with pride by many Northerners themselves, as a rejection of Southern snobbery rather than an admission of anything.",
+      "fonte": "Consenso de fontes culturais britânicas sobre a rivalidade Norte-Sul",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "gb-a04-n03"
+      ]
+    },
+    {
+      "id": "gb-norte-sul-real",
+      "afirmacao": "The North-South divide in England is a long-standing and measurable pattern — differences in average income, house prices and life expectancy between the South East and much of the North — that people on both sides joke about constantly, and that is also cited seriously in national policy debates.",
+      "fonte": "Consenso de fontes de política pública e imprensa britânica sobre o North-South divide",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a04-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a04-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Todo país tiene una línea de la que se bromea entre sí y que un visitante haría bien en no tocar."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a04-n02",
+      "bloco": "callback",
+      "pt": "Repaso de ayer. Alguien empieza a contarte una larga historia familiar. Anímalo a seguir, como ayer."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a04-p01",
+      "promptPt": "Habla ahora.",
+      "audioKey": "gb-a04-t01",
+      "es": "Tell me more about that.",
+      "tts": "Tell me more about that.",
+      "pinyin": "tèl mi mor e-BAOUTE date",
+      "pt": "Cuéntame más."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a04-n03",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "En la barra, alguien dice «it's grim up North» con un tono particular. La mitad se ríe. Una persona no."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a04-o01",
+      "receptivo": true,
+      "es": "Ah, must be nice up there in the frozen North.",
+      "tts": "Ah, must be nice up there in the frozen North.",
+      "pinyin": "a, moste bi naïce ope dère inn the FRÔ-zenne NORSE",
+      "pt": "👂 Una broma con pinchazo. Fíjate en el pinchazo; tú no vas a producir esa palabra."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a04-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "«It's grim up North» apunta al norte. Para algunos en el sur es broma; allí puede escocer."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a04-p02",
+      "promptPt": "Sáltate por completo las etiquetas. Haz la pregunta neutra que le deja nombrarse a sí mismo. Habla ahora.",
+      "audioKey": "gb-a04-t02",
+      "es": "So, where are you from, originally?",
+      "tts": "So, where are you from, originally?",
+      "pinyin": "sô, ouère are you frome, o-RI-dji-na-li",
+      "pt": "¿Y tú de dónde eres, originalmente?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a04-o02",
+      "es": "Sheffield. Born and raised.",
+      "tts": "Sheffield. Born and raised.",
+      "pinyin": "CHÈ-fiylde. borne ande RÉÏZED",
+      "pt": "Sheffield. Nacido y criado allí."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a04-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Se ha nombrado él mismo, así que esa palabra es segura. La raíz es real: Norte y Sur, una diferencia de renta, de siempre."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a04-p03",
+      "promptPt": "Usa la palabra que él mismo te ha dado, y pregunta por el lugar, no por la rivalidad. Habla ahora.",
+      "audioKey": "gb-a04-t03",
+      "es": "I don't know much about Sheffield. What's it like?",
+      "tts": "I don't know much about Sheffield. What's it like?",
+      "pinyin": "aï dônte nô mautche e-BAOUTE CHÈ-fiylde. ouotts itte laïke",
+      "pt": "No conozco bien Sheffield. ¿Cómo es?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a04-o03",
+      "es": "Friendly. Cheap pints. Way slower than London.",
+      "tts": "Friendly. Cheap pints. Way slower than London.",
+      "pinyin": "FRÈN-dli. tchiipe païntss. ouèï SLÔ-oueu than LONNE-donne",
+      "pt": "Acogedor. Las pintas son baratas. Mucho más tranquilo que Londres."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a04-n06",
+      "pt": "Ahora el movimiento que importa. Si te invitan a burlarte de una región, puedes declinar sin ponerte serio."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a04-p04",
+      "promptPt": "Te piden que tomes partido en su disputa. Sal de ahí, con ligereza. Habla ahora.",
+      "audioKey": "gb-a04-t04",
+      "es": "I'll stay out of that one.",
+      "tts": "I'll stay out of that one.",
+      "pinyin": "aïl steï aoutte of that ouonne",
+      "pt": "Yo en eso no me meto."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a04-o04",
+      "es": "Smart move.",
+      "tts": "Smart move.",
+      "pinyin": "smarte mouve",
+      "pt": "Bien jugado."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a04-p05",
+      "promptPt": "Vuelve a lo que de verdad puedes decir: lo que te ha gustado de los dos sitios. Habla ahora.",
+      "audioKey": "gb-a04-t05",
+      "es": "Honestly, I've liked everywhere I've been.",
+      "tts": "Honestly, I've liked everywhere I've been.",
+      "pinyin": "ONNE-estli, aïve laïkte EV-ri-ouère aïve binne",
+      "pt": "La verdad, me han gustado todos los sitios donde he estado."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a04-p06",
+      "promptPt": "Pregunta qué te enseñaría si fueras. Habla ahora.",
+      "audioKey": "gb-a04-t06",
+      "es": "If I ever go, what should I see?",
+      "tts": "If I ever go, what should I see?",
+      "pinyin": "if aï E-veu gô, ouotte choude aï si",
+      "pt": "Si algún día voy, ¿qué debería ver?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a04-s01",
+      "es": "So, where are you from, originally? I'll stay out of that one. If I ever go, what should I see?",
+      "tts": "So, where are you from, originally? I'll stay out of that one. If I ever go, what should I see?",
+      "pinyin": "sô, ouère are you frome, o-RI-dji-na-li. aïl steï aoutte of that ouonne. if aï E-veu gô, ouotte choude aï si",
+      "pt": "Repite la pregunta neutra, la salida elegante y la redirección."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a04-n07",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A04 cerrada. Sáltate las etiquetas, pregunta de dónde vienen, retoma su palabra, no tomes partido."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Cómo escuchar una vieja línea sin cruzarla",
+    "secoes": [
+      {
+        "titulo": "La misma palabra, dos cargas",
+        "corpo": "«It's grim up North» es una broma dicha desde el sur, y para quien vive en el norte, a veces suena como un insulto disfrazado de broma. Un visitante que repite la palabra con el tono equivocado puede acabar sin querer en el lado incorrecto."
+      },
+      {
+        "titulo": "La brecha Norte-Sur es real, no solo una broma",
+        "corpo": "Diferencia de renta, de precio de la vivienda, de esperanza de vida entre el sureste y buena parte del norte: es un hecho citado en serio en los debates públicos británicos, y a la vez un tema de broma constante entre vecinos. Ambas cosas conviven."
+      },
+      {
+        "titulo": "Deja que se nombren ellos mismos",
+        "corpo": "Northerner, Southerner, Yorkshireman, Cockney: son palabras que la gente usa con orgullo sobre sí misma. Pregunta de dónde viene alguien y retoma la palabra que te ha dado. Solo este hábito elimina casi todo el riesgo."
+      }
+    ]
+  },
+  "permissao": "Tienes derecho a no tener opinión, en voz alta. «I'll stay out of that one» es una respuesta completa y bien recibida — un visitante con una opinión tajante sobre qué región del Reino Unido es mejor es un visitante al que no invitan dos veces.",
+  "permissaoAudioKey": "gb-a04-n06",
+  "espelho": "Piensa en la rivalidad regional de tu propio país de la que se bromea en familia y que un invitado extranjero haría bien en no tocar — capital contra provincias, el acento que se imita en las fiestas. Ya conoces la regla desde ese lado: el invitado que se suma a la broma ha confundido una broma interna con una invitación.",
+  "fichasCulturais": [
+    {
+      "sinal": "Tus anfitriones se pasan diez minutos bromeando sobre otra región del Reino Unido, y luego te preguntan tu opinión a ti.",
+      "suaLeitura": "Parecen cómodos con el tema, así que estar de acuerdo sería amable — negarme a responder parecería rígido.",
+      "oQueEAli": "La burla regional entre británicos suele apoyarse en una rivalidad real y antigua, y es cariñosa precisamente porque todos en la mesa tienen algo que decir en esa disputa. Que un visitante esté de acuerdo no es sumarse a la broma; es un extraño respaldando una crítica contra gente ausente.",
+      "oQueVoceFaz": "Declina con ligereza y honestidad — «I'll stay out of that one» — y redirige hacia lo que realmente has visto y te ha gustado.",
+      "oQueMelhora": "Sigues cayendo bien y dentro de la conversación, en lugar de comprar una postura en una disputa que seguirá mucho después de que te vayas.",
+      "ondeNaoVale": "No es una regla contra tener opiniones sobre nada — puedes mostrar entusiasmo por la comida, las ciudades o la música. Es específicamente sobre poner una región por encima de otra.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a04-n06"
+      ]
+    },
+    {
+      "sinal": "Oyes a alguien del norte usar «it's grim up North» con cariño para describir su propia región de origen.",
+      "suaLeitura": "Si lo usa así sobre sí mismo, entonces es simplemente el nombre normal de esa región.",
+      "oQueEAli": "La carga de la palabra cambia según quién la diga y con qué tono; usada por alguien sobre su propio lugar, es orgullo irónico — la misma palabra dicha por un extraño puede sonar a desprecio.",
+      "oQueVoceFaz": "Solo usa una etiqueta regional después de que la persona la haya usado sobre sí misma, y por defecto, simplemente pregunta de dónde viene.",
+      "oQueMelhora": "Nunca tienes que adivinar qué carga lleva una palabra en la sala donde estás.",
+      "ondeNaoVale": "No todos los apodos regionales tienen ese pinchazo — «Yorkshireman» o «Scouser» se llevan casi siempre con orgullo abierto. «It's grim up North» es de las pocas que mejor dejar que digan ellos primero.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a04-n03"
+      ]
+    }
+  ]
+}

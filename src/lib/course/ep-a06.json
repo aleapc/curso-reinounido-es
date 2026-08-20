@@ -1,0 +1,257 @@
+{
+  "id": "a06",
+  "slot": "A06",
+  "nivel": "avancado",
+  "numero": 34,
+  "parte": "A06",
+  "titulo": "Su calendario",
+  "subtitulo": "Ocho festivos oficiales en Inglaterra, un 25 de diciembre en el que hasta el metro se para, y un 26 en el que la gente hace cola antes del amanecer",
+  "cena": "Habías planeado el museo para el lunes, y la persona en la entrada ya tiene cara de tener que explicarte por qué está cerrado.",
+  "moldura": "ganha",
+  "frasePiso": "Dos preguntas antes de planear nada — «¿es festivo?» y «¿vosotros, estáis abiertos?» — te compran todo el calendario, sin memorizar ni una fecha.",
+  "fatosDatados": [
+    {
+      "id": "gb-bank-holidays",
+      "afirmacao": "England and Wales observe eight bank holidays a year, Scotland nine and Northern Ireland ten, on which banks and most public offices close. Most shops, restaurants and attractions stay open on ordinary bank holidays — often with special hours — with Christmas Day and, in much of the country, Easter Sunday as the two real exceptions.",
+      "fonte": "GOV.UK — UK bank holidays",
+      "ano": 2026,
+      "revisarAte": "2027-01-15",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "gb-a06-n04"
+      ]
+    },
+    {
+      "id": "gb-noel-transporte",
+      "afirmacao": "Christmas Day is the one day of the year when nearly everything genuinely stops in the UK: almost all shops close, and the London Underground and most public transport across the country run no service at all — a level of shutdown that catches many foreign visitors by surprise. Boxing Day (26 December) is the opposite: shops reopen with major sales, and queues form outside some stores well before dawn.",
+      "fonte": "Consenso de fontes sobre comércio e transporte britânico no Natal (TfL — Christmas Day service; imprensa sobre Boxing Day sales)",
+      "ano": 2026,
+      "revisarAte": "2027-01-15",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "gb-a06-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a06-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "No vas a memorizar el calendario británico. Vas a aprender dos preguntas que lo hacen hablar por ti."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a06-n02",
+      "bloco": "callback",
+      "pt": "Repaso de ayer. Te han saludado en galés y has preferido seguir en inglés. Repítelo, con calidez."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a06-p01",
+      "promptPt": "Habla ahora.",
+      "audioKey": "gb-a06-t01",
+      "es": "English is great, thanks.",
+      "tts": "English is great, thanks.",
+      "pinyin": "EN-glich iz greïte, thanks",
+      "pt": "El inglés está perfecto, gracias."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a06-n03",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Habías planeado el museo para el lunes. La persona en la entrada tiene cara de tener que explicarte algo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a06-o01",
+      "es": "Sorry, we're closed today — it's the bank holiday.",
+      "tts": "Sorry, we're closed today — it's the bank holiday.",
+      "pinyin": "SO-ri, ouiiz KLÔ-zedde tou-DÈÏ — itts the bank OLI-dèï",
+      "pt": "Lo siento, hoy estamos cerrados — es bank holiday."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a06-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Inglaterra tiene ocho festivos al año. Cierran bancos y administración; la mayoría de las tiendas siguen abiertas."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a06-p02",
+      "promptPt": "Antes de cambiar todo el plan, pregunta algo más cercano y concreto. Habla ahora.",
+      "audioKey": "gb-a06-t02",
+      "es": "Is the shopping centre open today?",
+      "tts": "Is the shopping centre open today?",
+      "pinyin": "iz the CHO-pigne CEN-teu O-pen tou-DÈÏ",
+      "pt": "¿Está abierto el centro comercial hoy?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a06-o02",
+      "es": "Yeah, everything's open except the banks and this place.",
+      "tts": "Yeah, everything's open except the banks and this place.",
+      "pinyin": "iea, EV-ri-thigne'z O-pen ek-SEPTE the banks ande dhiss plèïce",
+      "pt": "Sí, todo está abierto, salvo los bancos y esto."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a06-n05",
+      "pt": "Esta segunda mitad solo llega si haces la pregunta. El calendario oficial y el calendario real no coinciden."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a06-n06",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "La gran excepción es el 25 de diciembre: ese día, ni siquiera el metro de Londres circula."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a06-o03",
+      "es": "We're shut on Christmas Day, no transport at all — but doors open early on the 26th for the sales.",
+      "tts": "We're shut on Christmas Day, no transport at all — but doors open early on the 26th for the sales.",
+      "pinyin": "ouiiz chotte onn KRISS-mass dèï, nô trans-PORTE atte ol — batte doorz O-pen EU-li onn the touèn-ti-SIXTHE for the sèïlz",
+      "pt": "Cerramos el día de Navidad, sin transporte en absoluto — pero abre temprano el 26 para las rebajas."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a06-p03",
+      "promptPt": "Que nada circule ese día te sorprende de verdad. Dilo. Habla ahora.",
+      "audioKey": "gb-a06-t03",
+      "es": "No transport at all? People actually plan around that?",
+      "tts": "No transport at all? People actually plan around that?",
+      "pinyin": "nô trans-PORTE atte ol ? PI-poul AK-tiou-a-li plane e-RAOUNDE dhate",
+      "pt": "¿Ningún transporte en absoluto? ¿La gente de verdad se organiza en torno a eso?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a06-o04",
+      "es": "Oh, absolutely. Everyone's home by then anyway.",
+      "tts": "Oh, absolutely. Everyone's home by then anyway.",
+      "pinyin": "ô, AB-so-lioutli. EV-ri-ouann'z jôme baï dhenne EN-i-ouèï",
+      "pt": "Ah, totalmente. Todo el mundo ya está en casa a esa hora, de todas formas."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a06-p04",
+      "promptPt": "Ese día te interesa más como persona que el 26 de las rebajas. Pregunta qué hace ese día. Habla ahora.",
+      "audioKey": "gb-a06-t04",
+      "es": "So, what do you do for Christmas Day?",
+      "tts": "So, what do you do for Christmas Day?",
+      "pinyin": "sô, ouotte dou you dou for KRISS-mass dèï",
+      "pt": "¿Y tú qué haces el día de Navidad?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a06-o05",
+      "es": "Whole family round, way too much food, and the Queen's speech on the telly at three.",
+      "tts": "Whole family round, way too much food, and the Queen's speech on the telly at three.",
+      "pinyin": "jôle FA-mi-li raoundE, ouèï tou motche foude, ande the kouiinz spiitche onn the TE-li atte thrii",
+      "pt": "Toda la familia junta, demasiada comida, y el discurso del rey en la tele a las tres."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a06-p05",
+      "promptPt": "Suena bien. Dilo. Habla ahora.",
+      "audioKey": "gb-a06-t05",
+      "es": "That sounds like a good day, honestly.",
+      "tts": "That sounds like a good day, honestly.",
+      "pinyin": "dhate saoundz laïke e goude dèï, ONN-estli",
+      "pt": "La verdad, suena a un buen día."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a06-s01",
+      "es": "Is the shopping centre open today? No transport at all? So, what do you do for Christmas Day?",
+      "tts": "Is the shopping centre open today? No transport at all? So, what do you do for Christmas Day?",
+      "pinyin": "iz the CHO-pigne CEN-teu O-pen tou-DÈÏ. nô trans-PORTE atte ol. sô, ouotte dou you dou for KRISS-mass dèï",
+      "pt": "Repite las dos preguntas de planificación y la que te consigue una invitación."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a06-n08",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A06 cerrada. Pregunta si es festivo, si ellos están abiertos, qué hacen ese día. Eso desbloquea cualquier cierre."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Dos listas que no coinciden",
+    "secoes": [
+      {
+        "titulo": "Los festivos oficiales son pocos",
+        "corpo": "Ocho fechas al año cierran los bancos y la mayoría de la administración en Inglaterra y Gales — nueve en Escocia, diez en Irlanda del Norte. Es la lista corta, y es la única que garantiza de verdad puertas cerradas en todo el país."
+      },
+      {
+        "titulo": "El comercio casi nunca sigue esa lista",
+        "corpo": "Con una excepción — el día de Navidad — la mayoría de las tiendas y restaurantes siguen abiertos, incluso un día en que el gobierno está cerrado. Un cartel de «closed for the bank holiday» en una tienda pequeña es casi siempre decisión del dueño, no una obligación."
+      },
+      {
+        "titulo": "El 25 de diciembre es el cierre de verdad",
+        "corpo": "Ese día, el metro de Londres y buena parte del transporte público del país simplemente no circulan — un nivel de parón que sorprende a muchos visitantes extranjeros acostumbrados a un servicio mínimo. Al día siguiente, el Boxing Day, es justo lo contrario: las tiendas reabren con grandes rebajas, y se forman colas antes del amanecer frente a algunas cadenas."
+      },
+      {
+        "titulo": "Pregunta al sitio, no al país",
+        "corpo": "«¿Es festivo?» te da la regla nacional. «¿Vosotros, estáis abiertos?» te da la respuesta que de verdad necesitas, porque cada negocio decide por su cuenta, y a menudo cierra en fechas que no aparecen en ninguna lista oficial."
+      }
+    ]
+  },
+  "permissao": "Tienes derecho a planear alrededor de un festivo en lugar de meterte de lleno en él. Saltarte las rebajas del 26 de diciembre al amanecer no te pierdes nada — mucha gente hace exactamente ese cálculo cada año, y quienes van ya saben de antemano que estará lleno.",
+  "permissaoAudioKey": "gb-a06-n07",
+  "espelho": "Cualquiera que haya visto a un visitante extranjero llegar esperando servicio normal en un festivo nacional de su propio país lo conoce desde el otro lado — la información era pública, simplemente no estaba en la guía que había traído. La solución es la misma en los dos sentidos: pregunta a alguien de allí antes de hacer el plan.",
+  "fichasCulturais": [
+    {
+      "sinal": "Confirmas que una fecha no está en la lista oficial de festivos, planeas en función de eso, y aun así te encuentras el sitio cerrado.",
+      "suaLeitura": "La información que encontré era falsa, o este sitio no es de fiar.",
+      "oQueEAli": "El Reino Unido tiene dos calendarios que no se cruzan: la lista corta de bank holidays oficiales, y una lista mucho más larga de fechas realmente observadas — sobre todo la Navidad — que cierran negocios sin aparecer en ninguna ley.",
+      "oQueVoceFaz": "Pregunta a una persona, no a una lista, y pregunta dos veces: si es festivo, y si ellos, en concreto, van a abrir.",
+      "oQueMelhora": "Consigues la respuesta real para el sitio exacto al que vas, la única respuesta que de verdad te va a servir.",
+      "ondeNaoVale": "No se aplica igual a los grandes hoteles, aeropuertos y cadenas pensadas para viajeros, que suelen seguir abiertas en festivos — la diferencia afecta sobre todo a los pequeños negocios, los museos y las oficinas administrativas.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a06-n05"
+      ]
+    },
+    {
+      "sinal": "Alguien te describe con entusiasmo la cola al amanecer para las rebajas del Boxing Day, y te parece excesivo.",
+      "suaLeitura": "Es consumismo desenfrenado, y debería decir algo al respecto.",
+      "oQueEAli": "Para mucha gente, el Boxing Day es una tradición social casi tanto como una compra — salir en familia justo después de Navidad, la emoción de la cola — no solo una transacción, aunque desde fuera lo parezca.",
+      "oQueVoceFaz": "Haz preguntas con curiosidad sincera en lugar de juzgar: qué buscan comprar, si van cada año, cómo es el ambiente en la cola.",
+      "oQueMelhora": "Descubres el lado humano de la tradición, en lugar de quedarte con la única superficie que verías en un reportaje.",
+      "ondeNaoVale": "No es una regla contra tener opinión sobre el consumo en general — es específicamente sobre no convertir el relato entusiasta de un anfitrión en un sermón que no ha pedido.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a06-n06"
+      ]
+    }
+  ]
+}

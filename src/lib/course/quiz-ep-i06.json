@@ -1,0 +1,92 @@
+{
+  "id": "q-i06",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Lo que hiciste ayer",
+  "subtitulo": "Tres piezas fijas para contar un día",
+  "introAudioKey": "gb-i06-q-i",
+  "introPt": "Alguien te pregunta qué hiciste ayer. Escucha cómo el viajero monta su historia con tres piezas fijas.",
+  "cenario": "Una conversación ligera en el Reino Unido, el día después de una salida.",
+  "dialogo": [
+    {
+      "audioKey": "gb-i06-q01",
+      "voz": "target_en_gb_m",
+      "es": "So what did you do yesterday?",
+      "tts": "So what did you do yesterday?",
+      "pinyin": "sô OUATT didd you dou YÈS-teur-dèï",
+      "pt": "Entonces, ¿qué hiciste ayer?"
+    },
+    {
+      "audioKey": "gb-i06-q02",
+      "voz": "target_en_gb_f",
+      "es": "I went to a pub in the centre. I had a pie and chips.",
+      "tts": "I went to a pub in the centre. I had a pie and chips.",
+      "pinyin": "aï ouènt tou e peub inn dhe SÈN-teur. aï hadd e paï annd tchipss",
+      "pt": "Fui a un pub en el centro. Comí una tarta salada con patatas fritas."
+    },
+    {
+      "audioKey": "gb-i06-q03",
+      "voz": "target_en_gb_m",
+      "es": "Nice, sounds like a good day.",
+      "tts": "Nice, sounds like a good day.",
+      "pinyin": "naïss, saoundz laïk e goudd dèï",
+      "pt": "Qué bien, parece que fue un buen día."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Cuáles son las tres piezas fijas para contar ayer?",
+      "opcoes": [
+        "I go, I have, I love it",
+        "I went, I had, I loved it",
+        "I'm going, I'm having, I'm loving it",
+        "I will go, I will have, I will love it"
+      ],
+      "correta": 1,
+      "explica": "Son tres piezas memorizadas enteras, no una regla gramatical que calcular."
+    },
+    {
+      "pergunta": "¿Qué lleva toda la frase con «I went»?",
+      "opcoes": [
+        "El verbo solo",
+        "Adónde fuiste",
+        "La hora exacta",
+        "El precio"
+      ],
+      "correta": 1,
+      "explica": "I went to ___ lleva el lugar adonde fuiste."
+    },
+    {
+      "pergunta": "¿Cómo contar que perdiste el móvil, como una anécdota ya resuelta?",
+      "opcoes": [
+        "What time did you lose it?",
+        "I've lost my phone, actually.",
+        "Do you have my phone?",
+        "Where's my phone?"
+      ],
+      "correta": 1,
+      "explica": "Es la fórmula WENT-WRONG de B16, reutilizada con tono de anécdota, no de urgencia."
+    },
+    {
+      "pergunta": "¿Qué cambia entre I've lost my phone en urgencia (B16) y en anécdota (I06)?",
+      "opcoes": [
+        "La forma de la frase",
+        "Nada, solo cambia el tono",
+        "El tiempo gramatical",
+        "La palabra «lost»"
+      ],
+      "correta": 1,
+      "explica": "La forma se mantiene idéntica; solo el contexto convierte la urgencia en una historia ya resuelta."
+    },
+    {
+      "pergunta": "¿Cómo hablar de un plan para hoy sin aprender un tiempo nuevo?",
+      "opcoes": [
+        "I went to",
+        "I'm going to",
+        "I had",
+        "I loved"
+      ],
+      "correta": 1,
+      "explica": "I'm going to más un verbo simple cubre casi cualquier plan que quieras contar."
+    }
+  ]
+}

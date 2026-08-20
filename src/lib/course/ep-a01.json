@@ -1,0 +1,251 @@
+{
+  "id": "a01",
+  "slot": "A01",
+  "nivel": "avancado",
+  "numero": 29,
+  "parte": "A01",
+  "titulo": "Cómo hablan cuando no es contigo",
+  "subtitulo": "La barra de una cafetería un sábado por la mañana, a velocidad real, y ya conoces la mitad de esas palabras",
+  "cena": "El barista repite en un segundo el pedido de la persona justo antes que tú, sin una sola palabra entera, y nada baja el ritmo por ti.",
+  "moldura": "ganha",
+  "frasePiso": "Si de esta parte solo te quedas con una cosa — que «want to» se dice «wanna» — ya entiendes más que uno de cada diez turistas que ha pasado por aquí.",
+  "fatosDatados": [
+    {
+      "id": "gb-reducoes-informais",
+      "afirmacao": "In fast, informal British English, function words fuse much like in American English, but not identically: want to becomes wanna, going to becomes gonna, don't know becomes dunno, give me becomes gimme. On top of that, many British accents soften the middle consonant t to a glottal stop, so water and better sound closer to wa'er and be'er.",
+      "fonte": "Consenso de fontes linguísticas (J. C. Wells, Accents of English; British Council)",
+      "ano": 2026,
+      "revisarAte": "2030-01-01",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a01-n07",
+        "gb-a01-n10"
+      ]
+    },
+    {
+      "id": "gb-you-alright",
+      "afirmacao": "'You alright?' or simply 'Alright?' is one of the most common greetings across Britain. It works exactly like 'hello', not like a real question about your health — the expected answer is another 'alright' or 'good, you?', never an actual account of how you feel.",
+      "fonte": "Consenso de fontes de etiqueta social britânica",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a01-n13"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a01-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Parte veintinueve. Hoy no hablas, escuchas. El puño mantiene igual el ritmo, para que el oído se quede fijo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a01-n02",
+      "pt": "Vas a oír inglés real, rápido, sin pausas por ti. No hace falta entender cada palabra."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a01-n03",
+      "bloco": "cena",
+      "pt": "Sábado por la mañana, la cola del café. El barista repite un pedido enorme en un segundo, para la persona antes que tú."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a01-o01",
+      "es": "Can I get a flat white, oat milk, extra shot, to go?",
+      "tts": "Can I get a flat white, oat milk, extra shot, to go?",
+      "pinyin": "kn aï guèt e FLAT OUAÏTE, ôte milk, EX-tra chott, tou gô",
+      "pt": "👂 No va contigo. Nada que resolver — déjalo pasar."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a01-o02",
+      "es": "You alright, love? That's three eighty.",
+      "tts": "You alright, love? That's three eighty.",
+      "pinyin": "you olRAÏTE, lov ? dats thrii ÈÏ-ti",
+      "pt": "👂 Sigue sin ser contigo. «You alright» no espera ninguna respuesta de verdad."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a01-n04",
+      "pt": "No has pillado nada, y tu oído va perfectamente. Cada patrón vuelve ahora, más despacio."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a01-n05",
+      "bloco": "corpo",
+      "pt": "Primer patrón, el más habitual: «want to» se reduce a «wanna». Aquí tienes la forma entera, tal como la aprendiste."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a01-o03",
+      "es": "I want to get a coffee.",
+      "tts": "I want to get a coffee.",
+      "pinyin": "aï OUONNE tou guèt e KO-fi",
+      "pt": "👂 «Quiero tomar un café.» Cada sílaba en su sitio."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a01-o04",
+      "es": "I wanna get a coffee.",
+      "tts": "I wanna get a coffee.",
+      "pinyin": "aï OUO-na guèt e KO-fi",
+      "pt": "👂 Misma frase, mismo café. «Want to» ha perdido la mitad y nadie lo ha notado, salvo tú."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a01-n06",
+      "pt": "Segundo: en medio de una palabra, la T inglesa suele desaparecer. «Water» se convierte casi en «wa'er»."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a01-o05",
+      "es": "Can I get some water, please?",
+      "tts": "Can I get some water, please?",
+      "pinyin": "kn aï guèt somm OUÔO-teu, pliiz",
+      "pt": "👂 Versión completa, cada T pronunciada."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a01-o06",
+      "es": "Can I get some wa'er, please?",
+      "tts": "Can I get some water, please?",
+      "pinyin": "kn aï guèt somm OUÔ-eu, pliiz",
+      "pt": "👂 La misma agua. La T de en medio ha desaparecido — escucha el silencio en su lugar."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a01-n07",
+      "bloco": "capsula",
+      "pt": "Tercera reducción, de la misma familia que «wanna»: «don't know» se convierte en «dunno», «give me» se convierte en «gimme»."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a01-o07",
+      "es": "Dunno, mate, gimme a sec.",
+      "tts": "Dunno, mate, gimme a sec.",
+      "pinyin": "de-NO, mèïte, GHI-mi e séque",
+      "pt": "👂 «No sé, dame un segundo.» Dos reducciones en una sola frase."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a01-n08",
+      "pt": "Ninguna de estas formas es un error. Así suena el inglés relajado aquí, no es dejadez."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a01-n09",
+      "pt": "Y hay una pequeña marca que vuelve por todas partes al final de la frase: «innit», forma corta de «isn't it», que simplemente invita a estar de acuerdo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a01-o08",
+      "es": "Cold one today, innit.",
+      "tts": "Cold one today, innit.",
+      "pinyin": "KÔ-elde ouonn tou-DÈÏ, I-nit",
+      "pt": "👂 «Hace frío hoy, ¿eh?» «Innit» no se traduce palabra por palabra."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a01-n10",
+      "bloco": "capsula",
+      "pt": "Volvamos al «you alright» del principio: aquí es un saludo, nunca una pregunta real sobre tu salud."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a01-o09",
+      "es": "Alright? Cheers, mate.",
+      "tts": "Alright? Cheers, mate.",
+      "pinyin": "olRAÏTE ? TCHIEUZ, mèïte",
+      "pt": "👂 «Hola. Gracias.» «Cheers», que ya conoces, vuelve una vez más."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a01-n11",
+      "pt": "De vuelta a la barra: la misma frase del principio, con las reducciones ya metidas en tu oído."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a01-o01",
+      "es": "Can I get a flat white, oat milk, extra shot, to go?",
+      "tts": "Can I get a flat white, oat milk, extra shot, to go?",
+      "pinyin": "kn aï guèt e FLAT OUAÏTE, ôte milk, EX-tra chott, tou gô",
+      "pt": "👂 Un café con leche de avena, un shot extra, para llevar. Rápido — pero ya no es ruido."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a01-n12",
+      "bloco": "permissao",
+      "pt": "Pillar una palabra de cada cinco y seguir escuchando ya está muy bien. Nadie evalúa la calidad de tu oído."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a01-n13",
+      "bloco": "recap",
+      "pt": "A01 cerrada. Wanna, wa'er, dunno, innit, alright: cinco desgastes sobre frases que ya conocías."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "El módulo de oído: por qué aquí no hablas",
+    "secoes": [
+      {
+        "titulo": "Reconocer y producir son dos saberes distintos",
+        "corpo": "Ya sabes decir «want to», «don't know», «give me» y «water» enteros y con claridad. Lo que entrena esta parte es la habilidad separada de reconocerlos desgastados, a velocidad real, en una conversación de verdad — de ahí los pasos exclusivamente de escucha."
+      },
+      {
+        "titulo": "Estas reducciones son la norma, no la excepción",
+        "corpo": "Wanna, dunno, gimme y la T que desaparece en medio de una palabra no son ni argot ni dejadez regional: así habla casi todo el mundo en el Reino Unido en contexto informal. Un viajero que solo ha oído la versión cuidada ha sido tratado como visitante de principio a fin."
+      },
+      {
+        "titulo": "El acento varía muchísimo de un sitio a otro",
+        "corpo": "Lo que acabas de oír es una base común a la mayoría de los acentos británicos. La variedad real — Londres, Glasgow, Liverpool, Newcastle — tiene su propia parte más adelante en este módulo; aquí el objetivo es solo la base compartida."
+      }
+    ]
+  },
+  "permissao": "Pillar una palabra de cada cinco y seguir escuchando ya está muy bien; quédate con esa palabra y deja pasar el resto. Nunca vas a corregir a nadie por hablar así — no es dejadez, es simplemente la velocidad real del idioma. Y tú nunca necesitarás hablar tan rápido: entender es todo el trabajo de hoy.",
+  "permissaoAudioKey": "gb-a01-n12",
+  "espelho": "Dejar un silencio completo al final de tu frase es lo que, a sus oídos, puede sonar raro — en lo que acabas de escuchar nunca había un hueco así, y una pausa de ese tamaño suele señalar que el tema está cerrado y que le toca hablar al otro.",
+  "fichasCulturais": [
+    {
+      "sinal": "El barista te responde despacio y con claridad, y luego dice lo mismo el doble de rápido al siguiente cliente, un habitual al que conoce por su nombre.",
+      "suaLeitura": "Hace un momento entendía, y ahora ya no entiendo nada — mi inglés solo funciona con alguien paciente.",
+      "oQueEAli": "El habla dirigida a un visitante llega de forma natural más lenta y más completa; la dirigida a un habitual, no. Lo que ha cambiado en ese segundo es el destinatario, no tu nivel de inglés.",
+      "oQueVoceFaz": "Quédate en la conversación. Cuenta el ritmo en lugar de perseguir cada consonante, y agárrate a la palabra que sí has pillado de verdad.",
+      "oQueMelhora": "Sigues siguiendo la mitad rápida de la conversación en lugar de desconectar — y ahí suele estar la recomendación de verdad.",
+      "ondeNaoVale": "No en la recepción de un hotel, un aeropuerto o cualquier sitio pensado específicamente para turistas — ahí la velocidad de visitante es la única que existe, todo el día.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a01-n04"
+      ]
+    }
+  ]
+}

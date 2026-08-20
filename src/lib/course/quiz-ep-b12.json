@@ -1,0 +1,73 @@
+{
+  "id": "q-b12",
+  "nivel": "basico",
+  "titulo": "Quiz — Pedir lo que de verdad quieres",
+  "subtitulo": "«No ___, please», «___ without ___», y por qué el camarero repite tu pedido",
+  "introAudioKey": "gb-b12-q-i",
+  "introPt": "El camarero repite tu pedido con la cebolla que no habías pedido. Encuentra cómo corregirlo — y qué significa de verdad cuando lo repite todo en voz alta.",
+  "cenario": "En la mesa de un restaurante, justo antes de que el pedido se vaya a la cocina.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b12-q01",
+      "voz": "target_en_gb_m",
+      "es": "No onions, please.",
+      "tts": "No onions, please.",
+      "pinyin": "nô O-nionns, pliize",
+      "pt": "Sin cebolla, por favor."
+    },
+    {
+      "audioKey": "gb-b12-q02",
+      "voz": "target_en_gb_f",
+      "es": "Got it — one without onions.",
+      "tts": "Got it — one without onions.",
+      "pinyin": "gotte itte — ouAnne ouidh-AOUTe O-nionns",
+      "pt": "Anotado — uno sin cebolla."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué fórmula quita un ingrediente de un pedido ya en curso?",
+      "opcoes": [
+        "No ___, please",
+        "I hate ___",
+        "Remove ___",
+        "Without, without"
+      ],
+      "correta": 0,
+      "explica": "«No ___, please» es la forma más corta y la más habitual para quitar algo en la mesa."
+    },
+    {
+      "pergunta": "¿Qué tipo de información comunica esta fórmula?",
+      "opcoes": [
+        "Una alergia grave",
+        "Una simple preferencia",
+        "Una queja formal",
+        "Una urgencia médica"
+      ],
+      "correta": 1,
+      "explica": "«No ___, please» quita una preferencia — hielo, cebolla, azúcar. Para un riesgo de salud, B13 enseña una frase distinta, con más peso."
+    },
+    {
+      "pergunta": "El camarero repite todo tu pedido en voz alta. ¿Por qué?",
+      "opcoes": [
+        "Duda de tu inglés",
+        "Es la confirmación estándar del servicio de mesa",
+        "No ha oído bien",
+        "Es para burlarse con cariño"
+      ],
+      "correta": 1,
+      "explica": "Repetir el pedido en voz alta es una confirmación estándar, válida para cualquier cliente, sea cual sea su acento."
+    },
+    {
+      "pergunta": "¿Qué hace «please» al final de una frase en inglés?",
+      "opcoes": [
+        "Nada, es opcional",
+        "Suaviza la frase, como el tono en español",
+        "Cambia el sentido del verbo",
+        "Indica el pasado"
+      ],
+      "correta": 1,
+      "explica": "El inglés apenas tiene marca de cortesía en la conjugación. «Please» hace ese trabajo; sin él, la frase suena a orden seca."
+    }
+  ]
+}

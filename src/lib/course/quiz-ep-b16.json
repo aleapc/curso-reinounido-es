@@ -1,0 +1,81 @@
+{
+  "id": "q-b16",
+  "nivel": "basico",
+  "titulo": "Quiz — Antes de que te den el número de habitación",
+  "subtitulo": "Pedir una mejora, y «My ___ isn't working» cuando algo se estropea",
+  "introAudioKey": "gb-b16-q-i",
+  "introPt": "La cola crece detrás de ti en recepción. Encuentra qué se pide antes de recibir la llave, y la fórmula para cuando algo se estropea después.",
+  "cenario": "En la recepción del hotel, y luego en la habitación.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b16-q01",
+      "voz": "target_en_gb_m",
+      "es": "Could I have a late check-out?",
+      "tts": "Could I have a late check-out?",
+      "pinyin": "koudd aï hav e lèïte tchèk-aoutte",
+      "pt": "¿Puedo tener un check-out tardío?"
+    },
+    {
+      "audioKey": "gb-b16-q02",
+      "voz": "target_en_gb_f",
+      "es": "Sure, that's no problem.",
+      "tts": "Sure, that's no problem.",
+      "pinyin": "chouEU, dhats nô PRO-bleumm",
+      "pt": "Claro, sin problema."
+    },
+    {
+      "audioKey": "gb-b16-q03",
+      "voz": "target_en_gb_m",
+      "es": "My key card isn't working.",
+      "tts": "My key card isn't working.",
+      "pinyin": "maï kii kard IZ-eunnte OUEUR-kinng",
+      "pt": "Mi tarjeta de acceso no funciona."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿En qué orden procede B16?",
+      "opcoes": [
+        "Reclamar primero, pedir mejoras después",
+        "Pedir lo que mejora la estancia antes de reclamar averías",
+        "Solo reclamar problemas",
+        "Solo pedir mejoras"
+      ],
+      "correta": 1,
+      "explica": "B16 empieza pidiendo lo que mejora tu estancia — habitación tranquila, check-out tardío — antes de reclamar lo que no funciona."
+    },
+    {
+      "pergunta": "¿Qué fórmula avisa de una avería en la habitación?",
+      "opcoes": [
+        "My ___ isn't working",
+        "I hate ___",
+        "The ___ is bad",
+        "Please repair ___"
+      ],
+      "correta": 0,
+      "explica": "«My ___ isn't working» sirve para casi cualquier avería técnica de la habitación: la llave, la calefacción, etc."
+    },
+    {
+      "pergunta": "¿Con qué suele estar relacionado el problema típico de una habitación inglesa?",
+      "opcoes": [
+        "El aire acondicionado, demasiado fuerte",
+        "La calefacción, a menudo insuficiente",
+        "El wifi, siempre cortado",
+        "El agua caliente, ausente"
+      ],
+      "correta": 1,
+      "explica": "El problema típico del confort inglés es la calefacción, no el aire acondicionado. «The heating isn't working», no «the AC»."
+    },
+    {
+      "pergunta": "Pagas un extra en recepción con tu tarjeta española. ¿Qué pasa?",
+      "opcoes": [
+        "Suele ser rechazada",
+        "Funciona directamente, sin código complicado",
+        "Hay que validarla primero",
+        "Solo se acepta efectivo"
+      ],
+      "correta": 1,
+      "explica": "El Reino Unido es masivamente contactless y una tarjeta Visa o Mastercard española funciona directamente, sin trámite especial."
+    }
+  ]
+}

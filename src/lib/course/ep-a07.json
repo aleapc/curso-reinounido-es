@@ -1,0 +1,282 @@
+{
+  "id": "a07",
+  "slot": "A07",
+  "nivel": "avancado",
+  "numero": 35,
+  "parte": "A07",
+  "titulo": "Señales: bienvenida, incomodidad, y la hora de irse",
+  "subtitulo": "La pantalla que te propone un doce coma cinco por ciento y que puedes rechazar, el «tut» que se oye sin que te miren, y el «habrá que repetirlo» que casi nunca llega",
+  "cena": "La pantalla de la caja te propone un doce coma cinco por ciento de propina por un café servido en un vaso de cartón, y el dependiente espera a que toques algo.",
+  "moldura": "ganha",
+  "frasePiso": "Un «we must do this again sometime» sin fecha es casi siempre un cierre cálido, no una promesa. Entenderlo así no te cuesta nada y te ahorra esperar toda una tarde para nada.",
+  "fatosDatados": [
+    {
+      "id": "gb-tut-desconforto",
+      "afirmacao": "British displeasure is often expressed indirectly rather than through direct confrontation: an audible 'tut' (a short tongue-click), a pointed sigh, a raised eyebrow, or an exaggeratedly patient silence — while an actual verbal complaint out loud, in public, is comparatively rare and often read as a bigger deal than the situation itself.",
+      "fonte": "Consenso de fontes culturais britânicas sobre comunicação indireta",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a07-n06"
+      ]
+    },
+    {
+      "id": "gb-convite-vago",
+      "afirmacao": "'We must do this again sometime' or 'let's grab a pint sometime', said without a specific day or time, commonly functions in Britain as a warm way of ending a conversation rather than a firm commitment — it is not dishonesty, but a recognised social register, much like its American equivalent.",
+      "fonte": "Consenso de fontes de etiqueta social britânica",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a07-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a07-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Hoy, sobre todo escucha. Las señales ya están enviadas — el trabajo es leerlas."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a07-n02",
+      "bloco": "callback",
+      "pt": "Repaso de ayer. Alguien te cuenta su plan para un festivo y te gusta. Dilo como ayer."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a07-p01",
+      "promptPt": "Habla ahora.",
+      "audioKey": "gb-a07-t01",
+      "es": "That sounds like a good day, honestly.",
+      "tts": "That sounds like a good day, honestly.",
+      "pinyin": "dhate saoundz laïke e goude dèï, ONN-estli",
+      "pt": "La verdad, suena a un buen día."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a07-n03",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "En la caja, la pantalla te propone un doce coma cinco por ciento de propina por un café servido en un vaso de cartón."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a07-o01",
+      "es": "Whenever you're ready.",
+      "tts": "Whenever you're ready.",
+      "pinyin": "ouenn-EV-eu you-r RÈ-di",
+      "pt": "Cuando estés listo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a07-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Esa pantalla en la barra, sin servicio de mesa, sorprende hasta a muchos británicos. Decir que no está muy bien visto."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a07-p02",
+      "promptPt": "Elige tu propio importe, con calma, sin explicarte demasiado. Habla ahora.",
+      "audioKey": "gb-a07-t02",
+      "es": "I'll just skip that, thanks.",
+      "tts": "I'll just skip that, thanks.",
+      "pinyin": "aïl djeust skippe dhate, thanks",
+      "pt": "Voy a pasar de eso, gracias."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a07-o02",
+      "es": "No worries at all.",
+      "tts": "No worries at all.",
+      "pinyin": "nô OUEU-riz atte ol",
+      "pt": "Sin problema."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a07-n05",
+      "pt": "Nadie se lo ha tomado mal. La pantalla sugiere; tú decides. Esa es toda la señal."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a07-n06",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Ahora el descontento. Aquí rara vez pasa por una frase — más bien un pequeño «tut», un suspiro, una ceja levantada."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a07-o03",
+      "receptivo": true,
+      "es": "Honestly...",
+      "tts": "Honestly...",
+      "pinyin": "ONN-estli...",
+      "pt": "👂 Un pequeño chasquido de lengua, y luego un «honestly» suspirado. Nadie te ha dicho nada directamente — ya es el mensaje."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a07-p03",
+      "promptPt": "Has entendido el mensaje sin que te dijeran nada a la cara. Discúlpate brevemente por la espera. Habla ahora.",
+      "audioKey": "gb-a07-t03",
+      "es": "Sorry for the wait.",
+      "tts": "Sorry for the wait.",
+      "pinyin": "SO-ri for the ouèïte",
+      "pt": "Perdona la espera."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a07-o04",
+      "es": "Oh, no, don't worry about it!",
+      "tts": "Oh, no, don't worry about it!",
+      "pinyin": "ô, nô, dônnte OUEU-ri e-BAOUTE itte",
+      "pt": "Ay, no, ¡no te preocupes!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a07-n07",
+      "pt": "Fíjate en el contraste: el descontento fue silencioso, la respuesta a tu disculpa es cálida."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a07-o05",
+      "receptivo": true,
+      "es": "We must do this again sometime!",
+      "tts": "We must do this again sometime!",
+      "pinyin": "oui moste dou dhiss e-GUÈNNE SAMM-taïme",
+      "pt": "👂 Podría pasar. Podría no pasar. «Sometime» lleva las dos cosas a la vez, y ese margen es lo que hace el trabajo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a07-n08",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "«Sometime», sin día ni hora, es la señal. No insistas — responde con calidez, y si te interesa, pregunta por una fecha."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a07-p04",
+      "promptPt": "Responde con la misma calidez, sin exigir nada todavía. Habla ahora.",
+      "audioKey": "gb-a07-t04",
+      "es": "Yeah, that'd be great!",
+      "tts": "Yeah, that'd be great!",
+      "pinyin": "iea, dhatts greïte",
+      "pt": "¡Sí, con mucho gusto!"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a07-p05",
+      "promptPt": "De verdad te interesa. Convierte el «un día de estos» en algo comprobable, sin forzar. Habla ahora.",
+      "audioKey": "gb-a07-t05",
+      "es": "Are you free later this week, actually?",
+      "tts": "Are you free later this week, actually?",
+      "pinyin": "ar you frii LÈÏ-teu dhiss ouiike, AK-tiou-a-li",
+      "pt": "¿Estás libre más tarde esta semana, por casualidad?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a07-o06",
+      "es": "Let me check and I'll text you.",
+      "tts": "Let me check and I'll text you.",
+      "pinyin": "let mi tchèke ande aïl tekste you",
+      "pt": "Déjame comprobarlo y te escribo."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a07-s01",
+      "es": "I'll just skip that, thanks. Sorry for the wait. Are you free later this week, actually?",
+      "tts": "I'll just skip that, thanks. Sorry for the wait. Are you free later this week, actually?",
+      "pinyin": "aïl djeust skippe dhate, thanks. SO-ri for the ouèïte. ar you frii LÈÏ-teu dhiss ouiike, AK-tiou-a-li",
+      "pt": "Repite: decidir tú mismo la propina, disculparte sin drama, convertir un «un día de estos» en algo real."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a07-n09",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A07 cerrada. La pantalla sugiere, tú decides. El descontento pasa por un «tut», no por una frase. «Sometime» es un cierre, no una promesa."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Leer la señal sin tomártelo como algo personal",
+    "secoes": [
+      {
+        "titulo": "La pantalla de propina no es una orden",
+        "corpo": "El porcentaje que aparece primero en la pantalla del datáfono es un ajuste del sistema, no una regla social — y en un sitio sin servicio de mesa, elegir un importe menor o nada en absoluto es una opción legítima que también ejerce mucha gente británica."
+      },
+      {
+        "titulo": "El descontento discreto no es menos real",
+        "corpo": "Un «tut», un suspiro marcado, un silencio demasiado paciente: estas señales discretas comunican un enfado real, sin confrontación directa. Una queja dicha en voz alta en público es más rara y suele leerse como un suceso más grave de lo que es la situación en sí."
+      },
+      {
+        "titulo": "«Sometime» hace un trabajo preciso",
+        "corpo": "Decir «habrá que repetirlo un día de estos» sin proponer fecha es una forma reconocida y aceptada de cerrar una conversación con calidez, sin obligar a nadie a nada. No es mentira ni desinterés — es simplemente el sonido de una despedida amistosa en inglés informal."
+      },
+      {
+        "titulo": "Si de verdad te interesa, pregunta por una fecha",
+        "corpo": "Preguntar por un día concreto no es insistir: es la única forma de distinguir un cierre cálido de una invitación real, y la mayoría de la gente lo recibe bien porque muestra interés sincero, no desconfianza."
+      }
+    ]
+  },
+  "permissao": "Tienes derecho a decidir tú mismo el importe de la propina en la barra, sin explicación ni disculpa. Y tienes derecho a usar tú mismo «we must do this again sometime» cuando quieras cerrar algo con calidez sin comprometerte a una fecha — es el registro educado, no una evasiva.",
+  "permissaoAudioKey": "gb-a07-n04",
+  "espelho": "Ya haces exactamente eso en tu propio idioma — «habrá que volver a vernos», «te llamo cuando pueda». Ahí tampoco engaña a nadie. La única diferencia aquí es qué frases hacen esa función, y que ahora te toca a ti recibirlas en un idioma que todavía no dominas del todo.",
+  "fichasCulturais": [
+    {
+      "sinal": "La pantalla de la barra te propone un diez, doce coma cinco o quince por ciento de propina por un pedido para llevar, sin servicio de mesa.",
+      "suaLeitura": "Si no elijo una de esas cifras, voy a parecer tacaño o maleducado.",
+      "oQueEAli": "El porcentaje inicial que propone la pantalla es un ajuste del datáfono, y muchos británicos también lo encuentran excesivo en un sitio sin servicio de mesa — elegir un importe menor o «sin propina» es ahí una opción normal, no una falta de respeto.",
+      "oQueVoceFaz": "Elige el importe que quieras dejar, con calma, sin dar explicaciones ni disculparte.",
+      "oQueMelhora": "Pagas exactamente lo que quieres pagar, sin la presión de una pantalla diseñada para pedir más.",
+      "ondeNaoVale": "No vale en un restaurante con servicio de mesa completo, donde la propina es la forma real en que se paga al camarero, y donde menos de un diez por ciento comunica que algo ha ido mal.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a07-n04"
+      ]
+    },
+    {
+      "sinal": "Oyes un pequeño chasquido de lengua detrás de ti en la cola, o un suspiro marcado, sin que nadie te diga una palabra a la cara.",
+      "suaLeitura": "Nadie se ha quejado, así que probablemente no es nada.",
+      "oQueEAli": "El descontento británico pasa muy a menudo por estas señales indirectas en lugar de por una queja verbal directa — el silencio paciente y el «tut» son un mensaje social real, no una ausencia de reacción.",
+      "oQueVoceFaz": "Tómalo como información útil — date prisa, discúlpate brevemente si es cosa tuya — sin hacer un drama ni ignorarlo del todo.",
+      "oQueMelhora": "Corriges la situación a tiempo, antes de que se convierta en una queja verbal real, más rara y más pesada aquí.",
+      "ondeNaoVale": "No vale en una situación donde alguien expresa clara y directamente un descontento en voz alta — ahí ya se ha salido del registro indirecto, y merece una respuesta directa también.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a07-n06"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "id": "b18",
+  "slot": "B18",
+  "nivel": "basico",
+  "numero": 18,
+  "parte": "18A",
+  "titulo": "La maleta está lista, solo falta la hora",
+  "subtitulo": "«What time ___?» para el último día, y despedirte sin que suene a prisa",
+  "cena": "La maleta ya está cerrada junto a la puerta, el avión sale esta tarde, y no sabes hasta qué hora puedes quedarte antes de que te cobren una noche más.",
+  "moldura": "ganha",
+  "frasePiso": "Vas a cerrar tu último día en el Reino Unido sabiendo exactamente la hora de cada límite, y te vas a despedir como alguien que ya sabe que va a volver.",
+  "moldes": [
+    "WHAT-TIME"
+  ],
+  "clique": {
+    "contagem": [
+      "la hora del check-out",
+      "el horario de la lanzadera al aeropuerto",
+      "la hora de cierre de la recepción",
+      "la hora de salida de tu vuelo"
+    ],
+    "desconto": "Nadie te ha dado una frase para cada horario del último día. Has montado las cuatro con «What time» y lo que necesitabas saber.",
+    "piso": "La próxima vez que tu último día tenga varios horarios en juego, no vas a adivinar: vas a preguntar cada uno con la misma fórmula, uno por uno."
+  },
+  "permissao": "No necesitas memorizar todos los horarios de golpe. Puedes preguntar cada uno por separado, en el momento en que lo necesites; nadie espera que llegues con el itinerario ya resuelto.",
+  "permissaoAudioKey": "gb-b18-n09",
+  "espelho": "En cualquier último día de viaje en tu país también compruebas la hora del check-out y el trayecto al aeropuerto antes de relajarte; lo que cambia aquí es la fórmula exacta, y la costumbre de decir «Cheers, take care» en vez de una despedida más larga.",
+  "fichasCulturais": [
+    {
+      "sinal": "Al irte, la persona de recepción te dice «Cheers, take care!» con una sonrisa breve, casi sin detenerse, ya vuelta hacia el siguiente cliente.",
+      "suaLeitura": "Ha sido una despedida fría o con prisa, como si no importara.",
+      "oQueEAli": "Es la despedida de servicio estándar en el Reino Unido: corta, cálida y rápida, sin la ceremonia más larga que podrías esperar en otro sitio. No mide cuánto te ha gustado tu estancia.",
+      "oQueVoceFaz": "Respondes «Cheers, you too!» y sigues tu camino; no hace falta alargar el intercambio.",
+      "oQueMelhora": "Cierras el intercambio como lo haría alguien de allí, sin la sensación de que algo ha quedado pendiente.",
+      "ondeNaoVale": "No vale si ha habido una relación más personal durante la estancia — un anfitrión de casa rural con quien has hablado mucho; ahí una despedida más larga es igual de esperada que en casa.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b18-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b18-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte dieciocho, la última del módulo. El puño en la pregunta clave: OUATE TAIM iz chek-AUT."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b18-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "La maleta ya está cerrada junto a la puerta. Tu avión sale esta tarde, y no sabes hasta qué hora puedes quedarte."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b18-p01",
+      "promptPt": "Como ayer en la farmacia, di que necesitas algo para el dolor de cabeza. Habla ahora.",
+      "bloco": "callback",
+      "molde": "HAVE",
+      "audioKey": "gb-b18-t01",
+      "es": "Do you have something for a headache?",
+      "tts": "Do you have something for a headache?",
+      "pinyin": "dou you hav SAM-thinng for e HÈD-èïke",
+      "pt": "¿Tienen algo para el dolor de cabeza?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b18-n03",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "La fórmula de hoy: «What time» más lo que quieres saber. Cubre el check-out, la lanzadera, casi todos los horarios."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b18-t02",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "ouate taïme iz tchèk-aoutte",
+      "pt": "¿A qué hora es el check-out?"
+    },
+    {
+      "consulta": [
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WHAT-TIME",
+      "encaixe": "is check-out",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b18-p02",
+      "promptPt": "Antes de bajar la maleta, pregunta la hora del check-out. Habla ahora.",
+      "audioKey": "gb-b18-t02",
+      "es": "What time is check-out?",
+      "tts": "What time is check-out?",
+      "pinyin": "ouate taïme iz tchèk-aoutte",
+      "pt": "¿A qué hora es el check-out?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b18-r01",
+      "es": "It's at eleven, but you can leave your bags with us.",
+      "tts": "It's at eleven, but you can leave your bags with us.",
+      "pinyin": "its atte i-LÈ-veune, batte you kann liive yor bagz ouidh as",
+      "pt": "Es a las once, pero pueden dejarnos el equipaje."
+    },
+    {
+      "consulta": [
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "CAN-I",
+      "encaixe": "leave my bag here",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b18-p03",
+      "promptPt": "Tu vuelo sale solo por la tarde. Pregunta si puedes dejar tu maleta en recepción. Habla ahora.",
+      "audioKey": "gb-b18-t03",
+      "es": "Can I leave my bag here?",
+      "tts": "Can I leave my bag here?",
+      "pinyin": "kann aï liive maï bag hieu",
+      "pt": "¿Puedo dejar mi maleta aquí?"
+    },
+    {
+      "consulta": [
+        "taxi/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WHAT-TIME",
+      "encaixe": "does the shuttle leave",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b18-p04",
+      "promptPt": "Vas a coger la lanzadera al aeropuerto. Pregunta a qué hora sale. Habla ahora.",
+      "audioKey": "gb-b18-t04",
+      "es": "What time does the shuttle leave?",
+      "tts": "What time does the shuttle leave?",
+      "pinyin": "ouate taïme daz dhe CHA-teul liive",
+      "pt": "¿A qué hora sale la lanzadera?"
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "WHAT-TIME",
+      "encaixe": "does reception close",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b18-p05",
+      "promptPt": "Vas a volver muy tarde a por tu maleta. Pregunta hasta qué hora hay alguien en recepción. Habla ahora.",
+      "audioKey": "gb-b18-t05",
+      "es": "What time does reception close?",
+      "tts": "What time does reception close?",
+      "pinyin": "ouate taïme daz ri-SÈP-cheune klôouz",
+      "pt": "¿A qué hora cierra la recepción?"
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WHAT-TIME",
+      "encaixe": "does breakfast end",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b18-p06",
+      "promptPt": "Has bajado tu maleta y quieres coger el desayuno antes de salir hacia el aeropuerto. Pregunta hasta qué hora lo sirven. Habla ahora.",
+      "audioKey": "gb-b18-t07",
+      "es": "What time does breakfast end?",
+      "tts": "What time does breakfast end?",
+      "pinyin": "ouate taïme daz BRÈK-feuste ènnde",
+      "pt": "¿A qué hora termina el desayuno?"
+    },
+    {
+      "consulta": [
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "HOW-MUCH",
+      "encaixe": "a late check-out",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b18-p07",
+      "promptPt": "Tu vuelo sale tan tarde que prefieres quedarte en la habitación unas horas más en vez de dejar la maleta abajo. Pregunta cuánto cuesta un check-out tardío. Habla ahora.",
+      "audioKey": "gb-b18-t08",
+      "es": "How much is a late check-out?",
+      "tts": "How much is a late check-out?",
+      "pinyin": "haou match iz e lèïte tchèk-aoutte",
+      "pt": "¿Cuánto cuesta un check-out tardío?"
+    },
+    {
+      "consulta": [
+        "taxi/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "call a taxi",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b18-p08",
+      "promptPt": "La lanzadera del hotel ya se ha ido sin ti. Pregunta en recepción si pueden llamarte un taxi. Habla ahora.",
+      "audioKey": "gb-b18-t09",
+      "es": "Can I call a taxi?",
+      "tts": "Can I call a taxi?",
+      "pinyin": "kann aï kol e TAK-si",
+      "pt": "¿Puedo pedir un taxi?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b18-n04",
+      "pt": "Una fórmula, cuatro horarios distintos: check-out, lanzadera, recepción, y el que todavía te queda por preguntar."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b18-n05",
+      "pt": "Para despedirte, no hace falta alargar la frase. «Cheers, thanks so much» cierra bien casi cualquier despedida."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b18-t06",
+      "es": "Have a safe flight!",
+      "tts": "Have a safe flight!",
+      "pinyin": "hav e sèïfe flaïte",
+      "pt": "¡Buen vuelo!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b18-n07",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Si la despedida parece breve, no es frialdad: es la despedida de servicio estándar aquí. Respondes «Cheers, you too!»."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b18-n08",
+      "tom": "ganha",
+      "pt": "«Cheers» cierra el círculo del curso: gracias, adiós, salud — la misma sílaba, desde el primer mostrador de B06."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b18-n09",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas memorizar todos los horarios de golpe. Pregunta cada uno en el momento en que lo necesites."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b18-n10",
+      "bloco": "clique",
+      "tom": "ganha",
+      "pt": "Check-out, lanzadera, recepción. Nadie te ha dado tres frases: las has montado con una sola fórmula."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "WHAT-TIME",
+      "audioKey": "gb-b18-s01",
+      "es": "What time is check-out? What time does the shuttle leave?",
+      "tts": "What time is check-out? What time does the shuttle leave?",
+      "pinyin": "ouate taïme iz tchèk-aoutte ? ouate taïme daz dhe CHA-teul liive ?",
+      "pt": "Repite la misma fórmula con dos horarios distintos."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b18-n11",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "Parte dieciocho cerrada, y con ella, ME VIRO al completo. Una fórmula en cada casa, y un viaje que sabes cerrar solo."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "El último día tiene su propio reloj",
+    "secoes": [
+      {
+        "titulo": "La fórmula abierta",
+        "corpo": "«What time» más lo que quieres saber cubre casi cualquier horario: check-out, transporte, hora de apertura. La casca no cambia; solo cambia el final de la pregunta."
+      },
+      {
+        "titulo": "Dejar la maleta no es solo cortesía",
+        "corpo": "Casi todos los hoteles aceptan guardar tu equipaje después del check-out sin coste adicional, aunque tu vuelo salga varias horas después. Preguntar con «Can I leave my bag here?» evita cargar con ella todo el día."
+      },
+      {
+        "titulo": "Una despedida breve no es fría",
+        "corpo": "El registro de despedida de servicio en el Reino Unido es corto por naturaleza: «Have a safe flight», «Cheers, take care», y ya está. No esperes una ceremonia más larga; la brevedad es la norma, no una falta de calidez."
+      },
+      {
+        "titulo": "Dieciocho partes, un solo método",
+        "corpo": "El módulo ME VIRO termina aquí, en una despedida, no en un vuelo ni una urgencia. Cada parte plantó una fórmula abierta; juntas, cubren el viaje completo, desde el aeropuerto de llegada hasta el de salida."
+      }
+    ]
+  }
+}

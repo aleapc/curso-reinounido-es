@@ -1,0 +1,238 @@
+{
+  "id": "b01",
+  "slot": "B01",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "1A",
+  "titulo": "La palabra que el botones entiende a la primera",
+  "subtitulo": "El puño que marca la sílaba fuerte, desde el mostrador hasta la puerta de la habitación",
+  "cena": "El botones acaba de dejar tu maleta a los pies de la cama y se queda en el umbral de la puerta, esperando una sola palabra en inglés que le diga si todo va bien o si necesitas algo más.",
+  "moldura": "ganha",
+  "frasePiso": "Vas a cerrar tu primer intercambio en inglés con un solo gesto, no con una regla. La mayoría nunca lo aprende, y por eso solo se les entiende a medias.",
+  "permissao": "Es normal conservar tu acento español al hablar inglés. Nadie va a evaluar tu pronunciación; lo único que se te pide es que la sílaba fuerte se note con claridad.",
+  "permissaoAudioKey": "gb-b01-n07",
+  "espelho": "En español, comerse una sílaba al hablar rápido pasa casi desapercibido — «pa'» por «para» — porque el oído rellena el hueco solo. En inglés, mover el acento de una palabra que el otro ya conoce cambia directamente la palabra: decir «HOtel» en vez de «hoTEL» deja de sonar al hotel y empieza a sonar a nada.",
+  "fichasCulturais": [
+    {
+      "sinal": "Dices una palabra que ambos conocéis — «hotel», «information» — y la persona de enfrente se queda un momento en blanco antes de pedirte que repitas.",
+      "suaLeitura": "Mi inglés es tan malo que ni siquiera las palabras fáciles se entienden.",
+      "oQueEAli": "La palabra ya existe exactamente igual en su oído; lo que la vuelve irreconocible es que el inglés mueve el acento según la palabra — y lo aplasta casi en todas partes menos ahí. No es que hables mal: es que el puño cae en el sitio equivocado.",
+      "oQueVoceFaz": "Repites un poco más despacio marcando bien la sílaba fuerte y aplastando las demás: hoTEL, no HOtel.",
+      "oQueMelhora": "Las palabras que ya reconoces — y entre el aeropuerto y el hotel hay bastantes, gracias al latín — dejan de ser las primeras en fallar.",
+      "ondeNaoVale": "No se aplica con personal de mostrador internacional acostumbrado a todos los acentos del mundo; ahí te entienden a la primera, pase lo que pase.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b01-n01",
+        "gb-b01-n02"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b01-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Parte uno. Un gesto: el puño marca la sílaba fuerte. En español suele caer casi al final; en inglés, se mueve."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b01-n02",
+      "bloco": "cena",
+      "pt": "El botones espera una palabra en inglés. Primero, una que ya conoces: information."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b01-t01",
+      "gesto": 3,
+      "es": "Information.",
+      "tts": "Information.",
+      "pinyin": "inn-fo-MÈÏ-cheunn",
+      "pt": "Information. El puño cae en MA, no al principio como en español."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b01-p01",
+      "promptPt": "El botones te enseña un folleto y te pregunta si buscas información. Responde con esa sola palabra, con el puño bien puesto en la tercera sílaba. Habla ahora.",
+      "audioKey": "gb-b01-t01",
+      "es": "Information.",
+      "tts": "Information.",
+      "pinyin": "inn-fo-MÈÏ-cheunn",
+      "pt": "Una información."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b01-n03",
+      "bloco": "corpo",
+      "pt": "Misma mecánica con hotel. En español la palabra es plana; en inglés el puño cae al final: hoTEL."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b01-t02",
+      "gesto": 3,
+      "es": "The hotel receipt, please.",
+      "tts": "The hotel receipt, please.",
+      "pinyin": "the ho-TEL ri-SIIT, pliiz",
+      "pt": "El recibo del hotel, por favor. hoTEL y riCEIPT: el puño cae al final de las dos palabras."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b01-p02",
+      "promptPt": "Has pagado el taxi y quieres guardar constancia del gasto. Pide el recibo del hotel, marcando bien el final de las dos palabras. Habla ahora.",
+      "audioKey": "gb-b01-t02",
+      "es": "The hotel receipt, please.",
+      "tts": "The hotel receipt, please.",
+      "pinyin": "the ho-TEL ri-SIIT, pliiz",
+      "pt": "El recibo del hotel, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b01-n04",
+      "pt": "Photograph, chocolate: misma regla, el puño en un sitio distinto cada vez. No hay receta fija, una sílaba fuerte por palabra."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b01-t03",
+      "gesto": 3,
+      "es": "Could I take a photograph?",
+      "tts": "Could I take a photograph?",
+      "pinyin": "coud aï tèïk e FO-teu-graaf",
+      "pt": "¿Puedo hacer una foto? El puño cae en PHO, justo al principio esta vez."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b01-p03",
+      "promptPt": "La vista desde la ventana de la habitación es preciosa. Pregunta si puedes hacer una foto, con el puño en la primera sílaba. Habla ahora.",
+      "audioKey": "gb-b01-t03",
+      "es": "Could I take a photograph?",
+      "tts": "Could I take a photograph?",
+      "pinyin": "coud aï tèïk e FO-teu-graaf",
+      "pt": "¿Puedo hacer una foto?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b01-p04",
+      "promptPt": "El botones te ofrece un chocolate sobre la almohada, a la inglesa. Nombra la cosa marcando bien la segunda sílaba: choco-LATE. Habla ahora.",
+      "audioKey": "gb-b01-t04",
+      "es": "Chocolate, thanks.",
+      "tts": "Chocolate, thanks.",
+      "pinyin": "TCHO-cleutt, thanks",
+      "pt": "Chocolate, gracias."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b01-n05",
+      "bloco": "capsula",
+      "pt": "Una última cosa: la H de have nunca desaparece. Sóplala, no te la comas como harías en español con otras letras."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b01-t05",
+      "gesto": 3,
+      "es": "Do you have a lift?",
+      "tts": "Do you have a lift?",
+      "pinyin": "dou you Hav e lift",
+      "pt": "¿Tienen ascensor? La H de have se sopla, no se traga."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b01-p05",
+      "promptPt": "Tus dos maletas pesan demasiado para las escaleras. Pregunta si hay ascensor, soplando bien la H de have. Habla ahora.",
+      "audioKey": "gb-b01-t05",
+      "es": "Do you have a lift?",
+      "tts": "Do you have a lift?",
+      "pinyin": "dou you Hav e lift",
+      "pt": "¿Tienen ascensor?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b01-p06",
+      "promptPt": "El botones te pregunta si necesitas algo más antes de irse. Dile que no, gracias, con la palabra informal que se oye por todas partes aquí. Habla ahora.",
+      "audioKey": "gb-b01-x1",
+      "es": "No, cheers.",
+      "tts": "No, cheers.",
+      "pinyin": "nô, TCHIEUZ",
+      "pt": "No, gracias."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b01-p07",
+      "promptPt": "Cierra la puerta deseándote que lo pases bien aquí. Respóndele lo mismo, en una frase corta. Habla ahora.",
+      "audioKey": "gb-b01-x2",
+      "es": "Enjoy your stay.",
+      "tts": "Enjoy your stay.",
+      "pinyin": "inn-DJOÏ yor STÈÏ",
+      "pt": "Que disfrute de su estancia."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b01-s01",
+      "es": "Information. The hotel receipt, please. Could I take a photograph?",
+      "tts": "Information. The hotel receipt, please. Could I take a photograph?",
+      "pinyin": "inn-fo-MÈÏ-cheunn. the ho-TEL ri-SIIT, pliiz. coud aï tèïk e FO-teu-graaf",
+      "pt": "Repite las tres con el puño en una sílaba distinta cada vez — nunca dos veces en el mismo sitio."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b01-n06",
+      "bloco": "recap",
+      "pt": "Parte uno cerrada. Un gesto, el puño en la sílaba fuerte: vuelve en cada parte."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Por qué el inglés aplasta sus propias palabras",
+    "secoes": [
+      {
+        "titulo": "Ritmo acentual, no silábico",
+        "corpo": "El español reparte el tiempo por sílaba con bastante regularidad; el inglés reparte el tiempo por acento, y el acento se mueve según la palabra. Dicha con el ritmo regular del español, una frase inglesa suena forzada, y a veces deja de entenderse, porque el oído anglófono espera que las sílabas débiles se aplasten.",
+        "exemplos": [
+          {
+            "es": "Information.",
+            "pt": "inn-fo-MÉI-cheunn — el puño cae en la tercera sílaba, no en la primera"
+          },
+          {
+            "es": "Could I take a photograph?",
+            "pt": "el puño cae en PHO, al principio esta vez — cada palabra tiene su propio sitio"
+          }
+        ]
+      },
+      {
+        "titulo": "El regalo del cognado, y su precio",
+        "corpo": "El español lee el inglés mucho mejor de lo que cree: information, hotel, photograph, chocolate se reconocen por escrito sin esfuerzo. El precio se paga en la boca, no en los ojos — es la sílaba fuerte la que decide si la palabra sigue siendo reconocible al oído."
+      },
+      {
+        "titulo": "La H que nunca desaparece",
+        "corpo": "En español no existe ese sonido, así que la tentación es saltárselo — «otel» en vez de hotel, «appy» en vez de happy. En inglés se sopla, incluso en una sílaba sin acento: «do you Have» y no «do you ave». Es un soplo, no un sonido nuevo: basta con pensarlo."
+      },
+      {
+        "titulo": "Permiso para conservar el acento",
+        "corpo": "El objetivo de esta parte no es borrar el acento español: es que la sílaba fuerte se note con claridad. Con eso basta para que te entiendan a la primera."
+      }
+    ]
+  }
+}

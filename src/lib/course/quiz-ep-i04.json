@@ -1,0 +1,92 @@
+{
+  "id": "q-i04",
+  "nivel": "intermediario",
+  "titulo": "Quiz — La última ronda",
+  "subtitulo": "La ronda, last orders y el reloj del pub",
+  "introAudioKey": "gb-i04-q-i",
+  "introPt": "Suena la campana en el pub. Escucha cómo el viajero gestiona la ronda y la última comanda.",
+  "cenario": "Un pub en el Reino Unido, al final de la noche.",
+  "dialogo": [
+    {
+      "audioKey": "gb-i04-q01",
+      "voz": "target_en_gb_m",
+      "es": "Same again for everyone?",
+      "tts": "Same again for everyone?",
+      "pinyin": "sèïm e-GUÈNN for ÈV-ri-ouann",
+      "pt": "¿La misma ronda para todos?"
+    },
+    {
+      "audioKey": "gb-i04-q02",
+      "voz": "target_en_gb_f",
+      "es": "Yes, this one's on me.",
+      "tts": "Yes, this one's on me.",
+      "pinyin": "yèss, dhiss ouannz onn mi",
+      "pt": "Sí, esta es mi ronda."
+    },
+    {
+      "audioKey": "gb-i04-q03",
+      "voz": "target_en_gb_m",
+      "es": "Cheers, that's very kind.",
+      "tts": "Cheers, that's very kind.",
+      "pinyin": "TCHIEUZ, dhatts VÈ-ri kaïnd",
+      "pt": "Gracias, muy amable."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "En un grupo en el pub, la ronda es...",
+      "opcoes": [
+        "Una opción personal",
+        "Una regla social — cada uno paga por turnos",
+        "Solo para hombres",
+        "Siempre la paga el anfitrión"
+      ],
+      "correta": 1,
+      "explica": "«Olvidar» tu ronda es una falta social real en el Reino Unido."
+    },
+    {
+      "pergunta": "¿Qué significa «last orders»?",
+      "opcoes": [
+        "El pub cierra ese mismo segundo",
+        "Es la última llamada para pedir, todavía quedan minutos",
+        "Ya no queda cerveza",
+        "Es la hora de comer"
+      ],
+      "correta": 1,
+      "explica": "Normalmente quedan entre quince y veinte minutos antes del cierre real."
+    },
+    {
+      "pergunta": "¿Cómo se agradece al camarero en vez de dejar propina?",
+      "opcoes": [
+        "No se hace nada",
+        "Se le invita a una bebida: «and one for yourself»",
+        "Se deja el cambio en la barra",
+        "Se paga un 20% más"
+      ],
+      "correta": 1,
+      "explica": "Es el gesto británico equivalente a la propina en la barra."
+    },
+    {
+      "pergunta": "¿Qué fórmula sirve para preguntar la hora de la última comanda?",
+      "opcoes": [
+        "How much is it?",
+        "What time are last orders?",
+        "Do you have a table?",
+        "Where's the bar?"
+      ],
+      "correta": 1,
+      "explica": "Es el molde WHAT-TIME de B18, reutilizado para el pub."
+    },
+    {
+      "pergunta": "¿Es el horario de cierre de un pub el mismo en todas partes?",
+      "opcoes": [
+        "Sí, siempre a las once",
+        "No, depende de la licencia de cada local",
+        "Sí, siempre a medianoche",
+        "Los pubs nunca cierran"
+      ],
+      "correta": 1,
+      "explica": "El horario varía según la licencia — no es una única regla nacional."
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "id": "a08",
+  "slot": "A08",
+  "nivel": "avancado",
+  "numero": 36,
+  "parte": "A08",
+  "titulo": "Las despedidas",
+  "subtitulo": "Cómo irte para que te vuelvan a invitar — y la pequeña lista de emergencia para cuando se te olvide todo lo demás",
+  "cena": "Ya tienes la bolsa al hombro y la puerta a la vista, y ves que la mitad de la mesa se limita a levantar la mano sin levantarse para despedirse uno por uno.",
+  "moldura": "ganha",
+  "frasePiso": "Vete sin prisa, nombra algo concreto, y termina con un «cheers» de verdad. Esa es la diferencia entre una visita y una amistad.",
+  "fatosDatados": [
+    {
+      "id": "gb-adeus-informal",
+      "afirmacao": "In casual British gatherings, a general wave or a shouted 'cheers, thanks for having me!' toward the room is a widely accepted way to leave, especially among friends of friends — it doesn't require an individual goodbye to every person, the same relaxed norm found across much of the English-speaking world.",
+      "fonte": "Consenso de fontes de etiqueta social britânica",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "gb-a08-n04"
+      ]
+    },
+    {
+      "id": "gb-mensagem-agradecimento",
+      "afirmacao": "Sending a short thank-you text the same day or the next day after being hosted for a meal is a common and appreciated gesture in British social etiquette, even when a verbal thank-you was already given on the way out.",
+      "fonte": "Consenso de fontes de etiqueta social britânica",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a08-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a08-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Última parte. Las despedidas deciden si habrá una próxima vez, y va más rápido de lo que se piensa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a08-n02",
+      "bloco": "callback",
+      "pt": "Repaso de ayer. Alguien te dice que habrá que volver a veros, sin fecha. Responde con calidez, como ayer."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a08-p01",
+      "promptPt": "Habla ahora.",
+      "audioKey": "gb-a08-t01",
+      "es": "Yeah, that'd be great!",
+      "tts": "Yeah, that'd be great!",
+      "pinyin": "iea, dhatts greïte",
+      "pt": "¡Sí, con mucho gusto!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a08-n03",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Bolsa al hombro, puerta a la vista. La mitad de la mesa solo levanta la mano y sigue su conversación, sin levantarse."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a08-o01",
+      "es": "Cheers for coming!",
+      "tts": "Cheers for coming!",
+      "pinyin": "TCHIEUZ for KA-migne",
+      "pt": "¡Gracias por venir!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a08-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "A diferencia de una despedida individual prolongada, un adiós general a toda la mesa aquí es más que suficiente."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a08-p02",
+      "promptPt": "Despídete del anfitrión, con calidez y sin exagerar. Habla ahora.",
+      "audioKey": "gb-a08-t02",
+      "es": "I should get going, but thank you so much.",
+      "tts": "I should get going, but thank you so much.",
+      "pinyin": "aï choude guette GO-igne, batte thanke you sô motche",
+      "pt": "Tengo que irme, pero muchas gracias."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a08-o02",
+      "es": "Of course! So glad you could make it.",
+      "tts": "Of course! So glad you could make it.",
+      "pinyin": "of KORCE ! sô GLADE you couDE mèïke itte",
+      "pt": "¡Claro! Me alegro tanto de que hayas podido venir."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a08-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "El movimiento que consigue una próxima invitación: nombra algo concreto. No «estuvo bien» — nombra qué."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a08-p03",
+      "promptPt": "Nombra lo que de verdad te vas a llevar de esta noche. Habla ahora.",
+      "audioKey": "gb-a08-t03",
+      "es": "Your shepherd's pie was seriously the best I've had.",
+      "tts": "Your shepherd's pie was seriously the best I've had.",
+      "pinyin": "ior CHÈ-peudz païe ouoz SI-rios-li the beste aïve jade",
+      "pt": "Tu shepherd's pie ha sido de verdad el mejor que he probado."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a08-o03",
+      "es": "Aw, I'll tell my mum, she'll be made up.",
+      "tts": "Aw, I'll tell my mum, she'll be made up.",
+      "pinyin": "o, aïl tel maï mome, chiil bi mèïde ope",
+      "pt": "Ay, se lo voy a decir a mi madre, se va a poner muy contenta."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a08-n06",
+      "pt": "Esa frase acaba de viajar hasta alguien que no está en la sala. El cumplido concreto se comparte; el genérico se queda ahí."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a08-p04",
+      "promptPt": "Propón mantener el contacto, sin que suene a mera educación. Habla ahora.",
+      "audioKey": "gb-a08-t04",
+      "es": "We should definitely keep in touch — can I get your number?",
+      "tts": "We should definitely keep in touch — can I get your number?",
+      "pinyin": "oui choude DE-fi-nite-li kiipe inn tatche — kn aï guette ior NOMM-beu",
+      "pt": "Tenemos que mantener el contacto de verdad — ¿me das tu número?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a08-o04",
+      "es": "For sure, here you go.",
+      "tts": "For sure, here you go.",
+      "pinyin": "for choure, jiere you gô",
+      "pt": "Claro, toma."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a08-n07",
+      "pt": "Un último detalle: un mensaje de agradecimiento el mismo día, incluso después de decirlo al irte, siempre queda bien."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a08-n08",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "No hace falta que sea largo. Una línea diciendo que lo pasaste bien ya hace todo el trabajo."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a08-p05",
+      "promptPt": "Termina la noche con el gracias final, cara a cara. Habla ahora.",
+      "audioKey": "gb-a08-t05",
+      "es": "Thanks again, this was really great.",
+      "tts": "Thanks again, this was really great.",
+      "pinyin": "thanks e-GUÈNNE, dhiss ouoz RIA-li greïte",
+      "pt": "Gracias de nuevo, ha sido genial de verdad."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a08-n09",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "La lista de emergencia, si se te borra todo lo demás: do you have, can I, where's the, could I have, no ___ please, how much is."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a08-s01",
+      "es": "I should get going, but thank you so much. Your shepherd's pie was seriously the best. We should definitely keep in touch.",
+      "tts": "I should get going, but thank you so much. Your shepherd's pie was seriously the best. We should definitely keep in touch.",
+      "pinyin": "aï choude guette GO-igne, batte thanke you sô motche. ior CHÈ-peudz païe ouoz SI-rios-li the beste. oui choude DE-fi-nite-li kiipe inn tatche",
+      "pt": "Repite la despedida entera: el gracias, el cumplido concreto, la propuesta de mantener el contacto."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a08-n10",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A08 cerrada, y el curso con ella. Un adiós general, algo concreto, mantener el contacto: eso hace que te vuelvan a invitar."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Irse es la parte que decide la próxima vez",
+    "secoes": [
+      {
+        "titulo": "Un adiós general basta",
+        "corpo": "A diferencia de culturas donde se espera una despedida individual a cada persona, en el Reino Unido un adiós lanzado a toda la sala es más que suficiente, sobre todo en una reunión informal entre amigos de amigos. No es falta de educación: es simplemente otra convención."
+      },
+      {
+        "titulo": "El cumplido concreto viaja",
+        "corpo": "«Estuvo bien» se queda con la persona a la que se lo dijiste. «Tu shepherd's pie» llega hasta la cocina. Nombrar algo concreto es la diferencia entre un invitado educado y un invitado al que de verdad apetece volver a invitar."
+      },
+      {
+        "titulo": "El mensaje de después",
+        "corpo": "Un mensaje corto de agradecimiento el mismo día, aunque ya hayas dado las gracias al irte, es un pequeño gesto que se nota y que sienta bien — cuesta una línea y deja una buena última impresión."
+      },
+      {
+        "titulo": "La lista de emergencia",
+        "corpo": "Si se te borra todo el curso de la cabeza en el avión, seis fórmulas sobreviven y bastan para que te traten bien en cualquier sitio: do you have ___ para lo que necesitas, can I ___ para lo que quieres hacer, where's the ___ para lo que buscas, could I have ___ para pedir, no ___ please para quitar algo, y how much is ___ antes de comprometerte."
+      }
+    ]
+  },
+  "permissao": "Tienes derecho a tomarte unos minutos para despedirte, y también tienes derecho a simplemente levantar la mano y decir adiós a toda la sala — las dos formas son correctas aquí, y ninguna te deja mal por no saludar a cada persona una por una.",
+  "permissaoAudioKey": "gb-a08-n04",
+  "espelho": "Cualquiera que haya sido anfitrión conoce la diferencia entre el invitado que se despidió desde la puerta y el que vino a dar las gracias por el shepherd's pie, en concreto. Tú también has estado del lado del anfitrión; A08 simplemente te pide que ahora seas ese segundo invitado, en inglés.",
+  "fichasCulturais": [
+    {
+      "sinal": "Estás a punto de despedirte de cada persona de la mesa, una por una, y ves que la mayoría se limita a un gesto de la mano hacia todo el grupo.",
+      "suaLeitura": "Soy el único que se pone formal, o quizá tardo más de lo previsto.",
+      "oQueEAli": "La despedida individual y prolongada es una costumbre extendida en otros sitios; en el Reino Unido, un adiós general a la sala es igual de válido, sobre todo en una reunión informal. Ninguna de las dos formas es incorrecta — son simplemente costumbres distintas.",
+      "oQueVoceFaz": "Haz lo que te resulte natural: despídete directamente del anfitrión, y del resto con un gesto general si el ambiente es informal.",
+      "oQueMelhora": "Te vas sin sentir que has roto una regla que nadie más en la sala seguía en realidad.",
+      "ondeNaoVale": "No en una cena formal o en grupo reducido, con pocos invitados — ahí mejor despedirte directamente de cada persona, como harías en tu casa.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a08-n04"
+      ]
+    },
+    {
+      "sinal": "Acabas de dar las gracias al irte, y no sabes si mandar un mensaje después es necesario o excesivo.",
+      "suaLeitura": "Ya he dado las gracias en persona, mandar un mensaje después sería insistir sin necesidad.",
+      "oQueEAli": "Un mensaje corto de agradecimiento el mismo día es un gesto extra bien visto, no una repetición innecesaria — refuerza el gracias verbal y deja una última impresión que el anfitrión suele recordar con gusto.",
+      "oQueVoceFaz": "Manda una línea corta y sincera, sin necesidad de justificar por qué lo haces.",
+      "oQueMelhora": "Mantienes la relación abierta para la próxima invitación, con muy poco esfuerzo por tu parte.",
+      "ondeNaoVale": "No es necesario para un encuentro muy informal, como una comida rápida con conocidos recientes sin mucha cercanía — ahí el gracias en voz alta ya cierra el momento.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a08-n08"
+      ]
+    }
+  ]
+}

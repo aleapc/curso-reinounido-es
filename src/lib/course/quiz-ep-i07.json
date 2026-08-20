@@ -1,0 +1,92 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "Quiz — I really like this",
+  "subtitulo": "Elogiar y quejarse sin drama",
+  "introAudioKey": "gb-i07-q-i",
+  "introPt": "El camarero pregunta si todo va bien con la comida. Escucha cómo el viajero nombra lo que le ha gustado.",
+  "cenario": "Un pub-restaurante en el Reino Unido, en plena cena.",
+  "dialogo": [
+    {
+      "audioKey": "gb-i07-q01",
+      "voz": "target_en_gb_m",
+      "es": "Is everything alright with the food?",
+      "tts": "Is everything alright with the food?",
+      "pinyin": "iz ÈV-ri-thigne OL-raïtt ouizz dhe foudd",
+      "pt": "¿Todo bien con la comida?"
+    },
+    {
+      "audioKey": "gb-i07-q02",
+      "voz": "target_en_gb_f",
+      "es": "I really like the pie, it's brilliant.",
+      "tts": "I really like the pie, it's brilliant.",
+      "pinyin": "aï RI-li laïk dhe paï, itts BRI-lyènt",
+      "pt": "Me gusta mucho esta tarta salada, está excelente."
+    },
+    {
+      "audioKey": "gb-i07-q03",
+      "voz": "target_en_gb_m",
+      "es": "Thank you, I'll let the kitchen know.",
+      "tts": "Thank you, I'll let the kitchen know.",
+      "pinyin": "thennk you, aïll lètt dhe KI-tchenn nôou",
+      "pt": "Gracias, se lo diré a la cocina."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué se mantiene fijo en la fórmula APRECIACIÓN?",
+      "opcoes": [
+        "La cosa elogiada",
+        "«I really like»",
+        "El nombre del camarero",
+        "El precio"
+      ],
+      "correta": 1,
+      "explica": "«I really like» abre la fórmula; solo cambia la cosa nombrada."
+    },
+    {
+      "pergunta": "¿Por qué es mejor nombrar el plato que simplemente decir «it's good»?",
+      "opcoes": [
+        "No cambia nada",
+        "El cumplido preciso puede de verdad llegar hasta la cocina",
+        "Es más educado gramaticalmente",
+        "«It's good» es incorrecto"
+      ],
+      "correta": 1,
+      "explica": "Un cumplido nombrado muestra que de verdad te has fijado en lo que comiste."
+    },
+    {
+      "pergunta": "La sopa llega fría. ¿Qué dices, con calma?",
+      "opcoes": [
+        "I really like this soup.",
+        "Excuse me, the soup isn't hot.",
+        "Where's the soup?",
+        "How much is the soup?"
+      ],
+      "correta": 1,
+      "explica": "Es la fórmula WENT-WRONG de B16, reutilizada para una queja tranquila."
+    },
+    {
+      "pergunta": "¿Qué hace «excuse me» en una queja?",
+      "opcoes": [
+        "Acusa al camarero",
+        "Abre el comentario sin acusar a nadie",
+        "Anula el pedido",
+        "Pide la cuenta"
+      ],
+      "correta": 1,
+      "explica": "Excuse me más el problema exacto mantiene el tono centrado en resolver."
+    },
+    {
+      "pergunta": "¿Dónde más, fuera del restaurante, puedes usar I really like ___?",
+      "opcoes": [
+        "En ningún otro sitio",
+        "En la barra, en el mercado — donde veas algo que merezca un cumplido",
+        "Solo con la comida",
+        "Solo con un camarero"
+      ],
+      "correta": 1,
+      "explica": "La fórmula es abierta: cóctel, jersey, cualquier cosa concreta."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "q-i08",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Te invitan a casa de alguien",
+  "subtitulo": "Preguntar, en vez de adivinar",
+  "introAudioKey": "gb-i08-q-i",
+  "introPt": "Te invitan a cenar el viernes. Escucha cómo el viajero acepta y pregunta qué puede traer.",
+  "cenario": "Una invitación a cenar en el Reino Unido.",
+  "dialogo": [
+    {
+      "audioKey": "gb-i08-q01",
+      "voz": "target_en_gb_m",
+      "es": "Would you like to come round for dinner on Friday?",
+      "tts": "Would you like to come round for dinner on Friday?",
+      "pinyin": "OUOUD you laïk tou kamm raound for DINN-eur onn FRAÏ-dèï",
+      "pt": "¿Te apetece venir a cenar el viernes?"
+    },
+    {
+      "audioKey": "gb-i08-q02",
+      "voz": "target_en_gb_f",
+      "es": "I'd love to, thank you. What can I bring?",
+      "tts": "I'd love to, thank you. What can I bring?",
+      "pinyin": "aïd lav tou, thennk you. OUATT keunn aï bring",
+      "pt": "Con mucho gusto, gracias. ¿Qué puedo traer?"
+    },
+    {
+      "audioKey": "gb-i08-q03",
+      "voz": "target_en_gb_m",
+      "es": "Just bring yourself, but a bottle of wine is always welcome.",
+      "tts": "Just bring yourself, but a bottle of wine is always welcome.",
+      "pinyin": "djast bring your-SÈLF, batt e BO-teul off ouaïn iz OL-ouèïz OUÈL-kamm",
+      "pt": "Solo tienes que venir tú, pero una botella de vino siempre es bienvenida."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Para una cena informal entre amigos en el Reino Unido, preguntar «what can I bring?» es...",
+      "opcoes": [
+        "Una falta de tacto",
+        "La norma esperada",
+        "Una pregunta reservada a cenas de trabajo",
+        "Inútil, nadie responde"
+      ],
+      "correta": 1,
+      "explica": "El anfitrión casi siempre tiene una respuesta preparada; preguntar se ve como considerado."
+    },
+    {
+      "pergunta": "¿Qué margen de retraso es aceptable para una cena informal en casa de alguien?",
+      "opcoes": [
+        "Ninguno, hay que llegar puntual",
+        "Diez a quince minutos",
+        "Una hora",
+        "El retraso nunca se acepta"
+      ],
+      "correta": 1,
+      "explica": "Es muy distinto de una cita de trabajo, donde la puntualidad exacta cuenta."
+    },
+    {
+      "pergunta": "¿Qué haces al ver que están poniendo la mesa y faltan manos?",
+      "opcoes": [
+        "Esperas a que te lo pidan",
+        "Ofreces ayuda: Can I help with anything?",
+        "Te vas",
+        "Empiezas a comer"
+      ],
+      "correta": 1,
+      "explica": "Ofrecer ayuda forma parte del ritual, aunque el anfitrión la rechace."
+    },
+    {
+      "pergunta": "¿Qué dices al entregar la botella de vino que has traído?",
+      "opcoes": [
+        "What can I bring?",
+        "I brought this for you.",
+        "Can I help clear up?",
+        "This was a great night."
+      ],
+      "correta": 1,
+      "explica": "Es el momento de entregar el regalo, con una frase simple y directa."
+    },
+    {
+      "pergunta": "El anfitrión rechaza tu ayuda para recoger diciendo «no need, I've got it». ¿Qué haces?",
+      "opcoes": [
+        "Insistes con firmeza",
+        "Aceptas y te despides con calidez",
+        "Te vas sin decir nada",
+        "Vuelves a recoger de todas formas"
+      ],
+      "correta": 1,
+      "explica": "La propuesta en sí ya bastaba; aceptar el rechazo y agradecer cierra bien la velada."
+    }
+  ]
+}

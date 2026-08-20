@@ -1,0 +1,82 @@
+{
+  "id": "q-a01",
+  "nivel": "avancado",
+  "titulo": "Quiz — Cómo hablan cuando no es contigo",
+  "subtitulo": "Reconocer el inglés británico rápido e informal en la barra",
+  "introAudioKey": "gb-a01-q-i",
+  "introPt": "Escucha a un barista repetir un pedido largo a toda velocidad, y luego responde sobre lo que has oído.",
+  "cenario": "Una cafetería llena un sábado por la mañana, a velocidad real.",
+  "dialogo": [
+    {
+      "audioKey": "gb-a01-q01",
+      "voz": "target_en_gb_m",
+      "es": "Can I get a flat white, oat milk, extra shot, to go?",
+      "tts": "Can I get a flat white, oat milk, extra shot, to go?",
+      "pt": "¿Un café con leche de avena, un shot extra, para llevar?"
+    },
+    {
+      "audioKey": "gb-a01-q02",
+      "voz": "target_en_gb_f",
+      "es": "You alright, love? That's three eighty.",
+      "tts": "You alright, love? That's three eighty.",
+      "pt": "¿Todo bien? Son tres libras ochenta."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué significa «wanna» en inglés informal?",
+      "opcoes": [
+        "Want to",
+        "Went away",
+        "Was not",
+        "Give me"
+      ],
+      "correta": 0,
+      "explica": "«Want to» se reduce a «wanna» en el habla rápida e informal."
+    },
+    {
+      "pergunta": "El barista le dice «You alright, love?» a la cajera. ¿Qué espera de ti?",
+      "opcoes": [
+        "Un informe real sobre tu salud",
+        "Nada en concreto — es simplemente «hola»",
+        "Que respondas gritando",
+        "Que ignores la pregunta"
+      ],
+      "correta": 1,
+      "explica": "«You alright?» funciona como «hola»: la respuesta esperada es un simple «alright» de vuelta, nunca una explicación real."
+    },
+    {
+      "pergunta": "¿Usar «wanna», «dunno» o «gimme» es un error de inglés?",
+      "opcoes": [
+        "Sí, es dejadez",
+        "No, es habla informal normal en todo el país",
+        "Solo lo usan los niños",
+        "Solo en Londres"
+      ],
+      "correta": 1,
+      "explica": "Estas reducciones son normales y están muy extendidas, no son un error ni jerga local."
+    },
+    {
+      "pergunta": "Cuando la T desaparece en medio de una palabra, ¿en qué se convierte «water» al oído?",
+      "opcoes": [
+        "Wa'er",
+        "Vater",
+        "Waster",
+        "War"
+      ],
+      "correta": 0,
+      "explica": "Muchos acentos británicos sustituyen la T de en medio por una pequeña parada — «water» suena entonces casi como «wa'er»."
+    },
+    {
+      "pergunta": "El barista te habla despacio, y luego habla el doble de rápido al siguiente cliente, al que conoce. ¿Qué ha cambiado?",
+      "opcoes": [
+        "Tu inglés ha empeorado de repente",
+        "Ha cambiado con quién habla, no el idioma",
+        "El barista ha sido maleducado contigo",
+        "Es un dialecto completamente distinto"
+      ],
+      "correta": 1,
+      "explica": "El habla dirigida a un visitante suele venir más lenta; la dirigida a alguien conocido, no."
+    }
+  ]
+}

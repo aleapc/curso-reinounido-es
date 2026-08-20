@@ -1,0 +1,261 @@
+{
+  "id": "i08",
+  "slot": "I08",
+  "nivel": "intermediario",
+  "numero": 8,
+  "parte": "I08",
+  "titulo": "Te invitan a casa de alguien",
+  "subtitulo": "Preguntar qué puedes traer es la norma, no una falta de tacto — y llegar diez minutos tarde no estropea nada aquí",
+  "cena": "Acabas de aceptar una invitación a cenar en casa de alguien esta noche, y lo que decidas en los próximos treinta segundos marca toda la velada.",
+  "decisao": "qué traer y a qué hora llegar — preguntar directamente qué es bienvenido, y no buscar la hora exacta, es lo que se espera aquí",
+  "emJogo": "ambos",
+  "moldura": "ganha",
+  "frasePiso": "Vas a llegar con las manos llenas, sin haber adivinado, simplemente porque has preguntado qué era bienvenido.",
+  "fichasCulturais": [
+    {
+      "sinal": "Te invitan a cenar en casa de alguien y no sabes si debes traer algo, así que llegas con las manos vacías para no arriesgarte a ofender con un regalo fuera de lugar.",
+      "suaLeitura": "Mejor no traer nada que arriesgarme a traer algo que no encaje.",
+      "oQueEAli": "Traer una botella de vino, un postre o algo de beber es la norma esperada cuando te invitan a cenar en el Reino Unido — y preguntar directamente qué traer se ve como considerado, no como raro.",
+      "oQueVoceFaz": "Preguntas «What can I bring?» al aceptar la invitación, y traes lo que te digan, o algo sencillo si te dicen que no hace falta.",
+      "oQueMelhora": "Llegas con la certeza de saber exactamente qué esperar, en vez de adivinar y quedarte con la duda.",
+      "ondeNaoVale": "No vale para una cena formal de trabajo o más protocolaria, donde preguntar puede parecer fuera de lugar — ahí un regalo neutro como flores o bombones es la opción segura.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-i08-n02"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i08-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "El puño en what CAN i bring: la pregunta que resuelve casi toda la incertidumbre de esta velada."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i08-p01",
+      "promptPt": "Ayer elogiaste un plato con la fórmula del cocinero. Hoy usas la misma fórmula para algo que te han servido en casa de un amigo. Habla ahora.",
+      "bloco": "callback",
+      "molde": "APRECIACAO",
+      "encaixe": "this",
+      "audioKey": "gb-i08-t01",
+      "es": "I really like this, it's brilliant.",
+      "tts": "I really like this, it's brilliant.",
+      "pinyin": "aï RI-li laïk dhiss, itts BRI-lyènt",
+      "pt": "Me gusta mucho eso, está excelente."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i08-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Acabas de aceptar cenar en casa de alguien esta noche, y lo que hagas en los próximos treinta segundos marca toda la velada."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i08-r01",
+      "es": "Would you like to come round for dinner on Friday?",
+      "tts": "Would you like to come round for dinner on Friday?",
+      "pinyin": "OUOUD you laïk tou kamm raound for DINN-eur onn FRAÏ-dèï",
+      "pt": "¿Te apetece venir a cenar el viernes?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i08-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Acepta y, en el mismo aliento, pregunta qué puedes traer — es la norma, no una falta de tacto."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i08-p02",
+      "promptPt": "Acepta la invitación con gusto. Habla ahora.",
+      "audioKey": "gb-i08-t02",
+      "es": "I'd love to, thank you.",
+      "tts": "I'd love to, thank you.",
+      "pinyin": "aïd lav tou, thennk you",
+      "pt": "Con mucho gusto, gracias."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i08-p03",
+      "promptPt": "Ahora pregunta directamente qué puedes traer. Habla ahora.",
+      "audioKey": "gb-i08-t03",
+      "es": "What can I bring?",
+      "tts": "What can I bring?",
+      "pinyin": "OUATT keunn aï bring",
+      "pt": "¿Qué puedo traer?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i08-r02",
+      "es": "Just bring yourself, but a bottle of wine is always welcome.",
+      "tts": "Just bring yourself, but a bottle of wine is always welcome.",
+      "pinyin": "djast bring your-SÈLF, batt e BO-teul off ouaïn iz OL-ouèïz OUÈL-kamm",
+      "pt": "Solo tienes que venir tú, pero una botella de vino siempre es bienvenida."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i08-n04",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Llegar diez o quince minutos después de la hora dicha es normal para una cena entre amigos — es el margen esperado."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-i08-r03",
+      "es": "Come on in, make yourself at home.",
+      "tts": "Come on in, make yourself at home.",
+      "pinyin": "kamm onn inn, mèïk your-SÈLF att hôumm",
+      "pt": "Pasa, ponte cómodo."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i08-p04",
+      "promptPt": "Entrega el vino que has traído. Habla ahora.",
+      "audioKey": "gb-i08-t04",
+      "es": "I brought this for you.",
+      "tts": "I brought this for you.",
+      "pinyin": "aï brott dhiss for you",
+      "pt": "Te he traído esto."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i08-r04",
+      "es": "You didn't have to, thank you so much.",
+      "tts": "You didn't have to, thank you so much.",
+      "pinyin": "you DI-deunt hav tou, thennk you sô match",
+      "pt": "No hacía falta, muchas gracias."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i08-p05",
+      "promptPt": "Ves que están poniendo la mesa y faltan manos. Ofrece ayuda. Habla ahora.",
+      "audioKey": "gb-i08-t05",
+      "es": "Can I help with anything?",
+      "tts": "Can I help with anything?",
+      "pinyin": "keunn aï hèlp ouizz ÈN-i-thigne",
+      "pt": "¿Puedo ayudar con algo?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i08-r05",
+      "es": "You could grab the plates from the side, if you don't mind.",
+      "tts": "You could grab the plates from the side, if you don't mind.",
+      "pinyin": "you coudd grabb dhe plèïtss from dhe saïd, if you dônt maïnd",
+      "pt": "Podrías coger los platos de la encimera, si no te importa."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i08-p06",
+      "promptPt": "Da las gracias por la invitación antes de sentarte a la mesa. Habla ahora.",
+      "audioKey": "gb-i08-t06",
+      "es": "Thanks so much for having me.",
+      "tts": "Thanks so much for having me.",
+      "pinyin": "thennks sô match for HAA-vigne mi",
+      "pt": "Muchas gracias por invitarme."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i08-p07",
+      "promptPt": "Antes de irte, pregunta si puedes ayudar a recoger. Habla ahora.",
+      "audioKey": "gb-i08-t07",
+      "es": "Can I help clear up?",
+      "tts": "Can I help clear up?",
+      "pinyin": "keunn aï hèlp klieur app",
+      "pt": "¿Puedo ayudar a recoger?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i08-r06",
+      "es": "No need, I've got it. Thanks for coming.",
+      "tts": "No need, I've got it. Thanks for coming.",
+      "pinyin": "nôou niid, aïv gott itt. thennks for KA-migne",
+      "pt": "No hace falta, yo me encargo. Gracias por venir."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i08-p08",
+      "promptPt": "Acepta que no hace falta ayudar, y despídete con calidez. Habla ahora.",
+      "audioKey": "gb-i08-t08",
+      "es": "This was a great night, thank you.",
+      "tts": "This was a great night, thank you.",
+      "pinyin": "dhiss ouoz e grèïtt naïtt, thennk you",
+      "pt": "Ha sido una velada estupenda, gracias."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i08-n05",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas adivinar qué traer ni llegar puntual al minuto. Preguntar directamente es lo que se espera."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-i08-s01",
+      "es": "What can I bring? I brought this for you. Thanks so much for having me.",
+      "tts": "What can I bring? I brought this for you. Thanks so much for having me.",
+      "pinyin": "OUATT keunn aï bring? aï brott dhiss for you. thennks sô match for HAA-vigne mi",
+      "pt": "Repite preguntar, entregar el regalo y agradecer, seguido."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i08-n06",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I08 cerrada. What can I bring resuelve el regalo, un margen de diez a quince minutos es normal, y ofrecer ayuda cierra bien la velada."
+    }
+  ],
+  "permissao": "No necesitas llegar exactamente a la hora dicha ni adivinar qué traer. Preguntar «what can I bring?» y llegar unos minutos después de la hora es exactamente lo que se espera en una cena entre amigos aquí.",
+  "permissaoAudioKey": "gb-i08-n05",
+  "espelho": "No llegar nunca con las manos vacías a una cena en casa de alguien es una regla que la mayoría sigue ya sin pensarlo en su propio país; la única diferencia aquí es que preguntar directamente qué traer está bien visto, en vez de tener que adivinar.",
+  "aprofundar": {
+    "titulo": "Preguntar directamente, en vez de adivinar",
+    "secoes": [
+      {
+        "titulo": "What can I bring es la norma, no la excepción",
+        "corpo": "A diferencia de otros contextos donde preguntar puede parecer torpe, en una cena informal entre amigos en el Reino Unido, preguntar qué traer es exactamente lo que se espera — el anfitrión casi siempre tiene una respuesta preparada."
+      },
+      {
+        "titulo": "Diez a quince minutos de margen son normales",
+        "corpo": "Para una cena informal en casa de alguien, llegar entre cero y quince minutos después de la hora dicha es un margen aceptado, muy distinto de una cita de trabajo, donde la puntualidad exacta sí cuenta."
+      },
+      {
+        "titulo": "Ofrecer ayuda forma parte del ritual",
+        "corpo": "Can I help with anything, tanto al llegar como al final de la velada, es una fórmula esperada — el anfitrión puede rechazarla, pero la propuesta en sí forma parte de ser un buen invitado."
+      }
+    ]
+  }
+}

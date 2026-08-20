@@ -1,0 +1,248 @@
+{
+  "id": "b02",
+  "slot": "B02",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "1B",
+  "titulo": "El segundo en que el dependiente levanta la vista hacia ti",
+  "subtitulo": "Cinco piezas cortas que abren un mostrador, te dejan pasar y cierran bien un intercambio",
+  "cena": "La dependienta ya te ha visto entrar, con la mirada puesta en ti antes incluso de que toques la primera estantería; esos tres segundos son toda la lección.",
+  "moldura": "ganha",
+  "permissao": "No necesitas ninguna frase larga para todo esto. Hi, please, thanks y cheers son cuatro piezas cortas que llegan siempre un instante antes de lo que tu reflejo en español te dictaría.",
+  "permissaoAudioKey": "gb-b02-n03",
+  "fichasCulturais": [
+    {
+      "sinal": "Un desconocido cruza la mirada contigo en una cola o detrás de un mostrador y te suelta «You alright?», sin detenerse realmente.",
+      "suaLeitura": "Ha visto que algo me pasa, o espera una respuesta real sobre cómo estoy.",
+      "oQueEAli": "«You alright?» (o «You all right?») es el saludo de mostrador más frecuente del Reino Unido — el equivalente funcional de «hola». No es una pregunta sobre tu salud, y nadie espera un parte real.",
+      "oQueVoceFaz": "Respondes igual de corto: «Yeah, you alright?», y devuelves la misma fórmula — es un intercambio que se cierra en un segundo, no una conversación que se abre.",
+      "oQueMelhora": "Dejas de buscar una respuesta real que dar, y el mostrador avanza al mismo ritmo que para cualquier cliente del lugar.",
+      "ondeNaoVale": "Un médico, un guardia de seguridad o alguien que acaba de verte tropezar puede hacer la misma pregunta en serio — ahí sí se espera una frase completa, no el eco automático.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b02-n01"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b02-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Parte dos. Puño en RIGHT: you al-RIGHT. Saludas antes de mirar la estantería."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b02-t01",
+      "es": "You alright?",
+      "tts": "You alright?",
+      "pinyin": "you al-RAÏT",
+      "pt": "¿Todo bien? Es un saludo, no una pregunta real sobre tu salud."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b02-p01",
+      "promptPt": "Entras en una tienda pequeña por la mañana. Antes de mirar la estantería, devuélvele el mismo saludo al dependiente. Habla ahora.",
+      "audioKey": "gb-b02-t01",
+      "es": "You alright?",
+      "tts": "You alright?",
+      "pinyin": "you al-RAÏT",
+      "pt": "¿Todo bien?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b02-r01",
+      "es": "Yeah, cheers. Let me know if you need anything.",
+      "tts": "Yeah, cheers. Let me know if you need anything.",
+      "pinyin": "yèa, TCHIEUZ. let mi nôou if you niid ÈNI-thinng",
+      "pt": "Sí, gracias. Avísame si necesitas algo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b02-n02",
+      "pt": "«Let me know» no es un interrogatorio: es la puerta abierta para hablar cuando quieras."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b02-p02",
+      "promptPt": "El dependiente te dice que le avises si necesitas algo, pero solo quieres mirar. Dile que solo estás mirando, y da las gracias. Habla ahora.",
+      "audioKey": "gb-b02-t02",
+      "es": "Just looking, thanks.",
+      "tts": "Just looking, thanks.",
+      "pinyin": "djeust LOU-kinng, thanks",
+      "pt": "Solo estoy mirando, gracias."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b02-n03",
+      "bloco": "permissao",
+      "pt": "Hi, please, thanks, cheers: cuatro piezas cortas, un instante antes de tu reflejo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b02-n04",
+      "bloco": "corpo",
+      "pt": "Ascensor lleno: dices excuse me antes de moverte, como señal, no como disculpa."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b02-t03",
+      "es": "Excuse me, coming through.",
+      "tts": "Excuse me, coming through.",
+      "pinyin": "ex-KIOUZ mi, KO-minng throu",
+      "pt": "Perdón, voy a pasar."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b02-p03",
+      "promptPt": "Las puertas del ascensor se abren y alguien bloquea la salida sin verte. Avisa que vas a pasar antes de moverte. Habla ahora.",
+      "audioKey": "gb-b02-t03",
+      "es": "Excuse me, coming through.",
+      "tts": "Excuse me, coming through.",
+      "pinyin": "ex-KIOUZ mi, KO-minng throu",
+      "pt": "Perdón, voy a pasar."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b02-r02",
+      "es": "Oh, sorry, go ahead.",
+      "tts": "Oh, sorry, go ahead.",
+      "pinyin": "ôou, SO-ri, gôou e-HED",
+      "pt": "Ay, perdón, adelante."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b02-p04",
+      "promptPt": "La persona se aparta y te deja pasar. Dale las gracias al cruzar. Habla ahora.",
+      "audioKey": "gb-b02-t04",
+      "es": "Cheers.",
+      "tts": "Cheers.",
+      "pinyin": "TCHIEUZ",
+      "pt": "Gracias."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b02-n05",
+      "bloco": "capsula",
+      "pt": "Cheers cierra un intercambio: gracias, adiós, vale, según el momento."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b02-p05",
+      "promptPt": "Has pagado en una cafetería pequeña y sales por la puerta. Da las gracias y despídete antes de que se cierre. Habla ahora.",
+      "audioKey": "gb-b02-t05",
+      "es": "Cheers, have a good one.",
+      "tts": "Cheers, have a good one.",
+      "pinyin": "TCHIEUZ, hav e goud ouann",
+      "pt": "Gracias, que tengas buen día."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b02-r03",
+      "es": "You too, take care.",
+      "tts": "You too, take care.",
+      "pinyin": "you tou, tèïk KÈR",
+      "pt": "Igualmente, cuídate."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b02-p06",
+      "promptPt": "Te responden «you too, take care». Devuelve el saludo en una sola palabra. Habla ahora.",
+      "audioKey": "gb-b02-x1",
+      "es": "You too.",
+      "tts": "You too.",
+      "pinyin": "you tou",
+      "pt": "Igualmente."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b02-p07",
+      "promptPt": "Alguien te sujeta la puerta al entrar en una cafetería. Dale las gracias en una palabra, sin detenerte. Habla ahora.",
+      "audioKey": "gb-b02-x2",
+      "es": "Cheers.",
+      "tts": "Cheers.",
+      "pinyin": "TCHIEUZ",
+      "pt": "Gracias."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b02-p08",
+      "promptPt": "Acabas de pagar en caja y no tienes bolsa. Pide una, con please al final. Habla ahora.",
+      "audioKey": "gb-b02-x3",
+      "es": "Could I have a bag, please?",
+      "tts": "Could I have a bag, please?",
+      "pinyin": "coud aï hav e bag, pliiz",
+      "pt": "¿Podría tener una bolsa, por favor?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b02-s01",
+      "es": "You alright? Excuse me, coming through. Cheers, have a good one.",
+      "tts": "You alright? Excuse me, coming through. Cheers, have a good one.",
+      "pinyin": "you al-RAÏT? ex-KIOUZ mi, KO-minng throu. TCHIEUZ, hav e goud ouann",
+      "pt": "Repite las tres piezas cortas, de la entrada a la salida."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b02-n06",
+      "bloco": "recap",
+      "pt": "Parte dos cerrada. You alright para saludar, excuse me antes de moverte, cheers a la salida."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Educación corta, en el momento justo",
+    "secoes": [
+      {
+        "titulo": "«You alright?» no espera un parte médico",
+        "corpo": "Es el saludo de mostrador más frecuente del Reino Unido. La respuesta esperada es tan corta como la pregunta: «Yeah, you alright?» basta de sobra, en los dos sentidos."
+      },
+      {
+        "titulo": "Excuse me anuncia, sorry repara",
+        "corpo": "Usa excuse me antes de cruzar un espacio — un pasillo, un ascensor — para avisar de que te vas a mover. Sorry sirve cuando ya has empujado a alguien o has cometido un error.",
+        "exemplos": [
+          {
+            "es": "Excuse me, coming through.",
+            "pt": "Perdón, voy a pasar."
+          },
+          {
+            "es": "Oh, sorry, go ahead.",
+            "pt": "Ay, perdón, adelante."
+          }
+        ]
+      },
+      {
+        "titulo": "Cheers hace el trabajo de varias palabras en español",
+        "corpo": "Según el momento, cheers significa gracias, adiós, o vale — nunca un brindis en este contexto. Lo vas a oír decenas de veces al día; reconocerlo y devolverlo ya basta por ahora."
+      }
+    ]
+  }
+}

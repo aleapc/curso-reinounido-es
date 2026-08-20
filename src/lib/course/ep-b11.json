@@ -1,0 +1,348 @@
+{
+  "id": "b11",
+  "slot": "B11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "4A",
+  "titulo": "Sentarse, y luego ir a pedir a la barra",
+  "subtitulo": "«Could I have ___?» en la barra, la cola invisible, y por qué no se deja propina en el pub",
+  "cena": "Las dos menos diez, la barra ya tiene tres filas de profundidad, el camarero te mira segundo y medio y ya pasa al siguiente cliente.",
+  "moldura": "ganha",
+  "frasePiso": "Vas a pedir bebida y comida sin memorizar una frase por situación. La mayoría de los turistas se quedan sentados esperando que alguien venga.",
+  "moldes": [
+    "GET"
+  ],
+  "clique": {
+    "contagem": [
+      "la barra del pub",
+      "la mesa del restaurante",
+      "la barra de la cafetería",
+      "el final de la comida"
+    ],
+    "desconto": "Nadie te ha dado una frase para la cerveza, otra para la mesa y otra para la cuenta. Has montado las tres con «Could I have» y la cosa que necesitabas.",
+    "piso": "La próxima vez que te sientes en un pub o restaurante británico, no vas a esperar a que te pregunten qué quieres: lo vas a pedir tú mismo, con una fórmula que ya sabes usar."
+  },
+  "permissao": "No necesitas pedirlo todo de golpe ni recordar la carta entera. «Could I have» más una cosa a la vez ya es una frase completa, y puedes decirla las veces que haga falta.",
+  "permissaoAudioKey": "gb-b11-n10",
+  "espelho": "En tu país también eliges el momento de pedir la cuenta; la única novedad real aquí es que en la barra del pub nadie viene nunca a tu mesa — eres tú quien va a la barra, cada vez.",
+  "fichasCulturais": [
+    {
+      "sinal": "Estás sentado en una mesa del pub, tu bebida se ha acabado, y nadie viene nunca a tomarte nota.",
+      "suaLeitura": "Se han olvidado de mí, o el servicio aquí es malo.",
+      "oQueEAli": "En el pub tradicional no hay servicio de mesa para pedir: te sientas donde quieras, pero pides y pagas en la barra. Es el choque frontal con el bar español, donde el camarero viene a ti.",
+      "oQueVoceFaz": "Te levantas y vas a la barra; el camarero conoce el orden de llegada aunque no haya fila en el suelo, así que esperas tu turno con la mirada, sin empujar a nadie.",
+      "oQueMelhora": "Te atienden en cuanto es tu turno, en lugar de esperar indefinidamente a un camarero que no va a venir.",
+      "ondeNaoVale": "Algunos gastropubs modernos tienen servicio de mesa real o pedido por app — mira si hay una carta en la mesa antes de levantarte.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b11-n08"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "pub-pas-de-pourboire-au-comptoir",
+      "afirmacao": "In a traditional pub, when you order at the bar, you do not leave a tip. The equivalent gesture is offering the barman a drink for himself — 'and one for yourself.'",
+      "fonte": "Praxe du secteur, largement documentée",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-b11-n09"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b11-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte once. El puño marca la sílaba fuerte: hav, TÉ-bel, BILL. Una por palabra."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b11-p00",
+      "promptPt": "Como en el pasillo del aeropuerto ayer, no conoces la palabra exacta para lo que buscas. Dilo. Habla ahora.",
+      "bloco": "callback",
+      "molde": "LOOKING",
+      "audioKey": "gb-b11-t00",
+      "es": "I'm looking for the lift.",
+      "tts": "I'm looking for the lift.",
+      "pinyin": "aïm LOU-kinng for dhe lift",
+      "pt": "Busco el ascensor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b11-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Las dos menos diez, la barra tiene tres filas de profundidad. El camarero te mira segundo y medio, y pasa al siguiente."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "EXCUSE",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b11-p01",
+      "promptPt": "El pub está lleno y nadie te ve llegar a la barra. Llama la atención antes de que pase tu turno. Habla ahora.",
+      "audioKey": "gb-b11-t01",
+      "es": "Excuse me!",
+      "tts": "Excuse me!",
+      "pinyin": "iks-KIOUZ mi",
+      "pt": "¡Disculpe!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b11-n03",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Aquí está la fórmula de hoy: «Could I have» más lo que quieres. Mesa, bebida, plato, cuenta — siempre la misma casca."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b11-t02",
+      "es": "Could I have a table for two?",
+      "tts": "Could I have a table for two?",
+      "pinyin": "koudd aï hav e TÉ-beul for tou",
+      "pt": "¿Una mesa para dos, por favor?"
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "GET",
+      "encaixe": "a table for two",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b11-p02",
+      "promptPt": "Llegas con tu compañero de viaje a un restaurante sin reserva. Pide una mesa para dos. Habla ahora.",
+      "audioKey": "gb-b11-t02",
+      "es": "Could I have a table for two?",
+      "tts": "Could I have a table for two?",
+      "pinyin": "koudd aï hav e TÉ-beul for tou",
+      "pt": "¿Una mesa para dos, por favor?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b11-r01",
+      "es": "Sure, right this way.",
+      "tts": "Sure, right this way.",
+      "pinyin": "chouEU, raïte dhis OUèï",
+      "pt": "Claro, por aquí."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "GET",
+      "encaixe": "a pint of lager",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b11-p03",
+      "promptPt": "En la barra, por fin es tu turno. Pide una pinta de rubia. Habla ahora.",
+      "audioKey": "gb-b11-t03",
+      "es": "Could I have a pint of lager?",
+      "tts": "Could I have a pint of lager?",
+      "pinyin": "koudd aï hav e païnnte ov LA-gueu",
+      "pt": "¿Una pinta de rubia, por favor?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b11-r02",
+      "es": "Anything else?",
+      "tts": "Anything else?",
+      "pinyin": "É-ni-thinng èlss",
+      "pt": "¿Algo más?"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "GET",
+      "encaixe": "a flat white",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b11-p04",
+      "promptPt": "Al día siguiente, en el café de la esquina, quieres un café con leche muy concreto. Pídelo con su nombre británico. Habla ahora.",
+      "audioKey": "gb-b11-t04",
+      "es": "Could I have a flat white?",
+      "tts": "Could I have a flat white?",
+      "pinyin": "koudd aï hav e flat OUAÏTe",
+      "pt": "¿Un flat white, por favor?"
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "GET",
+      "encaixe": "the fish and chips",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b11-p05",
+      "promptPt": "Has elegido tu plato. Pide el fish and chips. Habla ahora.",
+      "audioKey": "gb-b11-t05",
+      "es": "Could I have the fish and chips?",
+      "tts": "Could I have the fish and chips?",
+      "pinyin": "koudd aï hav dhe fich annde tchips",
+      "pt": "¿El fish and chips, por favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b11-n04",
+      "pt": "Otra variante frecuente: «I'd like», calcado de «me gustaría». Funciona igual de bien."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b11-t06",
+      "es": "I'd like the fish and chips, please.",
+      "tts": "I'd like the fish and chips, please.",
+      "pinyin": "aïd laïke dhe fich annde tchips, pliize",
+      "pt": "Me gustaría el fish and chips, por favor."
+    },
+    {
+      "consulta": [
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "GET",
+      "encaixe": "the bill",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b11-p06",
+      "promptPt": "Habéis terminado de comer y nadie vuelve por su cuenta. Pide la cuenta. Habla ahora.",
+      "audioKey": "gb-b11-t07",
+      "es": "Could I have the bill, please?",
+      "tts": "Could I have the bill, please?",
+      "pinyin": "koudd aï hav dhe bill, pliize",
+      "pt": "¿La cuenta, por favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b11-n05",
+      "pt": "La cuenta no llega sola: la pides tú. Ojo: the bill, nunca the check — eso es americano."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "a highchair",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b11-p07",
+      "promptPt": "Viajas con tu hijo pequeño y necesita una trona. Pregunta si tienen una. Habla ahora.",
+      "audioKey": "gb-b11-t08",
+      "es": "Do you have a highchair?",
+      "tts": "Do you have a highchair?",
+      "pinyin": "dou you hav e HAÏ-tcheu",
+      "pt": "¿Tienen una trona?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b11-n06",
+      "bloco": "capsula",
+      "tom": "protege",
+      "pt": "Y si pides en la barra, una regla lo cambia todo: no hay servicio de mesa. Se pide y se paga en la barra, nunca sentado."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b11-n07",
+      "tom": "ganha",
+      "pt": "Hacia el final de la noche, el camarero grita «last orders» — la última comanda posible — y luego «time», y el pub cierra."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b11-n08",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Si nadie viene a tu mesa, no es un olvido: en el pub, siempre eres tú quien va a la barra, nunca al revés."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b11-n09",
+      "tom": "ganha",
+      "pt": "Y en la barra no se deja propina. El gesto equivalente es invitar a una copa al camarero: «and one for yourself»."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b11-n10",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas pedirlo todo de golpe. «Could I have» más una cosa a la vez ya es una frase completa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b11-n11",
+      "bloco": "clique",
+      "tom": "ganha",
+      "pt": "Mesa, cerveza, café, plato, cuenta. Nadie te ha dado cinco frases: tú las has montado todas con «Could I have»."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "GET",
+      "audioKey": "gb-b11-s01",
+      "es": "Could I have a table for two? Could I have a pint of lager? Could I have the bill, please?",
+      "tts": "Could I have a table for two? Could I have a pint of lager? Could I have the bill, please?",
+      "pinyin": "koudd aï hav e TÉ-beul for tou ? koudd aï hav e païnnte ov LA-gueu ? koudd aï hav dhe bill, pliize ?",
+      "pt": "El mismo principio, tres cosas distintas."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b11-n12",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "Parte once cerrada. Mesa, bebida, plato, cuenta: una sola fórmula, y en el pub, eres tú quien va a la barra."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "El caballo de batalla de la barra",
+    "secoes": [
+      {
+        "titulo": "Por qué «Could I have» y no «Can I get»",
+        "corpo": "«Can I get a coffee» es el americanismo más audible de la barra inglesa — funciona, pero se nota. «Could I have» es neutro del pub al museo, y separa bien pedir una COSA de pedir un PERMISO, como «Can I ___?»."
+      },
+      {
+        "titulo": "«I'd like» también funciona",
+        "corpo": "Si «Could I have» no te sale de forma natural, «I'd like ___» hace el mismo trabajo — es donde el español va a caer solo, viniendo de «me gustaría»."
+      },
+      {
+        "titulo": "The bill, nunca the check",
+        "corpo": "La cuenta de un restaurante británico se llama siempre «the bill». «The check» es americano y se detecta al instante como tal."
+      },
+      {
+        "titulo": "El pub: se pide en la barra",
+        "corpo": "En el pub tradicional no hay servicio de mesa: te sientas, pero pides y pagas en la barra. Es el choque frontal con el bar de tapas español. Y hacia el final de la noche, recuerda «last orders» (última comanda) y luego «time» (cierre)."
+      }
+    ]
+  }
+}

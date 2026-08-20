@@ -1,0 +1,73 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "Quiz — La cuenta no tiene sorpresas escondidas, salvo una",
+  "subtitulo": "El precio ya incluye el impuesto, y el service charge discrecional",
+  "introAudioKey": "gb-b14-q-i",
+  "introPt": "La cuenta llega más alta de lo previsto, y el camarero espera. Encuentra qué ya está incluido en el precio, y qué se pide aparte.",
+  "cenario": "En la mesa, la cuenta acaba de llegar.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b14-q01",
+      "voz": "target_en_gb_m",
+      "es": "That price already includes everything.",
+      "tts": "That price already includes everything.",
+      "pinyin": "dhat praïsse ol-RE-di inn-KLOUDZ È-vri-thinng",
+      "pt": "Este precio ya lo incluye todo."
+    },
+    {
+      "audioKey": "gb-b14-q02",
+      "voz": "target_en_gb_f",
+      "es": "Could I have the bill without the service charge, please?",
+      "tts": "Could I have the bill without the service charge, please?",
+      "pinyin": "koudd aï hav dhe bill ouidh-AOUTe dhe SEUR-viss tcharje, pliize",
+      "pt": "¿Me puede dar la cuenta sin el servicio, por favor?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿El precio de la carta británica incluye el impuesto?",
+      "opcoes": [
+        "No, se añade en caja como en Estados Unidos",
+        "Sí, lo que está escrito es lo que pagas",
+        "Depende del restaurante",
+        "Solo para las bebidas"
+      ],
+      "correta": 1,
+      "explica": "A diferencia del sales tax americano, el IVA británico (VAT) siempre está incluido en el precio mostrado."
+    },
+    {
+      "pergunta": "¿Qué es el service charge de alrededor del 12,5%?",
+      "opcoes": [
+        "Una obligación legal, fija en todas partes",
+        "Una práctica del sector, discrecional",
+        "El IVA con otro nombre",
+        "Un extra solo para grupos"
+      ],
+      "correta": 1,
+      "explica": "El service charge es una práctica del sector, no una ley. Se puede pedir quitar sin justificarse."
+    },
+    {
+      "pergunta": "¿Cómo pides que quiten el service charge de la cuenta?",
+      "opcoes": [
+        "Could I have the bill without the service charge, please?",
+        "I refuse to pay the service",
+        "Take the service off, now",
+        "No service, no bill"
+      ],
+      "correta": 0,
+      "explica": "No es una fórmula nueva: es «Could I have» más «without», los dos moldes que ya conoces, pegados juntos."
+    },
+    {
+      "pergunta": "En la barra del pub, ¿qué pasa con el servicio?",
+      "opcoes": [
+        "Se aplica el mismo service charge",
+        "No hay ningún servicio ni propina",
+        "El servicio se duplica",
+        "El servicio se paga al final de la semana"
+      ],
+      "correta": 1,
+      "explica": "Esta regla solo se aplica al servicio de mesa. En la barra de un pub, como se vio en B11, nunca se deja propina."
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "id": "b12",
+  "slot": "B12",
+  "nivel": "basico",
+  "numero": 12,
+  "parte": "4B",
+  "titulo": "Pedir lo que de verdad quieres",
+  "subtitulo": "«No ___, please» y «___ without ___» para quitar del plato lo que no quieres",
+  "cena": "El camarero repite tu pedido en voz alta con la cebolla que no habías pedido, y hay que corregirlo antes de que se vaya a la cocina.",
+  "moldura": "ganha",
+  "frasePiso": "Vas a modificar un pedido en la mesa sin señalar con el dedo y sin disculparte por hacerlo.",
+  "moldes": [
+    "WITHOUT"
+  ],
+  "clique": {
+    "contagem": [
+      "el refresco sin hielo",
+      "la ensalada sin cebolla",
+      "el té sin azúcar",
+      "el sándwich sin mayonesa"
+    ],
+    "desconto": "Nadie te ha dado una frase para cada ingrediente a quitar. Has montado las cuatro con una sola fórmula: «No ___, please» o «___ without ___».",
+    "piso": "La próxima vez que llegue un plato con algo que no habías pedido, no te lo vas a comer en silencio: lo vas a corregir con una frase que ya sabes decir."
+  },
+  "permissao": "No necesitas explicar por qué no quieres algo. «No ___, please» ya es una frase completa; nadie espera un motivo detrás.",
+  "permissaoAudioKey": "gb-b12-n08",
+  "espelho": "En tu país también pides que te quiten algo del plato sin justificarte — sin cebolla, sin picante; lo único nuevo aquí es el «please» al final, que hace el trabajo que haría el tono o una fórmula de cortesía en español.",
+  "fichasCulturais": [
+    {
+      "sinal": "Pides «sin cebolla» y el camarero repite todo tu pedido en voz alta antes de irse a la cocina.",
+      "suaLeitura": "Duda de que haya hablado bien, o piensa que me he equivocado.",
+      "oQueEAli": "Repetir el pedido en voz alta es una confirmación estándar del servicio de mesa británico, no una duda sobre tu inglés. Pasa con cualquier cliente, sea cual sea su acento.",
+      "oQueVoceFaz": "Respondes «Yes, that's right» o simplemente asientes.",
+      "oQueMelhora": "Confirmas el pedido sin estrés adicional, sabiendo que la repetición es parte del sistema, no de ti.",
+      "ondeNaoVale": "No vale en un mostrador de comida rápida, donde el ritmo es demasiado alto para repetir el pedido entero.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b12-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b12-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte doce. El flick marca la consonante final inglesa: sin alargarla, sin añadirle vocal. WithouT. PlateS."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b12-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "El camarero repite tu pedido con la cebolla que no habías pedido. Hay que corregir antes de que se vaya a la cocina."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b12-p01",
+      "promptPt": "Ayer en el pub, terminaste de comer y nadie volvía. Repite la fórmula de la parte anterior. Habla ahora.",
+      "bloco": "callback",
+      "molde": "GET",
+      "audioKey": "gb-b12-t01",
+      "es": "Could I have the bill, please?",
+      "tts": "Could I have the bill, please?",
+      "pinyin": "koudd aï hav dhe bill, pliize",
+      "pt": "¿La cuenta, por favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b12-n03",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Dos formas hoy: «No ___, please» para quitar algo, «___ without ___» para pedir directamente sin."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b12-t02",
+      "es": "No ice, please.",
+      "tts": "No ice, please.",
+      "pinyin": "nô aïsse, pliize",
+      "pt": "Sin hielo, por favor."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WITHOUT",
+      "encaixe": "ice",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b12-p02",
+      "promptPt": "Has pedido un refresco y llega con más hielo del que quieres. Pide que no le pongan. Habla ahora.",
+      "audioKey": "gb-b12-t02",
+      "es": "No ice, please.",
+      "tts": "No ice, please.",
+      "pinyin": "nô aïsse, pliize",
+      "pt": "Sin hielo, por favor."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "WITHOUT",
+      "encaixe": "onions",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b12-p03",
+      "promptPt": "No te gusta la cebolla cruda en la hamburguesa. Pide que no le pongan. Habla ahora.",
+      "audioKey": "gb-b12-t03",
+      "es": "No onions, please.",
+      "tts": "No onions, please.",
+      "pinyin": "nô O-nionns, pliize",
+      "pt": "Sin cebolla, por favor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b12-t04",
+      "es": "A burger without cheese, please.",
+      "tts": "A burger without cheese, please.",
+      "pinyin": "e BEU-gueu ouidh-AOUTe tchiiz, pliize",
+      "pt": "Una hamburguesa sin queso, por favor."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "WITHOUT",
+      "encaixe": "sugar",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b12-p04",
+      "promptPt": "Has pedido un té y no lo quieres azucarado. Pídelo sin azúcar. Habla ahora.",
+      "audioKey": "gb-b12-t05",
+      "es": "Tea without sugar, please.",
+      "tts": "Tea without sugar, please.",
+      "pinyin": "tii ouidh-AOUTe CHOU-gueu, pliize",
+      "pt": "Un té sin azúcar, por favor."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WITHOUT",
+      "encaixe": "mayo",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b12-p05",
+      "promptPt": "El sándwich siempre llega con esa salsa blanca que no te gusta. Pídelo sin ella. Habla ahora.",
+      "audioKey": "gb-b12-t06",
+      "es": "No mayo, please.",
+      "tts": "No mayo, please.",
+      "pinyin": "nô MÉÏ-ô, pliize",
+      "pt": "Sin mayonesa, por favor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b12-r01",
+      "es": "Got it — one without mayo.",
+      "tts": "Got it — one without mayo.",
+      "pinyin": "gotte itte — ouAnne ouidh-AOUTe MÉÏ-ô",
+      "pt": "Anotado — uno sin mayonesa."
+    },
+    {
+      "consulta": [
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "swap this for chips",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b12-p06",
+      "promptPt": "El plato viene con ensalada y prefieres la otra opción de la carta. Pregunta si puedes cambiarlo por patatas fritas. Habla ahora.",
+      "audioKey": "gb-b12-t07",
+      "es": "Can I swap this for chips?",
+      "tts": "Can I swap this for chips?",
+      "pinyin": "kann aï souap dhis for tchips",
+      "pt": "¿Puedo cambiar esto por patatas fritas?"
+    },
+    {
+      "consulta": [
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "GET",
+      "encaixe": "that changed",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b12-p07",
+      "promptPt": "El camarero ha anotado mal tu pedido, antes de irse a la cocina. Pídele que lo cambie. Habla ahora.",
+      "audioKey": "gb-b12-t08",
+      "es": "Could I have that changed?",
+      "tts": "Could I have that changed?",
+      "pinyin": "koudd aï hav dhat TCHÉÏNNdjd",
+      "pt": "¿Me lo puede cambiar?"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WITHOUT",
+      "encaixe": "lemon",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b12-p08",
+      "promptPt": "Has pedido agua y no quieres limón dentro. Pídela sin él. Habla ahora.",
+      "audioKey": "gb-b12-t09",
+      "es": "No lemon, please.",
+      "tts": "No lemon, please.",
+      "pinyin": "nô LÈ-meune, pliize",
+      "pt": "Sin limón, por favor."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "WITHOUT",
+      "encaixe": "salt and vinegar",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b12-p09",
+      "promptPt": "Quieres tus patatas fritas naturales, sin la mezcla habitual de sal y vinagre. Pídelas sin ella. Habla ahora.",
+      "audioKey": "gb-b12-t10",
+      "es": "Chips without salt and vinegar, please.",
+      "tts": "Chips without salt and vinegar, please.",
+      "pinyin": "tchips ouidh-AOUTe solte annde VI-ni-gueu, pliize",
+      "pt": "Patatas fritas sin la mezcla de sal y vinagre, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b12-n04",
+      "pt": "Cuidado: esta fórmula quita una preferencia, no comunica un riesgo de salud. Para eso, B13 enseña otra frase."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b12-n05",
+      "pt": "«Please» se pega al final de casi todo: el trabajo que haría el tono o el condicional en español."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b12-n06",
+      "pt": "Truco útil: «without the service charge» quita el porcentaje de servicio de la cuenta. Volvemos a esto en B14."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b12-n07",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Si el camarero repite tu pedido en voz alta, no duda de ti: es la confirmación estándar del servicio de mesa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b12-n08",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas explicar por qué no quieres algo. «No ___, please» ya es una frase completa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b12-n09",
+      "bloco": "clique",
+      "tom": "ganha",
+      "pt": "Hielo, cebolla, azúcar, mayonesa. Nadie te ha dado cuatro frases: las has montado con una sola fórmula."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "WITHOUT",
+      "audioKey": "gb-b12-s01",
+      "es": "No ice, please. No onions, please. Tea without sugar, please.",
+      "tts": "No ice, please. No onions, please. Tea without sugar, please.",
+      "pinyin": "nô aïsse, pliize. nô O-nionns, pliize. tii ouidh-AOUTe CHOU-gueu, pliize.",
+      "pt": "Repite la misma fórmula con tres cosas distintas."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b12-n10",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "Parte doce cerrada. Hielo, cebolla, azúcar, mayonesa: una sola fórmula, y «please» al final de cada una."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Dos formas, una fórmula",
+    "secoes": [
+      {
+        "titulo": "«No ___, please» — la versión rápida",
+        "corpo": "Sirve para quitar algo de un pedido ya hecho o en curso: «No ice, please», «No onions, please». Es la forma más corta y la más habitual en la mesa."
+      },
+      {
+        "titulo": "«___ without ___» — la versión desde el principio",
+        "corpo": "Sirve para construir el pedido completo sin el ingrediente desde el principio: «A burger without cheese, please». Las dos formas hacen el mismo trabajo; usa la que te salga primero."
+      },
+      {
+        "titulo": "Esto no es una alergia",
+        "corpo": "Esta fórmula quita una preferencia — el hielo, la cebolla, el azúcar. Si es una cuestión de salud, B13 enseña una frase distinta, con más peso: la cocina trata una alergia de forma diferente a un gusto."
+      },
+      {
+        "titulo": "El «please» que no es opcional",
+        "corpo": "El inglés apenas tiene marca de cortesía en la conjugación. «Please» al final es lo que suaviza la frase; sin él, «No ice» suena a orden seca en vez de a petición normal."
+      }
+    ]
+  }
+}

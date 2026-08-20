@@ -1,0 +1,265 @@
+{
+  "id": "a03",
+  "slot": "A03",
+  "nivel": "avancado",
+  "numero": 31,
+  "parte": "A03",
+  "titulo": "Quiénes creen que son",
+  "subtitulo": "Un pub una noche de partido, dices «you're all English» a todo el grupo, y una frase te corrige al momento, sin enfadarse",
+  "cena": "En un pub, acabas de decir «you're all English» al grupo que te rodea, y alguien responde, firme pero sin hostilidad, que es Scottish — no English, nunca.",
+  "moldura": "ganha",
+  "frasePiso": "No necesitas una teoría sobre el Reino Unido. Necesitas una pregunta honesta y la paciencia de escuchar una respuesta más larga de lo esperado.",
+  "fatosDatados": [
+    {
+      "id": "gb-quatre-nations",
+      "afirmacao": "The United Kingdom is made up of four nations — England, Scotland, Wales and Northern Ireland — each with its own national identity, its own football and rugby teams, and for Scotland and Wales, its own devolved parliament. Calling a Scottish, Welsh or Northern Irish person 'English' is a common and noticeable mistake that most correct politely but firmly.",
+      "fonte": "Fato constitucional de base (Reino Unido, Estado composto de quatro nações)",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a03-n03"
+      ]
+    },
+    {
+      "id": "gb-autodesvalorizacao",
+      "afirmacao": "British national pride is often expressed sideways, through self-deprecation rather than boasting — supporters saying their own team is going to lose on penalties, or a whole country joking about its own weather and its own trains, while still turning out to support it.",
+      "fonte": "Consenso de fontes culturais britânicas",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a03-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a03-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Hoy dejas de ser turista en la conversación, haciendo mejores preguntas."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a03-n02",
+      "bloco": "callback",
+      "pt": "Repaso de ayer. El vuelo ha sido pesado y te preguntan cómo estás. Responde con humor."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a03-p01",
+      "promptPt": "Habla ahora.",
+      "audioKey": "gb-a03-t01",
+      "es": "I'm surviving.",
+      "tts": "I'm surviving.",
+      "pinyin": "aïm seuvVAÏ-vigne",
+      "pt": "Voy sobreviviendo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a03-n03",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "En un pub, una noche de partido. Dices «you're all English» al grupo. Una voz responde, firme pero no enfadada."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a03-o01",
+      "es": "I'm Scottish, actually. Not English.",
+      "tts": "I'm Scottish, actually. Not English.",
+      "pinyin": "aïm SKO-tich, AK-tiou-a-li. Notte EN-glich",
+      "pt": "Soy escocés, en realidad. No inglés."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a03-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "No es susceptibilidad: el Reino Unido reúne cuatro naciones, y «English» solo designa a una."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a03-p02",
+      "promptPt": "Abre la puerta en vez de pasar rápido. Pregunta de dónde exactamente. Habla ahora.",
+      "audioKey": "gb-a03-t02",
+      "es": "Sorry, whereabouts in Scotland?",
+      "tts": "Sorry, whereabouts in Scotland?",
+      "pinyin": "SO-ri, OUÈ-re-abaoutts inn SKOT-lènde",
+      "pt": "Perdona, ¿de dónde exactamente en Escocia?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a03-o02",
+      "es": "Glasgow, born and raised.",
+      "tts": "Glasgow, born and raised.",
+      "pinyin": "GLAZ-gô, borne ande RÉÏZED",
+      "pt": "Glasgow, nacido y criado allí."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a03-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Fíjate en lo que no has hecho: no has dicho que fuera raro ni exagerado. No te toca a ti juzgarlo."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a03-p03",
+      "promptPt": "De verdad no lo sabías. Dilo simplemente, sin disculparte de más. Habla ahora.",
+      "audioKey": "gb-a03-t03",
+      "es": "Sorry, I didn't realise it worked that way.",
+      "tts": "Sorry, I didn't realise it worked that way.",
+      "pinyin": "SO-ri, aï DI-dente RIA-laïze itte OUEUKT dat OUÈÏ",
+      "pt": "Perdona, no sabía que funcionaba así."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a03-o03",
+      "es": "No worries. Half the tourists get it wrong.",
+      "tts": "No worries. Half the tourists get it wrong.",
+      "pinyin": "nô OUEU-riz. hafe the TOU-risstss guette itte RONNG",
+      "pt": "No pasa nada. La mitad de los turistas se equivocan."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a03-n06",
+      "pt": "Otra cosa: el orgullo pasa por la autocrítica — se bromea sobre el propio equipo, que va a perder."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a03-o04",
+      "es": "We'll lose on penalties, we always do.",
+      "tts": "We'll lose on penalties, we always do.",
+      "pinyin": "OUIL louze onn PÈ-nal-tiz, oui OL-ouÈÏZ dou",
+      "pt": "👂 «Vamos a perder en los penaltis, como siempre.» Quiere a su equipo y se burla de él en la misma frase."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a03-p04",
+      "promptPt": "Haz una pregunta concreta en vez de una teoría: pregunta desde cuándo vive aquí. Habla ahora.",
+      "audioKey": "gb-a03-t04",
+      "es": "So how long have you lived down here?",
+      "tts": "So how long have you lived down here?",
+      "pinyin": "sô aou LONNG jav you LIVDE daoune HIEUR",
+      "pt": "¿Y cuánto tiempo llevas viviendo aquí, en el sur?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a03-o05",
+      "es": "About six years now. Still say I'm going home when I go north, though.",
+      "tts": "About six years now. Still say I'm going home when I go north, though.",
+      "pinyin": "e-BAOUTE sixe YIEUZ naou. stile SÈÏ aïm GO-igne jôme ouenn aï gô norse, dôo",
+      "pt": "Unos seis años ya. Pero siempre digo que voy a casa cuando subo al norte."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a03-p05",
+      "promptPt": "Cuenta algo sobre ti, brevemente. Habla ahora.",
+      "audioKey": "gb-a03-t05",
+      "es": "My family's from Brittany, actually.",
+      "tts": "My family's from Brittany, actually.",
+      "pinyin": "maï FA-mi-liz frome BRI-ta-ni, AK-tiou-a-li",
+      "pt": "Mi familia es bretona, en realidad."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a03-p06",
+      "promptPt": "Le pides que siga, sin más. Habla ahora.",
+      "audioKey": "gb-a03-t06",
+      "es": "Tell me more about that.",
+      "tts": "Tell me more about that.",
+      "pinyin": "tèl mi mor e-BAOUTE date",
+      "pt": "Cuéntame más."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a03-s01",
+      "es": "Sorry, whereabouts in Scotland? Sorry, I didn't realise it worked that way. So how long have you lived down here?",
+      "tts": "Sorry, whereabouts in Scotland? Sorry, I didn't realise it worked that way. So how long have you lived down here?",
+      "pinyin": "SO-ri, OUÈ-re-abaoutts inn SKOT-lènde. SO-ri, aï DI-dente RIA-laïze itte OUEUKT dat OUÈÏ. sô aou LONNG jav you LIVDE daoune HIEUR",
+      "pt": "Repite las tres frases que abren esta conversación sin desviarla."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a03-n07",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A03 cerrada. Pregunta de dónde exactamente, di que no lo sabías, pregunta desde cuándo. No hace falta ningún veredicto."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Cuatro naciones, una sola palabra que no le sirve a todo el mundo",
+    "secoes": [
+      {
+        "titulo": "«British» no es «English»",
+        "corpo": "El Reino Unido reúne cuatro naciones: Inglaterra, Escocia, Gales e Irlanda del Norte, cada una con su propia identidad, sus propios equipos de fútbol y rugby, y en el caso de Escocia y Gales, su propio parlamento. «British» cubre a las cuatro; «English» solo cubre a una. Confundir ambas es el error más frecuente de un visitante."
+      },
+      {
+        "titulo": "El orgullo que pasa por la autocrítica",
+        "corpo": "Decir que el propio equipo va a perder, quejarse del tiempo o de los trenes con retraso, mientras se sigue yendo y creyendo en ello, es una forma muy extendida de expresar cariño sin presumir. No es pesimismo, es un estilo."
+      },
+      {
+        "titulo": "Por qué preguntar «de dónde exactamente» es la puerta segura",
+        "corpo": "Preguntar de dónde es exactamente alguien, o desde cuándo vive donde vive, es una pregunta que cualquiera puede responder sin tomar postura sobre nada. Da una historia real, sin pedirle a nadie que defienda una teoría delante de un desconocido."
+      }
+    ]
+  },
+  "permissao": "Tienes derecho a no saber nada de todo esto y a decirlo. «Perdona, no sabía que funcionaba así» es una frase completa y respetable — mucho mejor que devolverle un resumen de la identidad británica a alguien que la vive cada día, que es exactamente el error que esta parte te ayuda a evitar.",
+  "permissaoAudioKey": "gb-a03-n05",
+  "espelho": "Cualquiera que venga de un país donde se discuten las identidades regionales — quién es de verdad de tal sitio, lo que se cuenta en el colegio sobre tal región — ya conoce esta forma por dentro. La única diferencia aquí es que tú lo escuchas como invitado, así que lo que sirve es una pregunta, nunca una conclusión.",
+  "fichasCulturais": [
+    {
+      "sinal": "Dices «you're all English» a un grupo en un pub, y alguien responde, firme pero sin enfadarse, que es escocés.",
+      "suaLeitura": "Está exagerando, o es susceptible sin motivo.",
+      "oQueEAli": "El Reino Unido es un Estado formado por cuatro naciones distintas; llamar «English» a alguien escocés, galés o norirlandés borra una identidad nacional real, no solo un matiz administrativo. La corrección es habitual, no una susceptibilidad aislada.",
+      "oQueVoceFaz": "Discúlpate brevemente y pregunta de dónde exactamente — la pregunta lleva la conversación a un terreno concreto e interesante.",
+      "oQueMelhora": "Consigues una historia real y precisa, casi siempre más interesante que la simpatía o la corrección que ibas a ofrecer.",
+      "ondeNaoVale": "No vale en un contexto puramente administrativo o legal, donde «UK» y «British» son los términos correctos y esperados — el matiz solo se aplica a la conversación cara a cara.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "gb-a03-n04"
+      ]
+    },
+    {
+      "sinal": "Alguien bromea sobre que su selección nacional seguro que va a perder, justo antes de un partidazo que ve con pasión.",
+      "suaLeitura": "No cree de verdad en su equipo, o está intentando protegerse de antemano.",
+      "oQueEAli": "Burlarse de antemano del propio equipo, del tiempo o de los trenes es una forma habitual de expresar cariño sin presumir — la autocrítica y el orgullo conviven en la misma frase, sin contradicción.",
+      "oQueVoceFaz": "Ríete con él en lugar de intentar tranquilizarlo en serio — tranquilizarlo estropea la broma.",
+      "oQueMelhora": "Compartes el momento en lugar de quedarte fuera, intentando averiguar si hay que consolarlo.",
+      "ondeNaoVale": "No vale si eres TÚ quien se burla primero de su equipo, antes de que lo haga él — la autocrítica se hace en primera persona, no desde fuera.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a03-n06"
+      ]
+    }
+  ]
+}

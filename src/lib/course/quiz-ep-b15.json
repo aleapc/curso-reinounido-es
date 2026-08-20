@@ -1,0 +1,73 @@
+{
+  "id": "q-b15",
+  "nivel": "basico",
+  "titulo": "Quiz — El precio nunca está en la talla que crees",
+  "subtitulo": "«How much is ___?», las tallas británicas, y la libra que no es el euro",
+  "introAudioKey": "gb-b15-q-i",
+  "introPt": "Ninguna etiqueta de precio, ninguna talla visible, y la dependienta a dos metros. Encuentra la fórmula que resuelve las dos preguntas, y la cifra en juego.",
+  "cenario": "En una tienda de ropa, delante de la mesa de rebajas.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b15-q01",
+      "voz": "target_en_gb_f",
+      "es": "How much is this?",
+      "tts": "How much is this?",
+      "pinyin": "haou match iz dhiss",
+      "pt": "¿Cuánto cuesta esto?"
+    },
+    {
+      "audioKey": "gb-b15-q02",
+      "voz": "target_en_gb_m",
+      "es": "That one's eighteen pounds.",
+      "tts": "That one's eighteen pounds.",
+      "pinyin": "dhat OUanne iz ÈÏ-tiine paoundz",
+      "pt": "Este cuesta dieciocho libras."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué fórmula sirve tanto para un artículo solo como para toda la cesta?",
+      "opcoes": [
+        "What's the price?",
+        "How much is ___?",
+        "Give me the total",
+        "Cost me ___"
+      ],
+      "correta": 1,
+      "explica": "«How much is» más cualquier cosa cubre un artículo solo o toda la cesta junta. No cambia de forma."
+    },
+    {
+      "pergunta": "¿A qué talla española equivale aproximadamente un UK 10?",
+      "opcoes": [
+        "Un 44",
+        "Un 38 aproximadamente",
+        "Exactamente un 10",
+        "Depende del color"
+      ],
+      "correta": 1,
+      "explica": "El sistema británico se desplaza unos dos números respecto al español, y varía además según la marca. Probárselo resuelve mejor la cuestión que calcular."
+    },
+    {
+      "pergunta": "¿Es el número que ves en la tienda el precio final?",
+      "opcoes": [
+        "No, el impuesto se añade todavía en caja",
+        "Sí, el IVA ya está en el precio mostrado",
+        "Solo para los artículos en rebajas",
+        "Depende de la tienda"
+      ],
+      "correta": 1,
+      "explica": "Como se vio en B14, el IVA británico ya está incluido en el precio mostrado. Sin sorpresas en caja."
+    },
+    {
+      "pergunta": "Solo tienes euros. ¿Qué pasa en la tienda?",
+      "opcoes": [
+        "Las tiendas aceptan euros sin problema",
+        "El comercio no acepta euros, pero la tarjeta resuelve casi todo",
+        "Hay que cambiar dinero obligatoriamente antes de entrar",
+        "Solo los grandes almacenes aceptan euros"
+      ],
+      "correta": 1,
+      "explica": "El Reino Unido está fuera de la zona euro. El comercio no acepta euros, pero como el país es muy mayoritariamente cashless, la tarjeta resuelve casi todo en la práctica."
+    }
+  ]
+}

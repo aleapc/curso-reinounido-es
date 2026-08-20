@@ -1,0 +1,89 @@
+{
+  "id": "q-a03",
+  "nivel": "avancado",
+  "titulo": "Quiz — Quiénes creen que son",
+  "subtitulo": "Preguntar de dónde exactamente, sin dar un veredicto",
+  "introAudioKey": "gb-a03-q-i",
+  "introPt": "Acabas de decir «you're all English» a un grupo en un pub, y alguien te corrige. Escucha el intercambio y responde.",
+  "cenario": "Un pub una noche de partido.",
+  "dialogo": [
+    {
+      "audioKey": "gb-a03-q01",
+      "voz": "target_en_gb_m",
+      "es": "I'm Scottish, actually. Not English.",
+      "tts": "I'm Scottish, actually. Not English.",
+      "pt": "Soy escocés, en realidad. No inglés."
+    },
+    {
+      "audioKey": "gb-a03-q02",
+      "voz": "target_en_gb_f",
+      "es": "Sorry, whereabouts in Scotland?",
+      "tts": "Sorry, whereabouts in Scotland?",
+      "pt": "Perdona, ¿de dónde exactamente en Escocia?"
+    },
+    {
+      "audioKey": "gb-a03-q03",
+      "voz": "target_en_gb_m",
+      "es": "Glasgow, born and raised.",
+      "tts": "Glasgow, born and raised.",
+      "pt": "Glasgow, nacido y criado allí."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Por qué llamar «English» a alguien escocés es un error de verdad, no solo un matiz?",
+      "opcoes": [
+        "El Reino Unido reúne cuatro naciones distintas, cada una con su propia identidad",
+        "«English» y «British» significan exactamente lo mismo",
+        "Es una broma local sin importancia",
+        "Solo tiene que ver con el fútbol"
+      ],
+      "correta": 0,
+      "explica": "El Reino Unido es un Estado formado por cuatro naciones: Inglaterra, Escocia, Gales e Irlanda del Norte."
+    },
+    {
+      "pergunta": "Alguien te corrige con firmeza sobre su nacionalidad. ¿Qué es mejor evitar?",
+      "opcoes": [
+        "Preguntar de dónde viene exactamente",
+        "Insistir en que es casi lo mismo",
+        "Disculparte brevemente",
+        "Preguntar desde cuándo vive donde vive"
+      ],
+      "correta": 1,
+      "explica": "No te toca a ti minimizar una identidad nacional real — la pregunta abre la conversación, insistir la cierra."
+    },
+    {
+      "pergunta": "Alguien bromea diciendo que su equipo va a perder justo antes de un partido importante. ¿Señal de qué es?",
+      "opcoes": [
+        "De que en realidad no le gusta su equipo",
+        "De autocrítica — una forma habitual de expresar cariño sin presumir",
+        "De que quiere que lo tranquilices en serio",
+        "De que está de mal humor"
+      ],
+      "correta": 1,
+      "explica": "La autocrítica y el orgullo conviven en la misma frase, sin contradicción — es un estilo, no pesimismo."
+    },
+    {
+      "pergunta": "¿Cuál es la pregunta más segura para abrir esta conversación?",
+      "opcoes": [
+        "¿De verdad te consideras así?",
+        "¿De dónde exactamente?",
+        "¿No te molesta que te confundan con los ingleses?",
+        "¿Por qué sois tan susceptibles con eso?"
+      ],
+      "correta": 1,
+      "explica": "Preguntar de dónde exactamente deja que la persona cuente su propia historia, sin pedirle que defienda nada."
+    },
+    {
+      "pergunta": "No sabías que «British» e «English» no eran lo mismo. ¿Qué puedes decir?",
+      "opcoes": [
+        "Nada, mejor quedarse callado",
+        "«Sorry, I didn't realise it worked that way»",
+        "«That's a strange way to think about it»",
+        "«That doesn't really make sense»"
+      ],
+      "correta": 1,
+      "explica": "Decir que no lo sabías, sin juzgar, es una frase completa y respetuosa."
+    }
+  ]
+}

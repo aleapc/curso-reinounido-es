@@ -1,0 +1,290 @@
+{
+  "id": "b08",
+  "slot": "B08",
+  "nivel": "basico",
+  "numero": 8,
+  "parte": "3A",
+  "titulo": "Alguien dibuja el mapa entero con las dos manos",
+  "subtitulo": "Dónde están los baños, dónde está el ascensor, y qué hacer cuando la respuesta se convierte en un párrafo",
+  "cena": "Un desconocido en la esquina ya está dibujando el trayecto en el aire con las dos manos, tres calles de profundidad, y tú todavía no has decidido qué necesitas de verdad.",
+  "moldura": "ganha",
+  "frasePiso": "La mejor pregunta de dirección es la que te deja un siguiente paso que de verdad puedes usar.",
+  "moldes": [
+    "WHERE"
+  ],
+  "clique": {
+    "contagem": [
+      "vestíbulo del hotel",
+      "pasillo",
+      "recepción"
+    ],
+    "desconto": "Nadie te ha dado una pregunta distinta para los baños, el ascensor y la puerta. Solo has cambiado el sitio que buscabas; la fórmula se quedó igual.",
+    "piso": "La próxima vez que necesites un sitio conocido, no vas a improvisar la frase entera. Vas a decir where's the y el sitio, y con eso bastará."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b08-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Puño en WHERE's: WHERE's the. Sirve para cualquier sitio conocido, estés donde estés."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "leave my bag here for a minute",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b08-p00",
+      "promptPt": "En el vestíbulo del hotel, quieres dejar tu maleta un momento antes de subir a la habitación. Pregunta si puedes. Habla ahora.",
+      "audioKey": "gb-b08-x0",
+      "es": "Can I leave my bag here for a minute?",
+      "tts": "Can I leave my bag here for a minute?",
+      "pinyin": "can aï liiv maï bag hiir for e MI-nitt",
+      "pt": "¿Puedo dejar mi bolsa aquí un momento?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b08-n02",
+      "bloco": "cena",
+      "pt": "Un desconocido va a responderte con tres calles y las dos manos en el aire. Empieza pequeño."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b08-n03",
+      "bloco": "molde",
+      "pt": "La fórmula: where's the y el sitio. Solo cambia lo que buscas."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b08-t01",
+      "es": "Where's the toilet?",
+      "tts": "Where's the toilet?",
+      "pinyin": "ouèrz the TOÏ-leutt",
+      "pt": "¿Dónde están los baños?"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WHERE",
+      "encaixe": "toilet",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b08-p01",
+      "promptPt": "En el vestíbulo del hotel, una necesidad urgente te detiene antes de subir a la habitación. Pregunta dónde está el sitio que necesitas. Habla ahora.",
+      "audioKey": "gb-b08-t01",
+      "es": "Where's the toilet?",
+      "tts": "Where's the toilet?",
+      "pinyin": "ouèrz the TOÏ-leutt",
+      "pt": "¿Dónde están los baños?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b08-r01",
+      "es": "Right down the hall, on the left.",
+      "tts": "Right down the hall, on the left.",
+      "pinyin": "raït daoun the hol, onn the left",
+      "pt": "Al final del pasillo, a la izquierda."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b08-n04",
+      "bloco": "corpo",
+      "pt": "Misma fórmula, otro sitio. El ascensor también es un sitio conocido en el mismo edificio."
+    },
+    {
+      "consulta": [
+        "quarto/andar"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WHERE",
+      "encaixe": "lift",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b08-p02",
+      "promptPt": "Llevas las maletas y no ves ninguna escalera cerca. Pregunta dónde está el ascensor. Habla ahora.",
+      "audioKey": "gb-b08-t02",
+      "es": "Where's the lift?",
+      "tts": "Where's the lift?",
+      "pinyin": "ouèrz the lift",
+      "pt": "¿Dónde está el ascensor?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b08-r02",
+      "es": "Just around the corner.",
+      "tts": "Just around the corner.",
+      "pinyin": "djeust e-ROUND the KOR-neu",
+      "pt": "Justo a la vuelta de la esquina."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WHERE",
+      "encaixe": "reception",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b08-p03",
+      "promptPt": "Tienes que volver a la recepción, pero desde este pasillo ya no sabes por dónde. Pregunta dónde está. Habla ahora.",
+      "audioKey": "gb-b08-t03",
+      "es": "Where's reception?",
+      "tts": "Where's reception?",
+      "pinyin": "ouèrz ri-SEP-cheunn",
+      "pt": "¿Dónde está la recepción?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b08-n05",
+      "bloco": "capsula",
+      "pt": "A veces no sabes la palabra exacta. Ahí, señala la intención y deja que el otro complete."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b08-t04",
+      "es": "I'm looking for a chemist.",
+      "tts": "I'm looking for a chemist.",
+      "pinyin": "aïm LOU-kinng for e KE-mist",
+      "pt": "Busco una farmacia. Cuando no sabes qué palabra usar, señalas la intención así."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b08-p04",
+      "promptPt": "Te han dado un trayecto de tres calles y ya has perdido el hilo a mitad de camino. Reduce la respuesta preguntando solo si está lejos. Habla ahora.",
+      "audioKey": "gb-b08-t05",
+      "es": "Is it far?",
+      "tts": "Is it far?",
+      "pinyin": "iz it faar",
+      "pt": "¿Está lejos?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b08-r03",
+      "es": "No, it's two streets away — past the subway, not through it, mind.",
+      "tts": "No, it's two streets away — past the subway, not through it, mind.",
+      "pinyin": "nôou, its tou striits e-OUÈÏ — paast the SEUB-ouèï, nott throu itt, maïnd",
+      "pt": "No, a dos calles — después del paso subterráneo, no a través, ojo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b08-n06",
+      "tom": "protege",
+      "pt": "Acaba de repetir subway: aquí esa palabra nunca es el metro. El metro es the Underground."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b08-p05",
+      "promptPt": "Dos calles no te dice todavía exactamente qué zona. Pide que te lo enseñen en el mapa. Habla ahora.",
+      "tom": "ganha",
+      "audioKey": "gb-b08-t06",
+      "es": "Can you show me on the map?",
+      "tts": "Can you show me on the map?",
+      "pinyin": "can you chôou mi onn the mapp",
+      "pt": "¿Me lo puede señalar en el mapa?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WHERE",
+      "encaixe": "the Underground",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b08-px1",
+      "promptPt": "Esta vez quieres de verdad el metro, no un paso bajo la calle. Haz la pregunta correcta, con la palabra correcta. Habla ahora.",
+      "audioKey": "gb-b08-x1",
+      "es": "Where's the Underground?",
+      "tts": "Where's the Underground?",
+      "pinyin": "ouèrz the OUNN-deu-graound",
+      "pt": "¿Dónde está el metro?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "an umbrella",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b08-px2",
+      "promptPt": "Está lloviendo y vas a salir del hotel. En recepción, pregunta si tienen un paraguas para prestar. Habla ahora.",
+      "audioKey": "gb-b08-x2",
+      "es": "Do you have an umbrella?",
+      "tts": "Do you have an umbrella?",
+      "pinyin": "dou you Hav an eumm-BRE-la",
+      "pt": "¿Tiene un paraguas?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "EXCUSE",
+      "encaixe": "le comptoir de la réception",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b08-px3",
+      "promptPt": "El recepcionista te da la espalda, ocupado guardando llaves. Recupera su atención antes de hablar del paraguas. Habla ahora.",
+      "audioKey": "gb-b08-x3",
+      "es": "Excuse me?",
+      "tts": "Excuse me?",
+      "pinyin": "ex-KIOUZ mi",
+      "pt": "¿Perdón?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b08-s01",
+      "es": "Where's the toilet? Where's the lift? Is it far?",
+      "tts": "Where's the toilet? Where's the lift? Is it far?",
+      "pinyin": "ouèrz the TOÏ-leutt? ouèrz the lift? iz it faar",
+      "pt": "Repite la fórmula con dos sitios distintos y el reductor de distancia."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b08-n07",
+      "bloco": "recap",
+      "pt": "Parte ocho cerrada. Where's the para un sitio conocido, is it far para reducir la respuesta."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Un sitio conocido, no todo un párrafo",
+    "secoes": [
+      {
+        "titulo": "Where's the, y solo el sitio cambia",
+        "corpo": "Úsala para cualquier sitio definido que sepas que existe cerca: los baños, el ascensor, la recepción.",
+        "exemplos": [
+          {
+            "es": "Where's the toilet?",
+            "pt": "¿Dónde están los baños?"
+          },
+          {
+            "es": "Where's the lift?",
+            "pt": "¿Dónde está el ascensor?"
+          }
+        ]
+      },
+      {
+        "titulo": "«I'm looking for ___» es la fórmula hermana para cuando no tienes el nombre exacto",
+        "corpo": "Señala la intención y deja que el otro complete, en vez de forzar la fórmula con una palabra que aún no conoces."
+      },
+      {
+        "titulo": "«Subway» sigue sin ser el metro",
+        "corpo": "El desconocido de la esquina acaba de repetirlo sin que nadie se lo pidiera: en el Reino Unido «subway» sigue siendo un paso subterráneo para peatones. El metro se pregunta con «Where's the Underground?» o «Where's the Tube?»."
+      },
+      {
+        "titulo": "No memorices el párrafo entero",
+        "corpo": "Las indicaciones de dirección son sobre todo receptivas por ahora. Tu trabajo productivo consiste en reducir la respuesta con is it far, o hacer que pase al mapa."
+      }
+    ]
+  }
+}

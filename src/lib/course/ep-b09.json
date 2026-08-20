@@ -1,0 +1,235 @@
+{
+  "id": "b09",
+  "slot": "B09",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "3B",
+  "titulo": "La misma tarjeta, a la entrada y a la salida",
+  "subtitulo": "Confirma el destino, pon la tarjeta en el lector amarillo, y no cambies nunca de soporte en el camino",
+  "cena": "El torno del metro muestra un círculo verde, pero sigues sin saber si este tren va donde tú vas, y el andén está lleno de gente que, ella sí, no duda.",
+  "moldura": "ganha",
+  "frasePiso": "Una tarjeta que funciona a la entrada no sirve de nada si no es la misma a la salida.",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b09-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Puño en TAP: haces TAP in, haces TAP out. Ya no hay billete de papel en el metro de Londres."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WHERE",
+      "encaixe": "ticket gates",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b09-p00",
+      "promptPt": "Bajas a la estación y todavía no ves los tornos. Pregunta dónde están. Habla ahora.",
+      "audioKey": "gb-b09-x0",
+      "es": "Where's the ticket gates?",
+      "tts": "Where are the ticket gates?",
+      "pinyin": "ouèr aa the TI-kitt guèïts",
+      "pt": "¿Dónde están los tornos?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b09-n02",
+      "bloco": "cena",
+      "pt": "Delante del torno, cada uno pone su tarjeta en el lector amarillo. A ti te falta una confirmación."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b09-t01",
+      "es": "Does this train go to Oxford Circus?",
+      "tts": "Does this train go to Oxford Circus?",
+      "pinyin": "dez this trèïn gôou tou OKS-feud SEU-keuss",
+      "pt": "¿Este tren va a Oxford Circus?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b09-p01",
+      "promptPt": "Antes de poner tu tarjeta en el lector, confirma que esta línea va a Oxford Circus. Habla ahora.",
+      "audioKey": "gb-b09-t01",
+      "es": "Does this train go to Oxford Circus?",
+      "tts": "Does this train go to Oxford Circus?",
+      "pinyin": "dez this trèïn gôou tou OKS-feud SEU-keuss",
+      "pt": "¿Este tren va a Oxford Circus?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b09-r01",
+      "es": "Yes, but you'll need to change once.",
+      "tts": "Yes, but you'll need to change once.",
+      "pinyin": "yèss, but youl niid tou tchèïndj ouonns",
+      "pt": "Sí, pero tendrás que hacer un transbordo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b09-n03",
+      "bloco": "capsula",
+      "pt": "Una regla no perdona: la MISMA tarjeta, a la entrada Y a la salida. Si no, el límite se rompe."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b09-p02",
+      "promptPt": "Tu amigo te tiende su teléfono para ponerlo en el lector en tu lugar. Explícale por qué rompe el límite: pídele que te confirme que será la misma tarjeta a la vuelta. Habla ahora.",
+      "audioKey": "gb-b09-t02",
+      "es": "Same card, in and out — every time?",
+      "tts": "Same card, in and out — every time?",
+      "pinyin": "sèïm caad, inn eund aout — EV-ri taïm",
+      "pt": "¿La misma tarjeta, a la entrada y a la salida, siempre?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b09-r02",
+      "es": "Exactly. Otherwise the cap won't work.",
+      "tts": "Exactly. Otherwise the cap won't work.",
+      "pinyin": "ig-ZAKT-li. O-theu-ouaïz the cap ouôount ouork",
+      "pt": "Exacto. Si no, el límite no funciona."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WHERE",
+      "encaixe": "platform",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b09-p03",
+      "promptPt": "El torno está validado, pero todavía te falta el andén correcto. Pregunta dónde está. Habla ahora.",
+      "audioKey": "gb-b09-t03",
+      "es": "Where's the platform?",
+      "tts": "Where's the platform?",
+      "pinyin": "ouèrz the PLATT-form",
+      "pt": "¿Dónde está el andén?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b09-r03",
+      "es": "Down these stairs, to your right.",
+      "tts": "Down these stairs, to your right.",
+      "pinyin": "daoun this stèrz, tou yor raït",
+      "pt": "Bajando estas escaleras, a tu derecha."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b09-n04",
+      "bloco": "corpo",
+      "pt": "Tu tarjeta española funciona directamente aquí. El riesgo real son las comisiones por transacción."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b09-p04",
+      "promptPt": "En el andén, confirma una última vez que tienes que hacer transbordo para llegar a tu destino. Habla ahora.",
+      "audioKey": "gb-b09-t04",
+      "es": "Do I need to change here?",
+      "tts": "Do I need to change here?",
+      "pinyin": "dou aï niid tou tchèïndj hiir",
+      "pt": "¿Tengo que hacer transbordo aquí?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b09-r04",
+      "es": "Yes, one stop from here.",
+      "tts": "Yes, one stop from here.",
+      "pinyin": "yèss, ouonn stopp from hiir",
+      "pt": "Sí, una parada desde aquí."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b09-px1",
+      "promptPt": "El tren llega al andén. Antes de subir, confirma una última vez que va a Oxford Circus. Habla ahora.",
+      "audioKey": "gb-b09-t05",
+      "es": "Does this train go to Oxford Circus?",
+      "tts": "Does this train go to Oxford Circus?",
+      "pinyin": "dez this trèïn gôou tou OKS-feud SEU-keuss",
+      "pt": "¿Este tren va a Oxford Circus?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b09-r05",
+      "es": "Yes, hop on.",
+      "tts": "Yes, hop on.",
+      "pinyin": "yèss, hopp onn",
+      "pt": "Sí, suba."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b09-px2",
+      "promptPt": "Este tren va lleno. Pregunta si hay otro más tarde. Habla ahora.",
+      "audioKey": "gb-b09-x1",
+      "es": "Is there another one later?",
+      "tts": "Is there another one later?",
+      "pinyin": "iz ther e-NA-theu ouonn LÈÏ-teu",
+      "pt": "¿Hay otro más tarde?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b09-s01",
+      "es": "Does this train go to Oxford Circus? Do I need to change here?",
+      "tts": "Does this train go to Oxford Circus? Do I need to change here?",
+      "pinyin": "dez this trèïn gôou tou OKS-feud SEU-keuss? dou aï niid tou tchèïndj hiir",
+      "pt": "Repite la misma pregunta de confirmación con dos momentos distintos."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b09-n05",
+      "bloco": "recap",
+      "pt": "Parte nueve cerrada. Destino confirmado, misma tarjeta a la entrada y a la salida, andén encontrado."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "El gesto que sustituye al billete",
+    "secoes": [
+      {
+        "titulo": "Sin sistema nacional, pero un solo gesto en Londres",
+        "corpo": "El transporte de Londres ya no tiene billete de papel desde enero de 2023: pones una tarjeta sin contacto, un teléfono, o una tarjeta Oyster en el lector, a la entrada y a la salida."
+      },
+      {
+        "titulo": "La misma tarjeta, siempre",
+        "corpo": "El sistema calcula y limita automáticamente el total de tu día y de tu semana — siempre que sea el mismo soporte. Cambiar de tarjeta o de teléfono en el camino rompe el límite, en silencio.",
+        "exemplos": [
+          {
+            "es": "Same card, in and out — every time?",
+            "pt": "¿La misma tarjeta, a la entrada y a la salida, siempre?"
+          },
+          {
+            "es": "Exactly. Otherwise the cap won't work.",
+            "pt": "Exacto. Si no, el límite no funciona."
+          }
+        ]
+      },
+      {
+        "titulo": "Tu tarjeta española funciona — solo comprueba las comisiones",
+        "corpo": "A diferencia de lo que le espera a un viajero en los Países Bajos con el sistema local de pago, tu tarjeta Visa o Mastercard española se acepta directamente en el Reino Unido. Lo que hay que comprobar antes de salir son posibles comisiones por transacción que aplique tu propio banco."
+      },
+      {
+        "titulo": "Nunca cites el importe del límite",
+        "corpo": "Cambia cada enero y depende de las zonas recorridas. Ningún número fijo tiene cabida aquí — solo la app o la web de TfL tienen la versión actualizada."
+      }
+    ]
+  }
+}

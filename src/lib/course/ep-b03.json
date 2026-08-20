@@ -1,0 +1,285 @@
+{
+  "id": "b03",
+  "slot": "B03",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "1C",
+  "titulo": "La palabra que funciona aunque la cola siga creciendo",
+  "subtitulo": "Excuse me abre cualquier puerta, Sorry también — y la escalera de emergencia para cuando la respuesta se te escapa",
+  "cena": "El agente del mostrador acaba de decir la hora de embarque muy rápido, por segunda vez, y la cola detrás de ti no deja de crecer.",
+  "moldura": "ganha",
+  "moldes": [
+    "EXCUSE"
+  ],
+  "clique": {
+    "contagem": [
+      "el mostrador de la aerolínea",
+      "el pasillo del avión",
+      "la ventanilla del banco"
+    ],
+    "desconto": "Nadie te ha dado una frase distinta para llamar a alguien, para pedir paso y para abrir una pregunta. Es la misma palabra, apuntada al sitio correcto.",
+    "piso": "La próxima vez que necesites la atención de alguien, en cualquier parte del mundo, no vas a dudar cómo empezar: vas a decir excuse me, y a seguir desde ahí."
+  },
+  "permissao": "Tienes derecho a decir «I didn't catch that» sin disculparte de nada. Perder el hilo en un mostrador ruidoso no es un fallo de tu inglés: es una parte normal de cualquier conversación real, en cualquier idioma.",
+  "permissaoAudioKey": "gb-b03-n06",
+  "fichasCulturais": [
+    {
+      "sinal": "Asientes y dices «okay, cheers» a una respuesta que en realidad no has entendido bien, y diez minutos después descubres que ibas a la puerta equivocada.",
+      "suaLeitura": "No quería hacer perder tiempo a la cola, o no quería parecer que no seguía algo tan simple.",
+      "oQueEAli": "Asentir protege la conversación un segundo más, y te deja el problema entero diez minutos después, justo cuando la persona que tenía la respuesta ya no está para ayudarte.",
+      "oQueVoceFaz": "Dices «sorry, I didn't catch that» en el mismo instante en que ibas a asentir, antes de partir de una suposición.",
+      "oQueMelhora": "La corrección se hace mientras la persona que tiene la respuesta sigue delante de ti — el único momento en que no cuesta nada.",
+      "ondeNaoVale": "No para cada frase sin intentar nunca seguirla: decir «I didn't catch that» a todo, sin intentarlo nunca, se lee como abandono, no como solución de un fallo.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b03-n01"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b03-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Parte tres. Puño en CUSE: ex-CUSE me. La palabra que abre casi todas las puertas."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b03-n02",
+      "bloco": "cena",
+      "pt": "El agente ha dicho la hora muy rápido, dos veces. La cola crece. Primero necesitas su atención."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b03-n03",
+      "bloco": "molde",
+      "pt": "La fórmula de hoy, y nunca cambia: excuse me. Solo cambia el sitio."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b03-t01",
+      "es": "Excuse me?",
+      "tts": "Excuse me?",
+      "pinyin": "ex-KIOUZ mi",
+      "pt": "¿Perdón? Con tono de pregunta, para recuperar la atención."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "EXCUSE",
+      "encaixe": "le comptoir de la compagnie",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b03-p01",
+      "promptPt": "El agente ya empieza a mirar a la siguiente persona. Recupera su atención antes de que se vaya. Habla ahora.",
+      "audioKey": "gb-b03-t01",
+      "es": "Excuse me?",
+      "tts": "Excuse me?",
+      "pinyin": "ex-KIOUZ mi",
+      "pt": "¿Perdón?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b03-r01",
+      "es": "Yes? What can I do for you?",
+      "tts": "Yes? What can I do for you?",
+      "pinyin": "yèss? ouat can aï dou for you",
+      "pt": "¿Sí? ¿Puedo ayudarle?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b03-n04",
+      "bloco": "corpo",
+      "pt": "Primer escalón de la escalera: no lo he entendido. Sin sonrisa falsa."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b03-t02",
+      "es": "Sorry, I didn't catch that.",
+      "tts": "Sorry, I didn't catch that.",
+      "pinyin": "SO-ri, aï DID-eunt catch that",
+      "pt": "Perdón, no lo he entendido."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b03-p02",
+      "promptPt": "El agente ha respondido muy rápido y no has entendido nada. Dile que no lo has pillado, sin disculparte de más. Habla ahora.",
+      "audioKey": "gb-b03-t02",
+      "es": "Sorry, I didn't catch that.",
+      "tts": "Sorry, I didn't catch that.",
+      "pinyin": "SO-ri, aï DID-eunt catch that",
+      "pt": "Perdón, no lo he entendido."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b03-r02",
+      "es": "No problem, let me repeat that.",
+      "tts": "No problem, let me repeat that.",
+      "pinyin": "nô PRO-bleum, let mi ri-PIIT that",
+      "pt": "No pasa nada, lo repito."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b03-p03",
+      "promptPt": "Va a repetir, pero a la misma velocidad no vas a seguirlo mejor. Pídele que hable más despacio. Habla ahora.",
+      "audioKey": "gb-b03-t03",
+      "es": "Could you speak more slowly, please?",
+      "tts": "Could you speak more slowly, please?",
+      "pinyin": "coud you spiik mor SLÔOU-li, pliiz",
+      "pt": "¿Podría hablar más despacio, por favor?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b03-r03",
+      "es": "Of course. Boarding starts at four fifteen.",
+      "tts": "Of course. Boarding starts at four fifteen.",
+      "pinyin": "of cors. BOR-dinng starts at for fif-TIIN",
+      "pt": "Claro. El embarque empieza a las cuatro y cuarto."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b03-n05",
+      "bloco": "capsula",
+      "pt": "Más despacio puede fallar con un número o un nombre. No vuelvas a intentarlo: pide que te lo escriban."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b03-p04",
+      "promptPt": "Todavía dudas entre las cuatro y cuarto y las cuatro y cincuenta. Pide que te lo escriban en vez de volver a intentar oírlo. Habla ahora.",
+      "audioKey": "gb-b03-t04",
+      "es": "Can you write that down for me?",
+      "tts": "Can you write that down for me?",
+      "pinyin": "can you raït that daoun for mi",
+      "pt": "¿Me lo puede escribir?"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "EXCUSE",
+      "encaixe": "le couloir de l'avion",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b03-px1",
+      "promptPt": "En el avión, tienes que llegar a tu asiento por el pasillo, y alguien está guardando su maleta justo delante. Pide paso. Habla ahora.",
+      "audioKey": "gb-b03-x1",
+      "es": "Excuse me, sorry.",
+      "tts": "Excuse me, sorry.",
+      "pinyin": "ex-KIOUZ mi, SO-ri",
+      "pt": "Perdón, disculpe."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "EXCUSE",
+      "encaixe": "le guichet de la banque",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b03-px2",
+      "promptPt": "Ahora estás en la ventanilla de un banco por algo que no tiene nada que ver con el aeropuerto. Abre igual, con la misma palabra. Habla ahora.",
+      "audioKey": "gb-b03-x2",
+      "es": "Excuse me, one question.",
+      "tts": "Excuse me, one question.",
+      "pinyin": "ex-KIOUZ mi, ouann KOUES-cheunn",
+      "pt": "Perdón, una pregunta."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b03-px3",
+      "promptPt": "El nombre de la calle que te acaban de decir tampoco queda claro, letra por letra. Pide que te lo deletreen. Habla ahora.",
+      "audioKey": "gb-b03-x3",
+      "es": "Can you spell that, please?",
+      "tts": "Can you spell that, please?",
+      "pinyin": "can you spel that, pliiz",
+      "pt": "¿Me lo puede deletrear, por favor?"
+    },
+    {
+      "consulta": [
+        "chegar/fila"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "EXCUSE",
+      "encaixe": "le comptoir du pub",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b03-px4",
+      "promptPt": "Más tarde, en la barra de un pub lleno, no estás seguro de estar bien colocado en la fila invisible. Abre con la segunda forma, más británica, de esa misma palabra. Habla ahora.",
+      "audioKey": "gb-b03-x4",
+      "es": "Sorry, is this the queue?",
+      "tts": "Sorry, is this the queue?",
+      "pinyin": "SO-ri, iz this the kiou",
+      "pt": "Perdón, ¿es esta la cola?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b03-s01",
+      "es": "Excuse me? Sorry, I didn't catch that. Could you speak more slowly, please?",
+      "tts": "Excuse me? Sorry, I didn't catch that. Could you speak more slowly, please?",
+      "pinyin": "ex-KIOUZ mi? SO-ri, aï DID-eunt catch that. coud you spiik mor SLÔOU-li, pliiz",
+      "pt": "Repite los tres primeros escalones de la escalera, sin disculparte de más."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b03-n06",
+      "bloco": "recap",
+      "pt": "Parte tres cerrada. Excuse me abre la puerta, Sorry también. La escalera te saca del apuro."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Resolver un fallo es cambiar de canal, no repetir el intento",
+    "secoes": [
+      {
+        "titulo": "No subas toda la escalera de golpe",
+        "corpo": "Empieza por el escalón más pequeño que pueda bastar. Si hablar más despacio resuelve el problema, quédate ahí. No subas hasta pedir que te lo escriban salvo que la información siga siendo frágil: números, nombres, direcciones."
+      },
+      {
+        "titulo": "«Excuse me» abre; «sorry» repara",
+        "corpo": "Usa excuse me para llamar la atención o pedir paso antes de moverte. Usa sorry cuando ya has empujado algo o a alguien, o cuando de verdad has interrumpido.",
+        "exemplos": [
+          {
+            "es": "Excuse me?",
+            "pt": "¿Perdón? (para llamar la atención)"
+          },
+          {
+            "es": "Excuse me, sorry.",
+            "pt": "Perdón, disculpe. (al rozar a alguien de pasada)"
+          }
+        ]
+      },
+      {
+        "titulo": "El «sorry» británico hace más que disculpar",
+        "corpo": "En el Reino Unido, sorry también abre una pregunta y sirve para pedir tu turno en una cola — incluida la cola invisible de la barra de un pub, que no tiene ninguna línea en el suelo pero sí un orden de llegada que el camarero conoce."
+      },
+      {
+        "titulo": "Escribirlo gana a un tercer intento de oído",
+        "corpo": "Un tercer intento de oír lo mismo raramente cambia el resultado. Pedir que te lo escriban te da un objeto que los dos podéis comprobar."
+      }
+    ]
+  }
+}

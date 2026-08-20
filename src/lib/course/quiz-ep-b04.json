@@ -1,0 +1,100 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "Quiz — La última noche fácil de corregir",
+  "subtitulo": "Pasaporte, autorización de viaje y reserva confirmada antes de dormir",
+  "introAudioKey": "gb-b04-q-i",
+  "introPt": "Esta noche, en la mesa de casa, todo se corrige aún fácilmente. Escucha la llamada al hotel y localiza qué hay que comprobar antes de salir, no en la cola del aeropuerto.",
+  "cenario": "Una llamada a la centralita del hotel, la víspera de la salida.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b04-q01",
+      "voz": "target_en_gb_f",
+      "es": "I'd like to confirm my reservation.",
+      "tts": "I'd like to confirm my reservation.",
+      "pinyin": "aïd laïk tou con-FEUM maï re-zeu-VÈÏ-cheunn",
+      "pt": "Quería confirmar mi reserva."
+    },
+    {
+      "audioKey": "gb-b04-q02",
+      "voz": "target_en_gb_m",
+      "es": "Sure, what name is it under?",
+      "tts": "Sure, what name is it under?",
+      "pinyin": "chor, ouat nèïm iz it OUNN-deu",
+      "pt": "Claro, ¿a nombre de quién?"
+    },
+    {
+      "audioKey": "gb-b04-q03",
+      "voz": "target_en_gb_f",
+      "es": "Could you email me the confirmation, please? And what's the full address?",
+      "tts": "Could you email me the confirmation, please? And what's the full address?",
+      "pinyin": "coud you IIM-mèïl mi the con-feu-MÈÏ-cheunn, pliiz? eund ouats the foul e-DRESS",
+      "pt": "¿Me puede enviar la confirmación por correo, por favor? ¿Y cuál es la dirección completa?"
+    },
+    {
+      "audioKey": "gb-b04-q04",
+      "voz": "target_en_gb_m",
+      "es": "Yes, we're open all night. You're all set.",
+      "tts": "Yes, we're open all night. You're all set.",
+      "pinyin": "yèss, ouir ôo-peunn ol naït. yor ol set",
+      "pt": "Sí, abrimos toda la noche. Todo está en orden."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Por qué confirmar tu reserva esta noche, en vez de fiarte de la marca verde de la app?",
+      "opcoes": [
+        "Porque la app nunca funciona",
+        "Para tener una confirmación legible fuera de la app, por si falla la cobertura",
+        "Porque lo exige la ley británica",
+        "Para conseguir un descuento"
+      ],
+      "correta": 1,
+      "explica": "Una captura de la dirección y la reserva sobrevive a un wifi caído, una cuenta bloqueada o una batería agotada — una cadena de enlaces en una app no."
+    },
+    {
+      "pergunta": "¿Qué documento adicional debe conseguir un ciudadano español antes de embarcar hacia el Reino Unido?",
+      "opcoes": [
+        "Un visado de estancia clásico",
+        "Una autorización de viaje electrónica (ETA), vinculada al pasaporte",
+        "Ninguno, el pasaporte siempre basta",
+        "Una carta de invitación notarial"
+      ],
+      "correta": 1,
+      "explica": "La ETA se solicita online antes de salir y llega por correo — ya no basta con presentar solo el pasaporte."
+    },
+    {
+      "pergunta": "Sobre la validez del pasaporte para entrar en el Reino Unido, ¿qué hay que comprobar?",
+      "opcoes": [
+        "Que siga válido seis meses tras la vuelta, como en otros países",
+        "Que cubra toda la duración de la estancia, sin regla de los seis meses",
+        "Nada, la fecha no importa",
+        "Que se haya expedido hace menos de un año"
+      ],
+      "correta": 1,
+      "explica": "El Reino Unido no exige seis meses de validez restante: el pasaporte solo debe cubrir toda la estancia."
+    },
+    {
+      "pergunta": "Sobre la tarjeta bancaria española en el Reino Unido, ¿cuál es el punto real que comprobar antes de salir?",
+      "opcoes": [
+        "Si se aceptará en absoluto",
+        "Posibles comisiones por transacción que aplique tu propio banco",
+        "Si hay que cambiarla a libras antes del viaje",
+        "Si solo funciona en las grandes ciudades"
+      ],
+      "correta": 1,
+      "explica": "La tarjeta española funciona directamente en el Reino Unido; lo que hay que comprobar son las comisiones que el banco español puede añadir por transacción."
+    },
+    {
+      "pergunta": "¿Por qué avisar de la hora de llegada tardía al hotel, la víspera de la salida?",
+      "opcoes": [
+        "Para conseguir una tarifa reducida",
+        "Para comprobar que la recepción estará abierta a tu llegada",
+        "Nunca es útil hacerlo",
+        "Para cambiar de habitación"
+      ],
+      "correta": 1,
+      "explica": "Una reserva válida falla igualmente si la recepción cierra antes de un aterrizaje tardío — de ahí el interés en avisar esta misma noche."
+    }
+  ]
+}

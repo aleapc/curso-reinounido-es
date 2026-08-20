@@ -1,0 +1,92 @@
+{
+  "id": "q-i02",
+  "nivel": "intermediario",
+  "titulo": "Quiz — La fila que no existe",
+  "subtitulo": "Colocarte, esperar, pedir en la barra",
+  "introAudioKey": "gb-i02-q-i",
+  "introPt": "La barra del pub está a rebosar, nadie está sentado. Escucha cómo el viajero encuentra su sitio sin empujar a nadie.",
+  "cenario": "Un pub en el Reino Unido, hora punta de la noche.",
+  "dialogo": [
+    {
+      "audioKey": "gb-i02-q01",
+      "voz": "target_en_gb_m",
+      "es": "Sorry mate, I was here first.",
+      "tts": "Sorry mate, I was here first.",
+      "pinyin": "SOR-ri mèïtt, aï ouoz hieur feurst",
+      "pt": "Perdona, yo estaba antes."
+    },
+    {
+      "audioKey": "gb-i02-q02",
+      "voz": "target_en_gb_f",
+      "es": "Sorry, are you in the queue?",
+      "tts": "Sorry, are you in the queue?",
+      "pinyin": "SOR-ri, aar you inn de KIOU",
+      "pt": "Perdona, ¿estás esperando tu turno?"
+    },
+    {
+      "audioKey": "gb-i02-q03",
+      "voz": "target_en_gb_m",
+      "es": "Yep, right behind me.",
+      "tts": "Yep, right behind me.",
+      "pinyin": "yèpp, raïtt bi-HAÏND mi",
+      "pt": "Sí, justo detrás de mí."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "En la barra de un pub británico, ¿cómo funciona el servicio?",
+      "opcoes": [
+        "Un camarero viene a la mesa",
+        "Se pide y se paga directamente en la barra",
+        "Hay que coger un número",
+        "Te sientas y esperas"
+      ],
+      "correta": 1,
+      "explica": "El pub tradicional no tiene servicio de mesa: se pide y se paga en la barra."
+    },
+    {
+      "pergunta": "¿Cómo sabes que hay una fila si no hay cuerda ni número?",
+      "opcoes": [
+        "No existe realmente",
+        "El orden de llegada se respeta, y el camarero lo conoce",
+        "Hay que pedir un número",
+        "Cada uno se sirve solo"
+      ],
+      "correta": 1,
+      "explica": "El orden es invisible pero real — preguntar «is this the queue?» resuelve la duda."
+    },
+    {
+      "pergunta": "¿Qué dices si no estás seguro de estar en el sitio correcto de la fila?",
+      "opcoes": [
+        "What time do you close?",
+        "Sorry, are you in the queue?",
+        "How much is this?",
+        "Where's the toilet?"
+      ],
+      "correta": 1,
+      "explica": "Es la segunda forma de EXCUSE — sorry sirve como abridor educado."
+    },
+    {
+      "pergunta": "¿Qué dices para pedir una pinta de cerveza rubia?",
+      "opcoes": [
+        "Can I get a pint?",
+        "Could I have a pint of lager, please?",
+        "I'm looking for a lager",
+        "Where's the lager?"
+      ],
+      "correta": 1,
+      "explica": "Es la fórmula GET británica, nacida en B11."
+    },
+    {
+      "pergunta": "¿Cuándo pagas tu consumición?",
+      "opcoes": [
+        "Al final, con una única cuenta",
+        "Al momento, cuando la pides",
+        "Al día siguiente",
+        "Nunca, va incluido"
+      ],
+      "correta": 1,
+      "explica": "A diferencia del bar español, se paga cada pedido directamente en la barra."
+    }
+  ]
+}

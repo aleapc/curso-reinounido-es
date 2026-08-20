@@ -1,0 +1,92 @@
+{
+  "id": "q-i05",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Las mismas preguntas, siempre",
+  "subtitulo": "You alright, y la fórmula PREFERENCIA",
+  "introAudioKey": "gb-i05-q-i",
+  "introPt": "El taxista te suelta «you alright?» antes incluso de arrancar. Escucha cómo responde el viajero y sigue la conversación.",
+  "cenario": "Un taxi en el Reino Unido, justo después de subir.",
+  "dialogo": [
+    {
+      "audioKey": "gb-i05-q01",
+      "voz": "target_en_gb_m",
+      "es": "You alright? Where are you from, then?",
+      "tts": "You alright? Where are you from, then?",
+      "pinyin": "you OL-raïtt? OUEUR aar you from, dhènn",
+      "pt": "¿Todo bien? ¿De dónde es, entonces?"
+    },
+    {
+      "audioKey": "gb-i05-q02",
+      "voz": "target_en_gb_f",
+      "es": "Yeah, good thanks. I'm from France.",
+      "tts": "Yeah, good thanks. I'm from France.",
+      "pinyin": "yèa, goudd thennks. aïm from Fraanss",
+      "pt": "Sí, bien, gracias. Soy de España."
+    },
+    {
+      "audioKey": "gb-i05-q03",
+      "voz": "target_en_gb_m",
+      "es": "Nice! How long are you staying?",
+      "tts": "Nice! How long are you staying?",
+      "pinyin": "naïss! HAOU longue aar you STÈÏ-igne",
+      "pt": "¡Qué bien! ¿Cuánto tiempo se queda?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué significa realmente «You alright?» cuando te lo suelta un desconocido?",
+      "opcoes": [
+        "Una pregunta real sobre tu salud",
+        "Un simple saludo, como «¿qué tal?»",
+        "Una queja",
+        "Una orden de irte"
+      ],
+      "correta": 1,
+      "explica": "Es un saludo estándar que solo espera una respuesta igual de breve."
+    },
+    {
+      "pergunta": "¿Cuáles son las preguntas que casi siempre vienen primero?",
+      "opcoes": [
+        "Tu sueldo y tu edad",
+        "De dónde vienes y cuánto tiempo te quedas",
+        "Tu dirección exacta",
+        "Tu religión"
+      ],
+      "correta": 1,
+      "explica": "Son las preguntas de apertura más habituales de la conversación ligera."
+    },
+    {
+      "pergunta": "¿Qué se mantiene fijo en la fórmula «Do you prefer ___ or ___?»?",
+      "opcoes": [
+        "Las dos opciones exactas",
+        "«Do you prefer»",
+        "La respuesta",
+        "El tema de la conversación"
+      ],
+      "correta": 1,
+      "explica": "«Do you prefer» abre la fórmula, tanto para preguntar como para responder."
+    },
+    {
+      "pergunta": "Alguien te pregunta tu gusto entre dos cervezas. ¿Qué respondes si prefieres la rubia?",
+      "opcoes": [
+        "I'm from Spain.",
+        "I prefer the lager.",
+        "Could I have the bill?",
+        "Where's the toilet?"
+      ],
+      "correta": 1,
+      "explica": "Es la misma fórmula PREFERENCIA, reutilizada para responder."
+    },
+    {
+      "pergunta": "¿Por qué es mejor responder «the pies» que «everything» a «what have you liked most?»?",
+      "opcoes": [
+        "Porque «everything» es maleducado",
+        "Porque una respuesta concreta le da al otro con qué seguir la conversación",
+        "Porque es más corto",
+        "No hay ninguna diferencia"
+      ],
+      "correta": 1,
+      "explica": "Lo concreto abre la conversación; lo genérico la cierra."
+    }
+  ]
+}

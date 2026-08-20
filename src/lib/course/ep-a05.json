@@ -1,0 +1,267 @@
+{
+  "id": "a05",
+  "slot": "A05",
+  "nivel": "avancado",
+  "numero": 33,
+  "parte": "A05",
+  "titulo": "El otro idioma",
+  "subtitulo": "El galés es cooficial en Gales, el gaélico escocés se mantiene en las Highlands, y seis palabritas compran casi toda la simpatía del país",
+  "cena": "En Cardiff, la dependienta te suelta «Bore da» antes de que abras la boca, y luego sigue en inglés sin pensarlo.",
+  "moldura": "ganha",
+  "frasePiso": "Una palabra regional, dicha con sencillez y sin actuar un papel, en el momento justo. Esa es toda la técnica, y basta.",
+  "fatosDatados": [
+    {
+      "id": "gb-galles-bilingue",
+      "afirmacao": "Welsh has official status alongside English in Wales: road signs, official documents and many shop greetings appear in both languages, and around a fifth of the population speaks Welsh, with the proportion much higher in parts of the North and West.",
+      "fonte": "Welsh Government / Census — Welsh language statistics",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a05-n03"
+      ]
+    },
+    {
+      "id": "gb-palavras-cortesia",
+      "afirmacao": "A handful of small courtesy words carry most of the warmth in everyday British speech and vary by region: cheers and ta both mean thanks, mate is a friendly form of address almost everywhere, while love, pet and duck are regional terms of endearment used by strangers — a shopkeeper calling a customer 'love' or 'pet' with no romantic meaning at all.",
+      "fonte": "Consenso de fontes linguísticas e culturais sobre registros de cortesia regionais no Reino Unido",
+      "ano": 2026,
+      "revisarAte": "2029-08-20",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "gb-a05-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a05-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "El inglés no es el único sonido de la sala. Hoy, sobre todo escucha, con un movimiento de producción al final."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a05-n02",
+      "bloco": "callback",
+      "pt": "Repaso de ayer. Alguien quiere arrastrarte a una rivalidad regional. Sal de ahí como ayer."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a05-p01",
+      "promptPt": "Habla ahora.",
+      "audioKey": "gb-a05-t01",
+      "es": "I'll stay out of that one.",
+      "tts": "I'll stay out of that one.",
+      "pinyin": "aïl steï aoutte of that ouonne",
+      "pt": "Yo en eso no me meto."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a05-n03",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "En una tienda de Cardiff, la dependienta te dice «Bore da» antes de que hables, y luego pasa al inglés sin pensarlo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a05-o01",
+      "es": "Bore da! Just you today, or can I help with anything?",
+      "tts": "Bore da! Just you today, or can I help with anything?",
+      "pinyin": "BO-re da ! djeust you tou-DÈÏ, or kn aï HELPE ouith ÈN-ni-thigne",
+      "pt": "👂 «¡Buenos días!» en galés, y directo al inglés. Es amabilidad, no una prueba."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a05-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "El galés es cooficial en Gales: carteles, documentos, saludos — los dos idiomas uno junto al otro."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a05-p02",
+      "promptPt": "Quieres seguir practicando inglés. Dilo con calidez, nunca como un rechazo. Habla ahora.",
+      "audioKey": "gb-a05-t02",
+      "es": "English is great, thanks — I'm actually trying to practise.",
+      "tts": "English is great, thanks — I'm actually trying to practise.",
+      "pinyin": "EN-glich iz greïte, thanks — aïm AK-tiou-a-li traï-igne tou PRAK-tiss",
+      "pt": "El inglés está perfecto, gracias — de hecho, estoy intentando practicar."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a05-o02",
+      "es": "No worries, happy to help either way.",
+      "tts": "No worries, happy to help either way.",
+      "pinyin": "nô OUEU-riz, APPI tou HELPE AÏ-dheu ouèï",
+      "pt": "Sin problema, encantada de ayudar de las dos formas."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a05-n05",
+      "pt": "Ahora los acentos. El gaélico se mantiene en las Highlands, y Newcastle, Glasgow, Liverpool suenan muy distintos."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-a05-o03",
+      "receptivo": true,
+      "es": "You alright there, pet? Cold one, eh.",
+      "tts": "You alright there, pet? Cold one, eh.",
+      "pinyin": "you olRAÏTE dhère, pette ? KÔ-elde ouonne, eille",
+      "pt": "👂 De Newcastle. «Pet» aquí no tiene nada de romántico — es una forma cariñosa de dirigirse a un desconocido. No va contigo, solo escucha."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a05-p03",
+      "promptPt": "Te preguntan si estás de acuerdo en que hace frío. Responde. Habla ahora.",
+      "audioKey": "gb-a05-t03",
+      "es": "It really is.",
+      "tts": "It really is.",
+      "pinyin": "itte RIA-li iz",
+      "pt": "Es completamente verdad."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-a05-n06",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Único movimiento producido hoy: una palabra de cortesía regional. En el norte, a menudo se responde «ta» en vez de «thanks»."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a05-p04",
+      "promptPt": "Estás en el Norte, terminas de pagar, y le das las gracias a la dependienta con la palabra local. Habla ahora.",
+      "audioKey": "gb-a05-t04",
+      "es": "Ta very much.",
+      "tts": "Ta very much.",
+      "pinyin": "ta VÈ-ri motche",
+      "pt": "Muchas gracias, a la manera local."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a05-o04",
+      "es": "Aw, look at you, picking up the lingo!",
+      "tts": "Aw, look at you, picking up the lingo!",
+      "pinyin": "o, louke atte you, PI-kigne ope the LIN-gô",
+      "pt": "Anda, mírate, ¡ya estás cogiendo el acento de aquí!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a05-n07",
+      "pt": "Responde con honestidad. Una palabra es una palabra — decir más es lo que vuelve raro un buen momento."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-a05-p05",
+      "promptPt": "Corrige el cumplido, con calidez. Habla ahora.",
+      "audioKey": "gb-a05-t05",
+      "es": "Just the one word, but I wanted to get it right.",
+      "tts": "Just the one word, but I wanted to get it right.",
+      "pinyin": "djeuste the ouonne oueurde, batte aï OUONN-tedde tou guette itte raïte",
+      "pt": "Solo esa palabra, pero quería decirla bien."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-a05-p06",
+      "promptPt": "Pídele que te enseñe otra. Habla ahora.",
+      "audioKey": "gb-a05-t06",
+      "es": "Teach me another one?",
+      "tts": "Teach me another one?",
+      "pinyin": "tiitche mi e-NA-dheu ouonne",
+      "pt": "¿Me enseñas otra?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-a05-s01",
+      "es": "English is great, thanks. Ta very much. Just the one word, but I wanted to get it right.",
+      "tts": "English is great, thanks. Ta very much. Just the one word, but I wanted to get it right.",
+      "pinyin": "EN-glich iz greïte, thanks. ta VÈ-ri motche. djeuste the ouonne oueurde, batte aï OUONN-tedde tou guette itte raïte",
+      "pt": "Repite: aceptar con calidez, decir la palabra regional, ser honesto sobre lo que sabes."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-a05-n08",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "A05 cerrada. El galés uno junto al otro, los acentos que cambian cada cien kilómetros, y una palabra regional dicha con honestidad."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Una palabra, bien colocada",
+    "secoes": [
+      {
+        "titulo": "El galés no es una reliquia, es cooficial",
+        "corpo": "Aproximadamente una quinta parte de la población de Gales habla galés, mucho más en el norte y el oeste. Señales de tráfico, documentos oficiales, anuncios — los dos idiomas aparecen uno junto al otro, en igualdad de estatus. Que te saluden en galés no tiene nada de exótico: es el país funcionando con normalidad."
+      },
+      {
+        "titulo": "Seis palabras que compran simpatía",
+        "corpo": "Cheers y ta significan las dos gracias; mate se usa con casi todo el mundo; love, pet y duck son palabras de cariño regionales que un dependiente usa con un desconocido, sin ninguna connotación romántica — su uso cambia según la región, pero la calidez que llevan es siempre la misma."
+      },
+      {
+        "titulo": "Los acentos que cambian cada cien kilómetros",
+        "corpo": "Newcastle, Glasgow, Liverpool, Cardiff: cada uno suena claramente distinto, y ninguno es «el verdadero» acento inglés más que otro. Reconocer que un acento existe, sin intentar imitarlo, ya es todo el trabajo de un visitante."
+      },
+      {
+        "titulo": "Di poco, y di la verdad",
+        "corpo": "Una palabra funciona porque no reclama nada. En el momento en que dejas pasar un cumplido como si hablaras todo el dialecto, cuelas una mentirijilla en un buen momento — así que responde con honestidad, y el momento conserva todo su valor."
+      }
+    ]
+  },
+  "permissao": "Tienes derecho a decir exactamente una palabra y quedarte ahí. Nadie espera que hables como alguien del norte o de Glasgow, y una sola palabra regional bien dicha vale aquí más que tres frases perfectas de libro de texto.",
+  "permissaoAudioKey": "gb-a05-n07",
+  "espelho": "Ya sabes lo que se siente cuando un visitante hace un esfuerzo sincero, aunque torpe, con una sola palabra de tu propio idioma — no suena a pretensión, suena a esfuerzo, y cambia la temperatura del momento. Es exactamente el mismo mecanismo aquí, en sentido contrario.",
+  "fichasCulturais": [
+    {
+      "sinal": "Alguien te saluda en un idioma que no reconoces — galés, gaélico escocés — antes de que hayas dicho una palabra.",
+      "suaLeitura": "Estoy en el sitio equivocado, o voy a tener que entender un idioma entero.",
+      "oQueEAli": "En las zonas donde el galés o el gaélico tienen un peso real, el saludo local viene primero por costumbre, y luego pasa inmediatamente al inglés en cuanto la conversación continúa — nunca es una prueba, es simplemente el país funcionando en los dos idiomas a la vez.",
+      "oQueVoceFaz": "Sonríe y espera lo que viene en inglés, que casi siempre llega solo en la siguiente frase.",
+      "oQueMelhora": "Vives el país tal como es de verdad, bilingüe, en lugar de bloquearte con las primeras cinco palabras.",
+      "ondeNaoVale": "No vale en la mayor parte de Inglaterra, donde el inglés sigue siendo el único idioma esperado en todas partes — el cambio bilingüe es específico de Gales y de ciertas zonas de Escocia.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "gb-a05-n04"
+      ]
+    },
+    {
+      "sinal": "Usas tu primera palabra regional, te dicen «¡mírate, ya estás cogiendo el acento de aquí!», y corregir el cumplido te parece mezquino.",
+      "suaLeitura": "Dejar pasar el cumplido es más elegante; corregirlo parecería falsa modestia.",
+      "oQueEAli": "El cumplido es una calidez sincera por el esfuerzo, no una evaluación real — dejarlo pasar convierte un pequeño gesto verdadero en una afirmación que no puedes sostener, algo que se nota justo en el momento en que llega la siguiente frase regional que no entiendes.",
+      "oQueVoceFaz": "Di con calma que era solo esa palabra, y que querías decirla bien. Eso mantiene el esfuerzo y la honestidad a la vez.",
+      "oQueMelhora": "El momento sigue siendo cálido, y casi siempre se convierte en ocasión para aprender una palabra más — mejor resultado que el retiro educado.",
+      "ondeNaoVale": "No es razón para rechazar cada cumplido sobre tu inglés en general — ahí sí estás aprendiendo de verdad, y aceptar el ánimo es simplemente exacto.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-a05-n07"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "q-a06",
+  "nivel": "avancado",
+  "titulo": "Quiz — Su calendario",
+  "subtitulo": "Los bank holidays, la Navidad, y las dos preguntas que abren cualquier puerta cerrada",
+  "introAudioKey": "gb-a06-q-i",
+  "introPt": "Habías planeado el museo para un día que resulta ser festivo. Escucha el intercambio y responde.",
+  "cenario": "La entrada de un museo, un lunes cualquiera.",
+  "dialogo": [
+    {
+      "audioKey": "gb-a06-q01",
+      "voz": "target_en_gb_m",
+      "es": "Sorry, we're closed today — it's the bank holiday.",
+      "tts": "Sorry, we're closed today — it's the bank holiday.",
+      "pt": "Lo siento, hoy estamos cerrados — es bank holiday."
+    },
+    {
+      "audioKey": "gb-a06-q02",
+      "voz": "target_en_gb_f",
+      "es": "Is the shopping centre open today?",
+      "tts": "Is the shopping centre open today?",
+      "pt": "¿Está abierto el centro comercial hoy?"
+    },
+    {
+      "audioKey": "gb-a06-q03",
+      "voz": "target_en_gb_m",
+      "es": "Yeah, everything's open except the banks and this place.",
+      "tts": "Yeah, everything's open except the banks and this place.",
+      "pt": "Sí, todo está abierto, salvo los bancos y esto."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Cuántos bank holidays tiene Inglaterra al año?",
+      "opcoes": [
+        "Cinco",
+        "Ocho",
+        "Veinte",
+        "Ninguno oficialmente"
+      ],
+      "correta": 1,
+      "explica": "Inglaterra y Gales tienen ocho bank holidays al año, Escocia nueve, Irlanda del Norte diez."
+    },
+    {
+      "pergunta": "El museo está cerrado por bank holiday. ¿Qué implica eso para las tiendas normales?",
+      "opcoes": [
+        "También cierran todas",
+        "La mayoría sigue abierta, salvo el día de Navidad",
+        "Solo cierran los bancos",
+        "Imposible saberlo"
+      ],
+      "correta": 1,
+      "explica": "El comercio casi nunca sigue la lista de bank holidays, con la excepción del día de Navidad."
+    },
+    {
+      "pergunta": "¿Qué pasa el 25 de diciembre en el Reino Unido?",
+      "opcoes": [
+        "Nada especial, todo funciona con normalidad",
+        "Casi todo cierra, y el transporte público como el metro no circula en absoluto",
+        "Solo cierran los bancos",
+        "Es un día de grandes rebajas"
+      ],
+      "correta": 1,
+      "explica": "El día de Navidad es el cierre de verdad: tiendas cerradas y transporte público parado en todo el país."
+    },
+    {
+      "pergunta": "¿Qué es el Boxing Day?",
+      "opcoes": [
+        "Otro bank holiday tranquilo",
+        "El día después de Navidad, con grandes rebajas desde el amanecer",
+        "El día en que cierra el gobierno",
+        "Un festival religioso"
+      ],
+      "correta": 1,
+      "explica": "Es lo contrario exacto de la Navidad: las tiendas reabren con grandes rebajas y colas desde antes del amanecer."
+    },
+    {
+      "pergunta": "¿Cuáles son las dos preguntas que dan el calendario real de un sitio?",
+      "opcoes": [
+        "¿Cuánto cuesta? y ¿dónde está?",
+        "¿Es festivo? y ¿vosotros, estáis abiertos?",
+        "¿A qué hora cerráis? y ¿aceptáis tarjeta?",
+        "¿Hay descuento? y ¿hay aparcamiento?"
+      ],
+      "correta": 1,
+      "explica": "La primera da la regla nacional; la segunda da la respuesta real para ese negocio en concreto."
+    }
+  ]
+}

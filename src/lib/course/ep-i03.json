@@ -1,0 +1,282 @@
+{
+  "id": "i03",
+  "slot": "I03",
+  "nivel": "intermediario",
+  "numero": 3,
+  "parte": "I03",
+  "titulo": "El plato que no ibas a pedir",
+  "subtitulo": "La pizarra de especialidades cambia cada día, y una sola pregunta te hace elegir entre dos buenos platos, no adivinar entre veinte",
+  "cena": "La carta tiene veinte platos, una pequeña pizarra dice «Today's Specials» con una letra apretada que nadie ha traducido — y el camarero ya está de pie, esperando.",
+  "decisao": "qué plato pedir — dejar que el camarero recomiende entre dos opciones concretas, en vez de adivinar entre veinte nombres que no conoces",
+  "emJogo": "dinheiro",
+  "moldura": "ganha",
+  "frasePiso": "Vas a elegir entre dos platos reales, con una sola pregunta, en vez de pedir la única palabra de la carta que ya sabías pronunciar.",
+  "moldes": [
+    "ESCOLHA"
+  ],
+  "clique": {
+    "contagem": [
+      "la pizarra de especialidades",
+      "el mostrador de quesos del mercado",
+      "la tienda de ropa"
+    ],
+    "desconto": "Nadie te ha dado una frase para elegir un plato, otra para elegir una talla y otra para elegir un color. Has montado las tres con la misma pregunta, cambiando solo las dos cosas entre las que decides.",
+    "piso": "La próxima vez que no sepas qué pedir, no vas a señalar al azar: vas a preguntar qué recomiendan, entre dos opciones concretas."
+  },
+  "fichasCulturais": [
+    {
+      "sinal": "El camarero te nombra dos platos de la pizarra de especialidades y se queda de pie, esperando tu respuesta.",
+      "suaLeitura": "Debería reconocer esos platos, si no me va a ver como alguien que no sabe qué pide.",
+      "oQueEAli": "La pizarra de especialidades cambia cada día según lo que tenga fresco la cocina; ni siquiera los habituales la conocen de antemano, así que preguntar qué recomiendan no delata nada — es exactamente lo esperado.",
+      "oQueVoceFaz": "Preguntas «Which do you recommend?» y dejas que el camarero decida entre las dos opciones que él mismo acaba de nombrar.",
+      "oQueMelhora": "Comes lo que la cocina ha bordado hoy de verdad, en vez del único plato de la carta que ya sabías nombrar.",
+      "ondeNaoVale": "No vale en las cadenas con carta fija y fotos, donde no hay pizarra de especialidades que cambie cada día.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-i03-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i03-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "El puño en la palabra que pesa: which do you re-co-MMEND."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i03-p01",
+      "promptPt": "Ayer en la barra pediste sin dudar. Hoy, a la entrada del restaurante, pides lo mismo, directamente. Habla ahora.",
+      "bloco": "callback",
+      "audioKey": "gb-i03-t01",
+      "es": "Could I have a table for two, please?",
+      "tts": "Could I have a table for two, please?",
+      "pinyin": "coudd aï hav e TÈÏ-boul for tou, pliiz",
+      "pt": "¿Podría tener una mesa para dos, por favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i03-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Veinte platos en la carta, una pequeña pizarra dice «Today's Specials» sin traducción, y el camarero ya espera."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i03-r01",
+      "es": "Today we've got the fish pie or the pie of the day.",
+      "tts": "Today we've got the fish pie or the pie of the day.",
+      "pinyin": "tou-DÈÏ oui gott dhe fich paï or dhe paï off dhe dèï",
+      "pt": "Hoy tenemos fish pie o la tarta salada del día."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i03-n03",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Aquí está la fórmula: no preguntas qué está bueno, eliges entre dos cosas que te acaban de nombrar. Which do you recommend, más las dos."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-i03-t02",
+      "es": "Which do you recommend: the fish pie or the pie of the day?",
+      "tts": "Which do you recommend: the fish pie or the pie of the day?",
+      "pinyin": "OUITCH dou you re-co-MÈND: dhe fich paï or dhe paï off dhe dèï",
+      "pt": "¿Qué recomienda: el fish pie o la tarta salada del día?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "ESCOLHA",
+      "encaixe": "the fish pie or the pie of the day",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i03-p02",
+      "promptPt": "El camarero acaba de nombrarte las dos especialidades. Devuélvele la elección. Habla ahora.",
+      "audioKey": "gb-i03-t02b",
+      "es": "Which do you recommend: the fish pie or the pie of the day?",
+      "tts": "Which do you recommend: the fish pie or the pie of the day?",
+      "pinyin": "OUITCH dou you re-co-MÈND: dhe fich paï or dhe paï off dhe dèï",
+      "pt": "¿Qué recomienda: el fish pie o la tarta salada del día?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i03-r02",
+      "es": "Honestly, the pie of the day. It's the one everyone's having tonight.",
+      "tts": "Honestly, the pie of the day. It's the one everyone's having tonight.",
+      "pinyin": "ONN-est-li, dhe paï off dhe dèï. itts dhe ouann ÈV-ri-ouann HAA-vigne tou-NAÏTT",
+      "pt": "Sinceramente, la tarta salada. Es la que todo el mundo pide esta noche."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i03-p03",
+      "promptPt": "Otra mesa, otro día: dos platos de la pizarra, y vuelves a devolverle la decisión al camarero. Habla ahora.",
+      "molde": "ESCOLHA",
+      "encaixe": "the roast or the fish",
+      "audioKey": "gb-i03-t03",
+      "es": "Which do you recommend: the roast or the fish?",
+      "tts": "Which do you recommend: the roast or the fish?",
+      "pinyin": "OUITCH dou you re-co-MÈND: dhe rôst or dhe fich",
+      "pt": "¿Qué recomienda: el asado o el pescado?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i03-p04",
+      "promptPt": "En una tienda, dos jerséis del mismo modelo, color distinto. La misma pregunta funciona aquí también. Habla ahora.",
+      "molde": "ESCOLHA",
+      "encaixe": "the blue one or the black one",
+      "audioKey": "gb-i03-t04",
+      "es": "Which do you recommend: the blue one or the black one?",
+      "tts": "Which do you recommend: the blue one or the black one?",
+      "pinyin": "OUITCH dou you re-co-MÈND: dhe blou ouann or dhe blak ouann",
+      "pt": "¿Qué recomienda: el azul o el negro?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i03-n04",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Ahora, lo que ya sabes desde B06: si no sabes si algo existe, siempre puedes preguntar directamente."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i03-p05",
+      "promptPt": "Quieres saber si hay sopa del día. Pregunta si tienen. Habla ahora.",
+      "molde": "HAVE",
+      "encaixe": "a soup of the day",
+      "audioKey": "gb-i03-t05",
+      "es": "Do you have a soup of the day?",
+      "tts": "Do you have a soup of the day?",
+      "pinyin": "dou you hav e soup off dhe dèï",
+      "pt": "¿Tienen sopa del día?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i03-r03",
+      "es": "Yeah, it's on the board by the door.",
+      "tts": "Yeah, it's on the board by the door.",
+      "pinyin": "yèa, itts onn dhe bord baï dhe dor",
+      "pt": "Sí, está en la pizarra junto a la puerta."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i03-p06",
+      "promptPt": "No la habías visto. Pregunta dónde está la pizarra. Habla ahora.",
+      "molde": "WHERE",
+      "encaixe": "the specials board",
+      "audioKey": "gb-i03-t06",
+      "es": "Where's the specials board?",
+      "tts": "Where's the specials board?",
+      "pinyin": "OUEUZ dhe spè-CHALZ bord",
+      "pt": "¿Dónde está la pizarra de especialidades?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i03-p07",
+      "promptPt": "Has elegido la tarta salada del día, pero la cebolla te molesta. Pídela sin. Habla ahora.",
+      "molde": "WITHOUT",
+      "encaixe": "onions on that",
+      "audioKey": "gb-i03-t07",
+      "es": "No onions on that, please.",
+      "tts": "No onions on that, please.",
+      "pinyin": "nôou ONN-yeunz onn dhatt, pliiz",
+      "pt": "Sin cebolla en eso, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i03-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "El camarero acaba de nombrarte las dos especialidades. No es un examen: hasta los habituales hacen la misma pregunta cada noche."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i03-p08",
+      "promptPt": "Has elegido la tarta salada del día. Confírmaselo al camarero. Habla ahora.",
+      "audioKey": "gb-i03-t08",
+      "es": "I'll have the pie of the day, please.",
+      "tts": "I'll have the pie of the day, please.",
+      "pinyin": "aïll hav dhe paï off dhe dèï, pliiz",
+      "pt": "Tomaré la tarta salada del día, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i03-n06",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas conocer toda la carta. Elegir entre dos opciones que te han dado ya es una decisión completa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i03-n07",
+      "bloco": "clique",
+      "tom": "ganha",
+      "pt": "Has elegido entre dos platos y entre dos jerséis. Nadie te ha dado esas frases: las has montado con una sola pregunta."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "ESCOLHA",
+      "audioKey": "gb-i03-s01",
+      "es": "Which do you recommend: the fish pie or the pie of the day? Do you have a soup of the day?",
+      "tts": "Which do you recommend: the fish pie or the pie of the day? Do you have a soup of the day?",
+      "pinyin": "OUITCH dou you re-co-MÈND: dhe fich paï or dhe paï off dhe dèï? dou you hav e soup off dhe dèï?",
+      "pt": "Repite elegir entre dos opciones y preguntar si algo existe."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i03-n08",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I03 cerrada. Which do you recommend deja que la casa decida por ti — y también sirve fuera del restaurante."
+    }
+  ],
+  "permissao": "No necesitas conocer toda la carta antes de sentarte. Preguntar qué recomiendan entre dos opciones concretas es exactamente lo que hace un habitual — no delata nada, lo confirma.",
+  "permissaoAudioKey": "gb-i03-n06",
+  "espelho": "Pedirle al camarero que elija entre dos platos del día en tu propio idioma es algo que ya has hecho sin pensarlo dos veces; la única diferencia aquí es el idioma en que lo pides.",
+  "aprofundar": {
+    "titulo": "Una fórmula para elegir, no para adivinar",
+    "secoes": [
+      {
+        "titulo": "La fórmula ELECCIÓN",
+        "corpo": "Which do you recommend, más dos cosas concretas separadas por «or», es una fórmula abierta: sirve para platos, tallas, colores, cualquier par de opciones reales que tengas delante."
+      },
+      {
+        "titulo": "La pizarra cambia cada día",
+        "corpo": "Las especialidades del día dependen de lo que tenga fresco la cocina; ni siquiera los habituales las memorizan, así que preguntar no te delata como turista."
+      },
+      {
+        "titulo": "Se combina con lo que ya sabes",
+        "corpo": "Do you have, Where's y no ___ please siguen funcionando exactamente igual en esta misma escena — no son fórmulas nuevas, son las de siempre con otro encaje."
+      }
+    ]
+  }
+}

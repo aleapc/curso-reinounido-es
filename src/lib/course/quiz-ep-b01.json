@@ -1,0 +1,100 @@
+{
+  "id": "q-b01",
+  "nivel": "basico",
+  "titulo": "Quiz — El puño en la sílaba fuerte",
+  "subtitulo": "Reconoce dónde cae el acento en una escena de llegada al hotel",
+  "introAudioKey": "gb-b01-q-i",
+  "introPt": "Acabas de llegar al hotel. El botones sube tu maleta a la habitación y espera una palabra antes de irse. Escucha el intercambio corto y localiza dónde cae el golpe de puño.",
+  "cenario": "En el pasillo del hotel, el botones deja la maleta y espera una instrucción.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b01-q01",
+      "voz": "target_en_gb_m",
+      "es": "Here's your bag. Anything else?",
+      "tts": "Here's your bag. Anything else?",
+      "pinyin": "hiirz yor bag. ÈNI-thinng elss",
+      "pt": "Aquí tiene su maleta. ¿Algo más?"
+    },
+    {
+      "audioKey": "gb-b01-q02",
+      "voz": "target_en_gb_f",
+      "es": "No, cheers.",
+      "tts": "No, cheers.",
+      "pinyin": "nôou, TCHIEUZ",
+      "pt": "No, gracias."
+    },
+    {
+      "audioKey": "gb-b01-q03",
+      "voz": "target_en_gb_m",
+      "es": "Enjoy your stay.",
+      "tts": "Enjoy your stay.",
+      "pinyin": "inn-DJOÏ yor stèï",
+      "pt": "Que disfrute de su estancia."
+    },
+    {
+      "audioKey": "gb-b01-q04",
+      "voz": "target_en_gb_f",
+      "es": "Cheers.",
+      "tts": "Cheers.",
+      "pinyin": "TCHIEUZ",
+      "pt": "Gracias."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué gesto marca la sílaba fuerte de una palabra en inglés?",
+      "opcoes": [
+        "El mordisco",
+        "El puño",
+        "La palma plana",
+        "El ritmo regular"
+      ],
+      "correta": 1,
+      "explica": "El puño marca la sílaba tónica: hoTEL, inforMAtion — nunca la primera sílaba por defecto."
+    },
+    {
+      "pergunta": "¿Dónde cae el acento en «information»?",
+      "opcoes": [
+        "En la primera sílaba",
+        "En la segunda sílaba",
+        "En la tercera sílaba",
+        "El acento nunca se mueve"
+      ],
+      "correta": 2,
+      "explica": "inn-fo-MÈÏ-cheunn: el puño cae en la tercera sílaba, distinto de dónde lo pondría el español."
+    },
+    {
+      "pergunta": "¿Por qué una frase inglesa dicha «plana», sílaba por sílaba, suena forzada?",
+      "opcoes": [
+        "Porque el inglés es de ritmo silábico, como el español",
+        "Porque el inglés es de ritmo acentual y aplasta las sílabas débiles",
+        "Porque no tiene el sonido th",
+        "Porque la palabra no tiene sentido"
+      ],
+      "correta": 1,
+      "explica": "El inglés reparte el tiempo por acento, no por sílaba; decirlo plano suena forzado y a veces deja de entenderse."
+    },
+    {
+      "pergunta": "¿Qué pasa si te comes la H de «have»?",
+      "opcoes": [
+        "Nada, se entiende igual",
+        "La palabra queda igual pero menos educada",
+        "Nada grave — pero ahí empieza la boca inglesa",
+        "La frase se convierte en pregunta"
+      ],
+      "correta": 2,
+      "explica": "La H de have se sopla, nunca desaparece del todo. Te entienden igual, pero es el primer ajuste que corregir."
+    },
+    {
+      "pergunta": "¿Para qué sirve el gesto del puño en esta parte?",
+      "opcoes": [
+        "Para borrar completamente el acento español",
+        "Para memorizar reglas de gramática",
+        "Para delatar el error exacto que vuelve irreconocible una palabra conocida",
+        "Para imitar un acento regional británico"
+      ],
+      "correta": 2,
+      "explica": "El gesto no ilustra una regla: expone el error exacto del hispanohablante. Conservar el acento español está permitido."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "q-a05",
+  "nivel": "avancado",
+  "titulo": "Quiz — El otro idioma",
+  "subtitulo": "El galés uno junto al otro, y una palabra regional dicha con honestidad",
+  "introAudioKey": "gb-a05-q-i",
+  "introPt": "Una dependienta te saluda en galés antes de que digas una palabra. Escucha el intercambio y responde.",
+  "cenario": "Una tienda en Cardiff.",
+  "dialogo": [
+    {
+      "audioKey": "gb-a05-q01",
+      "voz": "target_en_gb_f",
+      "es": "Bore da! Just you today, or can I help with anything?",
+      "tts": "Bore da! Just you today, or can I help with anything?",
+      "pt": "¡Buenos días! ¿Solo tú hoy, o te puedo ayudar en algo?"
+    },
+    {
+      "audioKey": "gb-a05-q02",
+      "voz": "target_en_gb_f",
+      "es": "English is great, thanks — I'm actually trying to practise.",
+      "tts": "English is great, thanks — I'm actually trying to practise.",
+      "pt": "El inglés está perfecto, gracias — de hecho, estoy intentando practicar."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Es el galés un idioma oficial en el Reino Unido?",
+      "opcoes": [
+        "Sí, cooficial con el inglés en Gales",
+        "No, es solo un idioma folclórico sin estatus",
+        "Solo en unos pocos pueblos aislados",
+        "Sí, pero solo desde hace muy poco"
+      ],
+      "correta": 0,
+      "explica": "El galés es cooficial con el inglés en Gales: señales, documentos y anuncios aparecen en los dos idiomas."
+    },
+    {
+      "pergunta": "Una dependienta te saluda en galés en cuanto te ve. ¿Qué es eso, según esta parte?",
+      "opcoes": [
+        "Un juicio sobre tu nivel de inglés",
+        "El país funcionando con normalidad en los dos idiomas, y luego cambiando al inglés",
+        "Un error de la dependienta",
+        "Algo que solo pasa en el aeropuerto"
+      ],
+      "correta": 1,
+      "explica": "El saludo local viene por costumbre, y luego la conversación cambia al inglés sin que sea una prueba."
+    },
+    {
+      "pergunta": "¿Qué significa «pet» cuando un camarero del norte de Inglaterra se dirige a ti así?",
+      "opcoes": [
+        "Que te pareces a una mascota",
+        "Una forma cariñosa y regional de dirigirse a un desconocido, sin connotación romántica",
+        "Un insulto disfrazado",
+        "Una palabra reservada para niños"
+      ],
+      "correta": 1,
+      "explica": "En el norte, love, pet o duck son términos de cariño regionales que un dependiente usa con cualquier cliente."
+    },
+    {
+      "pergunta": "Has usado «ta» por primera vez y te felicitan. ¿Qué puedes decir con honestidad?",
+      "opcoes": [
+        "Dejar creer que ya hablas como alguien de allí",
+        "«Just the one word, but I wanted to get it right»",
+        "No decir nada",
+        "Cambiar de tema"
+      ],
+      "correta": 1,
+      "explica": "Decir que era solo esa palabra, bien dicha, mantiene el esfuerzo y la honestidad juntos."
+    },
+    {
+      "pergunta": "¿Qué idioma sigue teniendo un peso real en las Highlands escocesas?",
+      "opcoes": [
+        "El gaélico escocés",
+        "El francés",
+        "El neerlandés",
+        "Solo el inglés, en todas partes"
+      ],
+      "correta": 0,
+      "explica": "El gaélico escocés se habla y aparece en carteles en algunas zonas de las Highlands, junto al inglés."
+    }
+  ]
+}

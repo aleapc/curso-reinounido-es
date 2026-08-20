@@ -1,0 +1,108 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — El segundo en que el dependiente levanta la vista",
+  "subtitulo": "You alright, excuse me y cheers en una entrada y salida de tienda",
+  "introAudioKey": "gb-b02-q-i",
+  "introPt": "Entras en una tienda pequeña. Escucha el intercambio completo, desde el saludo hasta la salida, y localiza qué pieza corta llega en qué momento.",
+  "cenario": "En una tienda de barrio, entre la puerta de entrada y la caja.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b02-q01",
+      "voz": "target_en_gb_m",
+      "es": "You alright?",
+      "tts": "You alright?",
+      "pinyin": "you al-RAÏT",
+      "pt": "¿Todo bien?"
+    },
+    {
+      "audioKey": "gb-b02-q02",
+      "voz": "target_en_gb_f",
+      "es": "Yeah, cheers. Just looking, thanks.",
+      "tts": "Yeah, cheers. Just looking, thanks.",
+      "pinyin": "yèa, TCHIEUZ. djeust LOU-kinng, thanks",
+      "pt": "Sí, gracias. Solo estoy mirando, gracias."
+    },
+    {
+      "audioKey": "gb-b02-q03",
+      "voz": "target_en_gb_m",
+      "es": "Let me know if you need anything.",
+      "tts": "Let me know if you need anything.",
+      "pinyin": "let mi nôou if you niid ÈNI-thinng",
+      "pt": "Avísame si necesitas algo."
+    },
+    {
+      "audioKey": "gb-b02-q04",
+      "voz": "target_en_gb_f",
+      "es": "Could I have a bag, please?",
+      "tts": "Could I have a bag, please?",
+      "pinyin": "coud aï hav e bag, pliiz",
+      "pt": "¿Podría tener una bolsa, por favor?"
+    },
+    {
+      "audioKey": "gb-b02-q05",
+      "voz": "target_en_gb_m",
+      "es": "Sure. Cheers, have a good one.",
+      "tts": "Sure. Cheers, have a good one.",
+      "pinyin": "chor. TCHIEUZ, hav e goud ouann",
+      "pt": "Claro. Gracias, que tengas buen día."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Cuando entras en una tienda, ¿en qué momento saludas?",
+      "opcoes": [
+        "Después de encontrar el artículo",
+        "Antes de mirar la estantería",
+        "Solo si te hablan primero",
+        "Nunca, no se espera"
+      ],
+      "correta": 1,
+      "explica": "La educación en inglés es cuestión de tiempo: saludas antes de mirar, no te saltas ese paso."
+    },
+    {
+      "pergunta": "¿Qué quiere decir realmente «You alright?» lanzado por un desconocido?",
+      "opcoes": [
+        "Ha notado que algo te pasa",
+        "Es un saludo, no una pregunta real sobre tu salud",
+        "Te pide permiso para entrar en conversación",
+        "Es una forma de decir adiós"
+      ],
+      "correta": 1,
+      "explica": "Es el saludo de mostrador más frecuente del Reino Unido — el equivalente funcional de «hola»."
+    },
+    {
+      "pergunta": "¿Qué significa «let me know if you need anything»?",
+      "opcoes": [
+        "Una exigencia de responder de inmediato",
+        "Una puerta que queda abierta para hablar cuando quieras",
+        "Una forma educada de echarte",
+        "Una pregunta sobre tu presupuesto"
+      ],
+      "correta": 1,
+      "explica": "No es un interrogatorio: es la apertura que te deja hablar cuando tú lo decidas."
+    },
+    {
+      "pergunta": "¿Cuándo se usa «excuse me» en lugar de «sorry»?",
+      "opcoes": [
+        "Después de haber empujado a alguien",
+        "Antes de moverte en un espacio, para avisar de que vas a pasar",
+        "Los dos son exactamente intercambiables",
+        "Solo en un contexto muy formal"
+      ],
+      "correta": 1,
+      "explica": "Excuse me anuncia, antes de moverte; sorry repara, después del hecho."
+    },
+    {
+      "pergunta": "«Cheers», dicho al salir de una cafetería, ¿qué significa aquí?",
+      "opcoes": [
+        "Un brindis, como al chocar copas",
+        "Gracias, adiós o vale, según el momento",
+        "Una forma de pedir una cerveza",
+        "Una pregunta"
+      ],
+      "correta": 1,
+      "explica": "Cheers reemplaza varias palabras en español según el contexto — nunca un brindis en este uso de mostrador."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "marca": "Cheers!",
+  "cabecalho": "El Reino Unido, de un vistazo",
+  "titulo": "Bolsillo del viajero",
+  "subtitulo": "Lo esencial sigue accesible en modo avión.",
+  "rotulos": {
+    "cambio": "Conversor de divisas",
+    "valorEm": "Importe en",
+    "dataCotacao": "Fecha del cambio",
+    "avisoCotacao": "A título orientativo. Comprueba el cambio de tu tarjeta o tu banco antes de gastar.",
+    "tomadas": "Enchufes y corriente",
+    "emergencia": "Emergencia",
+    "ligar": "Llamar",
+    "saberUtil": "Bueno saberlo"
+  },
+  "moedas": {
+    "GBP": { "flag": "🇬🇧", "locale": "en-GB" },
+    "EUR": { "flag": "🇪🇺", "locale": "es-ES" }
+  },
+  "cambio": {
+    "date": "2026-08-18",
+    "rates": { "EUR": 1.155 }
+  },
+  "tomadas": "El Reino Unido usa el enchufe tipo G a 230 V / 50 Hz — distinto del enchufe español (tipo F): un adaptador es imprescindible. Los aparatos previstos solo para 120 V (raros en España) también necesitan un convertidor de tensión — comprueba la etiqueta «100–240 V».",
+  "emergencia": [
+    { "numero": "999", "oQue": "Policía, bomberos y ambulancia. El 112 europeo también funciona y llega a la misma central." },
+    { "numero": "111", "oQue": "NHS, urgencia no vital, 24 h y gratuito — es el número que evita las urgencias hospitalarias (A&E) para un problema que puede esperar." }
+  ],
+  "saberUtil": [
+    { "emoji": "🚸", "texto": "El tráfico circula por la izquierda: en Londres, mira primero a la DERECHA al cruzar — la acera pinta «LOOK RIGHT» en los pasos de peatones exactamente por esta razón." },
+    { "emoji": "💳", "texto": "El Reino Unido es muy mayoritariamente contactless, y muchos sitios solo aceptan tarjeta. En el transporte de Londres no hay billete de papel: pon la misma tarjeta sin contacto, el teléfono o la Oyster en el lector, a la ENTRADA y a la SALIDA — se aplica automáticamente un límite diario y semanal." },
+    { "emoji": "💷", "texto": "El Reino Unido no usa el euro: la libra esterlina (GBP) es la única moneda aceptada, y el cambio de euros, cuando es posible, se hace a un tipo desfavorable — la tarjeta sigue siendo la solución más sencilla." },
+    { "emoji": "🍺", "texto": "En un pub tradicional no hay servicio de mesa: se pide y se paga en la barra, y el turno se guarda a ojo, no en una fila." },
+    { "emoji": "🧾", "texto": "En el restaurante, un service charge de alrededor del 12,5 % suele venir ya añadido a la cuenta — es discrecional, puedes pedir que lo quiten sin tener que justificarte. En el pub, al pedir en la barra, no se deja propina." },
+    { "emoji": "🏥", "texto": "Atención: el GHIC es solo para residentes británicos que viajan por la UE — un turista español usa su propia Tarjeta Sanitaria Europea (TSE). Con una TSE válida, la atención necesaria está cubierta; las urgencias (A&E) y la consulta con un médico de cabecera (GP) son gratuitas para todos; sin cobertura, la factura puede llegar al 150 % de la tarifa del NHS." }
+  ]
+}

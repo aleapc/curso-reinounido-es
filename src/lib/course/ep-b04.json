@@ -1,0 +1,247 @@
+{
+  "id": "b04",
+  "slot": "B04",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "1D",
+  "titulo": "La última noche en que todo se corrige fácilmente",
+  "subtitulo": "Pasaporte, autorización de viaje electrónica, una tarjeta que funciona allí, una reserva legible sin cobertura",
+  "cena": "Esta noche, en la mesa de casa, es el último momento en que todo esto se corrige en treinta segundos; mañana, todo ese expediente viaja en un teléfono que puede quedarse sin cobertura.",
+  "moldura": "protege",
+  "frasePiso": "Vas a cerrar los cuatro puntos pendientes de esta lista antes de dormir, no en la cola del aeropuerto.",
+  "permissao": "Tienes derecho a ser exagerado aquí. Comprobar dos veces tu reserva, o guardar una dirección que probablemente nunca usarás sin internet, no es ansiedad: es la única parte del viaje donde cinco minutos esta noche compran una protección real si el teléfono se queda sin cobertura mañana.",
+  "permissaoAudioKey": "gb-b04-n02",
+  "fatosDatados": [
+    {
+      "id": "gb-eta-francais",
+      "afirmacao": "Como ciudadano español, debes obtener una autorización de viaje electrónica (ETA) antes de volar al Reino Unido, incluso para una estancia turística corta — ya no basta con la simple presentación del pasaporte como antes. Se solicita online o a través de la app oficial, se vincula a tu pasaporte y llega por correo: nada que imprimir, ningún sello en el momento.",
+      "fonte": "Gobierno británico (GOV.UK) — sistema ETA (Electronic Travel Authorisation), ampliado a los ciudadanos de la UE en 2025",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "gb-b04-n03"
+      ]
+    },
+    {
+      "id": "gb-passeport-validite",
+      "afirmacao": "El Reino Unido no exige seis meses de validez restante como otros países: tu pasaporte solo debe seguir siendo válido durante toda la estancia. Comprueba igualmente la fecha antes de comprar el billete, nunca después.",
+      "fonte": "GOV.UK — Foreign travel advice, entrada al Reino Unido",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "gb-b04-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b04-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "El vuelo de mañana empieza esta noche. Cuatro puntos pendientes: pasaporte, autorización, tarjeta, reserva."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b04-n02",
+      "bloco": "cena",
+      "pt": "Esta noche, corregir un error es fácil. Mañana, todo viaja en un teléfono sin cobertura."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b04-n03",
+      "bloco": "corpo",
+      "pt": "El pasaporte ya no basta: hace falta también una autorización de viaje electrónica, online, por correo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b04-n04",
+      "pt": "No hace falta seis meses de validez: el pasaporte debe cubrir la estancia. Compruébalo esta noche."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b04-t01",
+      "es": "I'd like to confirm my reservation.",
+      "tts": "I'd like to confirm my reservation.",
+      "pinyin": "aïd laïk tou con-FEUM maï re-zeu-VÈÏ-cheunn",
+      "pt": "Quería confirmar mi reserva."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b04-p01",
+      "promptPt": "Escribes al hotel antes de volar. Abre con el motivo: quieres confirmar tu reserva. Habla ahora.",
+      "audioKey": "gb-b04-t01",
+      "es": "I'd like to confirm my reservation.",
+      "tts": "I'd like to confirm my reservation.",
+      "pinyin": "aïd laïk tou con-FEUM maï re-zeu-VÈÏ-cheunn",
+      "pt": "Quería confirmar mi reserva."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b04-r01",
+      "es": "Sure, what name is it under?",
+      "tts": "Sure, what name is it under?",
+      "pinyin": "chor, ouat nèïm iz it OUNN-deu",
+      "pt": "Claro, ¿a nombre de quién?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b04-n05",
+      "pt": "No te conformes con una marca verde en una app: pide una confirmación que puedas guardar en otro sitio."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b04-p02",
+      "promptPt": "El hotel ha encontrado tu nombre. Pide que te manden la confirmación por correo para guardarla sin internet. Habla ahora.",
+      "audioKey": "gb-b04-t02",
+      "es": "Could you email me the confirmation, please?",
+      "tts": "Could you email me the confirmation, please?",
+      "pinyin": "coud you IIM-mèïl mi the con-feu-MÈÏ-cheunn, pliiz",
+      "pt": "¿Me puede enviar la confirmación por correo, por favor?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b04-n06",
+      "bloco": "capsula",
+      "pt": "El Reino Unido no usa el euro. Tu tarjeta española funciona — solo comprueba las comisiones con tu banco."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b04-p03",
+      "promptPt": "La confirmación solo muestra el nombre del hotel. Pide la dirección completa. Habla ahora.",
+      "audioKey": "gb-b04-t03",
+      "es": "What's the full address?",
+      "tts": "What's the full address?",
+      "pinyin": "ouats the foul e-DRESS",
+      "pt": "¿Cuál es la dirección completa?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b04-n07",
+      "pt": "Última comprobación: una reserva válida falla si la recepción cierra antes de tu llegada tardía."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b04-p04",
+      "promptPt": "Calculas llegar al hotel después de las diez de la noche. Dilo, y pregunta si la recepción está abierta las veinticuatro horas. Habla ahora.",
+      "audioKey": "gb-b04-t04",
+      "es": "I'll arrive after ten. Is the reception open twenty-four hours?",
+      "tts": "I'll arrive after ten. Is the reception open twenty-four hours?",
+      "pinyin": "aïl e-RAÏV aaf-teu ten. iz the ri-SEP-cheunn ôo-peunn touen-ti-for aou-eus",
+      "pt": "Llego después de las diez de la noche. ¿La recepción está abierta las veinticuatro horas?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b04-r02",
+      "es": "Yes, we're open all night. You're all set.",
+      "tts": "Yes, we're open all night. You're all set.",
+      "pinyin": "yèss, ouir ôo-peunn ol naït. yor ol set",
+      "pt": "Sí, abrimos toda la noche. Todo está en orden."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b04-px1",
+      "promptPt": "Quieres el número del hotel registrado, no solo en la app. Pídelo directamente. Habla ahora.",
+      "audioKey": "gb-b04-x1",
+      "es": "Can I get the hotel's phone number?",
+      "tts": "Can I get the hotel's phone number?",
+      "pinyin": "can aï guet the ho-TELZ fôoun NOUM-beu",
+      "pt": "¿Me puede dar el número del hotel?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b04-px2",
+      "promptPt": "Tu vuelo podría llegar todavía más tarde de lo previsto. Pregunta si pueden guardar la reserva hasta tarde. Habla ahora.",
+      "audioKey": "gb-b04-x2",
+      "es": "Can you hold the reservation until late?",
+      "tts": "Can you hold the reservation until late?",
+      "pinyin": "can you hôold the re-zeu-VÈÏ-cheunn oun-TIL lèït",
+      "pt": "¿Pueden guardar la reserva hasta tarde?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b04-px3",
+      "promptPt": "También quieres asegurarte de que tu eSIM está activa antes de aterrizar. Pregúntaselo por chat a tu operador. Habla ahora.",
+      "audioKey": "gb-b04-x3",
+      "es": "Can you confirm my eSIM is active?",
+      "tts": "Can you confirm my eSIM is active?",
+      "pinyin": "can you con-FEUM maï ii-SIM iz AK-tiv",
+      "pt": "¿Me puede confirmar que mi eSIM está activa?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b04-s01",
+      "es": "I'd like to confirm my reservation. What's the full address?",
+      "tts": "I'd like to confirm my reservation. What's the full address?",
+      "pinyin": "aïd laïk tou con-FEUM maï re-zeu-VÈÏ-cheunn. ouats the foul e-DRESS",
+      "pt": "Repite la confirmación y la dirección como un solo trámite antes de volar."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b04-n08",
+      "bloco": "recap",
+      "pt": "Parte cuatro cerrada. Pasaporte, autorización, tarjeta comprobados; reserva confirmada antes de dormir."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Una lista con fecha de caducidad",
+    "secoes": [
+      {
+        "titulo": "ETA, no un simple sello",
+        "corpo": "El Reino Unido exige hoy una autorización de viaje electrónica para ciudadanos de la UE, incluidos los españoles, antes incluso del embarque. Comprueba el importe y el trámite exacto en la web oficial GOV.UK antes de salir: son los detalles que más rápido cambian."
+      },
+      {
+        "titulo": "Sin internet es una función del viaje",
+        "corpo": "Una captura de la dirección del hotel, la reserva y el número de teléfono sobrevive a un wifi de aeropuerto caído, una cuenta bloqueada y una batería agotada — de una forma que una cadena de enlaces en una app no logra."
+      },
+      {
+        "titulo": "Confirmar es una acción, no una palabra",
+        "corpo": "El inglés útil aquí no enumera documentos: cierra los huecos frágiles de la reserva antes de salir.",
+        "exemplos": [
+          {
+            "es": "I'd like to confirm my reservation.",
+            "pt": "Quería confirmar mi reserva."
+          },
+          {
+            "es": "What's the full address?",
+            "pt": "¿Cuál es la dirección completa?"
+          }
+        ]
+      },
+      {
+        "titulo": "Comprueba la norma una última vez antes de salir",
+        "corpo": "Las normas de entrada y la autorización de viaje pueden cambiar. Comprueba GOV.UK una última vez antes de volar, no solo esta nota del curso."
+      }
+    ]
+  }
+}

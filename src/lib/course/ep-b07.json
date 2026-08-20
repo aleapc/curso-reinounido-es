@@ -1,0 +1,274 @@
+{
+  "id": "b07",
+  "slot": "B07",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "2C",
+  "titulo": "La acera donde seis conductores te llaman a la vez",
+  "subtitulo": "El canal autorizado antes que el coche, el precio, el recibo — y el ojo que mira al lado equivocado antes de cruzar",
+  "cena": "Media docena de conductores trabajan la acera de llegadas antes de que hayas dado un paso, y el único que importa es el que todavía no has encontrado: el canal autorizado.",
+  "moldura": "ganha",
+  "frasePiso": "El primer coche que se te acerca no es automáticamente tu transporte.",
+  "moldes": [
+    "CAN-I"
+  ],
+  "clique": {
+    "contagem": [
+      "mostrador del transporte autorizado",
+      "conductor confirmado por la app",
+      "recepción del hotel"
+    ],
+    "desconto": "Nadie te ha dado una frase distinta para pagar con tarjeta, para pedir el recibo y para pedir que paren aquí. Has montado las tres con una sola fórmula, cambiando solo lo que querías hacer.",
+    "piso": "La próxima vez que subas a un transporte que no conoces, no vas a improvisar sobre la marcha. Vas a pedir permiso con dos palabras, y el resto se arregla solo."
+  },
+  "permissao": "Tienes derecho a tomarte el minuto extra para encontrar el canal autorizado, aunque haya una fila de conductores llamándote detrás. Ignorar una oferta no oficial para ir a preguntar a alguien identificado no es maleducado ni paranoico: es la única decisión de la primera hora que merece tomarse con calma.",
+  "permissaoAudioKey": "gb-b07-n05",
+  "fichasCulturais": [
+    {
+      "sinal": "Recién salido de la zona de llegadas, alguien te ofrece un trayecto antes incluso de que hayas preguntado dónde está el transporte autorizado.",
+      "suaLeitura": "Aquí todo el mundo se lanza sobre el turista, o tengo que elegir rápido a alguien antes de parecer perdido.",
+      "oQueEAli": "En la mayoría de los aeropuertos británicos, la zona de recogida de coches reservados por app está separada de la fila de taxis oficiales, y las dos suelen quedar lejos de la puerta de llegadas; alguien que se te acerca antes de eso casi nunca es el canal autorizado.",
+      "oQueVoceFaz": "Ignoras la oferta y buscas personal identificado o un mostrador con letrero antes de responder a nadie más.",
+      "oQueMelhora": "Empiezas el trayecto con una tarifa fija o un conductor confirmado por la app, en vez de una negociación en la que no elegiste entrar.",
+      "ondeNaoVale": "No significa desconfiar de cada conductor el resto de la estancia: la cautela vale solo para esta primera oferta no verificada, justo en el momento en que estás más desorientado.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b07-n04"
+      ]
+    },
+    {
+      "sinal": "Bajas de la acera para cruzar y giras la cabeza instintivamente a la izquierda, como en casa — y un autobús aparece por la derecha.",
+      "suaLeitura": "He mirado, así que ya está, puedo ir.",
+      "oQueEAli": "En el Reino Unido, el tráfico viene de la DERECHA. Londres pinta LOOK RIGHT y LOOK LEFT directamente en el asfalto de los pasos de peatones precisamente por ese reflejo continental que confunde a todo el mundo al principio.",
+      "oQueVoceFaz": "Antes de cruzar una calle de sentido único, miras primero a la DERECHA — y lees lo que está escrito en el suelo antes de fiarte de tu reflejo.",
+      "oQueMelhora": "Cruzas sin ese cuarto de segundo de retraso que sale caro justo donde el coche llega por el otro lado.",
+      "ondeNaoVale": "Las marcas en el suelo no cubren todas las calles ni todas las ciudades del país; la existencia de la marca en sí es un hecho de terreno ampliamente documentado, no una norma escrita única — en la duda, mira a los dos lados antes de moverte.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b07-n02"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b07-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "Parte siete. Puño en CAN: CAN I. Esta fórmula va a servir tres veces, hasta el hotel."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b07-n02",
+      "bloco": "cena",
+      "tom": "protege",
+      "pt": "Media docena de conductores trabajan la acera. Antes de cruzar: aquí el coche viene de la DERECHA."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b07-n03",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "La fórmula de hoy: Can I y la acción. Se queda igual; solo cambia la acción."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b07-t01",
+      "es": "Can I pay by card?",
+      "tts": "Can I pay by card?",
+      "pinyin": "can aï pèï baï caad",
+      "pt": "¿Puedo pagar con tarjeta?"
+    },
+    {
+      "consulta": [
+        "taxi/pagamento"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "pay by card",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b07-p01",
+      "promptPt": "En el mostrador del transporte autorizado, antes de subir al coche, la pregunta real no es si aceptan tarjeta — es si aceptan EFECTIVO. Pregunta si puedes pagar con tarjeta. Habla ahora.",
+      "audioKey": "gb-b07-t01",
+      "es": "Can I pay by card?",
+      "tts": "Can I pay by card?",
+      "pinyin": "can aï pèï baï caad",
+      "pt": "¿Puedo pagar con tarjeta?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b07-r01",
+      "es": "Yes, card or contactless, either works.",
+      "tts": "Yes, card or contactless, either works.",
+      "pinyin": "yèss, caad or con-TAK-less, AÏ-theu ouorks",
+      "pt": "Sí, tarjeta o sin contacto, las dos funcionan."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b07-n06",
+      "bloco": "corpo",
+      "pt": "Con el conductor confirmado por la app, pregunta el punto de encuentro exacto."
+    },
+    {
+      "consulta": [
+        "taxi/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "get a receipt",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b07-p02",
+      "promptPt": "Has subido al coche autorizado y quieres guardar constancia del gasto. Pide el recibo. Habla ahora.",
+      "audioKey": "gb-b07-t02",
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "can aï guet e ri-SIIT",
+      "pt": "¿Puedo tener un recibo?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b07-r02",
+      "es": "Sure, I'll send it to your email.",
+      "tts": "Sure, I'll send it to your email.",
+      "pinyin": "chor, aïl send it tou yor IIM-mèïl",
+      "pt": "Claro, se lo mando por correo."
+    },
+    {
+      "consulta": [
+        "taxi/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "leave my bag here",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b07-p03",
+      "promptPt": "De camino al hotel, tienes que parar un momento en una tienda. Pregunta si puedes dejar tu maleta en el coche. Habla ahora.",
+      "audioKey": "gb-b07-t03",
+      "es": "Can I leave my bag here?",
+      "tts": "Can I leave my bag here?",
+      "pinyin": "can aï liiv maï bag hiir",
+      "pt": "¿Puedo dejar mi bolsa aquí?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b07-n07",
+      "bloco": "capsula",
+      "pt": "Al llegar al hotel, cierra primero el trayecto: di dónde parar, y luego pide el recibo."
+    },
+    {
+      "consulta": [
+        "taxi/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "stop right here",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b07-p04",
+      "promptPt": "El coche llega delante de la entrada del hotel. Pide que pare justo aquí. Habla ahora.",
+      "audioKey": "gb-b07-t04",
+      "es": "Can I stop right here?",
+      "tts": "Can I stop right here?",
+      "pinyin": "can aï stop raït hiir",
+      "pt": "¿Podemos parar justo aquí?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b07-r03",
+      "es": "Sure thing. Enjoy your stay.",
+      "tts": "Sure thing. Enjoy your stay.",
+      "pinyin": "chor thinng. inn-DJOÏ yor stèï",
+      "pt": "Claro. Que disfrute de su estancia."
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "check in early",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b07-px1",
+      "promptPt": "En la recepción del hotel, has llegado antes de la hora normal de entrada. Pregunta si puedes hacer el check-in antes. Habla ahora.",
+      "audioKey": "gb-b07-x1",
+      "es": "Can I check in early?",
+      "tts": "Can I check in early?",
+      "pinyin": "can aï tchek inn EU-li",
+      "pt": "¿Puedo hacer el check-in antes?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "sit here",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b07-px2",
+      "promptPt": "En la zona de espera del vestíbulo, hay un sillón libre junto a un enchufe. Pregunta si puedes sentarte ahí mientras esperas. Habla ahora.",
+      "audioKey": "gb-b07-x2",
+      "es": "Can I sit here?",
+      "tts": "Can I sit here?",
+      "pinyin": "can aï sitt hiir",
+      "pt": "¿Puedo sentarme aquí?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b07-s01",
+      "es": "Can I pay by card? Can I get a receipt? Can I stop right here?",
+      "tts": "Can I pay by card? Can I get a receipt? Can I stop right here?",
+      "pinyin": "can aï pèï baï caad? can aï guet e ri-SIIT? can aï stop raït hiir",
+      "pt": "Repite la misma fórmula con tres acciones distintas."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b07-n08",
+      "bloco": "recap",
+      "pt": "Parte siete cerrada. El canal antes que el coche, Can I para la acción, mirar a la derecha."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Canal, destino, ojo a la derecha",
+    "secoes": [
+      {
+        "titulo": "No te aferres a un sistema local",
+        "corpo": "Las normas de recogida cambian de un aeropuerto a otro. Lo que siempre funciona es preguntar a personal identificado dónde está el canal autorizado o el punto de encuentro de la app."
+      },
+      {
+        "titulo": "Can I, y solo la acción cambia",
+        "corpo": "La casca de la fórmula no se mueve; solo cambia lo que quieres hacer.",
+        "exemplos": [
+          {
+            "es": "Can I pay by card?",
+            "pt": "¿Puedo pagar con tarjeta?"
+          },
+          {
+            "es": "Can I get a receipt?",
+            "pt": "¿Puedo tener un recibo?"
+          }
+        ]
+      },
+      {
+        "titulo": "El reflejo que más gente confunde",
+        "corpo": "El cuerpo continental mira a la izquierda al bajar de la acera. En el Reino Unido el coche viene de la derecha, y las marcas LOOK RIGHT pintadas en el suelo de algunos pasos existen precisamente para romper ese reflejo automático."
+      },
+      {
+        "titulo": "Un recibo cierra el trayecto",
+        "corpo": "Pide el recibo antes de entrar al hotel. Es una prueba del trayecto realizado, no una confrontación."
+      }
+    ]
+  }
+}

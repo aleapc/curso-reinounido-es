@@ -1,0 +1,92 @@
+{
+  "id": "q-i01",
+  "nivel": "intermediario",
+  "titulo": "Quiz — El reloj del país",
+  "subtitulo": "La cocina cierra antes de lo que crees",
+  "introAudioKey": "gb-i01-q-i",
+  "introPt": "Llegas a un restaurante a las nueve de la noche y la camarera ya está poniendo las sillas. Pon las cosas en orden.",
+  "cenario": "Un pub-restaurante en el Reino Unido, nueve y cuarto de la noche.",
+  "dialogo": [
+    {
+      "audioKey": "gb-i01-q01",
+      "voz": "target_en_gb_m",
+      "es": "Sorry, we stopped serving at nine.",
+      "tts": "Sorry, we stopped serving at nine.",
+      "pinyin": "SOR-ri, oui stoppt SEUR-vigne att naïn",
+      "pt": "Lo siento, dejamos de servir a las nueve."
+    },
+    {
+      "audioKey": "gb-i01-q02",
+      "voz": "target_en_gb_f",
+      "es": "What time does the kitchen close?",
+      "tts": "What time does the kitchen close?",
+      "pinyin": "OUATT taïm deuz de KIT-tchenn clôz",
+      "pt": "¿A qué hora cierra la cocina?"
+    },
+    {
+      "audioKey": "gb-i01-q03",
+      "voz": "target_en_gb_m",
+      "es": "Nine on weekdays, half nine on Sundays.",
+      "tts": "Nine on weekdays, half nine on Sundays.",
+      "pinyin": "naïn onn OUIIK-dèïz, haaf naïn onn SANN-dèïz",
+      "pt": "Nueve entre semana, nueve y media los domingos."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Cuándo suele estar el pico de la cena en el Reino Unido?",
+      "opcoes": [
+        "Entre las cuatro y las cinco de la tarde",
+        "Entre las seis y las ocho de la tarde",
+        "Después de las diez de la noche",
+        "No hay una hora fija"
+      ],
+      "correta": 1,
+      "explica": "El pico de la cena es temprano, comparado con la costumbre española de las nueve o las diez."
+    },
+    {
+      "pergunta": "¿Qué se mantiene fijo en la fórmula «What time ___?»?",
+      "opcoes": [
+        "El sitio",
+        "«What time»",
+        "La hora exacta",
+        "El camarero"
+      ],
+      "correta": 1,
+      "explica": "«What time» abre la fórmula; solo cambian el verbo y lo que preguntas."
+    },
+    {
+      "pergunta": "Llegas a un restaurante nuevo un sábado por la noche. ¿Qué preguntas antes de sentarte?",
+      "opcoes": [
+        "What time does the kitchen close?",
+        "How much is the bill?",
+        "Do you have wifi?",
+        "Where's the toilet?"
+      ],
+      "correta": 0,
+      "explica": "La misma fórmula de B18, con «kitchen» dentro, te evita quedarte sin cocina abierta."
+    },
+    {
+      "pergunta": "¿Qué es el «Sunday roast»?",
+      "opcoes": [
+        "Un desayuno servido todo el día",
+        "La comida tradicional del domingo, en una franja horaria limitada",
+        "Un descuento en bebidas",
+        "Un menú que solo se sirve en la barra"
+      ],
+      "correta": 1,
+      "explica": "Es una franja concreta, en general del mediodía a las cuatro, y conviene confirmar la hora exacta."
+    },
+    {
+      "pergunta": "¿Dónde puede no aplicarse la regla de «la cocina cierra pronto»?",
+      "opcoes": [
+        "En las grandes ciudades y los barrios de vida nocturna intensa",
+        "En cualquier restaurante familiar",
+        "Nunca tiene excepciones",
+        "Solo en el desayuno"
+      ],
+      "correta": 0,
+      "explica": "Existen excepciones reales; por eso preguntar siempre es mejor que suponer."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_comentario": "curso-reinounido-es (survival English BRITÂNICO → Reino Unido, guia es-ES peninsular): voz-GUIA ESPANHOLA PENINSULAR (Carmen/Emilio, as mesmas do curso base ¡Dime! original); fala-ALVO em INGLÊS BRITÂNICO (Alice/George), 100% REUSADA do curso-reinounido-fr. INV-5: guia nunca fala inglês, nativa nunca fala espanhol. DERIVAÇÃO barata: sem Fase 1, só tradução da narração-guia.",
+  "_fonetica_do_par": "Espanhol → inglês. O espanhol CHEGA COM: 5 vogais puras e leitura fonética transparente (falsa vantagem — o inglês não lê como escreve). PRECISA DESAPRENDER: (1) o ⟨h⟩ aspirado inglês é mudo em espanhol ('otel' por hotel); (2) o ⟨th⟩ não existe, vira 's'/'d' ('sink'/'dis'); (3) consoante final em grupo (-st, -sk, -sp) o espanhol insere vogal de apoio ('estop' por stop); (4) o acento tônico móvel do inglês, contra o espanhol que segue regra fixa; (5) vogais reduzidas (schwa) que o espanhol não tem — cada vogal átona vira uma vogal plena, soando silabado. Falsos amigos: 'actually'≠actualmente (na verdade≠atualmente — mesmo par do francês), 'embarrassed'≠embarazada (envergonhado≠grávida, o clássico), 'library'≠librería (biblioteca≠livraria), 'sensible'≠sensible (sensato≠sensível é 'sensitive'), 'success'≠suceso (sucesso≠acontecimento). Detalhe a autorar/confirmar em docs/FUNDACAO.md se a tradução achar necessário.",
+  "guideModel": "eleven_flash_v2_5",
+  "targetModel": "eleven_multilingual_v2",
+  "roles": {
+    "guide_es_f": { "voiceId": "h2cd3gvcqTp3m65Dysk7", "languageCode": "es", "name": "Carmen" },
+    "guide_es_m": { "voiceId": "ZCh4e9eZSUf41K4cmCEL", "languageCode": "es", "name": "Emilio" },
+    "target_en_gb_f": { "voiceId": "Xb7hH8MSUJpSbSDYk0k2", "languageCode": "en", "name": "Alice" },
+    "target_en_gb_m": { "voiceId": "JBFqnCBsd6RMkjVDRZzb", "languageCode": "en", "name": "George" }
+  },
+  "_g14": {
+    "guia": ["guide_es_f", "guide_es_m"],
+    "guiaLingua": "es",
+    "alvo": ["target_en_gb_f", "target_en_gb_m"],
+    "alvoLingua": "en"
+  }
+}

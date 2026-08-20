@@ -1,0 +1,376 @@
+{
+  "id": "b10",
+  "slot": "B10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "3C",
+  "titulo": "Léelo antes de preguntarlo",
+  "subtitulo": "WAY OUT no es «salida de emergencia»: seis carteles que cambian lo que haces, y la fórmula para cuando no hay cartel",
+  "cena": "Estás plantado delante de un pasillo con tres puertas, las manos llenas de equipaje, y la única información útil para elegir la correcta es una placa pequeña encima de cada una.",
+  "moldura": "ganha",
+  "frasePiso": "Vas a leer seis carteles en inglés sin traducirlos palabra por palabra, y a preguntar por lo que no tiene cartel con una sola fórmula.",
+  "moldes": [
+    "LOOKING"
+  ],
+  "clique": {
+    "contagem": [
+      "la puerta de embarque",
+      "la farmacia del aeropuerto",
+      "el mostrador de alquiler de coches",
+      "el probador"
+    ],
+    "desconto": "Nadie te ha dado una frase para cada mostrador donde no conocías la palabra exacta en inglés. Has montado las cuatro con «I'm looking for», dejando que la otra persona complete.",
+    "piso": "La próxima vez que te falte la palabra exacta en inglés, no te vas a callar: vas a señalar la intención y dejar que el otro termine la frase."
+  },
+  "permissao": "No necesitas leer todo el cartel. Reconocer una palabra o el pictograma ya basta para saber qué hacer; nadie te va a pedir que traduzcas el resto en voz alta.",
+  "permissaoAudioKey": "gb-b10-n10",
+  "espelho": "En tu propio país también lees carteles sin pensarlo dos veces — empujar, tirar, no entrar; lo único nuevo aquí es que uno de ellos se parece a una palabra en español y dice algo completamente distinto.",
+  "fichasCulturais": [
+    {
+      "sinal": "Delante de un mostrador sin ningún cartel «QUEUE HERE» ni cordón, la gente mantiene igualmente una distancia entre sí, en el orden exacto de llegada.",
+      "suaLeitura": "Aquí no hay una cola de verdad, puedo ir directo al mostrador.",
+      "oQueEAli": "En el Reino Unido, la cola se forma sola incluso sin cartel ni cordón: la última persona de pie es el final de la cola, y colarse se nota exactamente igual que si hubiera un cordón.",
+      "oQueVoceFaz": "Preguntas «Sorry, are you in the queue?» antes de avanzar, y te colocas detrás de la última persona.",
+      "oQueMelhora": "Entras en el sistema que todos siguen ya, en vez de convertirte en la excepción visible.",
+      "ondeNaoVale": "No vale delante de un mostrador claramente vacío, sin nadie esperando: ahí no hay ninguna cola que respetar.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b10-n09"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b10-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte diez. La palma plana mantiene la vocal inglesa pura, sin alargarla: WAY, no OUÉ-i-i."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b10-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Tres puertas delante de ti, las manos llenas, y la única pista sobre cuál elegir es una placa pequeña encima."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b10-p01",
+      "promptPt": "Como ayer en la ventanilla, todavía no ves dónde está el andén. Pregunta dónde está. Habla ahora.",
+      "bloco": "callback",
+      "molde": "WHERE",
+      "audioKey": "gb-b10-t01",
+      "es": "Where's the platform?",
+      "tts": "Where's the platform?",
+      "pinyin": "OUè-euz dhe PLAT-fom",
+      "pt": "¿Dónde está el andén?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b10-t02",
+      "es": "WAY OUT",
+      "tts": "Way out.",
+      "pinyin": "OUèï aoutte",
+      "pt": "salida"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b10-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Cuidado con esta: en el Reino Unido casi nunca se dice EXIT. Es WAY OUT — la salida, el camino hacia fuera."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b10-t03",
+      "es": "OUT OF ORDER",
+      "tts": "Out of order.",
+      "pinyin": "aoutte ov OR-deu",
+      "pt": "fuera de servicio"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b10-t04",
+      "es": "PULL · PUSH",
+      "tts": "Pull. Push.",
+      "pinyin": "poull · pouch",
+      "pt": "tirar · empujar"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b10-n04",
+      "pt": "En una puerta manual, pull tira hacia ti, push empuja hacia fuera. Léelo antes de que tu mano toque el pomo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b10-t05",
+      "es": "TOILETS · MIND THE GAP",
+      "tts": "Toilets. Mind the gap.",
+      "pinyin": "TOÏ-lets · maïnnd dhe gap",
+      "pt": "baños · cuidado con el hueco"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b10-n05",
+      "pt": "TOILETS, no restroom: ya lo has visto. Y MIND THE GAP es el metro avisándote del hueco entre el andén y el vagón."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b10-n06",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Para cuando no hay cartel: «I'm looking for» más lo que buscas. No hace falta la palabra exacta."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b10-t06",
+      "es": "I'm looking for my gate.",
+      "tts": "I'm looking for my gate.",
+      "pinyin": "aïm LOU-kinng for maï guèït",
+      "pt": "Busco mi puerta de embarque."
+    },
+    {
+      "consulta": [
+        "chegar/embarque"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "LOOKING",
+      "encaixe": "my gate",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b10-p02",
+      "promptPt": "La pantalla ha cambiado y ya no reconoces el número. Dile a alguien del aeropuerto que buscas tu puerta. Habla ahora.",
+      "audioKey": "gb-b10-t06",
+      "es": "I'm looking for my gate.",
+      "tts": "I'm looking for my gate.",
+      "pinyin": "aïm LOU-kinng for maï guèït",
+      "pt": "Busco mi puerta de embarque."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b10-r01",
+      "es": "It's down that way, past the shops.",
+      "tts": "It's down that way, past the shops.",
+      "pinyin": "its daoune dhat OUèï, past dhe chops",
+      "pt": "Es por ahí, después de las tiendas."
+    },
+    {
+      "consulta": [
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "LOOKING",
+      "encaixe": "a chemist",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b10-p03",
+      "promptPt": "Te duele la cabeza y no ves ningún cartel de farmacia. Dile a un empleado qué buscas. Habla ahora.",
+      "audioKey": "gb-b10-t07",
+      "es": "I'm looking for a chemist.",
+      "tts": "I'm looking for a chemist.",
+      "pinyin": "aïm LOU-kinng for e KE-mist",
+      "pt": "Busco una farmacia."
+    },
+    {
+      "consulta": [
+        "compras/tienda"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "LOOKING",
+      "encaixe": "sun cream",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b10-p04",
+      "promptPt": "Se te ha olvidado la crema solar y no conoces el nombre exacto de la sección. Inténtalo igual, con la fórmula y la palabra que te venga. Habla ahora.",
+      "audioKey": "gb-b10-t08",
+      "es": "I'm looking for sun cream.",
+      "tts": "I'm looking for sun cream.",
+      "pinyin": "aïm LOU-kinng for sonn kriim",
+      "pt": "Busco crema solar."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "CAN-I",
+      "encaixe": "go through here",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b10-p05",
+      "promptPt": "Un cartel dice STAFF ONLY y no estás seguro de si te concierne. Pregunta. Habla ahora.",
+      "audioKey": "gb-b10-t09",
+      "es": "Can I go through here?",
+      "tts": "Can I go through here?",
+      "pinyin": "kann aï gô throu Hieu",
+      "pt": "¿Puedo pasar por aquí?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b10-r02",
+      "es": "Sorry, staff only — round the other side.",
+      "tts": "Sorry, staff only — round the other side.",
+      "pinyin": "SO-ri, staf ôlnli — raounnd dhi Odheu saïd",
+      "pt": "Perdone, solo personal — por el otro lado."
+    },
+    {
+      "consulta": [
+        "compras/probador"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "LOOKING",
+      "encaixe": "a fitting room",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b10-p06",
+      "promptPt": "Has elegido ropa pero no ves los probadores. Inténtalo con la fórmula. Habla ahora.",
+      "audioKey": "gb-b10-t10",
+      "es": "I'm looking for a fitting room.",
+      "tts": "I'm looking for a fitting room.",
+      "pinyin": "aïm LOU-kinng for e FI-tinng roum",
+      "pt": "Busco un probador."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b10-r03",
+      "es": "Right this way, follow me.",
+      "tts": "Right this way, follow me.",
+      "pinyin": "raïte dhis OUèï, FO-lôou mi",
+      "pt": "Por aquí, sígame."
+    },
+    {
+      "consulta": [
+        "taxi/renta"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "LOOKING",
+      "encaixe": "the car hire desk",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b10-p07",
+      "promptPt": "Has salido por la puerta equivocada y no ves el mostrador de alquiler de coches. Pregúntale a un guardia de seguridad. Habla ahora.",
+      "audioKey": "gb-b10-t11",
+      "es": "I'm looking for the car hire desk.",
+      "tts": "I'm looking for the car hire desk.",
+      "pinyin": "aïm LOU-kinng for dhe kar Haïeu desk",
+      "pt": "Busco el mostrador de alquiler de coches."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "LOOKING",
+      "encaixe": "the lost property office",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b10-p08",
+      "promptPt": "Acabas de bajar del avión y te das cuenta de que te has dejado los auriculares en el asiento. Inténtalo con la fórmula. Habla ahora.",
+      "audioKey": "gb-b10-t12",
+      "es": "I'm looking for the lost property office.",
+      "tts": "I'm looking for the lost property office.",
+      "pinyin": "aïm LOU-kinng for dhe lost PRO-peu-ti O-fiss",
+      "pt": "Busco la oficina de objetos perdidos."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b10-n07",
+      "bloco": "capsula",
+      "tom": "protege",
+      "pt": "Otra trampa: aquí, subway no es el metro. Es un paso subterráneo para peatones. El metro es the Underground."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b10-n08",
+      "tom": "ganha",
+      "pt": "En Glasgow, sin embargo, el metro se llama the Subway. La trampa está entre dos ingleses, no entre el español y el inglés."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b10-n09",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Sin cartel, la cola existe igual: la última persona de pie es el final. Pregunta antes de pasar delante."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b10-n10",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas leer todo el cartel. Una palabra o el pictograma ya basta para saber qué hacer."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b10-n11",
+      "bloco": "clique",
+      "tom": "ganha",
+      "pt": "Puerta, farmacia, alquiler de coches, probador. Nadie te ha dado cuatro frases: tú las has montado."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "LOOKING",
+      "audioKey": "gb-b10-s01",
+      "es": "I'm looking for my gate. I'm looking for a chemist. I'm looking for a fitting room.",
+      "tts": "I'm looking for my gate. I'm looking for a chemist. I'm looking for a fitting room.",
+      "pinyin": "aïm LOU-kinng for maï guèït. aïm LOU-kinng for e KE-mist. aïm LOU-kinng for e FI-tinng roum.",
+      "pt": "El mismo principio, tres cosas distintas."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b10-n12",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "Parte diez cerrada. WAY OUT, OUT OF ORDER, PULL, PUSH, TOILETS, MIND THE GAP — y una fórmula para el resto."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Carteles que no se traducen palabra por palabra",
+    "secoes": [
+      {
+        "titulo": "El falso amigo más caro",
+        "corpo": "Un español busca instintivamente EXIT — pero en el Reino Unido, el cartel de salida es casi siempre WAY OUT, sobre todo en el metro y las estaciones. EXIT existe (aeropuertos, cines), pero WAY OUT es el uso británico por defecto."
+      },
+      {
+        "titulo": "La fórmula abierta",
+        "corpo": "«I'm looking for» más lo que buscas cubre cualquier sitio u objeto sin conocer la palabra exacta en inglés. La otra persona completa; tú solo señalas la intención."
+      },
+      {
+        "titulo": "Toilets, no restroom",
+        "corpo": "Ya visto en B06: en un lugar público son «the toilets», o «the loo» en registro coloquial. «Restroom» y «bathroom» son americanismos — se entienden, pero se detectan al instante."
+      },
+      {
+        "titulo": "«Subway» no es el metro",
+        "corpo": "En el Reino Unido, subway designa un paso subterráneo para peatones, bajo una calle. El metro de Londres es the Underground, o the Tube. Contraejemplo honesto: en Glasgow, el metro sí se llama the Subway."
+      },
+      {
+        "titulo": "La cola invisible",
+        "corpo": "Muchos mostradores británicos no tienen cordón ni cartel QUEUE HERE. La cola existe igual: es la de la gente de pie, en orden de llegada. «Sorry, are you in the queue?» evita el mal momento de parecer que te has colado."
+      }
+    ]
+  }
+}

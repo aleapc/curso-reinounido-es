@@ -1,0 +1,403 @@
+{
+  "id": "b06",
+  "slot": "B06",
+  "nivel": "basico",
+  "numero": 6,
+  "parte": "2B",
+  "titulo": "Los primeros sesenta minutos, uno a uno",
+  "subtitulo": "Maleta, cobertura, dinero, baño y punto de encuentro antes de salir de la terminal",
+  "cena": "La cinta de equipajes ha dejado de girar, tu maleta no ha salido, y la persona con el distintivo de la aerolínea está a veinte metros y no viene hacia ti.",
+  "moldura": "ganha",
+  "frasePiso": "Vas a cerrar la primera hora sin una sola frase de más. La mayoría cruza esa terminal con el teléfono en la mano y la cabeza hecha un lío.",
+  "moldes": [
+    "HAVE"
+  ],
+  "clique": {
+    "contagem": [
+      "mostrador de información",
+      "mostrador de la aerolínea",
+      "tienda de telefonía",
+      "tienda de la terminal",
+      "punto de encuentro"
+    ],
+    "desconto": "Nadie te ha enseñado una frase para la cobertura, otra para los baños, otra para el dinero y otra para la tarjeta SIM. Has montado las cuatro con una sola fórmula, manteniendo las tres mismas palabras al principio.",
+    "piso": "La próxima vez que aterrices en un país desconocido, no vas a cruzar la terminal con cinco cosas pendientes: las vas a cerrar una a una, empezando por la que no puede esperar."
+  },
+  "permissao": "No necesitas una frase distinta para cada mostrador de esa terminal. La misma fórmula, más la cosa, ya es una pregunta completa en todo el edificio — y nadie evalúa cómo la has dicho. Tu acento no es algo que arreglar antes de hablar: es el precio normal de un hispanohablante que habla inglés, y no cuesta nada en el mostrador.",
+  "permissaoAudioKey": "gb-b06-n07",
+  "espelho": "Cualquiera que llega a un aeropuerto desconocido de su propio país ya hace esta clasificación sin pensarlo — maleta, cobertura, dinero, los pequeños cabos sueltos; lo único nuevo aquí es hacerlo con cuatro palabras que empiezan igual.",
+  "fatosDatados": [
+    {
+      "fato": "En el transporte de Londres ya no hay billete de papel: se paga acercando una tarjeta sin contacto, un teléfono o una Oyster al lector, a la entrada Y a la salida. El total se limita al día y a la semana (lunes-domingo). Una tarjeta Visa o Mastercard española funciona directamente.",
+      "fonte": "TfL / National Rail — Travelcards de papel eliminadas en enero de 2023; límite semanal desde 2021.",
+      "ano": 2026,
+      "revisarAte": "2027-01-31",
+      "ressalva": "NUNCA citar el importe del límite: cambia cada enero y depende de las zonas. El banco español puede añadir comisiones por transacción en el extranjero."
+    },
+    {
+      "fato": "El Reino Unido no usa el euro: la moneda es la libra esterlina, y el comercio no acepta euros (cuando los acepta, el cambio es malo). Como el país es muy mayoritariamente cashless, la tarjeta resuelve la cuestión en la práctica.",
+      "fonte": "Hecho monetario básico (fuera de la zona euro); el grado de cashless es un hecho de terreno ampliamente documentado, no una norma escrita.",
+      "ano": 2026,
+      "revisarAte": "2027-06-30"
+    }
+  ],
+  "fichasCulturais": [
+    {
+      "sinal": "Delante de los tornos del metro, nadie hace cola en la ventanilla: la gente pone una tarjeta bancaria o el teléfono en el lector amarillo y pasa, sin ningún billete en la mano.",
+      "suaLeitura": "Debe de haber una ventanilla en algún sitio; voy a buscar primero dónde se compran los billetes, como en casa.",
+      "oQueEAli": "El billete de papel se ha eliminado en el transporte de Londres. Se paga acercando una tarjeta sin contacto o un teléfono al lector, a la entrada Y a la salida, y el total del día y de la semana se limita automáticamente — siempre que uses SIEMPRE el mismo soporte.",
+      "oQueVoceFaz": "Eliges una sola tarjeta, o un solo teléfono, y te mantienes con él toda la estancia: lo pones a la entrada, lo vuelves a poner a la salida.",
+      "oQueMelhora": "Pasas sin detenerte, nunca pagas más del límite del día, y ya no tienes que decidir qué billete comprar antes de bajar.",
+      "ondeNaoVale": "No vale en todas partes: algunos trenes regionales y autobuses de largo recorrido siguen pidiendo un billete comprado con antelación, y fuera de Londres cada red local tiene sus propias reglas. Y si vais dos personas, cada uno pone SU propia tarjeta — una tarjeta para dos personas rompe el límite.",
+      "evidencia": "FONTE",
+      "audioKeys": [
+        "gb-b06-n05"
+      ]
+    },
+    {
+      "sinal": "En la terminal, una flecha indica SUBWAY, con un pictograma de peatón bajando una escalera.",
+      "suaLeitura": "Subway es el metro: bajo por ahí.",
+      "oQueEAli": "En el Reino Unido, subway designa un paso subterráneo para PEATONES, bajo una calle. El metro de Londres se llama the Underground, o the Tube, y sus carteles llevan el círculo rojo cruzado por una barra azul. La palabra americana manda al viajero a cruzar la calle por debajo, con las maletas.",
+      "oQueVoceFaz": "Buscas la palabra Underground o el círculo rojo y azul; si solo ves subway, solo bajas para cruzar, y vuelves a preguntar arriba.",
+      "oQueMelhora": "Llegas al andén correcto a la primera, sin subir la misma escalera dos veces.",
+      "ondeNaoVale": "No vale en Glasgow, cuyo metro se llama oficialmente the Subway — y por supuesto no vale en Estados Unidos, donde subway sí es el metro. La trampa está entre dos ingleses, no entre el español y el inglés.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b06-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b06-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte seis. El puño marca la sílaba fuerte: OUAI-fi, TOI-let, TCHAR-jeur. En español suele caer distinto; aquí, no."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b06-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "La cinta se ha parado, tu maleta no ha salido, y el agente con el distintivo está lejos. Primero lo que no puede esperar."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b06-p01",
+      "promptPt": "Otra vez el control, la misma pregunta que ayer: cuánto tiempo te quedas y por qué vienes. Di que vienes de vacaciones. Habla ahora.",
+      "bloco": "callback",
+      "audioKey": "gb-b06-t01",
+      "es": "I'm on holiday.",
+      "tts": "I'm on holiday.",
+      "pinyin": "aïm onn HO-li-dèï",
+      "pt": "Estoy de vacaciones."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b06-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "La primera hora tiene un orden: maleta, cobertura, dinero, baño, punto de encuentro. El transporte va al final."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b06-n04",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Aquí está la fórmula: preguntas si el sitio tiene la cosa. Tres palabritas que nunca cambian, y luego la cosa. Escucha."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b06-t02",
+      "es": "Do you have wifi?",
+      "tts": "Do you have wifi?",
+      "pinyin": "dou you Hav OUAÏ-faï",
+      "pt": "¿Tienen wifi?"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "wifi",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b06-p02",
+      "promptPt": "Tu eSIM está instalada pero no pasa nada. En el mostrador de información, pregunta si el sitio tiene cobertura. Habla ahora.",
+      "audioKey": "gb-b06-t02",
+      "es": "Do you have wifi?",
+      "tts": "Do you have wifi?",
+      "pinyin": "dou you Hav OUAÏ-faï",
+      "pt": "¿Tienen wifi?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b06-r01",
+      "es": "Yes, the network's on the sign.",
+      "tts": "Yes, the network's on the sign.",
+      "pinyin": "yèss, the NÈT-weuks onn the saïn",
+      "pt": "Sí, la red está indicada en el cartel."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "a toilet",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b06-p03",
+      "promptPt": "Dos horas sentado en el avión, y tu cuerpo solo reclama una cosa antes de salir. En el mostrador de la aerolínea, pregunta si el sitio tiene uno. Habla ahora.",
+      "audioKey": "gb-b06-t03",
+      "es": "Do you have a toilet?",
+      "tts": "Do you have a toilet?",
+      "pinyin": "dou you Hav e TOÏ-lette",
+      "pt": "¿Tienen baños?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b06-r02",
+      "es": "Yes, just past the shops, on the right.",
+      "tts": "Yes, just past the shops, on the right.",
+      "pinyin": "yèss, djeust paast the CHOPS, onn the RAÏT",
+      "pt": "Sí, justo después de las tiendas, a la derecha."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "a cash machine",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b06-p04",
+      "promptPt": "Solo llevas euros encima, y aquí no valen nada. Quieres algo de efectivo en libras antes de salir: pregúntale al agente cerca de la salida si hay uno. Habla ahora.",
+      "audioKey": "gb-b06-t04",
+      "es": "Do you have a cash machine?",
+      "tts": "Do you have a cash machine?",
+      "pinyin": "dou you Hav e KACH me-chiine",
+      "pt": "¿Tienen cajero automático?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b06-r03",
+      "es": "There's one through the subway, by the bus stops.",
+      "tts": "There's one through the subway, by the bus stops.",
+      "pinyin": "theuz ouann throu the SEUB-ouèï, baï the BEUSS stops",
+      "pt": "Hay uno al otro lado del paso subterráneo, hacia las paradas de autobús."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "a charger",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b06-p05",
+      "promptPt": "Tu teléfono está al tres por ciento y ves un enchufe libre en la cafetería de la terminal. Pregunta en el mostrador si tienen uno para prestar. Habla ahora.",
+      "audioKey": "gb-b06-t05",
+      "es": "Do you have a charger?",
+      "tts": "Do you have a charger?",
+      "pinyin": "dou you Hav e TCHAA-djeu",
+      "pt": "¿Tienen cargador?"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "a SIM card",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b06-p06",
+      "promptPt": "La eSIM nunca ha conectado. En la tienda de telefonía de la terminal, pregunta si tienen una física. Habla ahora.",
+      "audioKey": "gb-b06-t06",
+      "es": "Do you have a SIM card?",
+      "tts": "Do you have a SIM card?",
+      "pinyin": "dou you Hav e SIMM kaad",
+      "pt": "¿Tienen tarjeta SIM?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b06-r04",
+      "es": "Pay as you go, or monthly?",
+      "tts": "Pay as you go, or monthly?",
+      "pinyin": "pèï az you GÔ, or MONN-thli",
+      "pt": "¿De prepago, o con contrato?"
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b06-p07",
+      "promptPt": "Acaba de hacerte la pregunta, y estás aquí diez días: sobre todo, sin compromiso mensual. Respóndele con sus propias palabras, y añade la palabrita de cortesía. Habla ahora.",
+      "audioKey": "gb-b06-t07",
+      "es": "Pay as you go, please.",
+      "tts": "Pay as you go, please.",
+      "pinyin": "pèï az you GÔ, pliiz",
+      "pt": "De prepago, por favor."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "water",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b06-p08",
+      "promptPt": "No has bebido nada desde el despegue. En la tienda del aeropuerto, pregunta simplemente si venden. Habla ahora.",
+      "audioKey": "gb-b06-t08",
+      "es": "Do you have water?",
+      "tts": "Do you have water?",
+      "pinyin": "dou you Hav OUÔO-teu",
+      "pt": "¿Tienen agua?"
+    },
+    {
+      "consulta": [
+        "transporte/bagagem"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "a trolley",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b06-p09",
+      "promptPt": "Dos maletas, y no puedes solo. No conoces la palabra inglesa para el artilugio con ruedas de la terminal — inténtalo igual, con la fórmula y la palabra que te venga. Habla ahora.",
+      "audioKey": "gb-b06-t09",
+      "es": "Do you have a trolley?",
+      "tts": "Do you have a trolley?",
+      "pinyin": "dou you Hav e TRO-li",
+      "pt": "¿Tienen carrito?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b06-r05",
+      "es": "Trolleys are just outside, love. Cheers.",
+      "tts": "Trolleys are just outside, love. Cheers.",
+      "pinyin": "TRO-liz aa djeust aout-SAÏD, lov. TCHIEUZ",
+      "pt": "Los carritos están justo fuera. Gracias."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b06-n05",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "En los tornos, sin nadie en la ventanilla: se pone una tarjeta en el lector amarillo. A la entrada y a la salida, siempre la misma."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b06-n06",
+      "bloco": "capsula",
+      "tom": "protege",
+      "pt": "Acaba de decir subway. Aquí esa palabra no es el metro: es un paso bajo la calle. El metro es Underground."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b06-n07",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No hace falta una frase por mostrador. La misma fórmula más la cosa: ya es una pregunta completa, acento incluido."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b06-n08",
+      "bloco": "clique",
+      "tom": "ganha",
+      "pt": "Has preguntado por la cobertura, los baños, el dinero, la SIM. Nadie te ha dado cuatro frases: tú las has montado."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "audioKey": "gb-b06-s01",
+      "es": "Do you have wifi? Do you have a toilet? Do you have a cash machine?",
+      "tts": "Do you have wifi? Do you have a toilet? Do you have a cash machine?",
+      "pinyin": "dou you Hav OUAÏ-faï ? dou you Hav e TOÏ-lette ? dou you Hav e KACH me-chiine ?",
+      "pt": "El mismo principio, tres cosas distintas. La H de have no desaparece."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b06-n09",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "Parte seis cerrada. Maleta, cobertura, dinero, baño, punto de encuentro: cinco cosas cerradas con una fórmula."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Una fórmula, media docena de mostradores",
+    "secoes": [
+      {
+        "titulo": "La casca abierta",
+        "corpo": "Dejas «Do you have» fijo y solo cambias la cosa. La palabra no se conjuga, no cambia de forma al entrar, no concuerda con nada: es el regalo del inglés al hispanohablante. Tu trabajo no es fabricar la frase, es DECIRLA. Solo dos puntos: la H de «have» se aspira — sóplala en vez de tragártela como harías con otra letra — y la cosa se dice con claridad, al final.",
+        "exemplos": [
+          {
+            "es": "Do you have wifi?",
+            "pt": "¿Tienen wifi?"
+          },
+          {
+            "es": "Do you have a toilet?",
+            "pt": "¿Tienen baños?"
+          },
+          {
+            "es": "Do you have a cash machine?",
+            "pt": "¿Tienen cajero automático?"
+          }
+        ]
+      },
+      {
+        "titulo": "Se dice «toilet», o «loo», nunca «restroom»",
+        "corpo": "En un lugar público son «the toilets» — o «the loo», más coloquial y perfectamente normal. «Restroom» y «bathroom» son americanismos: se entienden, pero se notan al instante. Con la fórmula: «Do you have a toilet?». Misma lógica para otras tres palabras que el viajero cree ya conocer: «the bill» y no «the check» para la cuenta, «a queue» y no «a line» para la cola, «takeaway» y no «takeout» para llevar."
+      },
+      {
+        "titulo": "«Subway» no es el metro",
+        "corpo": "El agente ha dicho «through the subway». En el Reino Unido, «subway» es un paso subterráneo para peatones, bajo una calle; el metro de Londres es «the Underground», o «the Tube». Quien pregunta por «the subway» acaba bajo la calzada con las maletas. Contraejemplo honesto: en Glasgow, el metro se llama efectivamente «the Subway». La trampa no está entre el español y el inglés, sino entre el inglés americano y el inglés británico, y es la que más se repetirá en este curso."
+      },
+      {
+        "titulo": "«Cheers» sustituye a la mitad de tus gracias",
+        "corpo": "El hombre del mostrador ha terminado con «Cheers». No es un brindis: es «gracias», «adiós», «vale», según el momento, y lo vas a oír treinta veces al día. Un hispanohablante que responde «Cheers» en vez de «Thank you very much» gana medio grado de naturalidad por una sílaba. Por ahora no tienes que producir nada más: reconócelo, y devuélvelo."
+      },
+      {
+        "titulo": "Una sola tarjeta, toda la estancia",
+        "corpo": "El transporte de Londres ya no tiene billete de papel. Pones tu tarjeta sin contacto — o el teléfono — a la entrada, y la vuelves a poner a la salida; el sistema calcula y limita el total del día y de la semana solo. La única regla que importa: SIEMPRE el mismo soporte, si no el límite se rompe en dos. Tu tarjeta española funciona, a diferencia de lo que le espera a un viajero en los Países Bajos; tu banco, eso sí, puede cobrar comisión por transacción — compruébalo antes de salir."
+      },
+      {
+        "titulo": "Aquí son libras, no euros",
+        "corpo": "El Reino Unido no está en la zona euro. Tus euros no sirven en un comercio, y donde los aceptan el cambio es malo. Como el país paga casi todo con tarjeta, la cuestión del cambio suele resolverse sola — el cajero de la terminal es una seguridad, no un paso obligatorio."
+      },
+      {
+        "titulo": "El transporte es lo siguiente",
+        "corpo": "La parte seis termina en un punto de encuentro estable e identificado. Elegir y negociar el trayecto es la parte siete, para que las dos decisiones no se mezclen en la acera."
+      }
+    ]
+  }
+}

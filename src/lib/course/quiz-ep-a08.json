@@ -1,0 +1,89 @@
+{
+  "id": "q-a08",
+  "nivel": "avancado",
+  "titulo": "Quiz — Las despedidas",
+  "subtitulo": "Cómo irte para que te vuelvan a invitar",
+  "introAudioKey": "gb-a08-q-i",
+  "introPt": "Es la hora de irse después de la cena. Escucha el intercambio final y responde.",
+  "cenario": "El final de una cena en casa de un anfitrión.",
+  "dialogo": [
+    {
+      "audioKey": "gb-a08-q01",
+      "voz": "target_en_gb_f",
+      "es": "I should get going, but thank you so much.",
+      "tts": "I should get going, but thank you so much.",
+      "pt": "Tengo que irme, pero muchas gracias."
+    },
+    {
+      "audioKey": "gb-a08-q02",
+      "voz": "target_en_gb_m",
+      "es": "Of course! So glad you could make it.",
+      "tts": "Of course! So glad you could make it.",
+      "pt": "¡Claro! Me alegro tanto de que hayas podido venir."
+    },
+    {
+      "audioKey": "gb-a08-q03",
+      "voz": "target_en_gb_f",
+      "es": "Your shepherd's pie was seriously the best I've had.",
+      "tts": "Your shepherd's pie was seriously the best I've had.",
+      "pt": "Tu shepherd's pie ha sido de verdad el mejor que he probado."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué suele bastar para despedirse de un grupo informal en el Reino Unido?",
+      "opcoes": [
+        "Despedirse de cada persona por su nombre",
+        "Un adiós general a toda la sala",
+        "No despedirse de nadie",
+        "Solo dar las gracias al anfitrión por escrito después"
+      ],
+      "correta": 1,
+      "explica": "Un adiós general basta de sobra en una reunión informal entre conocidos."
+    },
+    {
+      "pergunta": "¿Qué cumplido «viaja» más lejos, según esta parte?",
+      "opcoes": [
+        "«Estuvo bien»",
+        "«Tu shepherd's pie ha sido de verdad el mejor que he probado»",
+        "Ningún cumplido viaja",
+        "Solo los cumplidos por escrito"
+      ],
+      "correta": 1,
+      "explica": "El cumplido concreto se repite a quien lo hizo, aunque no esté en la sala; el genérico se queda ahí."
+    },
+    {
+      "pergunta": "Ya has dado las gracias en persona al irte. ¿Merece la pena mandar un mensaje después?",
+      "opcoes": [
+        "No, sería repetitivo",
+        "Sí, un mensaje corto el mismo día es un gesto bien visto",
+        "Solo si te has dejado algo allí",
+        "Solo en ocasiones muy formales"
+      ],
+      "correta": 1,
+      "explica": "Un mensaje breve de agradecimiento el mismo día refuerza el gracias verbal y deja una buena impresión."
+    },
+    {
+      "pergunta": "¿Cuál de estos NO forma parte de la «lista de emergencia» que cierra el curso?",
+      "opcoes": [
+        "Do you have ___?",
+        "Could I have ___?",
+        "Where's the ___?",
+        "What's your opinion on ___?"
+      ],
+      "correta": 3,
+      "explica": "La lista de emergencia reúne fórmulas de supervivencia — pedir, orientarte, preguntar precio — no pedir una opinión."
+    },
+    {
+      "pergunta": "¿Qué muestra proponer «we should definitely keep in touch — can I get your number?»?",
+      "opcoes": [
+        "Que era solo educación vacía",
+        "Un interés real en seguir la relación más allá de la visita",
+        "Que quieres irte rápido",
+        "Que no te ha gustado la velada"
+      ],
+      "correta": 1,
+      "explica": "Pedir un dato concreto convierte una despedida educada en una relación que puede continuar."
+    }
+  ]
+}

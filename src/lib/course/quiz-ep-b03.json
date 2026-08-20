@@ -1,0 +1,108 @@
+{
+  "id": "q-b03",
+  "nivel": "basico",
+  "titulo": "Quiz — El botón de pánico",
+  "subtitulo": "Excuse me, Sorry y la escalera de emergencia en el mostrador del aeropuerto",
+  "introAudioKey": "gb-b03-q-i",
+  "introPt": "En el mostrador de la aerolínea, el agente habla rápido y la cola crece detrás de ti. Escucha el intercambio y localiza cada escalón del fallo de comunicación.",
+  "cenario": "En el mostrador de embarque, con una cola que crece detrás de ti.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b03-q01",
+      "voz": "target_en_gb_f",
+      "es": "Excuse me?",
+      "tts": "Excuse me?",
+      "pinyin": "ex-KIOUZ mi",
+      "pt": "¿Perdón?"
+    },
+    {
+      "audioKey": "gb-b03-q02",
+      "voz": "target_en_gb_m",
+      "es": "Yes? What can I do for you?",
+      "tts": "Yes? What can I do for you?",
+      "pinyin": "yèss? ouat can aï dou for you",
+      "pt": "¿Sí? ¿Puedo ayudarle?"
+    },
+    {
+      "audioKey": "gb-b03-q03",
+      "voz": "target_en_gb_f",
+      "es": "Sorry, I didn't catch that. Could you speak more slowly, please?",
+      "tts": "Sorry, I didn't catch that. Could you speak more slowly, please?",
+      "pinyin": "SO-ri, aï DID-eunt catch that. coud you spiik mor SLÔOU-li, pliiz",
+      "pt": "Perdón, no lo he entendido. ¿Podría hablar más despacio, por favor?"
+    },
+    {
+      "audioKey": "gb-b03-q04",
+      "voz": "target_en_gb_m",
+      "es": "Of course. Boarding starts at four fifteen.",
+      "tts": "Of course. Boarding starts at four fifteen.",
+      "pinyin": "of cors. BOR-dinng starts at for fif-TIIN",
+      "pt": "Claro. El embarque empieza a las cuatro y cuarto."
+    },
+    {
+      "audioKey": "gb-b03-q05",
+      "voz": "target_en_gb_f",
+      "es": "Can you write that down for me?",
+      "tts": "Can you write that down for me?",
+      "pinyin": "can you raït that daoun for mi",
+      "pt": "¿Me lo puede escribir?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué hace «excuse me?» en este intercambio?",
+      "opcoes": [
+        "Repara un error ya cometido",
+        "Recupera la atención de una persona",
+        "Cierra la conversación",
+        "Pide un descuento"
+      ],
+      "correta": 1,
+      "explica": "Excuse me llama o recupera la atención — es la palabra que abre casi todas las puertas."
+    },
+    {
+      "pergunta": "Después de «Sorry, I didn't catch that», ¿cuál es el siguiente escalón lógico si sigues sin entender?",
+      "opcoes": [
+        "Asentir e irte con una suposición",
+        "Pedir que hable más despacio",
+        "Repetir exactamente la misma pregunta",
+        "Cambiar completamente de tema"
+      ],
+      "correta": 1,
+      "explica": "La escalera sube un escalón a la vez: primero señalar que no entiendes, luego pedir que vaya más despacio — sin saltarte pasos."
+    },
+    {
+      "pergunta": "¿Por qué pedir que te escriban un número o un nombre en vez de intentar oírlo una tercera vez?",
+      "opcoes": [
+        "Porque es más educado",
+        "Porque un tercer intento de oído raramente cambia el resultado, y lo escrito da un objeto comprobable",
+        "Porque el inglés escrito es más fácil de traducir",
+        "Nunca hace falta"
+      ],
+      "correta": 1,
+      "explica": "Lo escrito da un objeto que las dos personas pueden comprobar juntas, a diferencia de un tercer intento de oído."
+    },
+    {
+      "pergunta": "¿Qué pasa si asientes a una respuesta que no has entendido?",
+      "opcoes": [
+        "Nada, la situación siempre se resuelve sola",
+        "Recuperas el problema entero más tarde, cuando quien sabía ya no está",
+        "Demuestra que eres educado y atento",
+        "Siempre agiliza la cola"
+      ],
+      "correta": 1,
+      "explica": "Asentir protege la conversación un segundo más, pero deja el problema intacto para después — en el peor momento."
+    },
+    {
+      "pergunta": "¿Cuál es la segunda forma británica de EXCUSE, útil para abrir una pregunta o encontrar tu sitio en una cola?",
+      "opcoes": [
+        "Please",
+        "Cheers",
+        "Sorry",
+        "Alright"
+      ],
+      "correta": 2,
+      "explica": "En el Reino Unido, «sorry» no es solo una disculpa: también es el abridor estándar para llamar a alguien o pedir tu turno en una cola, incluida la cola invisible de un mostrador de pub."
+    }
+  ]
+}

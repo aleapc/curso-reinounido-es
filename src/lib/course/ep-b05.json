@@ -1,0 +1,245 @@
+{
+  "id": "b05",
+  "slot": "B05",
+  "nivel": "basico",
+  "numero": 5,
+  "parte": "2A",
+  "titulo": "Tres respuestas, y te paras ahí",
+  "subtitulo": "Motivo, duración y alojamiento delante del agente de control: cortas, verdaderas, con una prueba detrás",
+  "cena": "El agente de control fronterizo ya tiene la vista puesta en tu pasaporte, y solo faltan entre tú y el sello tres frases cortas y verdaderas.",
+  "moldura": "protege",
+  "frasePiso": "Responde solo a lo que te preguntan; la reserva registrada lleva el resto.",
+  "permissao": "Tienes derecho a responder en tres palabras y pararte ahí. Una respuesta corta y verdadera no parece sospechosa aquí; alargarla con detalles que nadie ha pedido es precisamente lo que ralentiza el mostrador.",
+  "permissaoAudioKey": "gb-b05-n01",
+  "fichasCulturais": [
+    {
+      "sinal": "El agente hace una pregunta corta, y te sorprendes añadiendo una explicación que nadie ha pedido: por qué elegiste este viaje, qué hiciste la última vez, lo contento que estás de estar aquí.",
+      "suaLeitura": "Más detalles parece más amable, o demuestra que no tengo nada que ocultar.",
+      "oQueEAli": "El mostrador atiende todo el día una cola de respuestas cortas y bien encajadas; una respuesta que se desborda de lo pedido se lee como algo que conviene comprobar dos veces, no como calidez humana.",
+      "oQueVoceFaz": "Respondes solo a lo que te han preguntado, y luego te paras y esperas la siguiente pregunta.",
+      "oQueMelhora": "El intercambio avanza al ritmo que el agente ya tiene en la cabeza, y sales del mostrador más rápido, no más despacio.",
+      "ondeNaoVale": "No vale cuando el agente hace explícitamente una pregunta con varias partes o te invita a detallar — ahí responder a todo lo que ha preguntado es la respuesta correcta, no una excepción.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b05-n01"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "gb-livre-pas-euro",
+      "afirmacao": "El Reino Unido no está en la zona euro: la moneda es la libra esterlina, y el comercio no acepta euros — cuando los acepta, el cambio es malo. Como el país es muy mayoritariamente cashless, la tarjeta resuelve la cuestión en la práctica.",
+      "fonte": "Hecho monetario básico (fuera de la zona euro); el grado de cashless es un hecho de terreno ampliamente documentado, no una norma escrita.",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "CONSENSO",
+      "risco": "baixo"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b05-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "pt": "No es un examen de inglés. El agente decide tu duración de estancia. Tres misiones: por qué, cuánto, dónde."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b05-r01",
+      "es": "What's the purpose of your visit?",
+      "tts": "What's the purpose of your visit?",
+      "pinyin": "ouats the PEU-peuss of yor VI-zitt",
+      "pt": "¿Cuál es el motivo de su visita?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b05-p01",
+      "promptPt": "El agente pregunta el motivo de tu viaje. Vienes de vacaciones. Responde en una sola frase corta. Habla ahora.",
+      "audioKey": "gb-b05-t01",
+      "es": "I'm here on holiday.",
+      "tts": "I'm here on holiday.",
+      "pinyin": "aïm hiir onn HO-li-dèï",
+      "pt": "Estoy aquí de vacaciones."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b05-r02",
+      "es": "How many days will you be staying?",
+      "tts": "How many days will you be staying?",
+      "pinyin": "haou MÈ-ni dèïz ouil you bi STÈÏ-inng",
+      "pt": "¿Cuántos días se va a quedar?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b05-n02",
+      "bloco": "corpo",
+      "pt": "Usa tu número real, no el ejemplo. El agente lo compara con tu reserva."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b05-p02",
+      "promptPt": "Tu itinerario real es de diez días. Da solo la duración. Habla ahora.",
+      "audioKey": "gb-b05-t02",
+      "es": "Ten days.",
+      "tts": "Ten days.",
+      "pinyin": "ten dèïz",
+      "pt": "Diez días."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b05-r03",
+      "es": "Where will you be staying?",
+      "tts": "Where will you be staying?",
+      "pinyin": "ouèr ouil you bi STÈÏ-inng",
+      "pt": "¿Dónde se va a alojar?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b05-n03",
+      "pt": "Sáltate la historia del hotel: da solo el nombre. Tu reserva lleva la dirección."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b05-p03",
+      "promptPt": "El agente pregunta dónde te vas a alojar. Tu alojamiento confirmado es el hotel de tu reserva registrada. Responde corto. Habla ahora.",
+      "audioKey": "gb-b05-t03",
+      "es": "I'm staying at this hotel.",
+      "tts": "I'm staying at this hotel.",
+      "pinyin": "aïm STÈÏ-inng at this ho-TEL",
+      "pt": "Me alojo en este hotel."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b05-r04",
+      "es": "Do you have the booking confirmation?",
+      "tts": "Do you have the booking confirmation?",
+      "pinyin": "dou you hav the BOU-kinng con-feu-MÈÏ-cheunn",
+      "pt": "¿Tiene la confirmación de la reserva?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b05-p04",
+      "promptPt": "El agente pide la prueba. Tiende la confirmación registrada sin añadir explicación. Habla ahora.",
+      "audioKey": "gb-b05-t04",
+      "es": "Yes. Here it is.",
+      "tts": "Yes. Here it is.",
+      "pinyin": "yèss. hiir it iz",
+      "pt": "Sí. Aquí está."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b05-n05",
+      "bloco": "capsula",
+      "pt": "Con el sello puesto: ya no estás en euros. La libra empieza aquí, y la tarjeta paga casi todo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b05-r05",
+      "es": "Thank you. Welcome to the UK.",
+      "tts": "Thank you. Welcome to the UK.",
+      "pinyin": "thènk you. OUEL-com tou the you-kèï",
+      "pt": "Gracias. Bienvenido al Reino Unido."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b05-px1",
+      "promptPt": "No has entendido bien lo que ha preguntado el agente. Pídele que repita, con claridad y sin disculparte de más. Habla ahora.",
+      "audioKey": "gb-b05-x1",
+      "es": "Could you repeat the question, please?",
+      "tts": "Could you repeat the question, please?",
+      "pinyin": "coud you ri-PIIT the KOUES-cheunn, pliiz",
+      "pt": "¿Podría repetir la pregunta, por favor?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b05-px2",
+      "promptPt": "Necesitas dos segundos para encontrar la reserva en tu teléfono. Pide un momento. Habla ahora.",
+      "audioKey": "gb-b05-x2",
+      "es": "One moment, please.",
+      "tts": "One moment, please.",
+      "pinyin": "ouann MÔO-meunt, pliiz",
+      "pt": "Un momento, por favor."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b05-px3",
+      "promptPt": "El agente pregunta si alguien viaja contigo. Responde corto: viajas solo. Habla ahora.",
+      "audioKey": "gb-b05-x3",
+      "es": "I'm travelling alone.",
+      "tts": "I'm travelling alone.",
+      "pinyin": "aïm TRA-veu-linng e-LÔOUN",
+      "pt": "Viajo solo."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b05-s01",
+      "es": "I'm here on holiday. Ten days. I'm staying at this hotel.",
+      "tts": "I'm here on holiday. Ten days. I'm staying at this hotel.",
+      "pinyin": "aïm hiir onn HO-li-dèï. ten dèïz. aïm STÈÏ-inng at this ho-TEL",
+      "pt": "Repite las tres respuestas con un corte limpio después de cada una."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b05-n04",
+      "bloco": "recap",
+      "pt": "Parte cinco cerrada. Motivo, duración, alojamiento, prueba: tres respuestas cortas."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "El mostrador de control es un ejercicio de coincidencia",
+    "secoes": [
+      {
+        "titulo": "Lo verdadero gana a lo fluido",
+        "corpo": "Nunca copies el número de este curso si tu itinerario dice otra cosa. Cambia el número por el verdadero; la estructura sigue igual."
+      },
+      {
+        "titulo": "Una pregunta, una respuesta",
+        "corpo": "Motivo, duración y alojamiento son datos separados. No los agrupes de golpe, salvo que el agente los pida juntos."
+      },
+      {
+        "titulo": "Deja que hable el documento",
+        "corpo": "Cuando piden la prueba, «Yes. Here it is» traslada el intercambio de la memoria a la evidencia.",
+        "exemplos": [
+          {
+            "es": "Do you have the booking confirmation?",
+            "pt": "¿Tiene la confirmación de la reserva?"
+          },
+          {
+            "es": "Yes. Here it is.",
+            "pt": "Sí. Aquí está."
+          }
+        ]
+      },
+      {
+        "titulo": "La libra empieza en la frontera",
+        "corpo": "El Reino Unido no está en la zona euro, y el comercio no acepta euros. Como casi todo se paga con tarjeta, la cuestión suele resolverse sola — el cajero automático es una seguridad, no un paso obligatorio."
+      }
+    ]
+  }
+}

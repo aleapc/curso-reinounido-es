@@ -1,0 +1,92 @@
+{
+  "id": "q-i09",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Una tarde haciendo lo que ellos hacen",
+  "subtitulo": "Encontrar el plan local, y sumarte",
+  "introAudioKey": "gb-i09-q-i",
+  "introPt": "Alguien te pregunta qué haces este fin de semana. Escucha cómo el viajero encuentra el plan local de verdad.",
+  "cenario": "Una conversación ligera en el Reino Unido, un viernes.",
+  "dialogo": [
+    {
+      "audioKey": "gb-i09-q01",
+      "voz": "target_en_gb_m",
+      "es": "So what are you guys up to this weekend?",
+      "tts": "So what are you guys up to this weekend?",
+      "pinyin": "sô OUATT aar you gaïz app tou dhiss OUIIK-ènd",
+      "pt": "Entonces, ¿qué hacéis este fin de semana?"
+    },
+    {
+      "audioKey": "gb-i09-q02",
+      "voz": "target_en_gb_f",
+      "es": "Do you have anything going on at the park this weekend?",
+      "tts": "Do you have anything going on at the park this weekend?",
+      "pinyin": "dou you hav ÈN-i-thigne GÔ-igne onn att dhe park dhiss OUIIK-ènd",
+      "pt": "¿Pasa algo en el parque este fin de semana?"
+    },
+    {
+      "audioKey": "gb-i09-q03",
+      "voz": "target_en_gb_m",
+      "es": "Yeah, there's a farmers' market on Saturday morning.",
+      "tts": "Yeah, there's a farmers' market on Saturday morning.",
+      "pinyin": "yèa, dheurz e FAR-meurz MAR-kitt onn SA-teur-dèï MOR-nigne",
+      "pt": "Sí, hay un mercado de productores el sábado por la mañana."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Por qué merece la pena preguntar el horario del farmers' market?",
+      "opcoes": [
+        "Está abierto toda la semana",
+        "Solo existe un día fijo, en un sitio concreto, y luego desaparece",
+        "Solo existe en invierno",
+        "Es una tienda permanente"
+      ],
+      "correta": 1,
+      "explica": "A diferencia de una tienda fija, estos mercados son temporales por naturaleza."
+    },
+    {
+      "pergunta": "¿Qué fórmula sirve para preguntar si existe un evento, no solo un objeto?",
+      "opcoes": [
+        "Where's the market?",
+        "Do you have anything going on at the park?",
+        "How much is it?",
+        "What time is it?"
+      ],
+      "correta": 1,
+      "explica": "Do you have funciona tanto para objetos como para eventos."
+    },
+    {
+      "pergunta": "¿Cómo convertir una información sobre el fin de semana en una invitación?",
+      "opcoes": [
+        "No dices nada y sigues discretamente",
+        "Can I come with you guys?",
+        "What time is it?",
+        "I really like this."
+      ],
+      "correta": 1,
+      "explica": "Es la pregunta que convierte un plan local en invitación."
+    },
+    {
+      "pergunta": "Dos puestos ofrecen scones y tartas saladas. ¿Cómo le devuelves la decisión al vendedor?",
+      "opcoes": [
+        "I prefer the scones.",
+        "Which do you recommend: the scones or the pies?",
+        "Do you have scones?",
+        "Where are the scones?"
+      ],
+      "correta": 1,
+      "explica": "Es la fórmula ELECCIÓN, ya conocida desde I03."
+    },
+    {
+      "pergunta": "¿Es invasivo aquí preguntarle a un casi desconocido si puedes unirte a él?",
+      "opcoes": [
+        "Sí, siempre",
+        "No, a la mayoría le alegra compartir su plan",
+        "Solo entre semana",
+        "Solo si te lo proponen primero"
+      ],
+      "correta": 1,
+      "explica": "Es una pregunta normal y bienvenida, no una falta de tacto."
+    }
+  ]
+}

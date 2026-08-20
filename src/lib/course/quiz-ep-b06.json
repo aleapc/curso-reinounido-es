@@ -1,0 +1,127 @@
+{
+  "id": "q-b06",
+  "nivel": "basico",
+  "titulo": "Quiz — Cerrar los cabos sueltos de la primera hora",
+  "subtitulo": "El orden que funciona, la fórmula «Do you have ___?», y la palabra que no es el metro",
+  "introAudioKey": "gb-b06-q-i",
+  "introPt": "Quedan cuatro cosas pendientes en la terminal: la maleta que no ha salido, sin cobertura, una cuestión de dinero, y la persona que viene a buscarte con retraso. Ponlas en el orden que evita que un problema se cuele en el siguiente.",
+  "cenario": "En la sala de llegadas, la cinta se ha parado y la persona que viene a buscarte llega tarde.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b06-q01",
+      "voz": "target_en_gb_f",
+      "es": "My bag hasn't come out.",
+      "tts": "My bag hasn't come out.",
+      "pinyin": "maï bag HAZ-nt kom aout",
+      "pt": "Mi maleta no ha salido."
+    },
+    {
+      "audioKey": "gb-b06-q02",
+      "voz": "target_en_gb_m",
+      "es": "Do you have your baggage tag?",
+      "tts": "Do you have your baggage tag?",
+      "pinyin": "dou you Hav yoo BA-guidj tag",
+      "pt": "¿Tiene la etiqueta del equipaje?"
+    },
+    {
+      "audioKey": "gb-b06-q03",
+      "voz": "target_en_gb_f",
+      "es": "Do you have wifi?",
+      "tts": "Do you have wifi?",
+      "pinyin": "dou you Hav OUAÏ-faï",
+      "pt": "¿Tienen wifi?"
+    },
+    {
+      "audioKey": "gb-b06-q04",
+      "voz": "target_en_gb_m",
+      "es": "Yes, the network's on the sign.",
+      "tts": "Yes, the network's on the sign.",
+      "pinyin": "yèss, the NÈT-weuks onn the saïn",
+      "pt": "Sí, la red está indicada en el cartel."
+    },
+    {
+      "audioKey": "gb-b06-q05",
+      "voz": "target_en_gb_f",
+      "es": "Do you have a cash machine?",
+      "tts": "Do you have a cash machine?",
+      "pinyin": "dou you Hav e KACH me-chiine",
+      "pt": "¿Tienen cajero automático?"
+    },
+    {
+      "audioKey": "gb-b06-q06",
+      "voz": "target_en_gb_m",
+      "es": "There's one through the subway, by the bus stops. Cheers.",
+      "tts": "There's one through the subway, by the bus stops. Cheers.",
+      "pinyin": "theuz ouann throu the SEUB-ouèï, baï the BEUSS stops. TCHIEUZ",
+      "pt": "Hay uno al otro lado del paso subterráneo, hacia las paradas de autobús. Gracias."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué hay que señalar antes de salir de la zona de equipajes?",
+      "opcoes": [
+        "Que la persona que viene a buscarte llega tarde",
+        "La maleta que no ha salido",
+        "Un pago con tarjeta",
+        "La dirección del hotel"
+      ],
+      "correta": 1,
+      "explica": "El mostrador de la aerolínea es lo primero que cerrar: una maleta perdida no se resuelve desde la calle."
+    },
+    {
+      "pergunta": "¿Qué no cambia en las preguntas de la primera hora?",
+      "opcoes": [
+        "El sitio",
+        "«Do you have»",
+        "El precio",
+        "La respuesta"
+      ],
+      "correta": 1,
+      "explica": "«Do you have» abre la fórmula; lo único que cambia es la cosa que necesitas."
+    },
+    {
+      "pergunta": "El agente responde «through the subway». ¿Adónde te manda?",
+      "opcoes": [
+        "Al metro",
+        "A un paso subterráneo para peatones, bajo la calle",
+        "Al tren del aeropuerto",
+        "A una ventanilla de cambio"
+      ],
+      "correta": 1,
+      "explica": "En el Reino Unido «subway» es un paso bajo la calzada. El metro es «the Underground» o «the Tube» — la trampa está entre inglés americano e inglés británico. Excepción honesta: en Glasgow, el metro sí se llama «the Subway»."
+    },
+    {
+      "pergunta": "Delante de los tornos del metro de Londres, ¿qué haces?",
+      "opcoes": [
+        "Haces cola en la ventanilla para un billete de papel",
+        "Pones la misma tarjeta sin contacto a la entrada y a la salida",
+        "Cambias euros a libras primero",
+        "Compras un bono para la semana"
+      ],
+      "correta": 1,
+      "explica": "Ya no hay billete de papel: el lector calcula y limita tu día y tu semana solo — siempre que sea el mismo soporte a la entrada y a la salida."
+    },
+    {
+      "pergunta": "Solo tienes euros en el bolsillo. ¿Qué cambia eso?",
+      "opcoes": [
+        "Nada, los comercios aceptan euros",
+        "Aquí es la libra: pagas con tarjeta, o sacas libras",
+        "Hay que pasar obligatoriamente por una oficina de cambio",
+        "Hay que preguntar el cambio en cada mostrador"
+      ],
+      "correta": 1,
+      "explica": "El Reino Unido no está en la zona euro, y el comercio no acepta euros. Como casi todo se paga con tarjeta, la cuestión se resuelve sola — el cajero es una seguridad, no un paso obligatorio."
+    },
+    {
+      "pergunta": "¿Por qué elegir un punto de encuentro visible e identificado?",
+      "opcoes": [
+        "Para negociar el precio del trayecto",
+        "Para esperar sin acercarte a una oferta no oficial",
+        "Para rellenar un formulario",
+        "Para recuperar la maleta"
+      ],
+      "correta": 1,
+      "explica": "El punto estable cierra lo último pendiente de la primera hora, antes de que la parte siete abra el transporte."
+    }
+  ]
+}

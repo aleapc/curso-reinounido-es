@@ -1,0 +1,332 @@
+{
+  "id": "b16",
+  "slot": "B16",
+  "nivel": "basico",
+  "numero": 16,
+  "parte": "16A",
+  "titulo": "Antes de que te den el número de habitación",
+  "subtitulo": "Pedir lo que mejora tu estancia, y «My ___ isn't working» para cuando algo se estropea",
+  "cena": "Estás de pie en recepción, la cola crece detrás de ti, y sigues sin saber si vas a pedir algo mejor antes de que te den la llave.",
+  "moldura": "ganha",
+  "frasePiso": "Vas a hacer el check-in pidiendo lo que mejora tu habitación, y si algo se estropea después, lo vas a comunicar sin traducir cada palabra en tu cabeza antes.",
+  "moldes": [
+    "WENT-WRONG"
+  ],
+  "clique": {
+    "contagem": [
+      "la llave que no abría",
+      "la calefacción apagada",
+      "la máquina de hielo que no encontrabas",
+      "la piscina que no encontrabas"
+    ],
+    "desconto": "Nadie te ha dado una frase distinta para la llave rota y otra para la calefacción estropeada. Has montado las dos con la misma fórmula: «My ___ isn't working».",
+    "piso": "La próxima vez que algo se estropee en tu habitación de hotel, no vas a esperar a que se arregle solo: lo vas a avisar en el momento, con una frase que ya sabes decir."
+  },
+  "permissao": "No necesitas disculparte por avisar de que algo no funciona. «My ___ isn't working» es información, no una queja exagerada; el hotel espera que lo digas.",
+  "permissaoAudioKey": "gb-b16-n11",
+  "espelho": "En cualquier hotel de tu país también avisarías de una llave que no abre o una calefacción apagada sin dudar; lo único nuevo aquí es la frase exacta, y que pedir algo mejor antes del check-in es igual de normal que reclamar después.",
+  "fichasCulturais": [
+    {
+      "sinal": "Le das tu tarjeta bancaria española para pagar un extra en recepción, y nadie te pide nunca introducir un código en un terminal aparte complicado.",
+      "suaLeitura": "Debe de haber un problema, o falta un paso.",
+      "oQueEAli": "El Reino Unido es masivamente contactless, y una tarjeta Visa o Mastercard extranjera funciona directamente, sin trámite especial — a diferencia de otros sistemas locales europeos que a veces rechazan la tarjeta extranjera.",
+      "oQueVoceFaz": "Pagas con normalidad, acercando la tarjeta al terminal; si el importe supera el límite sin contacto, insertas la tarjeta y marcas tu código, sin sorpresas.",
+      "oQueMelhora": "Nunca pierdes tiempo buscando efectivo o una solución de emergencia para un simple extra del hotel.",
+      "ondeNaoVale": "No exime de llevar algo de efectivo de reserva para alojamientos muy pequeños e independientes, fuera de las grandes cadenas.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b16-n10"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "resort-fee-non-affiche",
+      "afirmacao": "A few UK hotels — especially larger city or spa hotels — add optional extras (parking, breakfast, spa access) that are not shown in the room rate you booked. Ask about it at check-in, not after you see the final bill.",
+      "fonte": "Prática padrão do setor hoteleiro, síntese",
+      "ano": 2026,
+      "revisarAte": "2027-06-30",
+      "evidencia": "CONSENSO",
+      "risco": "baixo"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b16-n01",
+      "gesto": 4,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte dieciséis. El flick otra vez, en la consonante final: work-ING, key-CARD. No le añadas una vocal de más."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b16-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Estás en recepción, la cola crece detrás de ti, y no sabes si pedir algo mejor antes de que te den la llave."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b16-p01",
+      "promptPt": "Como en la tienda, pregunta cuánto es en total — la habitación, con impuestos incluidos. Habla ahora.",
+      "bloco": "callback",
+      "molde": "HOW-MUCH",
+      "audioKey": "gb-b16-t01",
+      "es": "How much is it all together?",
+      "tts": "How much is it all together?",
+      "pinyin": "haou match iz itte ol tou-GUE-dheu",
+      "pt": "¿Cuánto es en total?"
+    },
+    {
+      "consulta": [
+        "quarto/checkin"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "CAN-I",
+      "encaixe": "check in early",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b16-p02",
+      "promptPt": "Has llegado antes de la hora oficial y la habitación podría estar ya lista. Pregunta si puedes hacer el check-in antes. Habla ahora.",
+      "audioKey": "gb-b16-t02",
+      "es": "Can I check in early?",
+      "tts": "Can I check in early?",
+      "pinyin": "kann aï tchèk inne EU-li",
+      "pt": "¿Puedo hacer el check-in antes?"
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "HAVE",
+      "encaixe": "a quieter room",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b16-p03",
+      "promptPt": "Antes de recibir la llave, pide una habitación más tranquila. Habla ahora.",
+      "audioKey": "gb-b16-t03",
+      "es": "Do you have a quieter room?",
+      "tts": "Do you have a quieter room?",
+      "pinyin": "dou you hav e KOUAÏ-eu-teu roum",
+      "pt": "¿Tienen una habitación más tranquila?"
+    },
+    {
+      "consulta": [
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "GET",
+      "encaixe": "a late check-out",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b16-p04",
+      "promptPt": "Tu vuelo sale tarde y quieres dejar la habitación más tarde de lo previsto. Pide un check-out tardío. Habla ahora.",
+      "audioKey": "gb-b16-t04",
+      "es": "Could I have a late check-out?",
+      "tts": "Could I have a late check-out?",
+      "pinyin": "koudd aï hav e lèïte tchèk-aoutte",
+      "pt": "¿Puedo tener un check-out tardío?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b16-r01",
+      "es": "Sure, that's no problem.",
+      "tts": "Sure, that's no problem.",
+      "pinyin": "chouEU, dhats nô PRO-bleumm",
+      "pt": "Claro, sin problema."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b16-n03",
+      "bloco": "molde",
+      "tom": "ganha",
+      "pt": "Aquí está la fórmula para cuando algo se estropea: «My» más lo que está roto, más «isn't working»."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b16-t05",
+      "es": "My key card isn't working.",
+      "tts": "My key card isn't working.",
+      "pinyin": "maï kii kard IZ-eunnte OUEUR-kinng",
+      "pt": "Mi tarjeta de acceso no funciona."
+    },
+    {
+      "consulta": [
+        "reparo/nao-funciona"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "WENT-WRONG",
+      "encaixe": "my key card isn't working",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b16-p05",
+      "promptPt": "Has subido a la habitación y la tarjeta no abre la puerta. Vuelve a recepción y avísalo. Habla ahora.",
+      "audioKey": "gb-b16-t05",
+      "es": "My key card isn't working.",
+      "tts": "My key card isn't working.",
+      "pinyin": "maï kii kard IZ-eunnte OUEUR-kinng",
+      "pt": "Mi tarjeta de acceso no funciona."
+    },
+    {
+      "consulta": [
+        "reparo/nao-funciona"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "WENT-WRONG",
+      "encaixe": "the heating isn't working",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b16-p06",
+      "promptPt": "Por fin has entrado, pero la calefacción no calienta. Avísalo. Habla ahora.",
+      "audioKey": "gb-b16-t06",
+      "es": "The heating isn't working.",
+      "tts": "The heating isn't working.",
+      "pinyin": "dhe HII-tinng IZ-eunnte OUEUR-kinng",
+      "pt": "La calefacción no funciona."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b16-n04",
+      "pt": "El problema del confort inglés es la calefacción, no el aire acondicionado. «The heating», no «the AC»."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b16-r02",
+      "es": "I'll send someone up right away.",
+      "tts": "I'll send someone up right away.",
+      "pinyin": "aïl sènnde SAM-ouanne ap raïte e-GUÈÏ",
+      "pt": "Mando a alguien ahora mismo."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "WHERE",
+      "encaixe": "the ice machine",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b16-p07",
+      "promptPt": "Vas a caminar por el pasillo y ya no recuerdas dónde está la máquina de hielo. Pregunta. Habla ahora.",
+      "audioKey": "gb-b16-t07",
+      "es": "Where's the ice machine?",
+      "tts": "Where's the ice machine?",
+      "pinyin": "OUè-euz dhi aïsse me-CHIINE",
+      "pt": "¿Dónde está la máquina de hielo?"
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "molde": "LOOKING",
+      "encaixe": "the pool",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b16-p08",
+      "promptPt": "Has bajado al vestíbulo y no ves ningún cartel hacia la piscina. Dile a alguien qué buscas. Habla ahora.",
+      "audioKey": "gb-b16-t08",
+      "es": "I'm looking for the pool.",
+      "tts": "I'm looking for the pool.",
+      "pinyin": "aïm LOU-kinng for dhe poull",
+      "pt": "Busco la piscina."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b16-n05",
+      "pt": "Antes de pagar, pregunta si algún extra — aparcamiento, spa — se añade a tu factura. Mejor saberlo aquí que en la nota final."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "CAN-I",
+      "encaixe": "pay by card",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b16-p09",
+      "promptPt": "Quieres pagar un extra en recepción. Pregunta si puedes pagar con tarjeta. Habla ahora.",
+      "audioKey": "gb-b16-t09",
+      "es": "Can I pay by card?",
+      "tts": "Can I pay by card?",
+      "pinyin": "kann aï pèï baï kard",
+      "pt": "¿Puedo pagar con tarjeta?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b16-n10",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Esta tarjeta española funciona directamente, sin código complicado en un terminal aparte — a diferencia de otros sistemas europeos más cerrados."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b16-n11",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No hace falta disculparte por avisar de que algo no funciona. Es información esperada, no una queja exagerada."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b16-n12",
+      "bloco": "clique",
+      "tom": "ganha",
+      "pt": "Llave, calefacción. Nadie te ha dado dos frases distintas: las has montado con la misma fórmula."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "WENT-WRONG",
+      "audioKey": "gb-b16-s01",
+      "es": "My key card isn't working. The heating isn't working.",
+      "tts": "My key card isn't working. The heating isn't working.",
+      "pinyin": "maï kii kard IZ-eunnte OUEUR-kinng. dhe HII-tinng IZ-eunnte OUEUR-kinng.",
+      "pt": "Repite la misma fórmula con dos problemas distintos."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b16-n13",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "Parte dieciséis cerrada. Pedir antes, avisar después: llave rota, calefacción estropeada, una sola fórmula para las dos."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Pedir primero, reclamar después",
+    "secoes": [
+      {
+        "titulo": "El orden importa",
+        "corpo": "B16 empieza pidiendo lo que mejora tu estancia — habitación tranquila, check-out tardío — antes de reclamar lo que no funciona. Pedir desde el principio cuesta lo mismo que callarse y casi siempre da mejor resultado."
+      },
+      {
+        "titulo": "La fórmula del problema",
+        "corpo": "«My ___ isn't working» sirve para casi cualquier avería técnica de la habitación. «I've lost my ___» sirve para lo que ha desaparecido — calco exacto de «he perdido mi ___», el único punto del recorrido donde el español entrega directamente la estructura inglesa."
+      },
+      {
+        "titulo": "La calefacción, no el aire acondicionado",
+        "corpo": "El problema típico de una habitación inglesa es la calefacción insuficiente, no el aire acondicionado. «The heating isn't working» es la frase más útil aquí, no «the AC»."
+      },
+      {
+        "titulo": "La tarjeta funciona, sin trampa",
+        "corpo": "El Reino Unido es masivamente contactless y una tarjeta Visa o Mastercard española funciona directamente — a diferencia de algunos sistemas locales europeos que a veces rechazan tarjetas extranjeras."
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "q-b07",
+  "nivel": "basico",
+  "titulo": "Quiz — La acera de los seis conductores",
+  "subtitulo": "Can I ___?, el canal autorizado, y el ojo que mira a la derecha",
+  "introAudioKey": "gb-b07-q-i",
+  "introPt": "En la acera de llegadas, varios conductores te llaman antes de que hayas pedido nada. Escucha la escena y localiza la fórmula que se repite en cada paso.",
+  "cenario": "En la acera de llegadas, y luego en el coche hasta el hotel.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b07-q01",
+      "voz": "target_en_gb_m",
+      "es": "Taxi, taxi, where are you going?",
+      "tts": "Taxi, taxi, where are you going?",
+      "pinyin": "TAK-si, TAK-si, ouèr aa you GÔOU-inng",
+      "pt": "¿Taxi, taxi, adónde va?"
+    },
+    {
+      "audioKey": "gb-b07-q02",
+      "voz": "target_en_gb_f",
+      "es": "Can I pay by card?",
+      "tts": "Can I pay by card?",
+      "pinyin": "can aï pèï baï caad",
+      "pt": "¿Puedo pagar con tarjeta?"
+    },
+    {
+      "audioKey": "gb-b07-q03",
+      "voz": "target_en_gb_m",
+      "es": "Yes, card or contactless, either works.",
+      "tts": "Yes, card or contactless, either works.",
+      "pinyin": "yèss, caad or con-TAK-less, AÏ-theu ouorks",
+      "pt": "Sí, tarjeta o sin contacto, las dos funcionan."
+    },
+    {
+      "audioKey": "gb-b07-q04",
+      "voz": "target_en_gb_f",
+      "es": "Can I get a receipt?",
+      "tts": "Can I get a receipt?",
+      "pinyin": "can aï guet e ri-SIIT",
+      "pt": "¿Puedo tener un recibo?"
+    },
+    {
+      "audioKey": "gb-b07-q05",
+      "voz": "target_en_gb_m",
+      "es": "Sure, I'll send it to your email.",
+      "tts": "Sure, I'll send it to your email.",
+      "pinyin": "chor, aïl send it tou yor IIM-mèïl",
+      "pt": "Claro, se lo mando por correo."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Un conductor te aborda nada más salir de la zona de llegadas, antes de que hayas pedido nada. ¿Qué haces?",
+      "opcoes": [
+        "Subes enseguida para no perder tiempo",
+        "Ignoras la oferta y buscas personal identificado o un mostrador con letrero",
+        "Negocias el precio allí mismo",
+        "Pides ver su carné profesional"
+      ],
+      "correta": 1,
+      "explica": "El canal autorizado casi siempre está más lejos de la puerta de llegadas; una oferta espontánea en ese momento casi nunca lo es."
+    },
+    {
+      "pergunta": "¿Qué mantiene igual la fórmula «Can I ___?» de una frase a otra?",
+      "opcoes": [
+        "El sitio",
+        "La acción",
+        "La casca se mantiene igual; solo cambia la acción",
+        "Nada, todo cambia"
+      ],
+      "correta": 2,
+      "explica": "La casca «Can I» no se mueve; lo que cambia es la acción de detrás, como pagar, conseguir un recibo o parar en algún sitio."
+    },
+    {
+      "pergunta": "¿Por qué preguntar «Can I pay by card?» en vez de simplemente tender una tarjeta?",
+      "opcoes": [
+        "Porque el Reino Unido nunca acepta tarjetas",
+        "Porque el riesgo real aquí es más bien no tener efectivo aceptado",
+        "Porque pagar en efectivo es más rápido",
+        "Nunca hace falta preguntar"
+      ],
+      "correta": 1,
+      "explica": "El Reino Unido es muy mayoritariamente contactless: la pregunta que importa no es si la tarjeta se acepta, sino si el efectivo se acepta."
+    },
+    {
+      "pergunta": "Al bajar de la acera para cruzar una calle de sentido único, ¿qué reflejo hay que romper?",
+      "opcoes": [
+        "Mirar primero a la izquierda, como en España",
+        "Mirar primero a la derecha, de donde viene el tráfico",
+        "No mirar nunca y confiar en el paso de peatones",
+        "Correr para cruzar más rápido"
+      ],
+      "correta": 1,
+      "explica": "En el Reino Unido el tráfico viene de la derecha; algunos pasos pintan LOOK RIGHT en el suelo precisamente para romper el reflejo continental."
+    },
+    {
+      "pergunta": "¿Por qué pedir un recibo antes de entrar al hotel?",
+      "opcoes": [
+        "Para quejarte del precio",
+        "Como prueba del trayecto realizado, sin confrontación",
+        "Solo es útil en trayectos largos",
+        "Para negociar un descuento"
+      ],
+      "correta": 1,
+      "explica": "El recibo cierra el trayecto como una prueba simple — no una confrontación con el conductor."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "q-b13",
+  "nivel": "basico",
+  "titulo": "Quiz — La frase que nunca se dice a medias",
+  "subtitulo": "«I'm allergic to ___», siempre entera, y la ley británica detrás de la reacción del camarero",
+  "introAudioKey": "gb-b13-q-i",
+  "introPt": "El plato ya viene de camino y no sabes si lleva cacahuetes. Encuentra la frase que nunca se acorta, y por qué el personal reacciona tan rápido.",
+  "cenario": "En la mesa, antes de que el pedido se vaya a la cocina.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b13-q01",
+      "voz": "target_en_gb_f",
+      "es": "I'm allergic to peanuts.",
+      "tts": "I'm allergic to peanuts.",
+      "pinyin": "aïm e-LEU-djik tou PII-natse",
+      "pt": "Soy alérgico a los cacahuetes."
+    },
+    {
+      "audioKey": "gb-b13-q02",
+      "voz": "target_en_gb_m",
+      "es": "Got it, I'll let the kitchen know.",
+      "tts": "Got it, I'll let the kitchen know.",
+      "pinyin": "gotte itte, aïl lète dhe KI-tchen nôou",
+      "pt": "Anotado, aviso a la cocina."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Cómo se dice «I'm allergic to ___» de una vez a otra?",
+      "opcoes": [
+        "Se puede acortar según el contexto",
+        "Siempre entera, de la misma forma",
+        "Solo en el primer pedido",
+        "Distinto según el camarero"
+      ],
+      "correta": 1,
+      "explica": "A diferencia de «Could I have ___?», esta frase es un martillo, no una fórmula: se dice siempre entera, sin improvisar el registro."
+    },
+    {
+      "pergunta": "El camarero se va directo a la cocina sin terminar de anotar el resto. ¿Por qué?",
+      "opcoes": [
+        "Siempre exagera con todo",
+        "La ley británica trata una alergia declarada como un dato crítico",
+        "Es mal servicio",
+        "Ha entendido mal tu pedido"
+      ],
+      "correta": 1,
+      "explica": "Desde 2021, la ley británica exige el etiquetado claro de catorce alérgenos principales, y muchos restaurantes entrenan a su personal para confirmar de inmediato con la cocina."
+    },
+    {
+      "pergunta": "Además de decirlo, ¿qué herramienta de emergencia llevas encima?",
+      "opcoes": [
+        "Una app de traducción",
+        "Una tarjeta escrita con tu alergia",
+        "Un diccionario de bolsillo",
+        "Nada, la voz siempre basta"
+      ],
+      "correta": 1,
+      "explica": "En un momento de estrés, la voz puede fallar. Una tarjeta escrita en inglés no depende ni de la pronunciación ni de que te entiendan a la primera."
+    },
+    {
+      "pergunta": "¿Cuál es la diferencia entre B12 y B13?",
+      "opcoes": [
+        "Ninguna, es lo mismo",
+        "B12 quita una preferencia, B13 comunica un riesgo de salud",
+        "B12 es para bebidas, B13 para comida",
+        "B13 es simplemente más formal"
+      ],
+      "correta": 1,
+      "explica": "B12 quita una preferencia — sin cebolla, sin hielo. B13 comunica un riesgo de salud. La cocina las trata de forma distinta, y tú también."
+    }
+  ]
+}

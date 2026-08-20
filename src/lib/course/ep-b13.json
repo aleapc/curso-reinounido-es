@@ -1,0 +1,251 @@
+{
+  "id": "b13",
+  "slot": "B13",
+  "nivel": "basico",
+  "numero": 13,
+  "parte": "13A",
+  "titulo": "La frase que nunca se dice a medias",
+  "subtitulo": "La frase fija para declarar una restricción de salud en la mesa, y la tarjeta escrita como refuerzo",
+  "cena": "El plato ya viene de camino a tu mesa y no sabes si lleva cacahuetes; hay que decirlo antes de que llegue, no después.",
+  "moldura": "ganha",
+  "frasePiso": "Vas a decir una alergia en inglés sin dudar y sin restarle importancia, aunque sea la primera vez que lo dices en voz alta fuera de casa.",
+  "permissao": "No necesitas explicar la reacción ni justificarte. Decir «I'm allergic to ___» una sola vez, con claridad y sin vergüenza, ya basta. Repítelo las veces que haga falta hasta que te confirmen.",
+  "permissaoAudioKey": "gb-b13-n08",
+  "espelho": "En tu país también señalarías una alergia antes de comer algo desconocido; lo que cambia aquí es la palabra exacta — y que la ley británica sobre etiquetado de alérgenos es especialmente estricta.",
+  "fichasCulturais": [
+    {
+      "sinal": "Dices que eres alérgico a los cacahuetes y el camarero se va directo a la cocina sin terminar de anotar el resto del pedido, o vuelve con el propio chef.",
+      "suaLeitura": "Está exagerando, es solo un dato más del pedido.",
+      "oQueEAli": "Desde 2021, la ley británica exige el etiquetado claro de los catorce alérgenos principales, y muchos restaurantes entrenan a su personal para confirmar de inmediato con la cocina en cuanto se declara una alergia en la mesa.",
+      "oQueVoceFaz": "Le das el tiempo que necesite. Confirmas cuando vuelva: «Yes, peanuts — no peanuts at all.»",
+      "oQueMelhora": "Recibes un plato en el que de verdad puedes confiar, en vez de un plato que solo esperabas que estuviera bien.",
+      "ondeNaoVale": "No vale igual en un puesto callejero pequeño o un food truck sin cocina separada: ahí el riesgo de contaminación cruzada sigue siendo más alto aunque el personal quiera ayudarte, y es mejor preguntar antes de pedir.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-b13-n06"
+      ]
+    }
+  ],
+  "fatosDatados": [
+    {
+      "id": "loi-allergenes-royaume-uni",
+      "afirmacao": "By law, any food business in the UK must clearly provide information on fourteen major allergens present in the food it serves, including peanuts, tree nuts, milk, eggs, shellfish, fish, wheat, soya and sesame — whether the food is packaged or served at a counter.",
+      "fonte": "UK Food Information Regulations 2014 («Natasha's Law», ampliada en 2021 a productos preenvasados para venta directa)",
+      "ano": 2021,
+      "revisarAte": "2027-06-01",
+      "evidencia": "FATO",
+      "risco": "medio"
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b13-n01",
+      "gesto": 2,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "Parte trece. Vocal pura otra vez: a-LEU-yic, nunca alargada. Clara y corta."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b13-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "El plato llega y no sabes si lleva cacahuetes. Hay que decirlo antes de que llegue, no después."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b13-p01",
+      "promptPt": "Ayer pediste el té sin azúcar. Repite esa fórmula ahora, con la cebolla. Habla ahora.",
+      "bloco": "callback",
+      "molde": "WITHOUT",
+      "audioKey": "gb-b13-t01",
+      "es": "No onions, please.",
+      "tts": "No onions, please.",
+      "pinyin": "nô O-nionns, pliize",
+      "pt": "Sin cebolla, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b13-n03",
+      "tom": "protege",
+      "pt": "Esta frase no se ajusta: es un martillo, no una fórmula. Se dice siempre entera, siempre igual."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-b13-t02",
+      "es": "I'm allergic to peanuts.",
+      "tts": "I'm allergic to peanuts.",
+      "pinyin": "aïm e-LEU-djik tou PII-natse",
+      "pt": "Soy alérgico a los cacahuetes."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b13-p02",
+      "promptPt": "Antes de pedir, dile al camarero que eres alérgico a los cacahuetes. Habla ahora.",
+      "audioKey": "gb-b13-t02",
+      "es": "I'm allergic to peanuts.",
+      "tts": "I'm allergic to peanuts.",
+      "pinyin": "aïm e-LEU-djik tou PII-natse",
+      "pt": "Soy alérgico a los cacahuetes."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-b13-r01",
+      "es": "Got it, I'll let the kitchen know.",
+      "tts": "Got it, I'll let the kitchen know.",
+      "pinyin": "gotte itte, aïl lète dhe KI-tchen nôou",
+      "pt": "Anotado, aviso a la cocina."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b13-p03",
+      "promptPt": "El camarero se ha ido sin confirmar bien. Repite la frase una vez más, con calma, añadiendo que es grave. Habla ahora.",
+      "audioKey": "gb-b13-t03",
+      "es": "I'm allergic to shellfish. It's serious.",
+      "tts": "I'm allergic to shellfish. It's serious.",
+      "pinyin": "aïm e-LEU-djik tou CHÈLL-fich. its SI-rieusse",
+      "pt": "Soy alérgico al marisco. Es grave."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b13-n04",
+      "pt": "Si quieres reforzarlo, añade «It's serious»: no cambia la fórmula, solo le da más peso al aviso."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b13-p04",
+      "promptPt": "Estás en la farmacia y tienes que comprobar antes de comprar un medicamento. Di que eres alérgico a la penicilina. Habla ahora.",
+      "audioKey": "gb-b13-t04",
+      "es": "I'm allergic to penicillin.",
+      "tts": "I'm allergic to penicillin.",
+      "pinyin": "aïm e-LEU-djik tou pè-ni-SI-linne",
+      "pt": "Soy alérgico a la penicilina."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b13-p06",
+      "promptPt": "En el bufé del desayuno, una bandeja de pan está cubierta de frutos secos y no sabes cuáles son. Señala también esta alergia antes de servirte. Habla ahora.",
+      "audioKey": "gb-b13-t06",
+      "es": "I'm allergic to nuts.",
+      "tts": "I'm allergic to nuts.",
+      "pinyin": "aïm e-LEU-djik tou natse",
+      "pt": "Soy alérgico a los frutos secos."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b13-p07",
+      "promptPt": "Ese mismo bufé sirve un plato con una crema que no reconoces. Di que también eres alérgico a los lácteos. Habla ahora.",
+      "audioKey": "gb-b13-t07",
+      "es": "I'm allergic to dairy.",
+      "tts": "I'm allergic to dairy.",
+      "pinyin": "aïm e-LEU-djik tou DÈ-ri",
+      "pt": "Soy alérgico a los lácteos."
+    },
+    {
+      "consulta": [
+        "saude/minha-alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_en_gb_m",
+      "molde": "CAN-I",
+      "encaixe": "speak to the chef",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-b13-p08",
+      "promptPt": "El camarero se ha ido a la cocina, pero quieres una confirmación más directa antes de que llegue el plato. Pide hablar con el chef. Habla ahora.",
+      "audioKey": "gb-b13-t08",
+      "es": "Can I speak to the chef?",
+      "tts": "Can I speak to the chef?",
+      "pinyin": "kann aï spiike tou dhe chèf",
+      "pt": "¿Puedo hablar con el chef?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b13-n05",
+      "pt": "La voz no es tu única herramienta: una tarjeta escrita con tu alergia no depende de tu pronunciación en un mal momento."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-b13-p05",
+      "promptPt": "Además de decirlo, enseña la tarjeta. Pídele al camarero que la lea. Habla ahora.",
+      "audioKey": "gb-b13-t05",
+      "es": "Can I show you this card?",
+      "tts": "Can I show you this card?",
+      "pinyin": "kann aï chôou you dhis kard",
+      "pt": "¿Le puedo enseñar esta tarjeta?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b13-n06",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "Si el camarero corre a la cocina o vuelve con el chef, no está exagerando: la ley de 2021 trata una alergia declarada como un dato crítico."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b13-n07",
+      "tom": "ganha",
+      "pt": "Catorce alérgenos principales están regulados — cacahuetes, marisco, lácteos, gluten, entre otros. Una de las leyes más estrictas de Europa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-b13-n08",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No hace falta explicar la reacción ni justificarte. Decirlo una vez, con claridad, ya basta. Repítelo hasta que te confirmen."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_m",
+      "audioKey": "gb-b13-n09",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "Parte trece cerrada. «I'm allergic to» más la palabra, siempre entera, más la tarjeta escrita como refuerzo."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Por qué esta frase no es una fórmula",
+    "secoes": [
+      {
+        "titulo": "Frase-martillo, no fórmula abierta",
+        "corpo": "«I'm allergic to ___» se dice siempre entera y de la misma forma. A diferencia de «Could I have ___?» o «Do you have ___?», aquí no hay margen para improvisar el registro: cambiar la forma le quita justo el peso que necesita en el momento en que más importa."
+      },
+      {
+        "titulo": "La tarjeta escrita como refuerzo",
+        "corpo": "En un momento de estrés o con un acento marcado, la voz puede fallar. La tarjeta con la alergia escrita en inglés no depende ni de la pronunciación ni de que te entiendan a la primera."
+      },
+      {
+        "titulo": "Una de las leyes más estrictas de Europa",
+        "corpo": "La ley británica de 2014, ampliada en 2021 (apodada «Natasha's Law»), exige el etiquetado claro de catorce alérgenos principales, incluso en la comida servida en mostrador. Muchos restaurantes forman a su personal con ese mismo nivel de seriedad."
+      },
+      {
+        "titulo": "No es lo mismo que B12",
+        "corpo": "B12 quita una preferencia — sin cebolla, sin hielo. B13 comunica un riesgo de salud. La cocina las trata de forma distinta, y tú también: una es un gusto, la otra es seguridad."
+      }
+    ]
+  }
+}

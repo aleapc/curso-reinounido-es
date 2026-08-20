@@ -1,0 +1,100 @@
+{
+  "id": "q-b08",
+  "nivel": "basico",
+  "titulo": "Quiz — El mapa dibujado con las dos manos",
+  "subtitulo": "Where's the ___?, is it far, y la palabra que sigue sin ser el metro",
+  "introAudioKey": "gb-b08-q-i",
+  "introPt": "Preguntas por tu camino, y la respuesta se convierte en un párrafo entero. Escucha el intercambio y localiza cómo reducirlo a un siguiente paso usable.",
+  "cenario": "En el vestíbulo del hotel, y luego en una esquina.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b08-q01",
+      "voz": "target_en_gb_f",
+      "es": "Where's the toilet?",
+      "tts": "Where's the toilet?",
+      "pinyin": "ouèrz the TOÏ-leutt",
+      "pt": "¿Dónde están los baños?"
+    },
+    {
+      "audioKey": "gb-b08-q02",
+      "voz": "target_en_gb_m",
+      "es": "Right down the hall, on the left.",
+      "tts": "Right down the hall, on the left.",
+      "pinyin": "raït daoun the hol, onn the left",
+      "pt": "Al final del pasillo, a la izquierda."
+    },
+    {
+      "audioKey": "gb-b08-q03",
+      "voz": "target_en_gb_f",
+      "es": "I'm looking for a chemist. Is it far?",
+      "tts": "I'm looking for a chemist. Is it far?",
+      "pinyin": "aïm LOU-kinng for e KE-mist. iz it faar",
+      "pt": "Busco una farmacia. ¿Está lejos?"
+    },
+    {
+      "audioKey": "gb-b08-q04",
+      "voz": "target_en_gb_m",
+      "es": "No, it's two streets away — past the subway, not through it, mind.",
+      "tts": "No, it's two streets away — past the subway, not through it, mind.",
+      "pinyin": "nôou, its tou striits e-OUÈÏ — paast the SEUB-ouèï, nott throu itt, maïnd",
+      "pt": "No, a dos calles — después del paso subterráneo, no a través, ojo."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué se mantiene igual en la fórmula «Where's the ___?»?",
+      "opcoes": [
+        "El sitio buscado",
+        "La fórmula en sí; solo el sitio cambia",
+        "La respuesta del interlocutor",
+        "Nada, todo varía"
+      ],
+      "correta": 1,
+      "explica": "Where's the no se mueve; solo cambia lo que buscas — los baños, el ascensor, la recepción."
+    },
+    {
+      "pergunta": "¿Qué hace «I'm looking for ___» cuando no conoces la palabra exacta en inglés?",
+      "opcoes": [
+        "No sirve de nada sin la palabra precisa",
+        "Señala la intención y deja que el otro complete",
+        "Está reservada para objetos perdidos",
+        "Es más educada que Where's the"
+      ],
+      "correta": 1,
+      "explica": "Es la fórmula hermana de WHERE: señala la intención sin exigir la palabra exacta."
+    },
+    {
+      "pergunta": "Un desconocido responde con un trayecto de tres calles y pierdes el hilo. ¿Qué haces?",
+      "opcoes": [
+        "Abandonas la pregunta por completo",
+        "Reduces la respuesta preguntando si está lejos, o pides el mapa",
+        "Repites la pregunta exactamente igual",
+        "Caminas al azar"
+      ],
+      "correta": 1,
+      "explica": "«Is it far?» o «Can you show me on the map?» reducen la respuesta a un tamaño manejable."
+    },
+    {
+      "pergunta": "En el Reino Unido, ¿qué significa «subway»?",
+      "opcoes": [
+        "El metro",
+        "Un paso subterráneo para peatones, bajo una calle",
+        "Una parada de autobús",
+        "Un bocadillo para llevar"
+      ],
+      "correta": 1,
+      "explica": "La palabra americana manda bajo la calzada; el metro británico se dice «the Underground» o «the Tube»."
+    },
+    {
+      "pergunta": "Para preguntar de verdad por el metro, ¿qué fórmula usar?",
+      "opcoes": [
+        "Where's the subway?",
+        "Where's the Underground?",
+        "I'm looking for a chemist.",
+        "Is it far?"
+      ],
+      "correta": 1,
+      "explica": "«Where's the Underground?» (o «the Tube?») es la pregunta que de verdad lleva al metro, evitando el paso subterráneo para peatones."
+    }
+  ]
+}

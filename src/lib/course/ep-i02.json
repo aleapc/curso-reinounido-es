@@ -1,0 +1,267 @@
+{
+  "id": "i02",
+  "slot": "I02",
+  "nivel": "intermediario",
+  "numero": 2,
+  "parte": "I02",
+  "titulo": "La fila que no existe, pero que cuenta igual",
+  "subtitulo": "Aquí no te sientas para que te sirvan en la barra del pub — te quedas de pie, y hay un orden invisible que el camarero conoce",
+  "cena": "La barra del pub tiene tres personas de profundidad, nadie está sentado, y tienes el reflejo de acercarte directamente y levantar la mano como en un bar lleno de tu ciudad.",
+  "decisao": "dónde te colocas y cómo pides — en la barra del pub no hay servicio de mesa: se espera el turno en una fila invisible, sin levantar la voz",
+  "emJogo": "tempo",
+  "moldura": "ganha",
+  "frasePiso": "Vas a colocarte en el sitio correcto, pedir sin prisa, y salir de la barra sin haber dicho una palabra de más.",
+  "fichasCulturais": [
+    {
+      "sinal": "Llegas a un pub en hora punta y la barra tiene tres personas de profundidad, sin cuerda ni número, pero nadie se cuela.",
+      "suaLeitura": "Si no me acerco o no levanto la mano, nunca me van a atender.",
+      "oQueEAli": "En el pub tradicional no hay servicio de mesa: se pide y se paga en la barra. No hay fila en el suelo, pero sí un orden de llegada real, y el camarero lo conoce — mira quién lleva más tiempo esperando.",
+      "oQueVoceFaz": "Te colocas en la barra sin empujar a nadie, esperas a que el camarero te mire, y solo hablas en ese momento.",
+      "oQueMelhora": "Te atienden en el orden correcto sin rozar a nadie, y aprovechas la espera para decidir con calma tu pedido.",
+      "ondeNaoVale": "No vale en los gastropubs modernos que a veces tienen servicio de mesa real o pedido por app — mira primero si alguien está tomando nota en las mesas.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "gb-i02-n02"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i02-n01",
+      "gesto": 3,
+      "bloco": "aquecimento",
+      "tom": "ganha",
+      "pt": "El puño otra vez, ahora en el pedido: could I HAVE, nunca COULD i have."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i02-p01",
+      "promptPt": "Ayer preguntaste la hora de cierre de la cocina. Hoy usas la misma fórmula para la barra. Pregunta a qué hora abren. Habla ahora.",
+      "bloco": "callback",
+      "molde": "WHAT-TIME",
+      "encaixe": "do you open",
+      "audioKey": "gb-i02-t01",
+      "es": "What time do you open?",
+      "tts": "What time do you open?",
+      "pinyin": "OUATT taïm dou you ÔP-enn",
+      "pt": "¿A qué hora abren?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i02-n02",
+      "bloco": "cena",
+      "tom": "ganha",
+      "pt": "Tres personas en la barra, nadie sentado, nadie habla alto. Ninguna cuerda, ningún número — y aun así existe un orden."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i02-n03",
+      "bloco": "corpo",
+      "tom": "ganha",
+      "pt": "Aquí se pide Y se paga en la barra, nunca en la mesa. Sorry sirve para hacerte notar, nunca para pasar delante de alguien."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i02-r01",
+      "es": "Sorry mate, I was here first.",
+      "tts": "Sorry mate, I was here first.",
+      "pinyin": "SOR-ri mèïtt, aï ouoz hieur feurst",
+      "pt": "Perdona, yo estaba antes."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i02-p02",
+      "promptPt": "Te has adelantado sin ver quién ya esperaba. Discúlpate y cede tu sitio, con la fórmula EXCUSE. Habla ahora.",
+      "molde": "EXCUSE",
+      "encaixe": "",
+      "audioKey": "gb-i02-t02",
+      "es": "Sorry, are you in the queue?",
+      "tts": "Sorry, are you in the queue?",
+      "pinyin": "SOR-ri, aar you inn de KIOU",
+      "pt": "Perdona, ¿estás esperando tu turno?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i02-r02",
+      "es": "Yep, right behind me.",
+      "tts": "Yep, right behind me.",
+      "pinyin": "yèpp, raïtt bi-HAÏND mi",
+      "pt": "Sí, justo detrás de mí."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i02-n04",
+      "bloco": "capsula",
+      "tom": "ganha",
+      "pt": "El camarero por fin te mira. Es la fórmula de B11: Could I have, más la cosa."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-i02-r03",
+      "es": "What can I get you?",
+      "tts": "What can I get you?",
+      "pinyin": "OUATT keunn aï guètt you",
+      "pt": "¿Qué le pongo?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i02-p03",
+      "promptPt": "Es tu turno. Pide tu bebida sin dudar. Habla ahora.",
+      "audioKey": "gb-i02-t03",
+      "es": "Could I have a pint of lager, please?",
+      "tts": "Could I have a pint of lager, please?",
+      "pinyin": "coudd aï hav e païntt off LAA-gueur, pliiz",
+      "pt": "¿Podría tener una pinta de lager, por favor?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_m",
+      "audioKey": "gb-i02-r04",
+      "es": "Anything else?",
+      "tts": "Anything else?",
+      "pinyin": "ÈN-i-thigne èlss",
+      "pt": "¿Algo más?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i02-p04",
+      "promptPt": "No quieres hielo en tu refresco. Pídelo sin, con la fórmula que ya conoces de B12. Habla ahora.",
+      "molde": "WITHOUT",
+      "encaixe": "ice, please",
+      "audioKey": "gb-i02-t04",
+      "es": "No ice, please.",
+      "tts": "No ice, please.",
+      "pinyin": "nôou aïss, pliiz",
+      "pt": "Sin hielo, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i02-n05",
+      "pt": "Pagas al momento, tendiendo la tarjeta — sin cuenta, sin espera, se paga ahí mismo en la barra."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_en_gb_f",
+      "audioKey": "gb-i02-r05",
+      "es": "That's six eighty, whenever you're ready.",
+      "tts": "That's six eighty, whenever you're ready.",
+      "pinyin": "thatts siks ÈÏ-ti, ouè-NÈ-veur your RÈ-di",
+      "pt": "Son seis libras ochenta, cuando quiera."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i02-p05",
+      "promptPt": "Tiende tu tarjeta sin añadir ninguna palabra de más. Habla ahora.",
+      "audioKey": "gb-i02-t05",
+      "es": "Card, please.",
+      "tts": "Card, please.",
+      "pinyin": "kaard, pliiz",
+      "pt": "Con tarjeta, por favor."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i02-p05b",
+      "promptPt": "También quieres una bolsa de patatas fritas para picar. Añádela a tu pedido. Habla ahora.",
+      "molde": "GET",
+      "encaixe": "a bag of crisps",
+      "audioKey": "gb-i02-t05b",
+      "es": "Could I have a bag of crisps as well?",
+      "tts": "Could I have a bag of crisps as well?",
+      "pinyin": "coudd aï hav e bagg off krispss az ouèll",
+      "pt": "¿También podría tener una bolsa de patatas fritas?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_m",
+      "promptAudioKey": "gb-i02-p06",
+      "promptPt": "Al día siguiente, llegas y no ves dónde termina la fila. Vuelve a preguntar, con EXCUSE, en otro sitio. Habla ahora.",
+      "molde": "EXCUSE",
+      "encaixe": "",
+      "audioKey": "gb-i02-t06",
+      "es": "Excuse me, is this the end of the queue?",
+      "tts": "Excuse me, is this the end of the queue?",
+      "pinyin": "eks-KIOUZ mi, iz dhiss dhi ènd off dhe KIOU",
+      "pt": "Perdona, ¿la fila termina aquí?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_en_gb_f",
+      "promptVoz": "guide_es_f",
+      "promptAudioKey": "gb-i02-p07",
+      "promptPt": "La cerveza estaba buena, da las gracias antes de irte. Habla ahora.",
+      "audioKey": "gb-i02-t07",
+      "es": "Cheers, thanks a lot.",
+      "tts": "Cheers, thanks a lot.",
+      "pinyin": "TCHIEUZ, thennks e lott",
+      "pt": "Muchas gracias."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_es_m",
+      "audioKey": "gb-i02-n06",
+      "bloco": "permissao",
+      "tom": "ganha",
+      "pt": "No necesitas saludar largamente ni disculparte de más para pedir. Directo y a volumen normal es lo que se espera, no lo que es maleducado."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_en_gb_f",
+      "molde": "EXCUSE",
+      "audioKey": "gb-i02-s01",
+      "es": "Sorry, are you in the queue? Could I have a pint of lager, please? No ice, please.",
+      "tts": "Sorry, are you in the queue? Could I have a pint of lager, please? No ice, please.",
+      "pinyin": "SOR-ri, aar you inn de KIOU? coudd aï hav e païntt off LAA-gueur, pliiz? nôou aïss, pliiz",
+      "pt": "Repite colocarte, pedir y ajustar tu pedido, seguido."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_es_f",
+      "audioKey": "gb-i02-n07",
+      "bloco": "recap",
+      "tom": "ganha",
+      "pt": "I02 cerrada. Sorry confirma la fila, could I have pide, no ___ please quita lo que no quieres — nada nuevo, solo el orden correcto."
+    }
+  ],
+  "permissao": "No necesitas hablar alto ni acercarte a la barra antes de tu turno. Colocarte y esperar en silencio es exactamente lo que se espera de ti aquí — es la acción correcta, no pasividad.",
+  "permissaoAudioKey": "gb-i02-n06",
+  "espelho": "Cualquiera que haya esperado su turno en una fila bien ordenada en su propio país ya sabe hacer esto sin pensarlo; lo único que cambia aquí es que la fila puede no tener cuerda ni marca visible — y aun así existe.",
+  "aprofundar": {
+    "titulo": "La fila invisible de la barra",
+    "secoes": [
+      {
+        "titulo": "Sin cuerda, pero con orden",
+        "corpo": "La barra de un pub británico casi nunca tiene cuerda ni número, pero el orden de llegada se respeta igual — el camarero lo conoce, aunque no lo diga. Preguntar «is this the queue?» resuelve la duda sin colarse."
+      },
+      {
+        "titulo": "Could I have sigue siendo la fórmula",
+        "corpo": "La fórmula para pedir es la de B11 — Could I have, más la cosa. No hay una versión especial para el pub; solo cambia lo que pides."
+      },
+      {
+        "titulo": "Se paga al momento, en la barra",
+        "corpo": "A diferencia del bar español, no hay una cuenta al final: pagas cada pedido directamente en la barra, en el momento en que lo haces."
+      }
+    ]
+  }
+}

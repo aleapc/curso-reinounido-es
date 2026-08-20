@@ -1,0 +1,73 @@
+{
+  "id": "q-b17",
+  "nivel": "basico",
+  "titulo": "Quiz — El dolor que decide entre la farmacia y el hospital",
+  "subtitulo": "999, 112, 111, y la corrección sobre la Tarjeta Sanitaria Europea",
+  "introAudioKey": "gb-b17-q-i",
+  "introPt": "Dolor de estómago desde anoche, y el reloj sigue corriendo. Encuentra qué número marcar según la gravedad, y qué tarjeta usar.",
+  "cenario": "En la farmacia, y luego al teléfono en caso de urgencia.",
+  "dialogo": [
+    {
+      "audioKey": "gb-b17-q01",
+      "voz": "target_en_gb_f",
+      "es": "Do you have something for a stomachache?",
+      "tts": "Do you have something for a stomachache?",
+      "pinyin": "dou you hav SAM-thinng for e STO-mak-èïke",
+      "pt": "¿Tienen algo para el dolor de estómago?"
+    },
+    {
+      "audioKey": "gb-b17-q02",
+      "voz": "target_en_gb_m",
+      "es": "This should help. Take it with food.",
+      "tts": "This should help. Take it with food.",
+      "pinyin": "dhiss choudde hèlpe. tèïk itte ouidh foudde",
+      "pt": "Esto debería ayudar. Tómelo con una comida."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "¿Qué número marcas para una urgencia realmente vital?",
+      "opcoes": [
+        "111",
+        "999",
+        "061",
+        "112, solo en España"
+      ],
+      "correta": 1,
+      "explica": "999 es el número nacional de emergencias. El 112 europeo también funciona, en la misma línea."
+    },
+    {
+      "pergunta": "Para algo urgente pero no vital, ¿qué número marcas?",
+      "opcoes": [
+        "999",
+        "112",
+        "111",
+        "101"
+      ],
+      "correta": 2,
+      "explica": "El 111 (NHS, gratuito, 24 horas) sirve para lo que apremia sin poner la vida en peligro — es el número que evita el A&E cuando no lo necesitas."
+    },
+    {
+      "pergunta": "Como turista español, ¿qué tarjeta usas en el Reino Unido?",
+      "opcoes": [
+        "El GHIC británico",
+        "Tu propia Tarjeta Sanitaria Europea española",
+        "Ninguna, todo es de pago",
+        "Una tarjeta que se compra allí"
+      ],
+      "correta": 1,
+      "explica": "El GHIC es la tarjeta del residente británico que viaja por la UE. Tú usas tu propia Tarjeta Sanitaria Europea (TSE) española."
+    },
+    {
+      "pergunta": "¿Son de pago el A&E y la consulta con un GP en el Reino Unido?",
+      "opcoes": [
+        "Sí, como en Estados Unidos",
+        "Gratuitos para todo el mundo",
+        "Solo para residentes",
+        "Gratuitos solo con seguro privado"
+      ],
+      "correta": 1,
+      "explica": "A diferencia del sistema americano, el A&E y la consulta con un GP son gratuitos para todo el mundo, residente o turista. Sin cobertura, el NHS puede facturar el 150% de la tarifa estándar."
+    }
+  ]
+}
