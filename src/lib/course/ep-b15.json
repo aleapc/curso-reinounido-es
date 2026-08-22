@@ -101,7 +101,7 @@
     },
     {
       "consulta": [
-        "compras/preco"
+        "compras/quanto"
       ],
       "tipo": "responde",
       "voz": "target_en_gb_f",
@@ -127,7 +127,7 @@
     },
     {
       "consulta": [
-        "compras/talla"
+        "compras/quanto"
       ],
       "tipo": "responde",
       "voz": "target_en_gb_f",
@@ -195,7 +195,7 @@
     },
     {
       "consulta": [
-        "compras/preco"
+        "compras/quanto"
       ],
       "tipo": "responde",
       "voz": "target_en_gb_f",
